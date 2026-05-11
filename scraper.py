@@ -1,30 +1,102 @@
+import re
 import logging
+import json
+import time
 from datetime import date, datetime
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
+import urllib.request
+import urllib.parse
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-jobs = [
-    {"title":"Campaign Manager","company":"Progressive Victory PAC","description":"Lead field operations for 2026 midterm campaigns across swing districts.","apply_url":"https://www.idealist.org/jobs","location":"remote","office_location":"Washington, DC","category":"Political Campaigns"},
-    {"title":"Policy Analyst","company":"Center for American Progress","description":"Research and draft policy briefs on economic and social issues.","apply_url":"https://www.americanprogress.org/jobs","location":"onsite","office_location":"Washington, DC","category":"Government & Policy"},
-    {"title":"Government Relations Manager","company":"National Advocacy Group","description":"Manage relationships with federal and state legislators on key policy issues.","apply_url":"https://www.idealist.org/jobs","location":"hybrid","office_location":"Washington, DC","category":"Public Affairs & Lobbying"},
-    {"title":"Field Organizer","company":"Grassroots Action Network","description":"Recruit and train volunteers for voter registration and canvassing operations.","apply_url":"https://www.workforgood.org/jobs","location":"remote","office_location":"Austin, TX","category":"Nonprofit Advocacy"},
-    {"title":"Communications Director","company":"Senate Campaign Committee","description":"Develop and execute communications strategy for Senate candidates.","apply_url":"https://www.idealist.org/jobs","location":"onsite","office_location":"New York, NY","category":"Communications & PR"},
-    {"title":"Legislative Affairs Specialist","company":"U.S. Department of Energy","description":"Coordinate legislative strategy and congressional relations for federal agency.","apply_url":"https://www.usajobs.gov","location":"onsite","office_location":"Washington, DC","category":"Government & Policy"},
-    {"title":"Digital Campaign Manager","company":"Blue Wave Consulting","description":"Manage digital advertising and social media for political campaigns.","apply_url":"https://www.idealist.org/jobs","location":"remote","office_location":"Chicago, IL","category":"Political Campaigns"},
-    {"title":"Public Affairs Director","company":"Fortune 500 Energy Company","description":"Lead public affairs strategy and manage relationships with government stakeholders.","apply_url":"https://www.linkedin.com/jobs","location":"hybrid","office_location":"Houston, TX","category":"Public Affairs & Lobbying"},
-    {"title":"Voter Registration Coordinator","company":"Rock the Vote","description":"Coordinate national voter registration drives targeting young voters.","apply_url":"https://www.workforgood.org/jobs","location":"remote","office_location":"Remote","category":"Nonprofit Advocacy"},
-    {"title":"Press Secretary","company":"Governor Campaign","description":"Serve as primary spokesperson and manage media relations for gubernatorial campaign.","apply_url":"https://www.idealist.org/jobs","location":"onsite","office_location":"Miami, FL","category":"Communications & PR"},
-    {"title":"Opposition Research Analyst","company":"Democratic Congressional Campaign Committee","description":"Conduct research on Republican candidates and produce research memos.","apply_url":"https://www.dccc.org/jobs","location":"onsite","office_location":"Washington, DC","category":"Political Campaigns"},
-    {"title":"State Legislative Director","company":"ACLU","description":"Direct state-level legislative advocacy and lobbying efforts across 10 states.","apply_url":"https://www.aclu.org/jobs","location":"hybrid","office_location":"New York, NY","category":"Nonprofit Advocacy"},
-    {"title":"Political Fundraising Manager","company":"ActBlue","description":"Manage fundraising operations and donor relations for Democratic campaigns.","apply_url":"https://www.idealist.org/jobs","location":"remote","office_location":"Cambridge, MA","category":"Political Campaigns"},
-    {"title":"Senior Policy Advisor","company":"U.S. Senate Office","description":"Provide policy analysis and advice to Senator on healthcare and education issues.","apply_url":"https://www.usajobs.gov","location":"onsite","office_location":"Washington, DC","category":"Government & Policy"},
-    {"title":"Advocacy Campaign Manager","company":"Sierra Club","description":"Design and execute advocacy campaigns on environmental policy and legislation.","apply_url":"https://www.sierraclub.org/jobs","location":"hybrid","office_location":"San Francisco, CA","category":"Nonprofit Advocacy"},
+API_KEY = "2KZ63NqUMqWDkwdbR+RFdrPdELoCFFGtOTGGIeZzgWo="
+EMAIL = "texasjones@example.com"
+
+SEARCHES = [
+    "public affairs",
+    "political affairs",
+    "legislative affairs",
+    "government relations",
+    "policy analyst",
+    "communications director",
+    "advocacy",
+    "field operations",
 ]
 
-today = str(date.today())
+def clean(raw):
+    return re.sub(r"<[^>]+>", " ", raw or "").strip()
+
+def guess_category(title, desc=""):
+    t = (title + " " + desc).lower()
+    if any(x in t for x in ["campaign","election","candidate","voter","canvass"]):
+        return "Political Campaigns"
+    if any(x in t for x in ["lobby","public affairs","government relations"]):
+        return "Public Affairs & Lobbying"
+    if any(x in t for x in ["policy","legislative","congress","federal","senate","house"]):
+        return "Government & Policy"
+    if any(x in t for x in ["nonprofit","advocacy","civic","organizer","grassroots"]):
+        return "Nonprofit Advocacy"
+    if any(x in t for x in ["communications","press","media","spokesperson"]):
+        return "Communications & PR"
+    return "Government & Policy"
+
+jobs = []
+seen = set()
+
+for term in SEARCHES:
+    try:
+        params = urllib.parse.urlencode({"Keyword": term, "ResultsPerPage": 25})
+        url = f"https://data.usajobs.gov/api/search?{params}"
+        req = urllib.request.Request(url, headers={
+            "Host": "data.usajobs.gov",
+            "User-Agent": EMAIL,
+            "Authorization-Key": API_KEY,
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+
+        items = data.get("SearchResult", {}).get("SearchResultItems", [])
+        log.info("'%s' -> %d results", term, len(items))
+
+        for item in items:
+            pos = item.get("MatchedObjectDescriptor", {})
+            job_id = pos.get("PositionID", "")
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+
+            title = pos.get("PositionTitle", "")
+            org = pos.get("OrganizationName", "U.S. Federal Government")
+            apply_uris = pos.get("ApplyURI", [])
+            apply_url = apply_uris[0] if apply_uris else "https://www.usajobs.gov"
+            posted = (pos.get("PublicationStartDate") or str(date.today()))[:10]
+            desc = clean(pos.get("UserArea", {}).get("Details", {}).get("JobSummary", ""))
+
+            locs = pos.get("PositionLocation", [])
+            is_remote = any("anywhere" in (l.get("LocationName") or "").lower() for l in locs)
+            office = locs[0].get("LocationName", "") if locs else ""
+
+            jobs.append({
+                "title": title,
+                "company": org,
+                "description": desc or f"See full listing at {apply_url}",
+                "apply_url": apply_url,
+                "location": "remote" if is_remote else "onsite",
+                "office_location": office,
+                "category": guess_category(title, desc),
+                "date_posted": posted,
+            })
+            log.info("  + %s", title)
+
+        time.sleep(0.5)
+
+    except Exception as ex:
+        log.warning("Failed '%s': %s", term, ex)
+
+log.info("Total jobs: %d", len(jobs))
+
 root = ET.Element("jobs")
 root.set("generated", datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
 root.set("count", str(len(jobs)))
@@ -37,7 +109,6 @@ for j in jobs:
     ET.SubElement(el, "type").text = "fulltime"
     ET.SubElement(el, "post_state").text = "published"
     ET.SubElement(el, "post_length").text = "30"
-    ET.SubElement(el, "date_posted").text = today
 
 xml = minidom.parseString(
     '<?xml version="1.0" encoding="UTF-8"?>' +
