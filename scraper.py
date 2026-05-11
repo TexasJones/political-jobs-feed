@@ -1,6 +1,7 @@
+
 import re
-import logging
 import json
+import logging
 import time
 from datetime import date, datetime
 from xml.dom import minidom
@@ -14,15 +15,9 @@ log = logging.getLogger(__name__)
 API_KEY = "2KZ63NqUMqWDkwdbR+RFdrPdELoCFFGtOTGGIeZzgWo="
 EMAIL = "politemps@gmail.com"
 
-SEARCHES = [
-    "public affairs",
-    "political affairs",
-    "legislative affairs",
-    "government relations",
-    "policy analyst",
-    "communications director",
-    "advocacy",
-    "field operations",
+USAJOBS_SEARCHES = [
+    "public affairs", "legislative affairs",
+    "government relations", "policy analyst", "communications director",
 ]
 
 def clean(raw):
@@ -45,7 +40,8 @@ def guess_category(title, desc=""):
 jobs = []
 seen = set()
 
-for term in SEARCHES:
+log.info("=== Fetching USAJobs ===")
+for term in USAJOBS_SEARCHES:
     try:
         params = urllib.parse.urlencode({"Keyword": term, "ResultsPerPage": 25})
         url = f"https://data.usajobs.gov/api/search?{params}"
@@ -56,31 +52,25 @@ for term in SEARCHES:
         })
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
-
         items = data.get("SearchResult", {}).get("SearchResultItems", [])
         log.info("'%s' -> %d results", term, len(items))
-
         for item in items:
             pos = item.get("MatchedObjectDescriptor", {})
             job_id = pos.get("PositionID", "")
             if job_id in seen:
                 continue
             seen.add(job_id)
-
             title = pos.get("PositionTitle", "")
             org = pos.get("OrganizationName", "U.S. Federal Government")
             apply_uris = pos.get("ApplyURI", [])
             apply_url = apply_uris[0] if apply_uris else "https://www.usajobs.gov"
             posted = (pos.get("PublicationStartDate") or str(date.today()))[:10]
             desc = clean(pos.get("UserArea", {}).get("Details", {}).get("JobSummary", ""))
-
             locs = pos.get("PositionLocation", [])
             is_remote = any("anywhere" in (l.get("LocationName") or "").lower() for l in locs)
             office = locs[0].get("LocationName", "") if locs else ""
-
             jobs.append({
-                "title": title,
-                "company": org,
+                "title": title, "company": org,
                 "description": desc or f"See full listing at {apply_url}",
                 "apply_url": apply_url,
                 "location": "remote" if is_remote else "onsite",
@@ -89,11 +79,79 @@ for term in SEARCHES:
                 "date_posted": posted,
             })
             log.info("  + %s", title)
-
         time.sleep(0.5)
-
     except Exception as ex:
-        log.warning("Failed '%s': %s", term, ex)
+        log.warning("USAJobs failed '%s': %s", term, ex)
+
+log.info("=== Fetching Arena jobs ===")
+try:
+    import html.parser
+
+    class ArenaParser(html.parser.HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.jobs = []
+            self.capture = False
+            self.current_text = ""
+            self.current_link = ""
+
+        def handle_starttag(self, tag, attrs):
+            attrs_dict = dict(attrs)
+            href = attrs_dict.get("href", "")
+            if tag == "a" and "/jobs/" in href:
+                self.current_link = href
+                self.capture = True
+                self.current_text = ""
+
+        def handle_data(self, data):
+            if self.capture:
+                self.current_text += data.strip()
+
+        def handle_endtag(self, tag):
+            if tag == "a" and self.capture and self.current_link:
+                title = self.current_text.strip().replace("Featured", "").strip()
+                if title and len(title) > 3:
+                    self.jobs.append({"title": title, "url": self.current_link})
+                self.capture = False
+                self.current_text = ""
+                self.current_link = ""
+
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; PoliticalJobsFeed/1.0)"}
+    req = urllib.request.Request("https://careers.arena.run/jobs", headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        html_content = resp.read().decode("utf-8", errors="ignore")
+
+    parser = ArenaParser()
+    parser.feed(html_content)
+    log.info("Arena found %d job links", len(parser.jobs))
+
+    for j in parser.jobs[:50]:
+        title = j["title"]
+        apply_url = j["url"]
+        key = (title.lower().strip(), apply_url)
+        if key in seen:
+            continue
+        seen.add(key)
+        url_parts = apply_url.split("/")
+        company = "Political Organization"
+        if "companies" in url_parts:
+            idx = url_parts.index("companies")
+            if idx + 1 < len(url_parts):
+                raw = url_parts[idx + 1].replace("-2", "").replace("-", " ").strip().title()
+                company = raw if raw else "Political Organization"
+        jobs.append({
+            "title": title, "company": company,
+            "description": "See full listing at Arena job board.",
+            "apply_url": apply_url,
+            "location": "remote",
+            "office_location": "",
+            "category": guess_category(title),
+            "date_posted": str(date.today()),
+        })
+        log.info("  + %s @ %s", title, company)
+
+except Exception as ex:
+    log.warning("Arena scrape failed: %s", ex)
 
 log.info("Total jobs: %d", len(jobs))
 
@@ -118,4 +176,4 @@ xml = minidom.parseString(
 with open("feed.xml", "w", encoding="utf-8") as f:
     f.write(xml)
 
-log.info("Written %d jobs to feed.xml", len(jobs))
+log.info("Written -> feed.xml")
