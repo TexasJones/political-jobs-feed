@@ -1,0 +1,27 @@
+name: Weekly Jobs Feed
+
+on:
+  schedule:
+    - cron: "0 8 * * MON"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install feedparser
+      - run: python scraper.py
+      - run: ls -la
+      - name: Push feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add feed.xml
+          git diff --staged --quiet || git commit -m "Update feed"
+          git push
