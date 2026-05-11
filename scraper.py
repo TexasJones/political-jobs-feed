@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
 API_KEY = "2KZ63NqUMqWDkwdbR+RFdrPdELoCFFGtOTGGIeZzgWo="
-EMAIL = "texasjones@example.com"
+EMAIL = "politemps@gmail.com"
 
 SEARCHES = [
     "public affairs",
