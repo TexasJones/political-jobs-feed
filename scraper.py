@@ -1,4 +1,3 @@
-
 import re
 import json
 import logging
@@ -14,6 +13,17 @@ log = logging.getLogger(__name__)
 
 API_KEY = "2KZ63NqUMqWDkwdbR+RFdrPdELoCFFGtOTGGIeZzgWo="
 EMAIL = "politemps@gmail.com"
+
+# ── Greenhouse org board tokens ───────────────────────────────────────────────
+GREENHOUSE_BOARDS = [
+    "aclu", "aclunc", "moveonorg", "sierraclub",
+    "plannedparenthood", "ppfa", "emilyslist",
+    "indivisible", "publiccitizen", "commoncause",
+    "unitedwedream", "nextgenamerica", "whenweallvote",
+    "rockthevote", "leaguewv", "naacpldf",
+    "americanprogressaction", "centerforamericanprogress",
+    "protectdemocracy", "democracydocket",
+]
 
 USAJOBS_SEARCHES = [
     "public affairs", "legislative affairs",
@@ -40,6 +50,7 @@ def guess_category(title, desc=""):
 jobs = []
 seen = set()
 
+# ── USAJobs ───────────────────────────────────────────────────────────────────
 log.info("=== Fetching USAJobs ===")
 for term in USAJOBS_SEARCHES:
     try:
@@ -83,6 +94,43 @@ for term in USAJOBS_SEARCHES:
     except Exception as ex:
         log.warning("USAJobs failed '%s': %s", term, ex)
 
+# ── Greenhouse ────────────────────────────────────────────────────────────────
+log.info("=== Fetching Greenhouse boards ===")
+for board in GREENHOUSE_BOARDS:
+    try:
+        url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
+        req = urllib.request.Request(url, headers={"User-Agent": "PoliticalJobsFeed/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+        items = data.get("jobs", [])
+        log.info("%s -> %d jobs", board, len(items))
+        for j in items:
+            job_id = str(j.get("id", ""))
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+            title = j.get("title", "")
+            apply_url = j.get("absolute_url", f"https://boards.greenhouse.io/{board}")
+            location = j.get("location", {}).get("name", "")
+            is_remote = "remote" in location.lower()
+            desc = clean(j.get("content", ""))[:500]
+            posted = (j.get("updated_at") or str(date.today()))[:10]
+            jobs.append({
+                "title": title,
+                "company": board.replace("org","").replace("action","").title(),
+                "description": desc or f"See full listing at {apply_url}",
+                "apply_url": apply_url,
+                "location": "remote" if is_remote else "onsite",
+                "office_location": location,
+                "category": guess_category(title, desc),
+                "date_posted": posted,
+            })
+            log.info("  + %s", title)
+        time.sleep(0.3)
+    except Exception as ex:
+        log.warning("Greenhouse %s failed: %s", board, ex)
+
+# ── Arena ─────────────────────────────────────────────────────────────────────
 log.info("=== Fetching Arena jobs ===")
 try:
     import html.parser
@@ -153,6 +201,7 @@ try:
 except Exception as ex:
     log.warning("Arena scrape failed: %s", ex)
 
+# ── Build XML ─────────────────────────────────────────────────────────────────
 log.info("Total jobs: %d", len(jobs))
 
 root = ET.Element("jobs")
