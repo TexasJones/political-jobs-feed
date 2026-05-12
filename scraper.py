@@ -193,7 +193,12 @@ try:
                 company = raw if raw else "Political Organization"
         
         # Construct full absolute URL
-        full_apply_url = f"https://careers.arena.run{apply_url}" if not apply_url.startswith("http") else apply_url
+        if apply_url.startswith("http"):
+            full_apply_url = apply_url
+        elif apply_url.startswith("/"):
+            full_apply_url = f"https://careers.arena.run{apply_url}"
+        else:
+            full_apply_url = f"https://careers.arena.run/{apply_url}"
         
         jobs.append({
             "title": title, "company": company,
