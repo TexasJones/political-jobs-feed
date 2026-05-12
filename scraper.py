@@ -158,6 +158,10 @@ try:
         def handle_endtag(self, tag):
             if tag == "a" and self.capture and self.current_link:
                 title = self.current_text.strip().replace("Featured", "").strip()
+                # Clean up junk headers like "Read more about X at Job Post"
+                title = re.sub(r"^Read more about\s+", "", title, flags=re.IGNORECASE)
+                title = re.sub(r"\s+at\s+Job Post\s*$", "", title, flags=re.IGNORECASE)
+                title = title.strip()
                 if title and len(title) > 3:
                     self.jobs.append({"title": title, "url": self.current_link})
                 self.capture = False
