@@ -50,7 +50,7 @@ def guess_category(title, desc=""):
 jobs = []
 seen = set()
 
-# ── USAJobs ───────────────────────────────────────────────────────────────────
+# ── USAJobs ─────────────────────────────────────────────────────────────[...]
 log.info("=== Fetching USAJobs ===")
 for term in USAJOBS_SEARCHES:
     try:
@@ -94,7 +94,7 @@ for term in USAJOBS_SEARCHES:
     except Exception as ex:
         log.warning("USAJobs failed '%s': %s", term, ex)
 
-# ── Greenhouse ────────────────────────────────────────────────────────────────
+# ── Greenhouse ────────────────────────────────────────────────────────────[...]
 log.info("=== Fetching Greenhouse boards ===")
 for board in GREENHOUSE_BOARDS:
     try:
@@ -130,7 +130,7 @@ for board in GREENHOUSE_BOARDS:
     except Exception as ex:
         log.warning("Greenhouse %s failed: %s", board, ex)
 
-# ── Arena ─────────────────────────────────────────────────────────────────────
+# ── Arena ─────────────────────────────────────────────────────────────[...]
 log.info("=== Fetching Arena jobs ===")
 try:
     import html.parser
@@ -187,10 +187,14 @@ try:
             if idx + 1 < len(url_parts):
                 raw = url_parts[idx + 1].replace("-2", "").replace("-", " ").strip().title()
                 company = raw if raw else "Political Organization"
+        
+        # Construct full absolute URL
+        full_apply_url = f"https://careers.arena.run{apply_url}" if not apply_url.startswith("http") else apply_url
+        
         jobs.append({
             "title": title, "company": company,
             "description": "See full listing at Arena job board.",
-            "apply_url": apply_url,
+            "apply_url": full_apply_url,
             "location": "remote",
             "office_location": "",
             "category": guess_category(title),
@@ -201,7 +205,7 @@ try:
 except Exception as ex:
     log.warning("Arena scrape failed: %s", ex)
 
-# ── Build XML ─────────────────────────────────────────────────────────────────
+# ── Build XML ────────────────────────────────────────────────────────────[...]
 log.info("Total jobs: %d", len(jobs))
 
 root = ET.Element("jobs")
