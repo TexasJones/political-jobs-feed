@@ -50,7 +50,7 @@ def guess_category(title, desc=""):
 jobs = []
 seen = set()
 
-# ── USAJobs ─────────────────────────────────────────────────────────────[...]
+# ── USAJobs ───────────────────────────────────────────────────────────────────
 log.info("=== Fetching USAJobs ===")
 for term in USAJOBS_SEARCHES:
     try:
@@ -94,7 +94,7 @@ for term in USAJOBS_SEARCHES:
     except Exception as ex:
         log.warning("USAJobs failed '%s': %s", term, ex)
 
-# ── Greenhouse ────────────────────────────────────────────────────────────[...]
+# ── Greenhouse ────────────────────────────────────────────────────────────────
 log.info("=== Fetching Greenhouse boards ===")
 for board in GREENHOUSE_BOARDS:
     try:
@@ -130,7 +130,7 @@ for board in GREENHOUSE_BOARDS:
     except Exception as ex:
         log.warning("Greenhouse %s failed: %s", board, ex)
 
-# ── Arena ─────────────────────────────────────────────────────────────[...]
+# ── Arena ─────────────────────────────────────────────────────────────────────
 log.info("=== Fetching Arena jobs ===")
 try:
     import html.parser
@@ -153,15 +153,15 @@ try:
 
         def handle_data(self, data):
             if self.capture:
-                self.current_text += data.strip()
+                stripped = data.strip()
+                # Drop boilerplate text nodes injected for screen readers / SEO
+                if stripped.lower() in {"read more", "about", "at", "job post", "featured", ""}:
+                    return
+                self.current_text += (" " if self.current_text else "") + stripped
 
         def handle_endtag(self, tag):
             if tag == "a" and self.capture and self.current_link:
-                title = self.current_text.strip().replace("Featured", "").strip()
-                # Clean up junk headers like "Read more about X at Job Post"
-                title = re.sub(r"^Read more about\s+", "", title, flags=re.IGNORECASE)
-                title = re.sub(r"\s+at\s+Job Post\s*$", "", title, flags=re.IGNORECASE)
-                title = title.strip()
+                title = self.current_text.strip()
                 if title and len(title) > 3:
                     self.jobs.append({"title": title, "url": self.current_link})
                 self.capture = False
@@ -191,15 +191,14 @@ try:
             if idx + 1 < len(url_parts):
                 raw = url_parts[idx + 1].replace("-2", "").replace("-", " ").strip().title()
                 company = raw if raw else "Political Organization"
-        
-        # Construct full absolute URL
+
         if apply_url.startswith("http"):
             full_apply_url = apply_url
         elif apply_url.startswith("/"):
             full_apply_url = f"https://careers.arena.run{apply_url}"
         else:
             full_apply_url = f"https://careers.arena.run/{apply_url}"
-        
+
         jobs.append({
             "title": title, "company": company,
             "description": "See full listing at Arena job board.",
@@ -214,7 +213,7 @@ try:
 except Exception as ex:
     log.warning("Arena scrape failed: %s", ex)
 
-# ── Build XML ────────────────────────────────────────────────────────────[...]
+# ── Build XML ─────────────────────────────────────────────────────────────────
 log.info("Total jobs: %d", len(jobs))
 
 root = ET.Element("jobs")
