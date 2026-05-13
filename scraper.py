@@ -30,6 +30,13 @@ USAJOBS_SEARCHES = [
     "government relations", "policy analyst", "communications director",
 ]
 
+# ── jobs.ac.uk RSS feeds (public, no auth required) ───────────────────────────
+JOBSACUK_FEEDS = [
+    "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
+    "https://www.jobs.ac.uk/jobs/legal-compliance-and-policy/?format=rss",
+    "https://www.jobs.ac.uk/jobs/pr-marketing-sales-and-communication/?format=rss",
+]
+
 def clean(raw):
     return re.sub(r"<[^>]+>", " ", raw or "").strip()
 
@@ -212,6 +219,73 @@ try:
 
 except Exception as ex:
     log.warning("Arena scrape failed: %s", ex)
+
+# ── jobs.ac.uk ────────────────────────────────────────────────────────────────
+log.info("=== Fetching jobs.ac.uk RSS feeds ===")
+for feed_url in JOBSACUK_FEEDS:
+    try:
+        req = urllib.request.Request(
+            feed_url,
+            headers={"User-Agent": "PoliticalJobsFeed/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            raw_xml = resp.read().decode("utf-8", errors="ignore")
+
+        feed_root = ET.fromstring(raw_xml)
+        # RSS 2.0: items live at channel/item
+        channel = feed_root.find("channel")
+        items = channel.findall("item") if channel is not None else feed_root.findall(".//item")
+        feed_label = feed_url.split("/jobs/")[1].split("/")[0]
+        log.info("jobs.ac.uk '%s' -> %d items", feed_label, len(items))
+
+        for item in items:
+            def txt(tag):
+                el = item.find(tag)
+                return (el.text or "").strip() if el is not None else ""
+
+            title = txt("title")
+            apply_url = txt("link")
+            desc = clean(txt("description"))[:500]
+            pub_date = txt("pubDate")
+            guid = txt("guid") or apply_url
+
+            if not title or guid in seen:
+                continue
+            seen.add(guid)
+
+            # Parse pubDate e.g. "Mon, 12 May 2026 00:00:00 +0000"
+            try:
+                posted = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y-%m-%d")
+            except Exception:
+                posted = str(date.today())
+
+            # Extract employer and location from description text if present
+            company = "jobs.ac.uk"
+            office_location = ""
+            employer_match = re.search(r"(?:Employer|Institution|Organisation)[:\s]+([^\n<,]+)", desc, re.IGNORECASE)
+            if employer_match:
+                company = employer_match.group(1).strip()
+            location_match = re.search(r"(?:Location)[:\s]+([^\n<,]+)", desc, re.IGNORECASE)
+            if location_match:
+                office_location = location_match.group(1).strip()
+
+            is_remote = "remote" in (office_location + " " + desc).lower()
+
+            jobs.append({
+                "title": title,
+                "company": company,
+                "description": desc or f"See full listing at {apply_url}",
+                "apply_url": apply_url,
+                "location": "remote" if is_remote else "onsite",
+                "office_location": office_location,
+                "category": guess_category(title, desc),
+                "date_posted": posted,
+            })
+            log.info("  + %s @ %s", title, company)
+
+        time.sleep(0.3)
+    except Exception as ex:
+        log.warning("jobs.ac.uk feed failed '%s': %s", feed_url, ex)
 
 # ── Build XML ─────────────────────────────────────────────────────────────────
 log.info("Total jobs: %d", len(jobs))
