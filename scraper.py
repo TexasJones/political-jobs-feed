@@ -23,6 +23,8 @@ GREENHOUSE_BOARDS = [
     "rockthevote", "leaguewv", "naacpldf",
     "americanprogressaction", "centerforamericanprogress",
     "protectdemocracy", "democracydocket",
+    # ── Added from aggregator ──
+    "gmmb", "berlinrosen", "axios",
 ]
 
 USAJOBS_SEARCHES = [
@@ -35,6 +37,16 @@ JOBSACUK_FEEDS = [
     "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
     "https://www.jobs.ac.uk/jobs/legal-compliance-and-policy/?format=rss",
     "https://www.jobs.ac.uk/jobs/pr-marketing-sales-and-communication/?format=rss",
+]
+
+# ── Lever company slugs (public JSON API, no auth required) ──────────────────
+LEVER_BOARDS = [
+    "sierraclub",
+]
+
+# ── Workable company slugs (public widget API, no auth required) ─────────────
+WORKABLE_BOARDS = [
+    "fp1-strategies",
 ]
 
 def clean(raw):
@@ -232,7 +244,6 @@ for feed_url in JOBSACUK_FEEDS:
             raw_xml = resp.read().decode("utf-8", errors="ignore")
 
         feed_root = ET.fromstring(raw_xml)
-        # RSS 2.0: items live at channel/item
         channel = feed_root.find("channel")
         items = channel.findall("item") if channel is not None else feed_root.findall(".//item")
         feed_label = feed_url.split("/jobs/")[1].split("/")[0]
@@ -253,13 +264,11 @@ for feed_url in JOBSACUK_FEEDS:
                 continue
             seen.add(guid)
 
-            # Parse pubDate e.g. "Mon, 12 May 2026 00:00:00 +0000"
             try:
                 posted = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y-%m-%d")
             except Exception:
                 posted = str(date.today())
 
-            # Extract employer and location from description text if present
             company = "jobs.ac.uk"
             office_location = ""
             employer_match = re.search(r"(?:Employer|Institution|Organisation)[:\s]+([^\n<,]+)", desc, re.IGNORECASE)
@@ -286,6 +295,99 @@ for feed_url in JOBSACUK_FEEDS:
         time.sleep(0.3)
     except Exception as ex:
         log.warning("jobs.ac.uk feed failed '%s': %s", feed_url, ex)
+
+# ── Lever ─────────────────────────────────────────────────────────────────────
+# Public JSON API: https://api.lever.co/v0/postings/{slug}?mode=json
+log.info("=== Fetching Lever boards ===")
+for slug in LEVER_BOARDS:
+    try:
+        url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
+        req = urllib.request.Request(url, headers={"User-Agent": "PoliticalJobsFeed/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+        log.info("Lever %s -> %d jobs", slug, len(data))
+        for j in data:
+            job_id = j.get("id", "")
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+            title = j.get("text", "")
+            apply_url = j.get("hostedUrl", f"https://jobs.lever.co/{slug}")
+            location = j.get("categories", {}).get("location", "")
+            team = j.get("categories", {}).get("team", "")
+            is_remote = "remote" in location.lower()
+            # Lever stores description as list of content blocks
+            desc_parts = [
+                clean(block.get("content", ""))
+                for block in j.get("descriptionBody", {}).get("descriptionBodyList", [])
+            ]
+            desc = " ".join(desc_parts)[:500]
+            posted_ts = j.get("createdAt", 0)
+            posted = datetime.utcfromtimestamp(posted_ts / 1000).strftime("%Y-%m-%d") if posted_ts else str(date.today())
+            company = slug.replace("-", " ").title()
+            jobs.append({
+                "title": title,
+                "company": company,
+                "description": desc or f"See full listing at {apply_url}",
+                "apply_url": apply_url,
+                "location": "remote" if is_remote else "onsite",
+                "office_location": location,
+                "category": guess_category(title, desc or team),
+                "date_posted": posted,
+            })
+            log.info("  + %s @ %s", title, company)
+        time.sleep(0.3)
+    except Exception as ex:
+        log.warning("Lever %s failed: %s", slug, ex)
+
+# ── Workable ──────────────────────────────────────────────────────────────────
+# Public widget API: https://apply.workable.com/api/v1/widget/accounts/{slug}/jobs
+log.info("=== Fetching Workable boards ===")
+for slug in WORKABLE_BOARDS:
+    try:
+        url = f"https://apply.workable.com/api/v1/widget/accounts/{slug}/jobs"
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "PoliticalJobsFeed/1.0",
+                "Content-Type": "application/json",
+            },
+            data=json.dumps({"query": "", "location": [], "department": [], "worktype": [], "remote": []}).encode()
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+        items = data.get("results", [])
+        log.info("Workable %s -> %d jobs", slug, len(items))
+        for j in items:
+            job_id = j.get("shortcode", j.get("id", ""))
+            if job_id in seen:
+                continue
+            seen.add(job_id)
+            title = j.get("title", "")
+            apply_url = j.get("url", f"https://apply.workable.com/{slug}/j/{job_id}")
+            location = j.get("location", {})
+            city = location.get("city", "") if isinstance(location, dict) else ""
+            country = location.get("country", "") if isinstance(location, dict) else ""
+            office_location = ", ".join(filter(None, [city, country]))
+            is_remote = j.get("remote", False) or "remote" in office_location.lower()
+            dept = j.get("department", "")
+            desc = clean(j.get("description", ""))[:500]
+            posted = (j.get("published_on") or str(date.today()))[:10]
+            company = slug.replace("-", " ").title()
+            jobs.append({
+                "title": title,
+                "company": company,
+                "description": desc or f"See full listing at {apply_url}",
+                "apply_url": apply_url,
+                "location": "remote" if is_remote else "onsite",
+                "office_location": office_location,
+                "category": guess_category(title, desc or dept),
+                "date_posted": posted,
+            })
+            log.info("  + %s @ %s", title, company)
+        time.sleep(0.3)
+    except Exception as ex:
+        log.warning("Workable %s failed: %s", slug, ex)
 
 # ── Build XML ─────────────────────────────────────────────────────────────────
 log.info("Total jobs: %d", len(jobs))
