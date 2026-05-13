@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-05-13T23:12:34Z" count="191">
+<jobs generated="2026-05-13T23:20:38Z" count="248">
   <job>
     <title>Public Affairs Specialist</title>
     <company>Federal Trade Commission</company>
@@ -547,19 +547,6 @@
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Regional Director, Southeast</title>
-    <company>National Park Service</company>
-    <description>The Southeast Region is the National Park Service's most visited region, which includes 73 units across 4 million acres in 10 states, Puerto Rico, and the U.S. Virgin Islands. It features iconic, high-biodiversity sites like Great Smoky Mountains and Everglades National Parks, along with major cultural, Civil War, and civil rights historic sites.</description>
-    <apply_url>https://www.usajobs.gov:443/job/867692800</apply_url>
-    <location>onsite</location>
-    <office_location>Atlanta, Georgia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-04</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
     <title>Correctional Program Officer (Deputy Administrator, Community Reentry Affairs Branch)</title>
     <company>Bureau of Prisons/Federal Prison System</company>
     <description>Corrections professionals who foster a humane and secure environment and ensure public safety by preparing individuals for successful reentry into our communities.</description>
@@ -568,6 +555,19 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-29</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Regional Director, Southeast</title>
+    <company>National Park Service</company>
+    <description>The Southeast Region is the National Park Service's most visited region, which includes 73 units across 4 million acres in 10 states, Puerto Rico, and the U.S. Virgin Islands. It features iconic, high-biodiversity sites like Great Smoky Mountains and Everglades National Parks, along with major cultural, Civil War, and civil rights historic sites.</description>
+    <apply_url>https://www.usajobs.gov:443/job/867692800</apply_url>
+    <location>onsite</location>
+    <office_location>Atlanta, Georgia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-04</date_posted>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2567,6 +2567,747 @@
     <description>See full listing at Arena job board.</description>
     <apply_url>https://careers.arena.run/companies/democratic-party-of-wisconsin/jobs/78646326-research-tracking-associate#content</apply_url>
     <location>remote</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Programme Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - Pandemic Sciences Institute&amp;lt;br /&amp;gt;Salary: £56,623 to £65,336 with a discretionary range to £71,218 p.a. (pro rata). Standard Grade 9. This is inclusive of a pensionable Oxford University Weighting of £1,730 per year (pro rata).</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN642/senior-programme-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Brookes Research in Music and Sound (BRIMS) Scholarship</title>
+    <company>jobs.ac.uk</company>
+    <description>Oxford Brookes University - School of Arts  &amp;lt;br /&amp;gt;Salary: Not specified</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN788/brookes-research-in-music-and-sound-brims-scholarship/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Associate</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Bath - Social &amp;amp; Policy Sciences&amp;lt;br /&amp;gt;Salary: £38,784 to £46,049.  Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN835/research-associate/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>PhD Studentship: Institutional Cultures and Citizen Engagement for Net Zero Decision Making</title>
+    <company>jobs.ac.uk</company>
+    <description>The University of Manchester - Civil Engineering and Management&amp;lt;br /&amp;gt;Salary: £21,805 annual tax-free stipend set at the UKRI rate and tuition fees will be paid.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM890/phd-studentship-institutional-cultures-and-citizen-engagement-for-net-zero-decision-making/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>PhD Studentship for Project Reconciling Ownership and Democracy within Land-use Transformations</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Southern Denmark&amp;lt;br /&amp;gt;Salary: monthly salary including pension + office facilities and financial support for conference travels and research visits</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM987/phd-studentship-for-project-reconciling-ownership-and-democracy-within-land-use-transformations/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>IHTM Senior Teaching and Research Associate - ethics and governance lead</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - Peter Medawar Building for Pathogen Research&amp;lt;br /&amp;gt;Salary: £56,623 to £65,336 with a discretionary range to £73, 296 p.a. (pro rata). This is inclusive of a pensionable Oxford University Weighting of £1,730 per year (pro rata).</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM334/ihtm-senior-teaching-and-research-associate-ethics-and-governance-lead/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Lecturer</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Bath - Politics, Languages &amp;amp; International Studies&amp;lt;br /&amp;gt;Salary: £47,389 to £61,759.  Grade 8*</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRL764/lecturer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Fellowship: The Collected Works of Mary Wollstonecraft</title>
+    <company>jobs.ac.uk</company>
+    <description>University of York - Department of English and Related Literature&amp;lt;br /&amp;gt;Salary: £28,550</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRL782/research-fellowship-the-collected-works-of-mary-wollstonecraft/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Associate Lecturer (Teaching) in Quantitative Methods</title>
+    <company>jobs.ac.uk</company>
+    <description>UCL - Department of Political Science and School of Public Policy &amp;lt;br /&amp;gt;Salary: £47,451 to £52,586.  Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRL493/associate-lecturer-teaching-in-quantitative-methods/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Fellow in the Ideas of Anti-Autocratic Movements</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Sussex - School of Law, Politics and Sociology, Department of Politics &amp;lt;br /&amp;gt;Salary: From £38,784 per annum, pro rata if part time, Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRL381/research-fellow-in-the-ideas-of-anti-autocratic-movements/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>LSE Fellow in International Social and Public Policy</title>
+    <company>jobs.ac.uk</company>
+    <description>London School of Economics and Political Science - Department of Social Policy &amp;lt;br /&amp;gt;Salary: £43,277 to £51,714 per annum inclusive with potential to progress to £55,497 pa inclusive of London allowance</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRJ165/lse-fellow-in-international-social-and-public-policy/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Postdoctoral Researcher, in Living with Drought: Human-Environment Relationships in Drying European Landscapes (ERC project) – with Focus on Spain</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - School of Geography and the Environment&amp;lt;br /&amp;gt;Salary: £39,424 to £47,779.  G7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK976/postdoctoral-researcher-in-living-with-drought-human-environment-relationships-in-drying-european-landscapes-erc-project-with-focus-on-spain-/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>LSE Fellow (GV101)</title>
+    <company>jobs.ac.uk</company>
+    <description>London School of Economics and Political Science - Department of Government&amp;lt;br /&amp;gt;Salary: £43,277 to £51,714 pa inclusive with potential to progress to £55,497 pa inclusive of London allowance</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK169/lse-fellow-gv101/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Calleva Centre Postdoctoral Researcher: The Ethics of Social Punishment</title>
+    <company>jobs.ac.uk</company>
+    <description>Magdalen College, Oxford - Calleva Research Centre&amp;lt;br /&amp;gt;Salary: £41,064 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK221/calleva-centre-postdoctoral-researcher-the-ethics-of-social-punishment/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Associate (808662)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Strathclyde - Government and Public Policy&amp;lt;br /&amp;gt;Salary: £37,694 to £46,049</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK331/research-associate-808662/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Postdoctoral Research Fellow for the Research for Economic Security and Peace (RESP)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - Blavatnik School of Government &amp;lt;br /&amp;gt;Salary: £39,424 to £47,779 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK447/postdoctoral-research-fellow-for-the-research-for-economic-security-and-peace-resp/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Fellow (101766-0426)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Warwick - Politics &amp;amp; International Studies&amp;lt;br /&amp;gt;Salary: £35,608 to £46,049 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK520/research-fellow-101766-0426/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Fellow (Data and Democracy)</title>
+    <company>jobs.ac.uk</company>
+    <description>UCL - Global Centre for Democratic Constitutionalism (GCDC) / Faculty of Laws&amp;lt;br /&amp;gt;Salary: £43,981 to £52,586</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRK558/research-fellow-data-and-democracy/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Post-Doctoral Research Associate, MoonRISE (FBL)</title>
+    <company>jobs.ac.uk</company>
+    <description>The Open University - The Law School&amp;lt;br /&amp;gt;Salary: £38,784 to £46,049</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRJ553/post-doctoral-research-associate-moonrise-fbl/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Lecturer/Senior Lecturer in Politics (0.5FTE) – Fixed Term to June 2028</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Roehampton - Arts, Humanities and Social Sciences&amp;lt;br /&amp;gt;Salary: £46,438 to £60,720 pro rata per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRJ834/lecturer-senior-lecturer-in-politics-05fte-fixed-term-to-june-2028/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Assessments Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>London College of Contemporary Arts - Registry (Assessments)&amp;lt;br /&amp;gt;Salary: Competitive</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN208/assessments-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior HR Change Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Southampton - HR Business Partnering&amp;lt;br /&amp;gt;Salary: £46,049 to £58,225 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN737/senior-hr-change-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Sustainable Lab Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Sheffield - Estates &amp;amp; Facilities Management&amp;lt;br /&amp;gt;Salary: £38,784 to £47,389 per annum pro-rata. Potential to progress with the potential to £51,753 through sustained exceptional contribution.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN711/sustainable-lab-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Clinical Trial Monitor</title>
+    <company>jobs.ac.uk</company>
+    <description>Queen Mary University of London - Wolfson Institute&amp;lt;br /&amp;gt;Salary: £40,015 to £46,618 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN525/clinical-trial-monitor/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Director</title>
+    <company>jobs.ac.uk</company>
+    <description>National Institute of Economic and Social Research (NIESR)&amp;lt;br /&amp;gt;Salary: Competitive</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM999/research-director/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Faculty - Ethics and Leadership</title>
+    <company>jobs.ac.uk</company>
+    <description>KAPSARC School of Public Policy&amp;lt;br /&amp;gt;Salary: Not specified</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN334/faculty-ethics-and-leadership/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Solicitor</title>
+    <company>jobs.ac.uk</company>
+    <description>Liverpool John Moores University&amp;lt;br /&amp;gt;Salary: £59,966 to £67,468 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN057/solicitor/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Fellow</title>
+    <company>jobs.ac.uk</company>
+    <description>UCL - Great Ormond Street Hospital for Children&amp;lt;br /&amp;gt;Salary: £43,981 to £52,586 pro rata</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN332/research-fellow/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Ombudsman Case Handler</title>
+    <company>jobs.ac.uk</company>
+    <description>Office of the Independent Adjudicator for Higher Education - Assessment and Resolution Team&amp;lt;br /&amp;gt;Salary: From £35,625 pro rata if applicable</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN284/ombudsman-case-handler/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Registry Team Leader - Apprenticeships Data and Operations</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Huddersfield&amp;lt;br /&amp;gt;Salary: £40,266 to £45,147.  Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN378/registry-team-leader-apprenticeships-data-and-operations/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Contracts Coordinator</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Kent - Performance and Compliance&amp;lt;br /&amp;gt;Salary: £27,319 to £30,378 per annum, Grade 5</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN245/contracts-coordinator/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Faculty - Science, Technology, and Environmental Policy</title>
+    <company>jobs.ac.uk</company>
+    <description>KAPSARC School of Public Policy&amp;lt;br /&amp;gt;Salary: Not specified</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN340/faculty-science-technology-and-environmental-policy/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Laboratory Research Scientist - Cancer-Neuroscience Lab</title>
+    <company>jobs.ac.uk</company>
+    <description>The Francis Crick Institute&amp;lt;br /&amp;gt;Salary: From £37,735 with benefits, subject to skills &amp; experience</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM815/laboratory-research-scientist-cancer-neuroscience-lab-/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Visa Compliance and Admissions Specialist</title>
+    <company>jobs.ac.uk</company>
+    <description>ASU London&amp;lt;br /&amp;gt;Salary: Up to £48,000 depending on experience</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM977/visa-compliance-and-admissions-specialist/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Data Sourcing Manager - Administrative Data Research Scotland Programme</title>
+    <company>jobs.ac.uk</company>
+    <description>Research Data Scotland&amp;lt;br /&amp;gt;Salary: £47,215 to £57,939</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM789/data-sourcing-manager-administrative-data-research-scotland-programme/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Head of Department - Quality, Health &amp; Safety Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of East Anglia - Sport and Commercial Services Division - UEA Sportspark &amp;lt;br /&amp;gt;Salary: £36,090 per annum with an annual increment up to £37,126 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM917/head-of-department-quality-health-and-safety-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Quality and Governance Officer (x 3 Positions Available)</title>
+    <company>jobs.ac.uk</company>
+    <description>Bournemouth University - Quality and Governance&amp;lt;br /&amp;gt;Salary: £34,610 to £39,906 per annum (pro rata) with progression opportunities to £43,482</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM772/senior-quality-and-governance-officer-x-3-positions-available/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Academic Partnership Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>Birmingham Newman University - NU6625-2&amp;lt;br /&amp;gt;Salary: £28,031 to £31,236 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN048/academic-partnership-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>School Strategic Manager (School of Mathematical Sciences)</title>
+    <company>jobs.ac.uk</company>
+    <description>Queen Mary University of London - School of Mathematical Sciences&amp;lt;br /&amp;gt;Salary: £64,331 to £71,834 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM862/school-strategic-manager-school-of-mathematical-sciences/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Student Immigration Compliance Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>Bournemouth University - Student Immigration Compliance and Advice&amp;lt;br /&amp;gt;Salary: £30,378 to £34,610 per annum (pro rata) with progression opportunities to £37,694</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM769/senior-student-immigration-compliance-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Communications Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - NDM Strategic Offices&amp;lt;br /&amp;gt;Salary: £35,681 to £41,636 with a discretionary range to £45,212 p.a. (pro rata). Standard Grade 6. This is inclusive of a pensionable Oxford University Weighting of £1,730 per year (pro rata).</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN526/communications-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Communications &amp; PR</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Assistant/Associate (2 positions available)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Glasgow - School of Critical Studies&amp;lt;br /&amp;gt;Salary: Grade 6, £33,951 - £37,694 / Grade 7, £41,064 - £46,049 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN597/research-assistant-associate-2-positions-available/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Employer Engagement Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>UCL - School of Management &amp;lt;br /&amp;gt;Salary: £43,981 to £52,586</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN652/senior-employer-engagement-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Learning Management Lead</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Leeds - Faculty of Medicine &amp;amp; Health - National Institute of Health and Care Research - Research Delivery Network Coordinating Centre&amp;lt;br /&amp;gt;Salary: £51,753 to £59,966 per annum (Grade 8)</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN736/learning-management-lead/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Student Engagement Coach (Maternity Cover)</title>
+    <company>jobs.ac.uk</company>
+    <description>Goldsmiths, University of London - Student Success&amp;lt;br /&amp;gt;Salary: £34,925 to £39,297</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN749/student-engagement-coach-maternity-cover/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Outreach and Communications Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Oxford - Department of Earth Sciences&amp;lt;br /&amp;gt;Salary: £36,024 to £44,263 per annum (Grade 7)</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN771/outreach-and-communications-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Communications &amp; PR</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Operations Manager for the Deep-Ocean Stewardship Initiative (DOSI)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Southampton - School of Ocean and Earth Science&amp;lt;br /&amp;gt;Salary: £36,636 to £44,746.  Per Annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN778/operations-manager-for-the-deep-ocean-stewardship-initiative-dosi/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Postgraduate Programme Coordinator (Full Time or Part Time, Fixed Term)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Cambridge - Cambridge Institute for Technology and Humanity&amp;lt;br /&amp;gt;Salary: £33,951 to £39,906 (pro-rata)</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN782/postgraduate-programme-coordinator-full-time-or-part-time-fixed-term/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Marketing Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Essex - UECS - Marketing, Communications and Business Development&amp;lt;br /&amp;gt;Salary: £33,645 to £37,231 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN810/senior-marketing-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Communications &amp; PR</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Programme Manager - Great Environment</title>
+    <company>jobs.ac.uk</company>
+    <description>Imperial College London - Strategic Programmes &amp;amp; Change&amp;lt;br /&amp;gt;Salary: £69,365 to £79,257 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN834/senior-programme-manager-great-environment/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Marketing &amp; Events Manager (Alumni, Business &amp; Employer Engagement)</title>
+    <company>jobs.ac.uk</company>
+    <description>University College Birmingham - Business Development&amp;lt;br /&amp;gt;Salary: £42,254 to £43,482 per annum. Salary Grade: SS7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN423/marketing-and-events-manager-alumni-business-and-employer-engagement/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>UK Student Recruitment Advisor</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Surrey - UK Recruitment&amp;lt;br /&amp;gt;Salary: £28,031 to £31,236 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN205/uk-student-recruitment-advisor/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Educational Adviser</title>
+    <company>jobs.ac.uk</company>
+    <description>The Open University - The Open University in Wales&amp;lt;br /&amp;gt;Salary: £38,784 to £46,049</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN258/educational-adviser/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>International Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>Durham University - Student Services &amp;lt;br /&amp;gt;Salary: £31,236 to £37,694 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN270/international-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Product Specialist</title>
+    <company>jobs.ac.uk</company>
+    <description>Middlesex University - Digital Product Management Team / Digital and Library Services&amp;lt;br /&amp;gt;Salary: £37,357 to £42,653.  Grade 6 / inclusive of Outer London Weighting</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN306/product-specialist/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Regional Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>Liverpool John Moores University - International Relations&amp;lt;br /&amp;gt;Salary: £47,389 to £58,225 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN335/regional-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-13</date_posted>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Business Development Manager – School of Health, Life Sciences and Education (HLSE)</title>
+    <company>jobs.ac.uk</company>
+    <description>University College Birmingham - Business Development &amp;lt;br /&amp;gt;Salary: £48,822 to £56,535 per annum. Salary Grade:SS9</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN341/business-development-manager-school-of-health-life-sciences-and-education-hlse/</apply_url>
+    <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
