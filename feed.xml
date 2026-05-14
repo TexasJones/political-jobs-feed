@@ -1,2 +1,1219 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-05-14T22:05:58Z" count="0"/>
+<jobs generated="2026-05-14T22:15:17Z" count="76">
+  <job>
+    <job_id>greenhouse-aclu-8481927002</job_id>
+    <title>Director, Cyber Security Operations</title>
+    <company>aclu</company>
+    <slug>director-cyber-security-operations-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/director-cyber-security-operations-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8481927002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8399183002</job_id>
+    <title>Endpoint Engineer</title>
+    <company>aclu</company>
+    <slug>endpoint-engineer-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/endpoint-engineer-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8399183002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8482030002</job_id>
+    <title>Information Security Officer, Affiliate Technology Services</title>
+    <company>aclu</company>
+    <slug>information-security-officer-affiliate-technology-services-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/information-security-officer-affiliate-technology-services-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8482030002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8495601002</job_id>
+    <title>Learning &amp; Development Specialist, Privacy &amp; Data Governance (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>learning-development-specialist-privacy-data-governance-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/learning-development-specialist-privacy-data-governance-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8495601002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8477069002</job_id>
+    <title>Manager, Facilities Construction (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>manager-facilities-construction-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/manager-facilities-construction-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8477069002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8355269002</job_id>
+    <title>Senior Accountant</title>
+    <company>aclu</company>
+    <slug>senior-accountant-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-accountant-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8355269002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8446937002</job_id>
+    <title>Senior Accountant Tax and Pension Benefits</title>
+    <company>aclu</company>
+    <slug>senior-accountant-tax-and-pension-benefits-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-accountant-tax-and-pension-benefits-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8446937002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8497100002</job_id>
+    <title>Technical Project Manager (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>technical-project-manager-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/technical-project-manager-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8497100002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8510380002</job_id>
+    <title>Disability, Accessibility &amp; Inclusion Manager</title>
+    <company>aclu</company>
+    <slug>disability-accessibility-inclusion-manager-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/disability-accessibility-inclusion-manager-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8510380002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8482872002</job_id>
+    <title>Product Manager II, Discovery (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>product-manager-ii-discovery-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/product-manager-ii-discovery-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8482872002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8509074002</job_id>
+    <title>Software Engineer II, CRM</title>
+    <company>aclu</company>
+    <slug>software-engineer-ii-crm-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/software-engineer-ii-crm-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8509074002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8505820002</job_id>
+    <title>Technical Program Manager, Engagement Platform(s)</title>
+    <company>aclu</company>
+    <slug>technical-program-manager-engagement-platforms-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/technical-program-manager-engagement-platforms-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8505820002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-6233764002</job_id>
+    <title>Racial Justice Center Director</title>
+    <company>aclu</company>
+    <slug>racial-justice-center-director-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/racial-justice-center-director-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/6233764002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8505915002</job_id>
+    <title>Senior Advisor, Affiliate Strategic Planning</title>
+    <company>aclu</company>
+    <slug>senior-advisor-affiliate-strategic-planning-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-advisor-affiliate-strategic-planning-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8505915002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8332558002</job_id>
+    <title>Director of Strategic Communications, Integrated Comms Strategy</title>
+    <company>aclu</company>
+    <slug>director-of-strategic-communications-integrated-comms-strategy-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/director-of-strategic-communications-integrated-comms-strategy-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8332558002</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8519316002</job_id>
+    <title>Earned Media Strategist (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>earned-media-strategist-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/earned-media-strategist-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8519316002</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8516657002</job_id>
+    <title>Senior Content Strategist (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>senior-content-strategist-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-content-strategist-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8516657002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8531474002</job_id>
+    <title>Associate, Digital Marketing &amp; Production [Term-Limited]</title>
+    <company>aclu</company>
+    <slug>associate-digital-marketing-production-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/associate-digital-marketing-production-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8531474002</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8520829002</job_id>
+    <title>Deputy Director, Support Transition (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>deputy-director-support-transition-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/deputy-director-support-transition-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8520829002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8530027002</job_id>
+    <title>Gift Planning Associate</title>
+    <company>aclu</company>
+    <slug>gift-planning-associate-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/gift-planning-associate-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8530027002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8530304002</job_id>
+    <title>Manager, Growth &amp; Stewardship</title>
+    <company>aclu</company>
+    <slug>manager-growth-stewardship-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/manager-growth-stewardship-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8530304002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8508155002</job_id>
+    <title>Confidential Assistant to the ACLU President and Board Chair (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>confidential-assistant-to-the-aclu-president-and-board-chair-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/confidential-assistant-to-the-aclu-president-and-board-chair-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8508155002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8531703002</job_id>
+    <title>Fall 2027 Marvin M. Karpatkin Fellowship, Racial Justice Program</title>
+    <company>aclu</company>
+    <slug>fall-2027-marvin-m-karpatkin-fellowship-racial-justice-program-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/fall-2027-marvin-m-karpatkin-fellowship-racial-justice-program-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8531703002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8395211002</job_id>
+    <title>Paralegal, Immigrants' Rights Project</title>
+    <company>aclu</company>
+    <slug>paralegal-immigrants-rights-project-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/paralegal-immigrants-rights-project-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8395211002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8439726002</job_id>
+    <title>Staff Attorney, Senior Staff Attorney or Senior Counsel, National Prison Project</title>
+    <company>aclu</company>
+    <slug>staff-attorney-senior-staff-attorney-or-senior-counsel-national-prison-project-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/staff-attorney-senior-staff-attorney-or-senior-counsel-national-prison-project-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8439726002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8378365002</job_id>
+    <title>Staff Attorney, Senior Staff Attorney, or Senior Counsel, Voting Rights Project</title>
+    <company>aclu</company>
+    <slug>staff-attorney-senior-staff-attorney-or-senior-counsel-voting-rights-project-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/staff-attorney-senior-staff-attorney-or-senior-counsel-voting-rights-project-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8378365002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8486969002</job_id>
+    <title>Paralegal, Voting Rights Project</title>
+    <company>aclu</company>
+    <slug>paralegal-voting-rights-project-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/paralegal-voting-rights-project-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8486969002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8468745002</job_id>
+    <title>Deputy Project Director, Capital Punishment Project</title>
+    <company>aclu</company>
+    <slug>deputy-project-director-capital-punishment-project-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/deputy-project-director-capital-punishment-project-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8468745002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8478907002</job_id>
+    <title>Staff Attorney, Senior Staff Attorney, or Senior Counsel, Criminal Law Reform Project (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>staff-attorney-senior-staff-attorney-or-senior-counsel-criminal-law-reform-project-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/staff-attorney-senior-staff-attorney-or-senior-counsel-criminal-law-reform-project-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8478907002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8511065002</job_id>
+    <title>Director, National Campaigns, Abuse of Power</title>
+    <company>aclu</company>
+    <slug>director-national-campaigns-abuse-of-power-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/director-national-campaigns-abuse-of-power-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8511065002</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8222359002</job_id>
+    <title>Organizing Strategist</title>
+    <company>aclu</company>
+    <slug>organizing-strategist-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/organizing-strategist-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8222359002</apply_url>
+    <category>Nonprofit Advocacy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8438039002</job_id>
+    <title>Senior Campaign Lead, Redistricting</title>
+    <company>aclu</company>
+    <slug>senior-campaign-lead-redistricting-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-campaign-lead-redistricting-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8438039002</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8497578002</job_id>
+    <title>Senior Electoral Strategist (Term-Limited)</title>
+    <company>aclu</company>
+    <slug>senior-electoral-strategist-term-limited-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-electoral-strategist-term-limited-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8497578002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8501473002</job_id>
+    <title>Data Scientist II, Natural Language Processing (NLP) Specialist</title>
+    <company>aclu</company>
+    <slug>data-scientist-ii-natural-language-processing-nlp-specialist-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/data-scientist-ii-natural-language-processing-nlp-specialist-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8501473002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8476098002</job_id>
+    <title>DevOps Engineering Manager</title>
+    <company>aclu</company>
+    <slug>devops-engineering-manager-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/devops-engineering-manager-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8476098002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8417408002</job_id>
+    <title>Director of Engineering, Data</title>
+    <company>aclu</company>
+    <slug>director-of-engineering-data-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/director-of-engineering-data-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8417408002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-aclu-8220646002</job_id>
+    <title>Product Manager II, CRM</title>
+    <company>aclu</company>
+    <slug>product-manager-ii-crm-aclu</slug>
+    <canonical_url>https://thepolly.co/jobs/product-manager-ii-crm-aclu</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8220646002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7846838</job_id>
+    <title>Press Secretary</title>
+    <company>moveonorg</company>
+    <slug>press-secretary-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/press-secretary-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7846838</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7843411</job_id>
+    <title>Chief of Staff</title>
+    <company>moveonorg</company>
+    <slug>chief-of-staff-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/chief-of-staff-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7843411</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7890486</job_id>
+    <title>Donor Service Officer</title>
+    <company>moveonorg</company>
+    <slug>donor-service-officer-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/donor-service-officer-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7890486</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7872384</job_id>
+    <title>Temporary Distributed Organizer</title>
+    <company>moveonorg</company>
+    <slug>temporary-distributed-organizer-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/temporary-distributed-organizer-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7872384</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7901567</job_id>
+    <title>Temporary Program Manager</title>
+    <company>moveonorg</company>
+    <slug>temporary-program-manager-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/temporary-program-manager-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7901567</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7901572</job_id>
+    <title>Temporary Training Manager</title>
+    <company>moveonorg</company>
+    <slug>temporary-training-manager-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/temporary-training-manager-moveonorg</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7901572</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5079274007</job_id>
+    <title>Vice President, Life Sciences Media and Communications</title>
+    <company>gmmb</company>
+    <slug>vice-president-life-sciences-media-and-communications-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/vice-president-life-sciences-media-and-communications-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5079274007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5050910007</job_id>
+    <title>Account Supervisor</title>
+    <company>gmmb</company>
+    <slug>account-supervisor-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/account-supervisor-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5050910007</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5111648007</job_id>
+    <title>Assistant Account Executive, Analytics - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>assistant-account-executive-analytics---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/assistant-account-executive-analytics---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5111648007</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5010092007</job_id>
+    <title>Assistant Account Executive - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>assistant-account-executive---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/assistant-account-executive---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5010092007</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5065692007</job_id>
+    <title>Copywriter / Senior Copywriter - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>copywriter-senior-copywriter---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/copywriter-senior-copywriter---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5065692007</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5112930007</job_id>
+    <title>Digital Assistant Account Executive / Account Executive - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>digital-assistant-account-executive-account-executive---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/digital-assistant-account-executive-account-executive---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5112930007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5114661007</job_id>
+    <title>Senior Digital Account Manager - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>senior-digital-account-manager---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-digital-account-manager---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5114661007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5006864007</job_id>
+    <title>Media Buyer - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>media-buyer---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/media-buyer---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5006864007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5010373007</job_id>
+    <title>Digital Media Planner - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>digital-media-planner---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/digital-media-planner---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5010373007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-gmmb-5038189007</job_id>
+    <title>Senior Digital Media Planner - Political Cycle 2026</title>
+    <company>gmmb</company>
+    <slug>senior-digital-media-planner---political-cycle-2026-gmmb</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-digital-media-planner---political-cycle-2026-gmmb</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5038189007</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8495018002</job_id>
+    <title>Operations Manager</title>
+    <company>berlinrosen</company>
+    <slug>operations-manager-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/operations-manager-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8495018002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8396856002</job_id>
+    <title>Executive Vice President, Impact</title>
+    <company>berlinrosen</company>
+    <slug>executive-vice-president-impact-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/executive-vice-president-impact-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8396856002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8493789002</job_id>
+    <title>Senior Account Executive, Impact</title>
+    <company>berlinrosen</company>
+    <slug>senior-account-executive-impact-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-account-executive-impact-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8493789002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8499359002</job_id>
+    <title>Junior Account Executive</title>
+    <company>berlinrosen</company>
+    <slug>junior-account-executive-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/junior-account-executive-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8499359002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8530668002</job_id>
+    <title>Junior Graphic Designer</title>
+    <company>berlinrosen</company>
+    <slug>junior-graphic-designer-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/junior-graphic-designer-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8530668002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8535149002</job_id>
+    <title>Account Coordinator, Public Affairs</title>
+    <company>berlinrosen</company>
+    <slug>account-coordinator-public-affairs-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/account-coordinator-public-affairs-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8535149002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8409494002</job_id>
+    <title>Account Executive, Public Affairs</title>
+    <company>berlinrosen</company>
+    <slug>account-executive-public-affairs-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/account-executive-public-affairs-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8409494002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8516451002</job_id>
+    <title>Vice President, Architecture and Design Public Relations</title>
+    <company>berlinrosen</company>
+    <slug>vice-president-architecture-and-design-public-relations-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/vice-president-architecture-and-design-public-relations-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8516451002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8465658002</job_id>
+    <title>Senior Account Executive, Arts &amp; Culture Public Relations</title>
+    <company>berlinrosen</company>
+    <slug>senior-account-executive-arts-culture-public-relations-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-account-executive-arts-culture-public-relations-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8465658002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8450837002</job_id>
+    <title>Senior Account Executive, Travel + Hospitality</title>
+    <company>berlinrosen</company>
+    <slug>senior-account-executive-travel-hospitality-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/senior-account-executive-travel-hospitality-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8450837002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8479825002</job_id>
+    <title>Associate Account Executive, Real Estate Public Relations</title>
+    <company>berlinrosen</company>
+    <slug>associate-account-executive-real-estate-public-relations-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/associate-account-executive-real-estate-public-relations-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8479825002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8446999002</job_id>
+    <title>Vice President, Paid Media, Real Estate</title>
+    <company>berlinrosen</company>
+    <slug>vice-president-paid-media-real-estate-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/vice-president-paid-media-real-estate-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8446999002</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-8363194002</job_id>
+    <title>Vice President, Higher Education Public Relations</title>
+    <company>berlinrosen</company>
+    <slug>vice-president-higher-education-public-relations-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/vice-president-higher-education-public-relations-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8363194002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-berlinrosen-6806145002</job_id>
+    <title>Future Opportunities</title>
+    <company>berlinrosen</company>
+    <slug>future-opportunities-berlinrosen</slug>
+    <canonical_url>https://thepolly.co/jobs/future-opportunities-berlinrosen</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/6806145002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>lever-sierraclub-f86a2a5e-c3a0-4d55-9738-497aa46daad6</job_id>
+    <title>Organizing Intern</title>
+    <company>sierraclub</company>
+    <slug>organizing-intern-sierraclub</slug>
+    <canonical_url>https://thepolly.co/jobs/organizing-intern-sierraclub</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/sierraclub/f86a2a5e-c3a0-4d55-9738-497aa46daad6</apply_url>
+    <category>Nonprofit Advocacy</category>
+    <location_type>onsite</location_type>
+    <office_location>Denver, CO</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-sierraclub-9ff5dfdf-d26f-49ea-98ac-7fc2ac9511bd</job_id>
+    <title>Chapter Coordinator</title>
+    <company>sierraclub</company>
+    <slug>chapter-coordinator-sierraclub</slug>
+    <canonical_url>https://thepolly.co/jobs/chapter-coordinator-sierraclub</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/sierraclub/9ff5dfdf-d26f-49ea-98ac-7fc2ac9511bd</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Wilmington, DE / Newark, DE / Dover, DE / Middletown, DE / Milford, DE / Rehoboth Beach, DE / Georgetown, DE</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-sierraclub-2d14a974-35b0-4fe1-82d5-96018da5d4cd</job_id>
+    <title>Chapter Director</title>
+    <company>sierraclub</company>
+    <slug>chapter-director-sierraclub</slug>
+    <canonical_url>https://thepolly.co/jobs/chapter-director-sierraclub</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/sierraclub/2d14a974-35b0-4fe1-82d5-96018da5d4cd</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Santa Barbara, CA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-sierraclub-b8806fdf-05fd-48c5-8ed1-4c248aa2a9bb</job_id>
+    <title>Deputy Press Secretary</title>
+    <company>sierraclub</company>
+    <slug>deputy-press-secretary-sierraclub</slug>
+    <canonical_url>https://thepolly.co/jobs/deputy-press-secretary-sierraclub</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/sierraclub/b8806fdf-05fd-48c5-8ed1-4c248aa2a9bb</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-emilyslist-a2ce7c65-260f-4a57-88f6-0654df1b4664</job_id>
+    <title>General Interest Application</title>
+    <company>emilyslist</company>
+    <slug>general-interest-application-emilyslist</slug>
+    <canonical_url>https://thepolly.co/jobs/general-interest-application-emilyslist</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/emilyslist/a2ce7c65-260f-4a57-88f6-0654df1b4664</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-emilyslist-47de1e32-4519-4d62-8a04-5451d029340b</job_id>
+    <title>Federal and Gubernatorial Regional Director (cycle)</title>
+    <company>emilyslist</company>
+    <slug>federal-and-gubernatorial-regional-director-cycle-emilyslist</slug>
+    <canonical_url>https://thepolly.co/jobs/federal-and-gubernatorial-regional-director-cycle-emilyslist</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/emilyslist/47de1e32-4519-4d62-8a04-5451d029340b</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-emilyslist-66505ddd-bf51-42ef-a6ff-f65e0f5e029a</job_id>
+    <title>Traveling Media &amp; Content Coordinator</title>
+    <company>emilyslist</company>
+    <slug>traveling-media-content-coordinator-emilyslist</slug>
+    <canonical_url>https://thepolly.co/jobs/traveling-media-content-coordinator-emilyslist</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/emilyslist/66505ddd-bf51-42ef-a6ff-f65e0f5e029a</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-emilyslist-dbee3e41-59e5-40ff-97fe-c213a5ed158a</job_id>
+    <title>Regional Finance Manager</title>
+    <company>emilyslist</company>
+    <slug>regional-finance-manager-emilyslist</slug>
+    <canonical_url>https://thepolly.co/jobs/regional-finance-manager-emilyslist</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/emilyslist/dbee3e41-59e5-40ff-97fe-c213a5ed158a</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-emilyslist-20f401e2-c387-4840-b521-0e10319e4f85</job_id>
+    <title>EMILYs List Job Bank</title>
+    <company>emilyslist</company>
+    <slug>emilys-list-job-bank-emilyslist</slug>
+    <canonical_url>https://thepolly.co/jobs/emilys-list-job-bank-emilyslist</canonical_url>
+    <description/>
+    <apply_url>https://jobs.lever.co/emilyslist/20f401e2-c387-4840-b521-0e10319e4f85</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Various Campaign Locations</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
+    <valid_through>2027-12-31</valid_through>
+    <source>lever</source>
+  </job>
+</jobs>
