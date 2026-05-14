@@ -21,7 +21,6 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://thepolly.co"
 
-# Optional USAJobs credentials (safe if missing)
 API_KEY = os.getenv("USAJOBS_API_KEY")
 EMAIL = os.getenv("USAJOBS_EMAIL", "info@thepolly.co")
 
@@ -38,14 +37,24 @@ GREENHOUSE_BOARDS = [
     "berlinrosen",
 ]
 
-LEVER_BOARDS = ["sierraclub"]
-WORKABLE_BOARDS = ["fp1-strategies"]
-
 USAJOBS_SEARCHES = [
     "public affairs",
     "government relations",
     "policy analyst",
     "communications director",
+]
+
+# ─────────────────────────────────────────────
+# Lever Expansion (PR / Public Affairs / Comms)
+# ─────────────────────────────────────────────
+
+LEVER_COMPANIES = [
+    "berlinrosen",
+    "bullypulpitinteractive",
+    "skdk",
+    "fgs-global",
+    "purple-strategies",
+    "rokk-solutions"
 ]
 
 # ─────────────────────────────────────────────
@@ -64,7 +73,7 @@ CATEGORY_RULES = {
         "policy", "legislative", "congress", "senate", "house", "federal"
     ],
     "Communications & PR": [
-        "communications", "media", "press", "spokesperson", "digital"
+        "communications", "media", "press", "spokesperson", "digital", "social"
     ],
     "Nonprofit Advocacy": [
         "nonprofit", "grassroots", "organizing", "civic"
@@ -109,7 +118,7 @@ jobs = []
 seen = set()
 
 # ─────────────────────────────────────────────
-# Job ingestion function
+# Core ingestion
 # ─────────────────────────────────────────────
 
 def add_job(source, raw_id, title, company, apply_url,
@@ -130,10 +139,6 @@ def add_job(source, raw_id, title, company, apply_url,
 
     posted = (posted or str(date.today()))[:10]
 
-    parts = [p.strip() for p in location.split(",")]
-    locality = parts[0] if len(parts) > 0 else ""
-    region = parts[1] if len(parts) > 1 else ""
-
     jobs.append({
         "job_id": job_id,
         "title": title,
@@ -145,25 +150,25 @@ def add_job(source, raw_id, title, company, apply_url,
         "category": category,
         "location_type": "remote" if remote else "onsite",
         "office_location": location,
-        "address_locality": locality,
-        "address_region": region,
         "employment_type": "FULL_TIME",
         "date_posted": posted,
         "valid_through": "2026-12-31",
         "source": source
     })
 
-    log.info("  + %s @ %s", title, company)
+    log.info("+ %s @ %s", title, company)
 
 # ─────────────────────────────────────────────
-# USAJobs (optional)
+# USAJobs
 # ─────────────────────────────────────────────
 
-log.info("=== USAJobs ===")
+def fetch_usajobs():
+    log.info("=== USAJobs ===")
 
-if not API_KEY:
-    log.warning("Skipping USAJobs (no API key provided)")
-else:
+    if not API_KEY:
+        log.warning("Skipping USAJobs (no API key)")
+        return
+
     for term in USAJOBS_SEARCHES:
         try:
             url = "https://data.usajobs.gov/api/search?" + urllib.parse.urlencode({
@@ -178,26 +183,15 @@ else:
             })
 
             with urllib.request.urlopen(req, timeout=15) as resp:
-                raw = resp.read().decode()
-
-            try:
-                data = json.loads(raw)
-            except Exception:
-                log.warning("USAJobs invalid response for %s", term)
-                continue
+                data = json.loads(resp.read().decode())
 
             for item in data.get("SearchResult", {}).get("SearchResultItems", []):
                 pos = item.get("MatchedObjectDescriptor", {})
 
-                raw_id = pos.get(
-                    "PositionID",
-                    hashlib.md5(str(item).encode()).hexdigest()
-                )
-
+                raw_id = pos.get("PositionID", hashlib.md5(str(item).encode()).hexdigest())
                 title = pos.get("PositionTitle", "")
                 company = pos.get("OrganizationName", "U.S. Federal Government")
-                apply_url = pos.get("ApplyURI", ["https://www.usajobs.gov"])[0]
-
+                apply_url = pos.get("ApplyURI", [""])[0]
                 desc = pos.get("UserArea", {}).get("Details", {}).get("JobSummary", "")
 
                 locs = pos.get("PositionLocation", [])
@@ -216,38 +210,80 @@ else:
 # Greenhouse
 # ─────────────────────────────────────────────
 
-log.info("=== Greenhouse ===")
+def fetch_greenhouse():
+    log.info("=== Greenhouse ===")
 
-for board in GREENHOUSE_BOARDS:
-    try:
-        url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
+    for board in GREENHOUSE_BOARDS:
+        try:
+            url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
 
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "PollyFeed/1.0"
-        })
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "PollyFeed/1.0"
+            })
 
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
 
-        for j in data.get("jobs", []):
-            add_job(
-                "greenhouse",
-                str(j.get("id")),
-                j.get("title", ""),
-                board,
-                j.get("absolute_url", f"https://boards.greenhouse.io/{board}"),
-                j.get("content", ""),
-                j.get("location", {}).get("name", ""),
-                j.get("updated_at")
-            )
+            for j in data.get("jobs", []):
+                add_job(
+                    "greenhouse",
+                    str(j.get("id")),
+                    j.get("title", ""),
+                    board,
+                    j.get("absolute_url", ""),
+                    j.get("content", ""),
+                    j.get("location", {}).get("name", ""),
+                    j.get("updated_at")
+                )
 
-        time.sleep(0.3)
+            time.sleep(0.3)
 
-    except Exception as e:
-        log.warning("Greenhouse error %s: %s", board, e)
+        except Exception as e:
+            log.warning("Greenhouse error %s: %s", board, e)
 
 # ─────────────────────────────────────────────
-# Build XML
+# Lever (PR / Comms expansion)
+# ─────────────────────────────────────────────
+
+def fetch_lever():
+    log.info("=== Lever ===")
+
+    for company in LEVER_COMPANIES:
+        try:
+            url = f"https://api.lever.co/v0/postings/{company}?mode=json"
+
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "PollyFeed/1.0"
+            })
+
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+
+            for j in data:
+                add_job(
+                    "lever",
+                    j.get("id", ""),
+                    j.get("text", ""),
+                    company,
+                    j.get("hostedUrl", ""),
+                    j.get("descriptionPlain", ""),
+                    j.get("categories", {}).get("location", ""),
+                    j.get("createdAt", "")
+                )
+
+        except Exception:
+            continue
+
+# ─────────────────────────────────────────────
+# Run pipeline
+# ─────────────────────────────────────────────
+
+fetch_usajobs()
+fetch_greenhouse()
+fetch_lever()
+
+# ─────────────────────────────────────────────
+# Build XML feed
 # ─────────────────────────────────────────────
 
 log.info("Total jobs: %d", len(jobs))
