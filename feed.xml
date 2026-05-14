@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-05-13T23:31:37Z" count="298">
+<jobs generated="2026-05-14T14:57:19Z" count="300">
   <job>
     <title>Public Affairs Specialist</title>
     <company>Federal Trade Commission</company>
@@ -9,6 +9,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -22,6 +24,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -35,6 +39,8 @@
     <office_location>Rockville, Maryland</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Rockville</addressLocality>
+    <addressRegion>Maryland</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -48,6 +54,8 @@
     <office_location>Lackland AFB, Texas</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Lackland AFB</addressLocality>
+    <addressRegion>Texas</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -61,6 +69,8 @@
     <office_location>West Palm Beach, Florida</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>West Palm Beach</addressLocality>
+    <addressRegion>Florida</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -74,6 +84,8 @@
     <office_location>San Diego, California</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>San Diego</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -87,19 +99,8 @@
     <office_location>Topeka, Kansas</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-05</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>PUBLIC AFFAIRS SPECIALIST</title>
-    <company>HQ USAF and Support Elements</company>
-    <description>Click on &quot;Learn more about this agency&quot; button below to view Eligibilities being considered and other IMPORTANT information. The primary purpose of this position is to serve in an Air Staff, Field Operating Agency (FOA), Major Command (MAJCOM), or Direct Reporting Unit (DRU)-level position providing public affairs advice, authority, technical expertise, and management support to leadership.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868421500</apply_url>
-    <location>onsite</location>
-    <office_location>Pentagon, Arlington, Virginia</office_location>
-    <category>Public Affairs &amp; Lobbying</category>
-    <date_posted>2026-05-07</date_posted>
+    <addressLocality>Topeka</addressLocality>
+    <addressRegion>Kansas</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -113,6 +114,8 @@
     <office_location>Scott AFB, Illinois</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-04-29</date_posted>
+    <addressLocality>Scott AFB</addressLocality>
+    <addressRegion>Illinois</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -126,6 +129,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -139,6 +144,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -152,6 +159,8 @@
     <office_location>Grand Junction, Colorado</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Grand Junction</addressLocality>
+    <addressRegion>Colorado</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -165,6 +174,8 @@
     <office_location>Peterson AFB, Colorado</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2025-10-01</date_posted>
+    <addressLocality>Peterson AFB</addressLocality>
+    <addressRegion>Colorado</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -178,6 +189,8 @@
     <office_location>Wright-Patterson AFB, Ohio</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-04-15</date_posted>
+    <addressLocality>Wright-Patterson AFB</addressLocality>
+    <addressRegion>Ohio</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -191,19 +204,8 @@
     <office_location>Madison, Wisconsin</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-11</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Public Affairs Specialist</title>
-    <company>Veterans Health Administration</company>
-    <description>The primary purpose of this position is to support the Public Affairs Office programs and events and provide administrative, technical and professional support for congressional inquiries and, VA/VISN/VHA suspense requests. This position works under the Public Affairs Officer; however, this position may also take direction from the other members of the VA Central Ohio Healthcare System leadership team. The incumbent works with these individuals to identify goals and issues from the program.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868048400</apply_url>
-    <location>onsite</location>
-    <office_location>Columbus, Ohio</office_location>
-    <category>Public Affairs &amp; Lobbying</category>
-    <date_posted>2026-05-06</date_posted>
+    <addressLocality>Madison</addressLocality>
+    <addressRegion>Wisconsin</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -217,6 +219,8 @@
     <office_location>Scott AFB, Illinois</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Scott AFB</addressLocality>
+    <addressRegion>Illinois</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -230,6 +234,8 @@
     <office_location>Keesler AFB, Mississippi</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Keesler AFB</addressLocality>
+    <addressRegion>Mississippi</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -243,6 +249,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -256,6 +264,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-01</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -269,6 +279,8 @@
     <office_location>Alexandria, Virginia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Alexandria</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -282,6 +294,8 @@
     <office_location>Cleveland, Ohio</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Cleveland</addressLocality>
+    <addressRegion>Ohio</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -295,6 +309,23 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Public Affairs Specialist</title>
+    <company>Joint Activities</company>
+    <description>About the Position: This position is a DOD Cyber Excepted Service (CES) personnel system position in the Excepted Service under 10 USC 1599f. Employees occupying CES positions are in the Excepted Service and must adhere to U.S. Code, Title 10, as well as Department of Defense Instruction 1400.25. This position is located at the U.S. Cyber Command in Fort Meade, Maryland..</description>
+    <apply_url>https://www.usajobs.gov:443/job/868793400</apply_url>
+    <location>onsite</location>
+    <office_location>Fort Meade, Maryland</office_location>
+    <category>Public Affairs &amp; Lobbying</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Fort Meade</addressLocality>
+    <addressRegion>Maryland</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -308,6 +339,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -321,6 +354,53 @@
     <office_location>Portland, Oregon</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Portland</addressLocality>
+    <addressRegion>Oregon</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Public Affairs Specialist, GS-1035-09, FPL: GS-11 (MP) </title>
+    <company>Office of Communications and Outreach</company>
+    <description>This position is located in the Office of Communications and Outreach (OCO), located in Washington, DC. OCO is responsible for overall leaderhip for the Department in its communication and outreach activities. These activities are designed to enage the general public, including a wide variety of education, community, business, parent, student and other organizations, in the U.S. Deaprtment of Education's mission.</description>
+    <apply_url>https://www.usajobs.gov:443/job/868618200</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Public Affairs &amp; Lobbying</category>
+    <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Legislative Affairs Specialist</title>
+    <company>Immigration and Customs Enforcement</company>
+    <description>View Common Definitions of terms found in this announcement. Organizational Location: These positions are located in the Department of Homeland Security, U.S. Immigration and Customs Enforcement, Chief Financial Officer, in Washington, District of Columbia. These are non-bargaining unit positions.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869249500</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Lead Congressional Liaison Representative</title>
+    <company>Deputy Assistant Secretary for Congressional Affairs</company>
+    <description>This position is organizationally located within the Office of Congressional and Legislative Affairs. The incumbent serves as a Senior Congressional Liaison Representative (CLR) and in this position acts as an assistant to the head supervisor of the Congressional Liaison Service (CLS) Team by providing guidance on workflow and operations to members of the CLS Team.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869182800</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -334,6 +414,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -347,6 +429,23 @@
     <office_location>Camp Springs, Maryland</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Camp Springs</addressLocality>
+    <addressRegion>Maryland</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Assistant Deputy Comptroller (Budget and Appropriation Affairs)</title>
+    <company>Office of the Secretary of Defense</company>
+    <description>The Assistant Deputy Comptroller (Budget and Appropriations Affairs) (BAA) supports the Deputy Comptroller (BAA) in advancing the Department of War (DoW) budget to Congress and to the public; and, in coordination with the Office of the Assistant Secretary of War (Legislative Affairs), as appropriate, representing the DoW in day-to-day liaison with the Congress on all budgetary, financial, and related matters within the scope of responsibility of the DoW Comptroller.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869169200</apply_url>
+    <location>onsite</location>
+    <office_location>Pentagon, Arlington, Virginia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Pentagon</addressLocality>
+    <addressRegion>Arlington</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -360,6 +459,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -373,6 +474,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-20</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -386,6 +489,8 @@
     <office_location>Boston, Massachusetts</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Boston</addressLocality>
+    <addressRegion>Massachusetts</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -399,6 +504,8 @@
     <office_location>New York, New York</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -412,6 +519,8 @@
     <office_location>McLean, Virginia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>McLean</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -425,6 +534,8 @@
     <office_location>McLean, Virginia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>McLean</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -438,6 +549,8 @@
     <office_location>McLean, Virginia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>McLean</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -451,6 +564,8 @@
     <office_location>McLean, Virginia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>McLean</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -464,6 +579,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -477,6 +594,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -490,6 +609,8 @@
     <office_location>Citrus Heights, California</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Citrus Heights</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -503,6 +624,8 @@
     <office_location>Arlington, Virginia</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-29</date_posted>
+    <addressLocality>Arlington</addressLocality>
+    <addressRegion>Virginia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -516,19 +639,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-07</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Associate General Counsel Legislation and Regulation</title>
-    <company>Office of General Counsel</company>
-    <description>The Department of Housing and Urban Development (HUD) is seeking highly qualified individuals who are willing to meet the challenges of public service and support our mission. Our compensation package is comparable to the private sector. And we also offer a broad array of program activities to develop your career, such as: networking and training opportunities. At HUD, you'll have a once-in-a-lifetime opportunity to gain insight into federal housing policy and community development.</description>
-    <apply_url>https://www.usajobs.gov:443/job/866328800</apply_url>
-    <location>onsite</location>
-    <office_location>Alexandria, Virginia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-04-23</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -542,19 +654,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-27</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Regional Director, Southeast</title>
-    <company>National Park Service</company>
-    <description>The Southeast Region is the National Park Service's most visited region, which includes 73 units across 4 million acres in 10 states, Puerto Rico, and the U.S. Virgin Islands. It features iconic, high-biodiversity sites like Great Smoky Mountains and Everglades National Parks, along with major cultural, Civil War, and civil rights historic sites.</description>
-    <apply_url>https://www.usajobs.gov:443/job/867692800</apply_url>
-    <location>onsite</location>
-    <office_location>Atlanta, Georgia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-04</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -568,6 +669,23 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-29</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Regional Director, Southeast</title>
+    <company>National Park Service</company>
+    <description>The Southeast Region is the National Park Service's most visited region, which includes 73 units across 4 million acres in 10 states, Puerto Rico, and the U.S. Virgin Islands. It features iconic, high-biodiversity sites like Great Smoky Mountains and Everglades National Parks, along with major cultural, Civil War, and civil rights historic sites.</description>
+    <apply_url>https://www.usajobs.gov:443/job/867692800</apply_url>
+    <location>onsite</location>
+    <office_location>Atlanta, Georgia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-04</date_posted>
+    <addressLocality>Atlanta</addressLocality>
+    <addressRegion>Georgia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -581,32 +699,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Program Analyst</title>
-    <company>Department of Defense Education Activity</company>
-    <description>About the Position: This position is assigned to the Deputy Assistant Secretary of Defense for Military Community and Family Policy (DASD (MC&amp;FP), Assistant Secretary of Defense for Manpower and Reserve Affairs (M&amp;RA), Office of the Under Secretary of Defense, Personnel and Readiness (USD (P&amp;R)). This position may be eligible for situational telework as determined by the agency policy.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868319900</apply_url>
-    <location>onsite</location>
-    <office_location>Alexandria, Virginia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-08</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Medical Administration Officer</title>
-    <company>Veterans Health Administration</company>
-    <description>The incumbent serves as the Chief, Business Office at the VA Medical Center, Louisville, KY. The Chief, Business Office is responsible for planning, organizing, directing, controlling, and coordinating all program elements within the Business Office in support of the organization's business goals and objectives.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868536200</apply_url>
-    <location>onsite</location>
-    <office_location>Louisville, Kentucky</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-08</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -620,6 +714,8 @@
     <office_location>San Diego, California</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-20</date_posted>
+    <addressLocality>San Diego</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -633,6 +729,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-20</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -646,6 +744,23 @@
     <office_location>Porter, Indiana</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-02-26</date_posted>
+    <addressLocality>Porter</addressLocality>
+    <addressRegion>Indiana</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Analyst</title>
+    <company>Department of State - Agency Wide</company>
+    <description>Make an impact while you learn. The Semester of Service Program offers students a volunteer project-based opportunity to support Federal missions, gaining hands-on experience &amp; valuable career-ready skills. Students must be enrolled at least half-time in an accredited trade school, technical or vocational institute, junior college, college, university, or other accredited educational institution, &amp; participation must be with the permission of the institution at which the student is enrolled.</description>
+    <apply_url>https://www.usajobs.gov:443/job/868765400</apply_url>
+    <location>remote</location>
+    <office_location>Anywhere in the U.S. (remote job), United States</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Anywhere in the U.S. (remote job)</addressLocality>
+    <addressRegion>United States</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -659,6 +774,8 @@
     <office_location>District of Columbia, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-20</date_posted>
+    <addressLocality>District of Columbia</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -672,6 +789,8 @@
     <office_location>Chula Vista, California</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Chula Vista</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -685,6 +804,8 @@
     <office_location>Phoenix, Arizona</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-02-10</date_posted>
+    <addressLocality>Phoenix</addressLocality>
+    <addressRegion>Arizona</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -698,6 +819,8 @@
     <office_location>Fort Campbell, Tennessee</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Fort Campbell</addressLocality>
+    <addressRegion>Tennessee</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -711,6 +834,8 @@
     <office_location>Indian Head, Maryland</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Indian Head</addressLocality>
+    <addressRegion>Maryland</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -724,6 +849,8 @@
     <office_location>Scott AFB, Illinois</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Scott AFB</addressLocality>
+    <addressRegion>Illinois</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -737,6 +864,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -750,6 +879,8 @@
     <office_location>Lackland AFB, Texas</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Lackland AFB</addressLocality>
+    <addressRegion>Texas</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -763,6 +894,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -776,6 +909,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -789,6 +924,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -802,6 +939,8 @@
     <office_location>San Francisco, California</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -815,6 +954,23 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Associate General Counsel</title>
+    <company>Office of Personnel Management</company>
+    <description>Lead. Innovate. Influence. As an Associate General Counsel in OPM's Office of the General Counsel, you'll steer a Division within OGC that advises OPM leadership on mission critical matters-from internal operations to governmentwide programs serving 8 million+ Federal employees, retirees, and families. Openings: General Law; Policy and Rulemaking; Litigation, Employment and Labor Relations.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869286800</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -828,6 +984,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -841,6 +999,8 @@
     <office_location>Los Angeles County, California</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2025-10-01</date_posted>
+    <addressLocality>Los Angeles County</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -854,6 +1014,8 @@
     <office_location>Guantanamo Bay, Cuba</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Guantanamo Bay</addressLocality>
+    <addressRegion>Cuba</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -867,19 +1029,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-08</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Human Resources Specialist (Employee Relations/Labor Relations)</title>
-    <company>Federal Law Enforcement Training Centers</company>
-    <description>&quot;The Federal Law Enforcement Training Centers (FLETC), through strategic partnerships, prepares the federal law enforcement community to safeguard America's people, property, and institutions.&quot; We are a unique inter-agency organization preparing the next generation of law enforcement officers to meet our Nation's most pressing security challenges.&quot; Click here to learn more. A relocation/recruitment incentive may be authorized.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868339600</apply_url>
-    <location>onsite</location>
-    <office_location>Glynco, Georgia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -887,12 +1038,29 @@
   <job>
     <title>Policy Analyst</title>
     <company>DHS Headquarters</company>
-    <description>This position is located in the Department of Homeland Security (DHS), Office of Strategy, Policy and Plans (PLCY), Cyber, Infrastructure, Risk &amp; Resilience (CIRR). Non-BU: This is a non-bargaining unit position.</description>
-    <apply_url>https://www.usajobs.gov:443/job/867913500</apply_url>
+    <description>This position is located in the Department of Homeland Security (DHS), Office of Strategy, Policy and Plans (PLCY), Counterterrorism and Homeland Threats (CTHT). Non-BU: This is a non-bargaining unit position.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869228300</apply_url>
     <location>onsite</location>
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-07</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Policy Analyst</title>
+    <company>DHS Headquarters</company>
+    <description>This position is located in the Department of Homeland Security (DHS), Office of Strategy, Policy, and Plans (PLCY), Counterterrorism &amp; Homeland Threats (CTHT). Non-BU: This is a non-bargaining unit position.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869174900</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -906,6 +1074,8 @@
     <office_location>Silver Spring, Maryland</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Silver Spring</addressLocality>
+    <addressRegion>Maryland</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -919,6 +1089,8 @@
     <office_location>Silver Spring, Maryland</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Silver Spring</addressLocality>
+    <addressRegion>Maryland</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -932,6 +1104,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-29</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -945,6 +1119,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-18</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -958,6 +1134,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-01-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -971,6 +1149,8 @@
     <office_location>Anywhere in the U.S. (remote job), United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Anywhere in the U.S. (remote job)</addressLocality>
+    <addressRegion>United States</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -984,6 +1164,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -997,6 +1179,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-01</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1010,6 +1194,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1023,6 +1209,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1036,6 +1224,8 @@
     <office_location>Detroit, Michigan</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Detroit</addressLocality>
+    <addressRegion>Michigan</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1049,6 +1239,8 @@
     <office_location>Fargo, North Dakota</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Fargo</addressLocality>
+    <addressRegion>North Dakota</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1062,19 +1254,8 @@
     <office_location>Honolulu, Hawaii</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-18</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Social Science Research Analyst</title>
-    <company>Centers for Medicare &amp; Medicaid Services</company>
-    <description>This position is located in the Department of Health &amp; Human Services (HHS), Centers for Medicare &amp; Medicaid Services (CMS). As a Social Science Research Analyst, GS-0101-13, you will perform program and policy analyses of services provided by HHS programs.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868070000</apply_url>
-    <location>onsite</location>
-    <office_location>Atlanta, Georgia</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-06</date_posted>
+    <addressLocality>Honolulu</addressLocality>
+    <addressRegion>Hawaii</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1088,6 +1269,8 @@
     <office_location>Elmendorf AFB, Alaska</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2025-12-19</date_posted>
+    <addressLocality>Elmendorf AFB</addressLocality>
+    <addressRegion>Alaska</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1101,6 +1284,8 @@
     <office_location>Folsom, California</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-07</date_posted>
+    <addressLocality>Folsom</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1114,6 +1299,8 @@
     <office_location>Naval Facilities Engineering Command, Atlantic, Virginia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Naval Facilities Engineering Command</addressLocality>
+    <addressRegion>Atlantic</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1127,6 +1314,8 @@
     <office_location>San Francisco, California</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1140,6 +1329,8 @@
     <office_location>Lackland AFB, Texas</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Lackland AFB</addressLocality>
+    <addressRegion>Texas</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1153,6 +1344,38 @@
     <office_location>Atlantic City, New Jersey</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Atlantic City</addressLocality>
+    <addressRegion>New Jersey</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Senior Business Acquisition Analyst</title>
+    <company>U.S. Secret Service</company>
+    <description>Joining the Secret Service, Office of Technical Development and Applied Research, Technical Security Division will allow you to serve as the lead on all acquisition matters, including, but not limited to drafting proposals, developing business cases, providing analysis, evaluation, approving or redirecting of strategy, plans, and techniques. For definitions of terms found in this announcement, please click here.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869111000</apply_url>
+    <location>onsite</location>
+    <office_location>Washington, District of Columbia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Medical Records Administration Specialist</title>
+    <company>Veterans Health Administration</company>
+    <description>This position is in the Health Information Management (HIM) service at the VA St. Louis Health Care System in St. Louis, Missouri. Medical Records Administration Specialist (MRAS) in Veterans Health Administration perform work concerned with the management of a health record program or the provision of services related to medical record administration/health information services. MRAS manage, preserve, analyze, &amp; supervise the use of diagnostic and therapeutic health records management.</description>
+    <apply_url>https://www.usajobs.gov:443/job/869319400</apply_url>
+    <location>onsite</location>
+    <office_location>Jefferson Barracks, Missouri</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality>Jefferson Barracks</addressLocality>
+    <addressRegion>Missouri</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1166,19 +1389,8 @@
     <office_location>Santa Fe, New Mexico</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-24</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Contract Price/Cost Analyst</title>
-    <company>Missile Defense Agency</company>
-    <description>This position is part of the Department of War (DoW), Missile Defense Agency (MDA). The incumbent will be responsible for: Analyzes contractors' proposals and prepares price/cost analysis based on audit information, technical and/or DCMA input and independent judgment and research, assessing cost realism and the reasonableness, allowability and allocability of proposed costs.</description>
-    <apply_url>https://www.usajobs.gov:443/job/868472900</apply_url>
-    <location>onsite</location>
-    <office_location>Redstone Arsenal, Alabama</office_location>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-08</date_posted>
+    <addressLocality>Santa Fe</addressLocality>
+    <addressRegion>New Mexico</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1192,6 +1404,8 @@
     <office_location>Fairchild AFB, Washington</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Fairchild AFB</addressLocality>
+    <addressRegion>Washington</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1205,6 +1419,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-20</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1218,6 +1434,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1231,6 +1449,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1244,19 +1464,8 @@
     <office_location>Eielson AFB, Alaska</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2025-12-19</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>SUPERVISORY SECURE COMMUNICATIONS &amp;  CONTINUITY INTELLIGENCE SUPPORT PROGRAMS OFFICER</title>
-    <company>Treasury, Departmental Offices</company>
-    <description>This position is located at Departmental Offices,Terrorism and Financial Intelligence - Intelligence Analysis. As a SUPERVISORY SECURE COMMUNICATIONS &amp; CONTINUITY INTELLIGENCE SUPPORT PROGRAMS OFFICER, you will advance national security and protect financial integrity by informing Treasury decisions with timely, relevant, and accurate intelligence and analysis.</description>
-    <apply_url>https://www.usajobs.gov:443/job/867066900</apply_url>
-    <location>onsite</location>
-    <office_location>Washington, District of Columbia</office_location>
-    <category>Communications &amp; PR</category>
-    <date_posted>2026-04-29</date_posted>
+    <addressLocality>Eielson AFB</addressLocality>
+    <addressRegion>Alaska</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1270,6 +1479,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-04-21</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1283,6 +1494,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1296,6 +1509,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1309,6 +1524,8 @@
     <office_location>Kansas City, Missouri</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Kansas City</addressLocality>
+    <addressRegion>Missouri</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1322,6 +1539,8 @@
     <office_location>Buckley AFB, Colorado</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-15</date_posted>
+    <addressLocality>Buckley AFB</addressLocality>
+    <addressRegion>Colorado</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1335,6 +1554,8 @@
     <office_location>Glynco, Georgia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-30</date_posted>
+    <addressLocality>Glynco</addressLocality>
+    <addressRegion>Georgia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1348,6 +1569,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1361,6 +1584,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1374,6 +1599,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1387,6 +1614,8 @@
     <office_location>Fort Bragg, North Carolina</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>Fort Bragg</addressLocality>
+    <addressRegion>North Carolina</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1400,6 +1629,8 @@
     <office_location>Dallas, Texas</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Dallas</addressLocality>
+    <addressRegion>Texas</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1413,6 +1644,8 @@
     <office_location>Tucson, Arizona</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Tucson</addressLocality>
+    <addressRegion>Arizona</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1426,6 +1659,8 @@
     <office_location>Washington, District of Columbia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1439,6 +1674,23 @@
     <office_location>Robins AFB, Georgia</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-02-27</date_posted>
+    <addressLocality>Robins AFB</addressLocality>
+    <addressRegion>Georgia</addressRegion>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>AIR BATTLE MANAGER (INSTRUCTOR) - TITLE 32</title>
+    <company>Air National Guard Units</company>
+    <description>THIS IS A NATIONAL GUARD TITLE 32 EXCEPTED SERVICE POSITION. This position is for an Air Battle Manager (Instructor), Position Description Number D2350000 located in the 116th Operations Group, Robins AFB, Georgia. This is a full-time, Excepted Permanent, dual status position which requires Georgia Air National Guard Membership. Area of Consideration: Current members of the Air National Guard, Air Force Reserve or Air Force Active Duty component.</description>
+    <apply_url>https://www.usajobs.gov:443/job/861109600</apply_url>
+    <location>onsite</location>
+    <office_location>Robins AFB, Georgia</office_location>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-03-18</date_posted>
+    <addressLocality>Robins AFB</addressLocality>
+    <addressRegion>Georgia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1453,6 +1705,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1467,6 +1721,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1481,6 +1737,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1495,6 +1753,8 @@
     <office_location>New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1509,6 +1769,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1523,6 +1785,8 @@
     <office_location>Durham, North Carolina, United States; New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Durham</addressLocality>
+    <addressRegion>North Carolina</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1537,6 +1801,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1551,6 +1817,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1565,6 +1833,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1579,6 +1849,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1594,6 +1866,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1608,6 +1882,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1622,6 +1898,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1636,6 +1914,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1650,6 +1930,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-01</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1664,6 +1946,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-01</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1678,6 +1962,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1692,6 +1978,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1706,6 +1994,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1720,6 +2010,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1734,6 +2026,8 @@
     <office_location>Remote - National </office_location>
     <category>Nonprofit Advocacy</category>
     <date_posted>2026-05-01</date_posted>
+    <addressLocality>Remote - National</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1748,6 +2042,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1762,6 +2058,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1776,6 +2074,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-30</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1790,6 +2090,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1823,6 +2125,8 @@
     <office_location>New York, NY</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>NY</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1837,6 +2141,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1851,6 +2157,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1865,6 +2173,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1879,6 +2189,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Political Campaigns</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1893,6 +2205,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1907,6 +2221,8 @@
     <office_location>Remote - National </office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>Remote - National</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1921,6 +2237,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1935,6 +2253,8 @@
     <office_location>New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-30</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1949,6 +2269,8 @@
     <office_location>San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1963,6 +2285,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1977,6 +2301,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -1991,6 +2317,8 @@
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2005,6 +2333,8 @@
     <office_location>New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2019,6 +2349,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2033,6 +2365,8 @@
     <office_location>New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-28</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2047,6 +2381,8 @@
     <office_location>New York, New York, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>New York</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2061,6 +2397,8 @@
     <office_location>San Francisco, CA</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-02</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>CA</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2076,6 +2414,8 @@
     <office_location>San Francisco, Fresno, or Sacramento, CA</office_location>
     <category>Nonprofit Advocacy</category>
     <date_posted>2026-04-02</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>Fresno</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2092,6 +2432,8 @@
     <office_location>San Francisco, CA</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-18</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>CA</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2107,6 +2449,8 @@
     <office_location>San Francisco, CA</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2024-07-24</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>CA</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2123,6 +2467,8 @@
     <office_location>Fresno, California, United States, Sacramento, California, United States, San Francisco, California, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-17</date_posted>
+    <addressLocality>Fresno</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2138,6 +2484,8 @@
     <office_location>Anywhere in the Continental US</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Anywhere in the Continental US</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2154,6 +2502,8 @@
     <office_location>Anywhere in the Continental US</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-04</date_posted>
+    <addressLocality>Anywhere in the Continental US</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2169,6 +2519,8 @@
     <office_location> Anywhere in the continental U.S.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Anywhere in the continental U.S.</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2185,6 +2537,8 @@
     <office_location>Remote</office_location>
     <category>Nonprofit Advocacy</category>
     <date_posted>2026-05-05</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2202,6 +2556,8 @@
     <office_location>Anywhere in the continental U.S.</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Anywhere in the continental U.S.</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2219,6 +2575,8 @@
     <office_location>Anywhere in the continental U.S.</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Anywhere in the continental U.S.</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2233,6 +2591,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-08</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2247,6 +2607,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-06</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2261,6 +2623,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-16</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2275,6 +2639,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2289,6 +2655,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2303,6 +2671,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-02-27</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2317,6 +2687,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-17</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2331,6 +2703,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2345,6 +2719,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2359,6 +2735,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-12</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2373,6 +2751,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2387,6 +2767,8 @@
     <office_location>Washington, District of Columbia, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-07</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>District of Columbia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2401,6 +2783,8 @@
     <office_location>San Francisco, California, United States; Seattle, Washington, United States</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-02</date_posted>
+    <addressLocality>San Francisco</addressLocality>
+    <addressRegion>California</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2415,6 +2799,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2429,6 +2815,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Public Affairs &amp; Lobbying</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2443,6 +2831,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2457,6 +2847,8 @@
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.; Washington</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2472,6 +2864,8 @@
     <office_location>New York, N.Y.; Washington, D.C.; Los Angeles, C.A.; Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.; Washington</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2487,6 +2881,8 @@
     <office_location>New York, N.Y. or Washington, D.C.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y. or Washington</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2502,6 +2898,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-29</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2516,6 +2914,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2530,6 +2930,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2544,6 +2946,8 @@
     <office_location>New York, N.Y.; Washington D.C.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.; Washington D.C.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2558,6 +2962,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2572,6 +2978,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-21</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2586,6 +2994,8 @@
     <office_location>New York, N.Y., Washington D.C.; Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2601,6 +3011,8 @@
     <office_location>New York, N.Y.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-13</date_posted>
+    <addressLocality>New York</addressLocality>
+    <addressRegion>N.Y.</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2615,6 +3027,8 @@
     <office_location>New York City metro</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>New York City metro</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2629,6 +3043,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2643,6 +3059,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2656,6 +3074,8 @@
     <office_location>Washington DC</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington DC</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2670,6 +3090,8 @@
     <office_location>Washington D.C.</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington D.C.</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2684,6 +3106,8 @@
     <office_location>Washington, DC Metro Area or NYC Metro Area</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Washington</addressLocality>
+    <addressRegion>DC Metro Area or NYC Metro Area</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2698,6 +3122,8 @@
     <office_location>Remote - Boston, Philadelphia, Chicago preferred</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-11</date_posted>
+    <addressLocality>Remote - Boston</addressLocality>
+    <addressRegion>Philadelphia</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2712,6 +3138,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2727,6 +3155,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2741,6 +3171,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2755,6 +3187,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2769,6 +3203,8 @@
     <office_location>Texas</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Texas</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2783,6 +3219,8 @@
     <office_location>Atlanta, GA</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Atlanta</addressLocality>
+    <addressRegion>GA</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2797,6 +3235,8 @@
     <office_location>Chicago, IL</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-13</date_posted>
+    <addressLocality>Chicago</addressLocality>
+    <addressRegion>IL</addressRegion>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2810,6 +3250,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2824,6 +3266,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2840,6 +3284,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2854,6 +3300,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2868,6 +3316,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2882,6 +3332,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-05-06</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2896,6 +3348,8 @@
     <office_location>Remote </office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-03-12</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2910,6 +3364,8 @@
     <office_location>Remote</office_location>
     <category>Government &amp; Policy</category>
     <date_posted>2026-04-15</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2924,6 +3380,8 @@
     <office_location>Remote</office_location>
     <category>Communications &amp; PR</category>
     <date_posted>2026-04-23</date_posted>
+    <addressLocality>Remote</addressLocality>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2936,7 +3394,9 @@
     <location>remote</location>
     <office_location/>
     <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2949,7 +3409,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2962,7 +3424,9 @@
     <location>remote</location>
     <office_location/>
     <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2975,7 +3439,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -2988,7 +3454,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3001,7 +3469,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3014,7 +3484,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3027,7 +3499,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3040,7 +3514,9 @@
     <location>remote</location>
     <office_location/>
     <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3053,7 +3529,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3066,7 +3544,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3079,7 +3559,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3092,7 +3574,9 @@
     <location>remote</location>
     <office_location/>
     <category>Political Campaigns</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3105,7 +3589,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3118,7 +3604,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3131,7 +3619,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3144,7 +3634,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3157,7 +3649,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3170,7 +3664,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3183,7 +3679,9 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3196,85 +3694,129 @@
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>WSNA Nursing Practice Quality and Safety Program Manager</title>
-    <company>American Federation Of Teachers</company>
+    <title>People &amp; Culture Manager</title>
+    <company>Couriere6Ca64E A6Fc 41E5 A908 Be667235Aad4</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/american-federation-of-teachers-2/jobs/78650346-wsna-nursing-practice-quality-and-safety-program-manager#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/courier-2-2e6ca64e-a6fc-41e5-a908-be667235aad4/jobs/78756198-people-culture-manager#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>WSNA Nursing Practice Quality and Safety Program Manager American Federation of Teachers</title>
-    <company>American Federation Of Teachers</company>
+    <title>People &amp; Culture Manager COURIER</title>
+    <company>Couriere6Ca64E A6Fc 41E5 A908 Be667235Aad4</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/american-federation-of-teachers-2/jobs/78650346-wsna-nursing-practice-quality-and-safety-program-manager#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/courier-2-2e6ca64e-a6fc-41e5-a908-be667235aad4/jobs/78756198-people-culture-manager#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Development and Leadership Intern for the Capital, South, Mountain West</title>
-    <company>J Street</company>
+    <title>2026 Regional Organizing Position</title>
+    <company>Missouri Democratic Party</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/j-street/jobs/78646412-development-and-leadership-intern-for-the-capital-south-mountain-west#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/missouri-democratic-party/jobs/78743567-2026-regional-organizing-position#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Development and Leadership Intern for the Capital, South, Mountain West J Street</title>
-    <company>J Street</company>
+    <title>2026 Regional Organizing Position Missouri Democratic Party</title>
+    <company>Missouri Democratic Party</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/j-street/jobs/78646412-development-and-leadership-intern-for-the-capital-south-mountain-west#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/missouri-democratic-party/jobs/78743567-2026-regional-organizing-position#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Research Tracking Associate</title>
-    <company>Democratic Party Of Wisconsin</company>
+    <title>HBCU Coordinator</title>
+    <company>Feminist Majority Foundation</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/democratic-party-of-wisconsin/jobs/78646326-research-tracking-associate#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/feminist-majority-foundation-2/jobs/78740113-hbcu-coordinator#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Research Tracking Associate Democratic Party of Wisconsin</title>
-    <company>Democratic Party Of Wisconsin</company>
+    <title>HBCU Coordinator Feminist Majority Foundation</title>
+    <company>Feminist Majority Foundation</company>
     <description>See full listing at Arena job board.</description>
-    <apply_url>https://careers.arena.run/companies/democratic-party-of-wisconsin/jobs/78646326-research-tracking-associate#content</apply_url>
+    <apply_url>https://careers.arena.run/companies/feminist-majority-foundation-2/jobs/78740113-hbcu-coordinator#content</apply_url>
     <location>remote</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>University Teacher in Philosophy</title>
+    <company>jobs.ac.uk</company>
+    <description>Loughborough University - School of Social Sciences and Humanities&amp;lt;br /&amp;gt;Salary: £47,389 per annum (pro-rata). Specialist and Supporting Academic grade 7.Subject to annual pay award.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN776/university-teacher-in-philosophy/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Teaching Fellow in International Relations</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Leicester - History, Politics and International Relations&amp;lt;br /&amp;gt;Salary: £39,906 to £46,049 per annum, pro-rata if part-time. Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO007/teaching-fellow-in-international-relations/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3287,7 +3829,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3300,7 +3844,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3313,7 +3859,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3326,7 +3874,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3339,7 +3889,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3352,7 +3904,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3365,7 +3919,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3378,7 +3934,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3391,7 +3949,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3404,7 +3964,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3417,7 +3979,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3430,7 +3994,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3443,7 +4009,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3456,7 +4024,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3469,7 +4039,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3482,7 +4054,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3495,7 +4069,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3508,85 +4084,144 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Post-Doctoral Research Associate, MoonRISE (FBL)</title>
+    <title>Deputy Director Legal Services</title>
     <company>jobs.ac.uk</company>
-    <description>The Open University - The Law School&amp;lt;br /&amp;gt;Salary: £38,784 to £46,049</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRJ553/post-doctoral-research-associate-moonrise-fbl/</apply_url>
+    <description>King&amp;#039;s College London - Legal Services&amp;lt;br /&amp;gt;Salary: £100,000 + LWA.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN990/deputy-director-legal-services/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Lecturer/Senior Lecturer in Politics (0.5FTE) – Fixed Term to June 2028</title>
+    <title>University Guarantor Officer</title>
     <company>jobs.ac.uk</company>
-    <description>University of Roehampton - Arts, Humanities and Social Sciences&amp;lt;br /&amp;gt;Salary: £46,438 to £60,720 pro rata per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRJ834/lecturer-senior-lecturer-in-politics-05fte-fixed-term-to-june-2028/</apply_url>
+    <description>University of Bath - Campus Services  Salary&amp;lt;br /&amp;gt;Salary: £31,236 to £37,694.  Grade 6, pro rata per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO218/university-guarantor-officer/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Sustainable Lab Manager</title>
+    <title>Senior Functional Safety Engineer</title>
     <company>jobs.ac.uk</company>
-    <description>University of Sheffield - Estates &amp;amp; Facilities Management&amp;lt;br /&amp;gt;Salary: £38,784 to £47,389 per annum pro-rata. Potential to progress with the potential to £51,753 through sustained exceptional contribution.</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN711/sustainable-lab-manager/</apply_url>
+    <description>STFC - The Science and Technology Facilities Council - Functional Safety Team&amp;lt;br /&amp;gt;Salary: £58,346.  Per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN977/senior-functional-safety-engineer-/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Clinical Trial Monitor</title>
+    <title>Diplomatic Practice Co-ordinator: Foundations of Diplomacy Pre-Master’s Course</title>
     <company>jobs.ac.uk</company>
-    <description>Queen Mary University of London - Wolfson Institute&amp;lt;br /&amp;gt;Salary: £40,015 to £46,618 per annum.</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN525/clinical-trial-monitor/</apply_url>
+    <description>University of Oxford - Oxford Lifelong Learning&amp;lt;br /&amp;gt;Salary: £39,424 to £47,779</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN604/diplomatic-practice-co-ordinator-foundations-of-diplomacy-pre-masters-course/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Research Director</title>
+    <title>Research Governance Systems Officer</title>
     <company>jobs.ac.uk</company>
-    <description>National Institute of Economic and Social Research (NIESR)&amp;lt;br /&amp;gt;Salary: Competitive</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM999/research-director/</apply_url>
+    <description>University of Bath - Vice-Chancellor&amp;#039;s Office&amp;lt;br /&amp;gt;Salary: £31,236 to £37,694.  Grade 6, per annum, pro rata</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO205/research-governance-systems-officer/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Assessments Officer</title>
+    <title>Property Team Administrator</title>
     <company>jobs.ac.uk</company>
-    <description>London College of Contemporary Arts - Registry (Assessments)&amp;lt;br /&amp;gt;Salary: Competitive</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN208/assessments-officer/</apply_url>
+    <description>University of Reading&amp;lt;br /&amp;gt;Salary: £26,707 to £30,378 per annum / 36 hours per week. Grade 4</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN968/property-team-administrator/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Risk &amp; Compliance Engineer</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Reading&amp;lt;br /&amp;gt;Salary: £36,636 to £46,049 per annum. Grade 6</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO139/risk-and-compliance-engineer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Compliance Support Coordinator</title>
+    <company>jobs.ac.uk</company>
+    <description>University Of The Arts London - Estates - Accommodation Catering and Retail&amp;lt;br /&amp;gt;Salary: £40,199 to £49,072 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN854/compliance-support-coordinator/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Student Immigration Compliance &amp; Advice Officer</title>
+    <company>jobs.ac.uk</company>
+    <description>Birkbeck, University of London - Registry Services&amp;lt;br /&amp;gt;Salary: £31,234 to £34,827 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO036/student-immigration-compliance-and-advice-officer/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3599,72 +4234,69 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Solicitor</title>
+    <title>Assessments Officer</title>
     <company>jobs.ac.uk</company>
-    <description>Liverpool John Moores University&amp;lt;br /&amp;gt;Salary: £59,966 to £67,468 per annum.</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN057/solicitor/</apply_url>
+    <description>London College of Contemporary Arts - Registry (Assessments)&amp;lt;br /&amp;gt;Salary: Competitive</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN208/assessments-officer/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Research Fellow</title>
+    <title>Sustainable Lab Manager</title>
     <company>jobs.ac.uk</company>
-    <description>UCL - Great Ormond Street Hospital for Children&amp;lt;br /&amp;gt;Salary: £43,981 to £52,586 pro rata</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN332/research-fellow/</apply_url>
+    <description>University of Sheffield - Estates &amp;amp; Facilities Management&amp;lt;br /&amp;gt;Salary: £38,784 to £47,389 per annum pro-rata. Potential to progress with the potential to £51,753 through sustained exceptional contribution.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN711/sustainable-lab-manager/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Ombudsman Case Handler</title>
+    <title>Clinical Trial Monitor</title>
     <company>jobs.ac.uk</company>
-    <description>Office of the Independent Adjudicator for Higher Education - Assessment and Resolution Team&amp;lt;br /&amp;gt;Salary: From £35,625 pro rata if applicable</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN284/ombudsman-case-handler/</apply_url>
+    <description>Queen Mary University of London - Wolfson Institute&amp;lt;br /&amp;gt;Salary: £40,015 to £46,618 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN525/clinical-trial-monitor/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Registry Team Leader - Apprenticeships Data and Operations</title>
+    <title>Research Director</title>
     <company>jobs.ac.uk</company>
-    <description>University of Huddersfield&amp;lt;br /&amp;gt;Salary: £40,266 to £45,147.  Grade 7</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN378/registry-team-leader-apprenticeships-data-and-operations/</apply_url>
+    <description>National Institute of Economic and Social Research (NIESR)&amp;lt;br /&amp;gt;Salary: Competitive</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRM999/research-director/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Contracts Coordinator</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Kent - Performance and Compliance&amp;lt;br /&amp;gt;Salary: £27,319 to £30,378 per annum, Grade 5</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN245/contracts-coordinator/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3677,7 +4309,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3690,111 +4324,249 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Head of Department - Quality, Health &amp; Safety Manager</title>
+    <title>Solicitor</title>
     <company>jobs.ac.uk</company>
-    <description>University of East Anglia - Sport and Commercial Services Division - UEA Sportspark &amp;lt;br /&amp;gt;Salary: £36,090 per annum with an annual increment up to £37,126 per annum.</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM917/head-of-department-quality-health-and-safety-manager/</apply_url>
+    <description>Liverpool John Moores University&amp;lt;br /&amp;gt;Salary: £59,966 to £67,468 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN057/solicitor/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Senior Quality and Governance Officer (x 3 Positions Available)</title>
+    <title>Research Fellow</title>
     <company>jobs.ac.uk</company>
-    <description>Bournemouth University - Quality and Governance&amp;lt;br /&amp;gt;Salary: £34,610 to £39,906 per annum (pro rata) with progression opportunities to £43,482</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM772/senior-quality-and-governance-officer-x-3-positions-available/</apply_url>
+    <description>UCL - Great Ormond Street Hospital for Children&amp;lt;br /&amp;gt;Salary: £43,981 to £52,586 pro rata</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN332/research-fellow/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Academic Partnership Officer</title>
+    <title>Ombudsman Case Handler</title>
     <company>jobs.ac.uk</company>
-    <description>Birmingham Newman University - NU6625-2&amp;lt;br /&amp;gt;Salary: £28,031 to £31,236 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN048/academic-partnership-officer/</apply_url>
+    <description>Office of the Independent Adjudicator for Higher Education - Assessment and Resolution Team&amp;lt;br /&amp;gt;Salary: From £35,625 pro rata if applicable</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN284/ombudsman-case-handler/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>School Strategic Manager (School of Mathematical Sciences)</title>
+    <title>Registry Team Leader - Apprenticeships Data and Operations</title>
     <company>jobs.ac.uk</company>
-    <description>Queen Mary University of London - School of Mathematical Sciences&amp;lt;br /&amp;gt;Salary: £64,331 to £71,834 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM862/school-strategic-manager-school-of-mathematical-sciences/</apply_url>
+    <description>University of Huddersfield&amp;lt;br /&amp;gt;Salary: £40,266 to £45,147.  Grade 7</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN378/registry-team-leader-apprenticeships-data-and-operations/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Senior Student Immigration Compliance Officer</title>
+    <title>Engagement &amp; Content Producer</title>
     <company>jobs.ac.uk</company>
-    <description>Bournemouth University - Student Immigration Compliance and Advice&amp;lt;br /&amp;gt;Salary: £30,378 to £34,610 per annum (pro rata) with progression opportunities to £37,694</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM769/senior-student-immigration-compliance-officer/</apply_url>
+    <description>University of Oxford&amp;lt;br /&amp;gt;Salary: £32,108 to £37,338 per annum. Grade 5</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO160/engagement-and-content-producer/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Independent Governor</title>
+    <title>Student Recruitment and Marketing Assistant</title>
     <company>jobs.ac.uk</company>
-    <description>Glasgow School of Art&amp;lt;br /&amp;gt;Salary: Not specified</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM853/independent-governor/</apply_url>
+    <description>Middlesex University&amp;lt;br /&amp;gt;Salary: £28,840 to £32,335 inclusive of Outer London Weighting</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN784/student-recruitment-and-marketing-assistant/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>International Recruitment Assistant</title>
+    <title>Senior Marketing and Communications Officer, School of Business and Management</title>
     <company>jobs.ac.uk</company>
-    <description>University of Salford - International and Regional Development&amp;lt;br /&amp;gt;Salary: £30,378 to £33,002</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM424/international-recruitment-assistant/</apply_url>
+    <description>Queen Mary University of London - External Relations&amp;lt;br /&amp;gt;Salary: £40,015 to £46,618 per annum.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN849/senior-marketing-and-communications-officer-school-of-business-and-management/</apply_url>
     <location>onsite</location>
     <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <category>Communications &amp; PR</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
   </job>
   <job>
-    <title>Programme Manager</title>
+    <title>Community Partnerships Curator</title>
     <company>jobs.ac.uk</company>
-    <description>University of Oxford - Pandemic Sciences Institute&amp;lt;br /&amp;gt;Salary: £49,119 to £58,265 with a discretionary range to £63,489 p.a. (pro rata) : Standard Grade 8. This is inclusive of a pensionable Oxford University Weighting of £1,730 per year (pro rata).</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRM990/programme-manager/</apply_url>
+    <description>University of Reading&amp;lt;br /&amp;gt;Salary: £36,636 to £41,064 per annum</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN973/community-partnerships-curator/</apply_url>
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Student Engagement Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>King&amp;#039;s College London - King&amp;#039;s Digital&amp;lt;br /&amp;gt;Salary: £45,031 to £52,514 per annum including London Weighting Allowance</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRN976/student-engagement-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Outreach Assistant (Fixed Term)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Cambridge - Lucy Cavendish College&amp;lt;br /&amp;gt;Salary: £13 p/h</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO038/outreach-assistant-fixed-term/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Admissions and Outreach Assistant</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Cambridge - Lucy Cavendish College&amp;lt;br /&amp;gt;Salary: £29,803 p.a.</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO039/admissions-and-outreach-assistant/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Knowledge Exchange Manager - School of Physical Sciences (Fixed Term)</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Cambridge - Office of the School of the Physical Sciences&amp;lt;br /&amp;gt;Salary: £47,389 to £59,966</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO071/knowledge-exchange-manager-school-of-physical-sciences-fixed-term/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Research Relationship Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Glasgow - College of Social Sciences Admin&amp;lt;br /&amp;gt;Salary: £50,253 to £58,225</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO086/research-relationship-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Key Account Manager</title>
+    <company>jobs.ac.uk</company>
+    <description>University of Sheffield - Advanced Manufacturing Research Centre&amp;lt;br /&amp;gt;Salary: £48,822 to £58,225</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO101/key-account-manager/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>CPD and Short Courses Coordinator</title>
+    <company>jobs.ac.uk</company>
+    <description>UCL - Centre for Applied Statistics Course (CASC) &amp;lt;br /&amp;gt;Salary: Not specified</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO135/cpd-and-short-courses-coordinator/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Government &amp; Policy</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
+    <type>fulltime</type>
+    <post_state>published</post_state>
+    <post_length>30</post_length>
+  </job>
+  <job>
+    <title>Interim Deputy Director, External Communications</title>
+    <company>jobs.ac.uk</company>
+    <description>King&amp;#039;s College London - Communications &amp;amp; External Affairs&amp;lt;br /&amp;gt;Salary: Competitive Salary</description>
+    <apply_url>https://www.jobs.ac.uk/job/DRO147/interim-deputy-director-external-communications/</apply_url>
+    <location>onsite</location>
+    <office_location/>
+    <category>Communications &amp; PR</category>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3807,7 +4579,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3820,7 +4594,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3833,7 +4609,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3846,7 +4624,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
@@ -3859,163 +4639,9 @@
     <location>onsite</location>
     <office_location/>
     <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Outreach and Communications Manager</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Oxford - Department of Earth Sciences&amp;lt;br /&amp;gt;Salary: £36,024 to £44,263 per annum (Grade 7)</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN771/outreach-and-communications-manager/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Operations Manager for the Deep-Ocean Stewardship Initiative (DOSI)</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Southampton - School of Ocean and Earth Science&amp;lt;br /&amp;gt;Salary: £36,636 to £44,746.  Per Annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN778/operations-manager-for-the-deep-ocean-stewardship-initiative-dosi/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Postgraduate Programme Coordinator (Full Time or Part Time, Fixed Term)</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Cambridge - Cambridge Institute for Technology and Humanity&amp;lt;br /&amp;gt;Salary: £33,951 to £39,906 (pro-rata)</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN782/postgraduate-programme-coordinator-full-time-or-part-time-fixed-term/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Senior Marketing Officer</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Essex - UECS - Marketing, Communications and Business Development&amp;lt;br /&amp;gt;Salary: £33,645 to £37,231 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN810/senior-marketing-officer/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Communications &amp; PR</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Senior Programme Manager - Great Environment</title>
-    <company>jobs.ac.uk</company>
-    <description>Imperial College London - Strategic Programmes &amp;amp; Change&amp;lt;br /&amp;gt;Salary: £69,365 to £79,257 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN834/senior-programme-manager-great-environment/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Marketing &amp; Events Manager (Alumni, Business &amp; Employer Engagement)</title>
-    <company>jobs.ac.uk</company>
-    <description>University College Birmingham - Business Development&amp;lt;br /&amp;gt;Salary: £42,254 to £43,482 per annum. Salary Grade: SS7</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN423/marketing-and-events-manager-alumni-business-and-employer-engagement/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>UK Student Recruitment Advisor</title>
-    <company>jobs.ac.uk</company>
-    <description>University of Surrey - UK Recruitment&amp;lt;br /&amp;gt;Salary: £28,031 to £31,236 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN205/uk-student-recruitment-advisor/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Educational Adviser</title>
-    <company>jobs.ac.uk</company>
-    <description>The Open University - The Open University in Wales&amp;lt;br /&amp;gt;Salary: £38,784 to £46,049</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN258/educational-adviser/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>International Officer</title>
-    <company>jobs.ac.uk</company>
-    <description>Durham University - Student Services &amp;lt;br /&amp;gt;Salary: £31,236 to £37,694 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN270/international-officer/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Product Specialist</title>
-    <company>jobs.ac.uk</company>
-    <description>Middlesex University - Digital Product Management Team / Digital and Library Services&amp;lt;br /&amp;gt;Salary: £37,357 to £42,653.  Grade 6 / inclusive of Outer London Weighting</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN306/product-specialist/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Regional Manager</title>
-    <company>jobs.ac.uk</company>
-    <description>Liverpool John Moores University - International Relations&amp;lt;br /&amp;gt;Salary: £47,389 to £58,225 per annum</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN335/regional-manager/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
-    <type>fulltime</type>
-    <post_state>published</post_state>
-    <post_length>30</post_length>
-  </job>
-  <job>
-    <title>Business Development Manager – School of Health, Life Sciences and Education (HLSE)</title>
-    <company>jobs.ac.uk</company>
-    <description>University College Birmingham - Business Development &amp;lt;br /&amp;gt;Salary: £48,822 to £56,535 per annum. Salary Grade:SS9</description>
-    <apply_url>https://www.jobs.ac.uk/job/DRN341/business-development-manager-school-of-health-life-sciences-and-education-hlse/</apply_url>
-    <location>onsite</location>
-    <office_location/>
-    <category>Government &amp; Policy</category>
-    <date_posted>2026-05-13</date_posted>
+    <date_posted>2026-05-14</date_posted>
+    <addressLocality/>
+    <addressRegion/>
     <type>fulltime</type>
     <post_state>published</post_state>
     <post_length>30</post_length>
