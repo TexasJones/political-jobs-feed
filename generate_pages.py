@@ -1,143 +1,87 @@
 import os
-import re
-import html
-import logging
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from pathlib import Path
+import html
 
-# ─────────────────────────────
+# ─────────────────────────────────────────────
 # Config
-# ─────────────────────────────
+# ─────────────────────────────────────────────
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-log = logging.getLogger(__name__)
+INPUT_FILE = "feed.xml"
+OUTPUT_DIR = Path("docs/jobs")
 
-OUTPUT_DIR = "docs"   # IMPORTANT: aligns with GitHub Pages /docs setup
-JOBS_DIR = os.path.join(OUTPUT_DIR, "jobs")
+# ─────────────────────────────────────────────
+# Setup
+# ─────────────────────────────────────────────
 
-BASE_URL = "https://thepolly.co"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-os.makedirs(JOBS_DIR, exist_ok=True)
-
-# ─────────────────────────────
-# Helpers
-# ─────────────────────────────
-
-def slugify(text):
-    text = text.lower()
-    text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
-    return text.strip("-")
-
-def clean(text):
-    text = html.unescape(text or "")
-    text = re.sub(r"<[^>]+>", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
-
-# ─────────────────────────────
-# Load feed.xml
-# ─────────────────────────────
-
-tree = ET.parse("feed.xml")
+tree = ET.parse(INPUT_FILE)
 root = tree.getroot()
+
+def safe(text):
+    return html.escape(text or "")
 
 jobs = root.findall("job")
 
-log.info("Loaded jobs: %d", len(jobs))
-
-# ─────────────────────────────
+# ─────────────────────────────────────────────
 # Generate job pages
-# ─────────────────────────────
-
-job_index_links = []
+# ─────────────────────────────────────────────
 
 for job in jobs:
-    title = job.find("title").text or ""
-    company = job.find("company").text or ""
-    desc = job.find("description").text or ""
-    slug = job.find("slug").text or slugify(f"{title}-{company}")
-    apply = job.find("apply_url").text or "#"
-    location = job.find("office_location").text or ""
+    title = job.findtext("title", "")
+    company = job.findtext("company", "")
+    desc = job.findtext("description", "")
+    slug = job.findtext("slug", "")
+    apply = job.findtext("apply_url", "")
+    location = job.findtext("office_location", "")
 
-    desc = clean(desc)[:2000]
+    if not slug:
+        continue
 
-    job_url = f"/jobs/{slug}/"
-    job_index_links.append((title, job_url))
+    job_dir = OUTPUT_DIR / slug
+    job_dir.mkdir(parents=True, exist_ok=True)
 
-    job_dir = os.path.join(JOBS_DIR, slug)
-    os.makedirs(job_dir, exist_ok=True)
+    file_path = job_dir / "index.html"
 
-    html_page = f"""
-<!DOCTYPE html>
+    html_content = f"""<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{title} - {company}</title>
+    <title>{safe(title)} | {safe(company)}</title>
+    <meta name="description" content="{safe(desc[:160])}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{title} at {company} in {location}">
+
+    <link rel="canonical" href="https://jobs.thepolly.co/jobs/{slug}/">
 </head>
-<body>
-    <a href="/">← Back to jobs</a>
 
-    <h1>{title}</h1>
-    <h2>{company}</h2>
-    <p><strong>Location:</strong> {location}</p>
+<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto;">
+
+    <a href="/">&larr; Back to Jobs</a>
+
+    <h1>{safe(title)}</h1>
+
+    <p><strong>Company:</strong> {safe(company)}</p>
+    <p><strong>Location:</strong> {safe(location)}</p>
 
     <hr>
 
-    <p>{desc}</p>
+    <div>
+        {safe(desc)}
+    </div>
 
     <hr>
 
-    <a href="{apply}" target="_blank">Apply Here</a>
+    <p>
+        <a href="{apply}" target="_blank" rel="noopener">
+            Apply Here
+        </a>
+    </p>
+
 </body>
 </html>
 """
 
-    with open(os.path.join(job_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html_page)
+    file_path.write_text(html_content, encoding="utf-8")
 
-    log.info("Created job page: %s", slug)
-
-# ─────────────────────────────
-# Generate homepage
-# ─────────────────────────────
-
-job_cards = "\n".join(
-    f'<li><a href="{url}">{title}</a></li>'
-    for title, url in job_index_links
-)
-
-index_html = f"""
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Polly Jobs Feed</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <h1>Polly Jobs</h1>
-    <p>Updated: {datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}</p>
-
-    <ul>
-        {job_cards}
-    </ul>
-</body>
-</html>
-"""
-
-with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as f:
-    f.write(index_html)
-
-# ─────────────────────────────
-# Copy feed.xml into docs/
-# ─────────────────────────────
-
-with open("feed.xml", "r", encoding="utf-8") as src:
-    feed_data = src.read()
-
-with open(os.path.join(OUTPUT_DIR, "feed.xml"), "w", encoding="utf-8") as dst:
-    dst.write(feed_data)
-
-log.info("DONE: job pages + index + feed generated")
+print(f"Generated {len(jobs)} job pages in {OUTPUT_DIR}")
