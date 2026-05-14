@@ -55,10 +55,12 @@ LEVER_COMPANIES = [
 
 USAJOBS_SEARCHES = [
     "public affairs",
-    "government relations",
-    "policy analyst",
     "communications director",
 ]
+
+# USAJobs job series codes to filter by (communications & policy roles only):
+# 1035 = Public Affairs, 0301 = Misc Admin & Program, 1082 = Writing/Editing, 1001 = General Arts & Info
+USAJOBS_SERIES = ["1035", "0301", "1082", "1001"]
 
 # ─────────────────────────────────────────────
 # Category logic
@@ -192,7 +194,8 @@ def fetch_usajobs():
         try:
             url = "https://data.usajobs.gov/api/search?" + urllib.parse.urlencode({
                 "Keyword": term,
-                "ResultsPerPage": 25
+                "ResultsPerPage": 10,
+                "JobCategoryCode": ";".join(USAJOBS_SERIES),
             })
 
             req = urllib.request.Request(url, headers={
