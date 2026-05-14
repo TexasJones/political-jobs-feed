@@ -9,7 +9,7 @@ import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from xml.dom import minidom
 
 # ─────────────────────────────────────────────
@@ -23,6 +23,16 @@ BASE_URL = "https://thepolly.co"
 
 API_KEY = os.getenv("USAJOBS_API_KEY")
 EMAIL = os.getenv("USAJOBS_EMAIL", "info@thepolly.co")
+
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 # ─────────────────────────────────────────────
 # Sources
@@ -44,17 +54,13 @@ USAJOBS_SEARCHES = [
     "communications director",
 ]
 
-# ─────────────────────────────────────────────
-# Lever Expansion (PR / Public Affairs / Comms)
-# ─────────────────────────────────────────────
-
 LEVER_COMPANIES = [
     "berlinrosen",
     "bullypulpitinteractive",
     "skdk",
     "fgs-global",
     "purple-strategies",
-    "rokk-solutions"
+    "rokk-solutions",
 ]
 
 # ─────────────────────────────────────────────
@@ -114,6 +120,13 @@ def build_job_id(source: str, raw_id: str) -> str:
     return f"{source}-{raw_id}"
 
 
+def fetch_url(url: str, timeout: int = 15) -> str:
+    """Fetch a URL with browser-like headers. Returns decoded text."""
+    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read().decode("utf-8", errors="replace")
+
+
 jobs = []
 seen = set()
 
@@ -137,7 +150,16 @@ def add_job(source, raw_id, title, company, apply_url,
     slug = slugify(f"{title}-{company}")
     canonical_url = f"{BASE_URL}/jobs/{slug}"
 
-    posted = (posted or str(date.today()))[:10]
+    # Normalize posted date — handles ISO strings and Unix ms timestamps
+    if posted:
+        posted = str(posted)
+        if re.match(r"^\d{13}$", posted):
+            # Lever returns Unix milliseconds
+            posted = datetime.fromtimestamp(int(posted) / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
+        else:
+            posted = posted[:10]
+    else:
+        posted = str(date.today())
 
     jobs.append({
         "job_id": job_id,
@@ -152,7 +174,7 @@ def add_job(source, raw_id, title, company, apply_url,
         "office_location": location,
         "employment_type": "FULL_TIME",
         "date_posted": posted,
-        "valid_through": "2026-12-31",
+        "valid_through": "2027-12-31",
         "source": source
     })
 
@@ -207,7 +229,7 @@ def fetch_usajobs():
             log.warning("USAJobs error: %s", e)
 
 # ─────────────────────────────────────────────
-# Greenhouse
+# Greenhouse — scrape public board HTML
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -215,34 +237,73 @@ def fetch_greenhouse():
 
     for board in GREENHOUSE_BOARDS:
         try:
-            url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
+            url = f"https://boards.greenhouse.io/{board}"
+            page = fetch_url(url)
 
-            req = urllib.request.Request(url, headers={
-                "User-Agent": "PollyFeed/1.0"
-            })
+            # Each job is an <a> inside a .job-post <div> or <li>
+            # Pattern: <a href="/board_slug/jobs/12345">Job Title</a>
+            # Location is in a sibling <span class="location">...</span>
 
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            # Find all job links on the board
+            job_links = re.findall(
+                r'href="(/[^"]+/jobs/(\d+))"[^>]*>\s*([^<]+?)\s*</a>',
+                page
+            )
 
-            for j in data.get("jobs", []):
+            if not job_links:
+                log.warning("Greenhouse %s: no jobs found in HTML (structure may have changed)", board)
+                continue
+
+            for path, job_id, title in job_links:
+                title = title.strip()
+                if not title:
+                    continue
+
+                apply_url = f"https://boards.greenhouse.io{path}"
+
+                # Try to get location from the same page
+                # Greenhouse wraps each posting in a <div class="job-post">
+                # We look for the location near this job's link
+                loc_pattern = re.compile(
+                    re.escape(path) + r'.{0,300}?<span[^>]*class="[^"]*location[^"]*"[^>]*>\s*([^<]+?)\s*</span>',
+                    re.DOTALL
+                )
+                loc_match = loc_pattern.search(page)
+                location = loc_match.group(1).strip() if loc_match else ""
+
+                # Fetch individual job page for description
+                desc = ""
+                try:
+                    job_page = fetch_url(apply_url)
+                    # Description lives in <div id="content"> or <div class="job-post-description">
+                    desc_match = re.search(
+                        r'<div[^>]+(?:id="content"|class="[^"]*job-post-description[^"]*")[^>]*>(.*?)</div>',
+                        job_page, re.DOTALL
+                    )
+                    if desc_match:
+                        desc = desc_match.group(1)
+                    time.sleep(0.4)
+                except Exception as e:
+                    log.warning("Greenhouse desc fetch failed %s/%s: %s", board, job_id, e)
+
                 add_job(
                     "greenhouse",
-                    str(j.get("id")),
-                    j.get("title", ""),
+                    job_id,
+                    title,
                     board,
-                    j.get("absolute_url", ""),
-                    j.get("content", ""),
-                    j.get("location", {}).get("name", ""),
-                    j.get("updated_at")
+                    apply_url,
+                    desc,
+                    location,
+                    str(date.today())
                 )
 
-            time.sleep(0.3)
+            time.sleep(0.5)
 
         except Exception as e:
             log.warning("Greenhouse error %s: %s", board, e)
 
 # ─────────────────────────────────────────────
-# Lever (PR / Comms expansion)
+# Lever — scrape public board HTML
 # ─────────────────────────────────────────────
 
 def fetch_lever():
@@ -250,29 +311,79 @@ def fetch_lever():
 
     for company in LEVER_COMPANIES:
         try:
-            url = f"https://api.lever.co/v0/postings/{company}?mode=json"
+            url = f"https://jobs.lever.co/{company}"
+            page = fetch_url(url)
 
-            req = urllib.request.Request(url, headers={
-                "User-Agent": "PollyFeed/1.0"
-            })
+            # Lever job links look like:
+            # <a class="posting-title" href="https://jobs.lever.co/company/uuid">
+            #   <h5>Job Title</h5>
+            #   <span class="sort-by-location">New York, NY</span>
+            # </a>
 
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            # Find all posting blocks
+            postings = re.findall(
+                r'<a[^>]+class="[^"]*posting-title[^"]*"[^>]+href="(https://jobs\.lever\.co/'
+                + re.escape(company) +
+                r'/([a-f0-9\-]{36}))"[^>]*>(.*?)</a>',
+                page, re.DOTALL
+            )
 
-            for j in data:
+            if not postings:
+                log.warning("Lever %s: no postings found in HTML (structure may have changed)", company)
+                continue
+
+            for apply_url, job_id, block in postings:
+                # Title is in <h5> inside the block
+                title_match = re.search(r'<h5[^>]*>\s*([^<]+?)\s*</h5>', block)
+                title = title_match.group(1).strip() if title_match else ""
+
+                if not title:
+                    continue
+
+                # Location is in sort-by-location or location span
+                loc_match = re.search(
+                    r'<span[^>]*class="[^"]*(?:sort-by-location|location)[^"]*"[^>]*>\s*([^<]+?)\s*</span>',
+                    block
+                )
+                location = loc_match.group(1).strip() if loc_match else ""
+
+                # Fetch individual posting for description
+                desc = ""
+                try:
+                    job_page = fetch_url(apply_url)
+                    # Lever descriptions are in <div class="section page-centered">
+                    # or <div class="content"> inside the posting
+                    desc_match = re.search(
+                        r'<div[^>]+class="[^"]*section[^"]*page-centered[^"]*"[^>]*>(.*?)</div>\s*<div[^>]+class="[^"]*page-centered[^"]*"',
+                        job_page, re.DOTALL
+                    )
+                    if not desc_match:
+                        # fallback: grab the largest <div class="content"> block
+                        desc_match = re.search(
+                            r'<div[^>]+class="[^"]*content[^"]*"[^>]*>(.*?)</div>',
+                            job_page, re.DOTALL
+                        )
+                    if desc_match:
+                        desc = desc_match.group(1)
+                    time.sleep(0.4)
+                except Exception as e:
+                    log.warning("Lever desc fetch failed %s/%s: %s", company, job_id, e)
+
                 add_job(
                     "lever",
-                    j.get("id", ""),
-                    j.get("text", ""),
+                    job_id,
+                    title,
                     company,
-                    j.get("hostedUrl", ""),
-                    j.get("descriptionPlain", ""),
-                    j.get("categories", {}).get("location", ""),
-                    j.get("createdAt", "")
+                    apply_url,
+                    desc,
+                    location,
+                    str(date.today())
                 )
 
-        except Exception:
-            continue
+            time.sleep(0.5)
+
+        except Exception as e:
+            log.warning("Lever error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
 # Run pipeline
@@ -289,7 +400,7 @@ fetch_lever()
 log.info("Total jobs: %d", len(jobs))
 
 root = ET.Element("jobs")
-root.set("generated", datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
+root.set("generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
 root.set("count", str(len(jobs)))
 
 for job in jobs:
@@ -297,12 +408,12 @@ for job in jobs:
     for k, v in job.items():
         ET.SubElement(el, k).text = str(v)
 
-xml = minidom.parseString(
+xml_str = minidom.parseString(
     '<?xml version="1.0" encoding="UTF-8"?>' +
     ET.tostring(root, encoding="unicode")
 ).toprettyxml(indent="  ")
 
 with open("feed.xml", "w", encoding="utf-8") as f:
-    f.write(xml)
+    f.write(xml_str)
 
 log.info("Written -> feed.xml")
