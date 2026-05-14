@@ -8,37 +8,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install feedparser
+      - name: Scrape jobs
+        env:
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+        run: python scraper.py
 
-      - run: python scraper.py
-      - run: python generate_pages.py
+      - name: Generate pages
+        run: python generate_pages.py
 
-      - name: Show generated output (debug)
-        run: |
-          echo "===== ROOT ====="
-          ls -la
-          echo "===== DOCS ====="
-          ls -R docs || true
-
-      - name: Commit generated site
+      - name: Push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
-          git add feed.xml docs
-
-          git diff --staged --quiet && echo "No changes to commit" && exit 0
-
-          git commit -m "Update weekly jobs feed"
+          git add feed.xml docs/
+          git diff --staged --quiet || git commit -m "Weekly update: jobs feed + pages"
           git push
