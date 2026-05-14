@@ -1,7 +1,9 @@
 import re
 import json
+import html
 import logging
 import time
+import hashlib
 from datetime import date, datetime
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
@@ -11,405 +13,412 @@ import urllib.parse
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-API_KEY = "2KZ63NqUMqWDkwdbR+RFdrPdELoCFFGtOTGGIeZzgWo="
+BASE_URL = "https://thepolly.co"
+
+API_KEY = "YOUR_API_KEY"
 EMAIL = "politemps@gmail.com"
 
-# ── Greenhouse org board tokens ───────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# Canonical Organization Names
+# ─────────────────────────────────────────────────────────────
+
+ORG_NAMES = {
+    "aclu": "ACLU",
+    "aclunc": "ACLU Northern California",
+    "moveonorg": "MoveOn",
+    "sierraclub": "Sierra Club",
+    "plannedparenthood": "Planned Parenthood",
+    "ppfa": "Planned Parenthood Federation of America",
+    "emilyslist": "EMILYs List",
+    "indivisible": "Indivisible",
+    "publiccitizen": "Public Citizen",
+    "commoncause": "Common Cause",
+    "unitedwedream": "United We Dream",
+    "nextgenamerica": "NextGen America",
+    "whenweallvote": "When We All Vote",
+    "rockthevote": "Rock the Vote",
+    "leaguewv": "League of Women Voters",
+    "naacpldf": "NAACP Legal Defense Fund",
+    "americanprogressaction": "American Progress Action",
+    "centerforamericanprogress": "Center for American Progress",
+    "protectdemocracy": "Protect Democracy",
+    "democracydocket": "Democracy Docket",
+    "gmmb": "GMMB",
+    "berlinrosen": "BerlinRosen",
+    "axios": "Axios",
+    "fp1-strategies": "FP1 Strategies",
+}
+
+# ─────────────────────────────────────────────────────────────
+# Boards
+# ─────────────────────────────────────────────────────────────
+
 GREENHOUSE_BOARDS = [
-    "aclu", "aclunc", "moveonorg", "sierraclub",
-    "plannedparenthood", "ppfa", "emilyslist",
-    "indivisible", "publiccitizen", "commoncause",
-    "unitedwedream", "nextgenamerica", "whenweallvote",
-    "rockthevote", "leaguewv", "naacpldf",
-    "americanprogressaction", "centerforamericanprogress",
-    "protectdemocracy", "democracydocket",
-    # ── Added from aggregator ──
-    "gmmb", "berlinrosen", "axios",
+    "aclu",
+    "moveonorg",
+    "sierraclub",
+    "emilyslist",
+    "gmmb",
+    "berlinrosen",
 ]
 
-USAJOBS_SEARCHES = [
-    "public affairs", "legislative affairs",
-    "government relations", "policy analyst", "communications director",
-]
-
-# ── jobs.ac.uk RSS feeds (public, no auth required) ───────────────────────────
-JOBSACUK_FEEDS = [
-    "https://www.jobs.ac.uk/jobs/politics-and-government/?format=rss",
-    "https://www.jobs.ac.uk/jobs/legal-compliance-and-policy/?format=rss",
-    "https://www.jobs.ac.uk/jobs/pr-marketing-sales-and-communication/?format=rss",
-]
-
-# ── Lever company slugs (public JSON API, no auth required) ──────────────────
 LEVER_BOARDS = [
     "sierraclub",
 ]
 
-# ── Workable company slugs (public widget API, no auth required) ─────────────
 WORKABLE_BOARDS = [
     "fp1-strategies",
 ]
 
+USAJOBS_SEARCHES = [
+    "public affairs",
+    "government relations",
+    "policy analyst",
+    "communications director",
+]
+
+# ─────────────────────────────────────────────────────────────
+# Category Rules
+# ─────────────────────────────────────────────────────────────
+
+CATEGORY_RULES = {
+    "Political Campaigns": [
+        "campaign", "field organizer", "canvass",
+        "voter", "political director", "gotv",
+        "election", "candidate"
+    ],
+
+    "Public Affairs & Lobbying": [
+        "public affairs", "government relations",
+        "lobby", "stakeholder", "advocacy"
+    ],
+
+    "Government & Policy": [
+        "policy", "legislative", "congress",
+        "senate", "house", "federal",
+        "committee", "regulatory"
+    ],
+
+    "Communications & PR": [
+        "communications", "media", "press",
+        "digital", "social media", "spokesperson"
+    ],
+
+    "Nonprofit Advocacy": [
+        "grassroots", "nonprofit", "organizing",
+        "civic engagement", "coalition"
+    ],
+}
+
+# ─────────────────────────────────────────────────────────────
+# Tag Rules
+# ─────────────────────────────────────────────────────────────
+
+TAG_RULES = {
+    "Climate Policy": ["climate", "environment", "clean energy"],
+    "Healthcare": ["healthcare", "medicaid", "medicare"],
+    "Democracy Reform": ["voting rights", "democracy"],
+    "Communications": ["communications", "media", "press"],
+    "Federal Policy": ["federal", "congress", "senate"],
+}
+
+# ─────────────────────────────────────────────────────────────
+# Helpers
+# ─────────────────────────────────────────────────────────────
+
 def clean(raw):
-    return re.sub(r"<[^>]+>", " ", raw or "").strip()
+    text = re.sub(r"<[^>]+>", " ", raw or "")
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9\s-]", "", text)
+    text = re.sub(r"\s+", "-", text)
+    return text.strip("-")
+
+def build_job_id(source, org, raw_id):
+    return f"{source}-{org}-{raw_id}"
+
+def detect_remote(location, desc=""):
+    combined = f"{location} {desc}".lower()
+
+    remote_terms = [
+        "remote",
+        "work from home",
+        "distributed",
+        "hybrid",
+        "telework",
+    ]
+
+    return any(term in combined for term in remote_terms)
 
 def guess_category(title, desc=""):
-    t = (title + " " + desc).lower()
-    if any(x in t for x in ["campaign","election","candidate","voter","canvass"]):
-        return "Political Campaigns"
-    if any(x in t for x in ["lobby","public affairs","government relations"]):
-        return "Public Affairs & Lobbying"
-    if any(x in t for x in ["policy","legislative","congress","federal","senate","house"]):
+    combined = f"{title} {desc}".lower()
+
+    scores = {}
+
+    for category, keywords in CATEGORY_RULES.items():
+        score = sum(1 for kw in keywords if kw in combined)
+        scores[category] = score
+
+    best = max(scores, key=scores.get)
+
+    if scores[best] == 0:
         return "Government & Policy"
-    if any(x in t for x in ["nonprofit","advocacy","civic","organizer","grassroots"]):
-        return "Nonprofit Advocacy"
-    if any(x in t for x in ["communications","press","media","spokesperson"]):
-        return "Communications & PR"
-    return "Government & Policy"
+
+    return best
+
+def extract_tags(title, desc=""):
+    combined = f"{title} {desc}".lower()
+
+    tags = []
+
+    for tag, keywords in TAG_RULES.items():
+        if any(k in combined for k in keywords):
+            tags.append(tag)
+
+    return tags
+
+def canonical_company(board):
+    return ORG_NAMES.get(board, board.replace("-", " ").title())
+
+def build_slug(title, company):
+    return slugify(f"{title}-{company}")
+
+# ─────────────────────────────────────────────────────────────
+# Core Job Pipeline
+# ─────────────────────────────────────────────────────────────
 
 jobs = []
 seen = set()
 
-# ── USAJobs ───────────────────────────────────────────────────────────────────
+def add_job(
+    source,
+    raw_id,
+    title,
+    company,
+    apply_url,
+    description="",
+    office_location="",
+    posted=None,
+):
+    unique_id = build_job_id(source, slugify(company), raw_id)
+
+    if unique_id in seen:
+        return
+
+    seen.add(unique_id)
+
+    description = clean(description)[:1500]
+
+    category = guess_category(title, description)
+
+    tags = extract_tags(title, description)
+
+    remote = detect_remote(office_location, description)
+
+    slug = build_slug(title, company)
+
+    canonical_url = f"{BASE_URL}/jobs/{slug}"
+
+    posted = (posted or str(date.today()))[:10]
+
+    parts = [p.strip() for p in office_location.split(",")]
+
+    locality = parts[0] if len(parts) > 0 else ""
+    region = parts[1] if len(parts) > 1 else ""
+
+    jobs.append({
+        "job_id": unique_id,
+        "source": source,
+        "title": title,
+        "slug": slug,
+        "canonical_url": canonical_url,
+        "company": company,
+        "description": description,
+        "apply_url": apply_url,
+        "category": category,
+        "tags": ",".join(tags),
+        "location_type": "remote" if remote else "onsite",
+        "office_location": office_location,
+        "address_locality": locality,
+        "address_region": region,
+        "employment_type": "FULL_TIME",
+        "date_posted": posted,
+        "valid_through": "2026-12-31",
+        "direct_apply": "true",
+    })
+
+    log.info("  + %s @ %s", title, company)
+
+# ─────────────────────────────────────────────────────────────
+# USAJobs Example
+# ─────────────────────────────────────────────────────────────
+
 log.info("=== Fetching USAJobs ===")
+
 for term in USAJOBS_SEARCHES:
+
     try:
-        params = urllib.parse.urlencode({"Keyword": term, "ResultsPerPage": 25})
+
+        params = urllib.parse.urlencode({
+            "Keyword": term,
+            "ResultsPerPage": 25
+        })
+
         url = f"https://data.usajobs.gov/api/search?{params}"
+
         req = urllib.request.Request(url, headers={
             "Host": "data.usajobs.gov",
             "User-Agent": EMAIL,
             "Authorization-Key": API_KEY,
         })
+
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
+
         items = data.get("SearchResult", {}).get("SearchResultItems", [])
-        log.info("'%s' -> %d results", term, len(items))
+
         for item in items:
+
             pos = item.get("MatchedObjectDescriptor", {})
-            job_id = pos.get("PositionID", "")
-            if job_id in seen:
-                continue
-            seen.add(job_id)
+
+            raw_id = pos.get("PositionID", hashlib.md5(str(item).encode()).hexdigest())
+
             title = pos.get("PositionTitle", "")
-            org = pos.get("OrganizationName", "U.S. Federal Government")
+
+            company = pos.get(
+                "OrganizationName",
+                "U.S. Federal Government"
+            )
+
             apply_uris = pos.get("ApplyURI", [])
-            apply_url = apply_uris[0] if apply_uris else "https://www.usajobs.gov"
-            posted = (pos.get("PublicationStartDate") or str(date.today()))[:10]
-            desc = clean(pos.get("UserArea", {}).get("Details", {}).get("JobSummary", ""))
+
+            apply_url = (
+                apply_uris[0]
+                if apply_uris
+                else "https://www.usajobs.gov"
+            )
+
+            description = clean(
+                pos.get("UserArea", {})
+                .get("Details", {})
+                .get("JobSummary", "")
+            )
+
             locs = pos.get("PositionLocation", [])
-            is_remote = any("anywhere" in (l.get("LocationName") or "").lower() for l in locs)
-            office = locs[0].get("LocationName", "") if locs else ""
-            jobs.append({
-                "title": title, "company": org,
-                "description": desc or f"See full listing at {apply_url}",
-                "apply_url": apply_url,
-                "location": "remote" if is_remote else "onsite",
-                "office_location": office,
-                "category": guess_category(title, desc),
-                "date_posted": posted,
-            })
-            log.info("  + %s", title)
+
+            office = (
+                locs[0].get("LocationName", "")
+                if locs
+                else ""
+            )
+
+            posted = (
+                pos.get("PublicationStartDate")
+                or str(date.today())
+            )[:10]
+
+            add_job(
+                source="usajobs",
+                raw_id=raw_id,
+                title=title,
+                company=company,
+                apply_url=apply_url,
+                description=description,
+                office_location=office,
+                posted=posted,
+            )
+
         time.sleep(0.5)
+
     except Exception as ex:
         log.warning("USAJobs failed '%s': %s", term, ex)
 
-# ── Greenhouse ────────────────────────────────────────────────────────────────
-log.info("=== Fetching Greenhouse boards ===")
+# ─────────────────────────────────────────────────────────────
+# Greenhouse Example
+# ─────────────────────────────────────────────────────────────
+
+log.info("=== Fetching Greenhouse ===")
+
 for board in GREENHOUSE_BOARDS:
+
     try:
+
         url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
-        req = urllib.request.Request(url, headers={"User-Agent": "PoliticalJobsFeed/1.0"})
+
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "PoliticalJobsFeed/1.0"
+        })
+
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
+
         items = data.get("jobs", [])
-        log.info("%s -> %d jobs", board, len(items))
+
         for j in items:
-            job_id = str(j.get("id", ""))
-            if job_id in seen:
-                continue
-            seen.add(job_id)
+
+            raw_id = str(j.get("id", ""))
+
             title = j.get("title", "")
-            apply_url = j.get("absolute_url", f"https://boards.greenhouse.io/{board}")
+
+            company = canonical_company(board)
+
+            apply_url = j.get(
+                "absolute_url",
+                f"https://boards.greenhouse.io/{board}"
+            )
+
             location = j.get("location", {}).get("name", "")
-            is_remote = "remote" in location.lower()
-            desc = clean(j.get("content", ""))[:500]
-            posted = (j.get("updated_at") or str(date.today()))[:10]
-            jobs.append({
-                "title": title,
-                "company": board.replace("org","").replace("action","").title(),
-                "description": desc or f"See full listing at {apply_url}",
-                "apply_url": apply_url,
-                "location": "remote" if is_remote else "onsite",
-                "office_location": location,
-                "category": guess_category(title, desc),
-                "date_posted": posted,
-            })
-            log.info("  + %s", title)
+
+            description = clean(j.get("content", ""))
+
+            posted = (
+                j.get("updated_at")
+                or str(date.today())
+            )[:10]
+
+            add_job(
+                source="greenhouse",
+                raw_id=raw_id,
+                title=title,
+                company=company,
+                apply_url=apply_url,
+                description=description,
+                office_location=location,
+                posted=posted,
+            )
+
         time.sleep(0.3)
+
     except Exception as ex:
         log.warning("Greenhouse %s failed: %s", board, ex)
 
-# ── Arena ─────────────────────────────────────────────────────────────────────
-log.info("=== Fetching Arena jobs ===")
-try:
-    import html.parser
+# ─────────────────────────────────────────────────────────────
+# Build XML
+# ─────────────────────────────────────────────────────────────
 
-    class ArenaParser(html.parser.HTMLParser):
-        def __init__(self):
-            super().__init__()
-            self.jobs = []
-            self.capture = False
-            self.current_text = ""
-            self.current_link = ""
-
-        def handle_starttag(self, tag, attrs):
-            attrs_dict = dict(attrs)
-            href = attrs_dict.get("href", "")
-            if tag == "a" and "/jobs/" in href:
-                self.current_link = href
-                self.capture = True
-                self.current_text = ""
-
-        def handle_data(self, data):
-            if self.capture:
-                stripped = data.strip()
-                # Drop boilerplate text nodes injected for screen readers / SEO
-                if stripped.lower() in {"read more", "about", "at", "job post", "featured", ""}:
-                    return
-                self.current_text += (" " if self.current_text else "") + stripped
-
-        def handle_endtag(self, tag):
-            if tag == "a" and self.capture and self.current_link:
-                title = self.current_text.strip()
-                if title and len(title) > 3:
-                    self.jobs.append({"title": title, "url": self.current_link})
-                self.capture = False
-                self.current_text = ""
-                self.current_link = ""
-
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; PoliticalJobsFeed/1.0)"}
-    req = urllib.request.Request("https://careers.arena.run/jobs", headers=headers)
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        html_content = resp.read().decode("utf-8", errors="ignore")
-
-    parser = ArenaParser()
-    parser.feed(html_content)
-    log.info("Arena found %d job links", len(parser.jobs))
-
-    for j in parser.jobs[:50]:
-        title = j["title"]
-        apply_url = j["url"]
-        key = (title.lower().strip(), apply_url)
-        if key in seen:
-            continue
-        seen.add(key)
-        url_parts = apply_url.split("/")
-        company = "Political Organization"
-        if "companies" in url_parts:
-            idx = url_parts.index("companies")
-            if idx + 1 < len(url_parts):
-                raw = url_parts[idx + 1].replace("-2", "").replace("-", " ").strip().title()
-                company = raw if raw else "Political Organization"
-
-        if apply_url.startswith("http"):
-            full_apply_url = apply_url
-        elif apply_url.startswith("/"):
-            full_apply_url = f"https://careers.arena.run{apply_url}"
-        else:
-            full_apply_url = f"https://careers.arena.run/{apply_url}"
-
-        jobs.append({
-            "title": title, "company": company,
-            "description": "See full listing at Arena job board.",
-            "apply_url": full_apply_url,
-            "location": "remote",
-            "office_location": "",
-            "category": guess_category(title),
-            "date_posted": str(date.today()),
-        })
-        log.info("  + %s @ %s", title, company)
-
-except Exception as ex:
-    log.warning("Arena scrape failed: %s", ex)
-
-# ── jobs.ac.uk ────────────────────────────────────────────────────────────────
-log.info("=== Fetching jobs.ac.uk RSS feeds ===")
-for feed_url in JOBSACUK_FEEDS:
-    try:
-        req = urllib.request.Request(
-            feed_url,
-            headers={"User-Agent": "PoliticalJobsFeed/1.0"}
-        )
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            raw_xml = resp.read().decode("utf-8", errors="ignore")
-
-        feed_root = ET.fromstring(raw_xml)
-        channel = feed_root.find("channel")
-        items = channel.findall("item") if channel is not None else feed_root.findall(".//item")
-        feed_label = feed_url.split("/jobs/")[1].split("/")[0]
-        log.info("jobs.ac.uk '%s' -> %d items", feed_label, len(items))
-
-        for item in items:
-            def txt(tag):
-                el = item.find(tag)
-                return (el.text or "").strip() if el is not None else ""
-
-            title = txt("title")
-            apply_url = txt("link")
-            desc = clean(txt("description"))[:500]
-            pub_date = txt("pubDate")
-            guid = txt("guid") or apply_url
-
-            if not title or guid in seen:
-                continue
-            seen.add(guid)
-
-            try:
-                posted = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y-%m-%d")
-            except Exception:
-                posted = str(date.today())
-
-            company = "jobs.ac.uk"
-            office_location = ""
-            employer_match = re.search(r"(?:Employer|Institution|Organisation)[:\s]+([^\n<,]+)", desc, re.IGNORECASE)
-            if employer_match:
-                company = employer_match.group(1).strip()
-            location_match = re.search(r"(?:Location)[:\s]+([^\n<,]+)", desc, re.IGNORECASE)
-            if location_match:
-                office_location = location_match.group(1).strip()
-
-            is_remote = "remote" in (office_location + " " + desc).lower()
-
-            jobs.append({
-                "title": title,
-                "company": company,
-                "description": desc or f"See full listing at {apply_url}",
-                "apply_url": apply_url,
-                "location": "remote" if is_remote else "onsite",
-                "office_location": office_location,
-                "category": guess_category(title, desc),
-                "date_posted": posted,
-            })
-            log.info("  + %s @ %s", title, company)
-
-        time.sleep(0.3)
-    except Exception as ex:
-        log.warning("jobs.ac.uk feed failed '%s': %s", feed_url, ex)
-
-# ── Lever ─────────────────────────────────────────────────────────────────────
-# Public JSON API: https://api.lever.co/v0/postings/{slug}?mode=json
-log.info("=== Fetching Lever boards ===")
-for slug in LEVER_BOARDS:
-    try:
-        url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
-        req = urllib.request.Request(url, headers={"User-Agent": "PoliticalJobsFeed/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-        log.info("Lever %s -> %d jobs", slug, len(data))
-        for j in data:
-            job_id = j.get("id", "")
-            if job_id in seen:
-                continue
-            seen.add(job_id)
-            title = j.get("text", "")
-            apply_url = j.get("hostedUrl", f"https://jobs.lever.co/{slug}")
-            location = j.get("categories", {}).get("location", "")
-            team = j.get("categories", {}).get("team", "")
-            is_remote = "remote" in location.lower()
-            desc_parts = [
-                clean(block.get("content", ""))
-                for block in j.get("descriptionBody", {}).get("descriptionBodyList", [])
-            ]
-            desc = " ".join(desc_parts)[:500]
-            posted_ts = j.get("createdAt", 0)
-            posted = datetime.utcfromtimestamp(posted_ts / 1000).strftime("%Y-%m-%d") if posted_ts else str(date.today())
-            company = slug.replace("-", " ").title()
-            jobs.append({
-                "title": title,
-                "company": company,
-                "description": desc or f"See full listing at {apply_url}",
-                "apply_url": apply_url,
-                "location": "remote" if is_remote else "onsite",
-                "office_location": location,
-                "category": guess_category(title, desc or team),
-                "date_posted": posted,
-            })
-            log.info("  + %s @ %s", title, company)
-        time.sleep(0.3)
-    except Exception as ex:
-        log.warning("Lever %s failed: %s", slug, ex)
-
-# ── Workable ──────────────────────────────────────────────────────────────────
-# Public widget API: https://apply.workable.com/api/v1/widget/accounts/{slug}/jobs
-log.info("=== Fetching Workable boards ===")
-for slug in WORKABLE_BOARDS:
-    try:
-        url = f"https://apply.workable.com/api/v1/widget/accounts/{slug}/jobs"
-        req = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "PoliticalJobsFeed/1.0",
-                "Content-Type": "application/json",
-            },
-            data=json.dumps({"query": "", "location": [], "department": [], "worktype": [], "remote": []}).encode()
-        )
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-        items = data.get("results", [])
-        log.info("Workable %s -> %d jobs", slug, len(items))
-        for j in items:
-            job_id = j.get("shortcode", j.get("id", ""))
-            if job_id in seen:
-                continue
-            seen.add(job_id)
-            title = j.get("title", "")
-            apply_url = j.get("url", f"https://apply.workable.com/{slug}/j/{job_id}")
-            location = j.get("location", {})
-            city = location.get("city", "") if isinstance(location, dict) else ""
-            country = location.get("country", "") if isinstance(location, dict) else ""
-            office_location = ", ".join(filter(None, [city, country]))
-            is_remote = j.get("remote", False) or "remote" in office_location.lower()
-            dept = j.get("department", "")
-            desc = clean(j.get("description", ""))[:500]
-            posted = (j.get("published_on") or str(date.today()))[:10]
-            company = slug.replace("-", " ").title()
-            jobs.append({
-                "title": title,
-                "company": company,
-                "description": desc or f"See full listing at {apply_url}",
-                "apply_url": apply_url,
-                "location": "remote" if is_remote else "onsite",
-                "office_location": office_location,
-                "category": guess_category(title, desc or dept),
-                "date_posted": posted,
-            })
-            log.info("  + %s @ %s", title, company)
-        time.sleep(0.3)
-    except Exception as ex:
-        log.warning("Workable %s failed: %s", slug, ex)
-
-# ── Build XML ─────────────────────────────────────────────────────────────────
 log.info("Total jobs: %d", len(jobs))
 
 root = ET.Element("jobs")
-root.set("generated", datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
+
+root.set(
+    "generated",
+    datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+)
+
 root.set("count", str(len(jobs)))
 
-for j in jobs:
+for job in jobs:
+
     el = ET.SubElement(root, "job")
-    for k, v in j.items():
-        c = ET.SubElement(el, k)
-        c.text = str(v)
 
-    # Split office_location into city/region for Google Job Posting structured data
-    office = j.get("office_location", "")
-    parts = [p.strip() for p in office.split(",")]
-    ET.SubElement(el, "addressLocality").text = parts[0] if len(parts) >= 1 else ""
-    ET.SubElement(el, "addressRegion").text = parts[1] if len(parts) >= 2 else ""
+    for key, value in job.items():
 
-    ET.SubElement(el, "type").text = "fulltime"
-    ET.SubElement(el, "post_state").text = "published"
-    ET.SubElement(el, "post_length").text = "30"
+        child = ET.SubElement(el, key)
+        child.text = str(value)
 
 xml = minidom.parseString(
     '<?xml version="1.0" encoding="UTF-8"?>' +
