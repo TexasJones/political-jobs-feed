@@ -316,7 +316,6 @@ for slug in LEVER_BOARDS:
             location = j.get("categories", {}).get("location", "")
             team = j.get("categories", {}).get("team", "")
             is_remote = "remote" in location.lower()
-            # Lever stores description as list of content blocks
             desc_parts = [
                 clean(block.get("content", ""))
                 for block in j.get("descriptionBody", {}).get("descriptionBodyList", [])
@@ -401,6 +400,13 @@ for j in jobs:
     for k, v in j.items():
         c = ET.SubElement(el, k)
         c.text = str(v)
+
+    # Split office_location into city/region for Google Job Posting structured data
+    office = j.get("office_location", "")
+    parts = [p.strip() for p in office.split(",")]
+    ET.SubElement(el, "addressLocality").text = parts[0] if len(parts) >= 1 else ""
+    ET.SubElement(el, "addressRegion").text = parts[1] if len(parts) >= 2 else ""
+
     ET.SubElement(el, "type").text = "fulltime"
     ET.SubElement(el, "post_state").text = "published"
     ET.SubElement(el, "post_length").text = "30"
