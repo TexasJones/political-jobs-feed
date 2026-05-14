@@ -17,6 +17,7 @@ jobs:
           python-version: "3.11"
       - run: pip install feedparser
       - run: python scraper.py
+      - run: python generate_pages.py
       - run: ls -la
       - name: Push feed
         run: |
