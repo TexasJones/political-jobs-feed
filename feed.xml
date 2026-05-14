@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-05-14T16:44:03Z" count="74">
+<jobs generated="2026-05-14T19:11:38Z" count="75">
   <job>
     <job_id>greenhouse-aclu-8531474002</job_id>
     <title>Associate, Digital Marketing &amp; Production [Term-Limited]</title>
@@ -374,7 +374,7 @@
     <address_locality>Remote - National</address_locality>
     <address_region/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-05-01</date_posted>
+    <date_posted>2026-05-14</date_posted>
     <valid_through>2026-12-31</valid_through>
     <source>greenhouse</source>
   </job>
@@ -807,6 +807,24 @@
     <address_region/>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-05</date_posted>
+    <valid_through>2026-12-31</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-moveonorg-7926479</job_id>
+    <title>Temporary Finance and Operations Coordinator</title>
+    <company>moveonorg</company>
+    <slug>temporary-finance-and-operations-coordinator-moveonorg</slug>
+    <canonical_url>https://thepolly.co/jobs/temporary-finance-and-operations-coordinator-moveonorg</canonical_url>
+    <description>&lt;p&gt;Competitive Pay • Work from Anywhere in the Contiguous U.S.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Starts ASAP, Ends January 31, 2027&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Application Deadline: May 26, 2026 by COB&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;MoveOn is a people-powered force for progress. We wield independent political power by bringing millions together to take action to create a country with a place of honor and dignity for everyone—where all are welcome, we take care of one another, and where everyone is set up to thrive.&lt;/p&gt; &lt;p&gt;For more than a generation, MoveOn has been a bulwark against the radical right and has channeled millions of voices to end wars, protect democracy, and advance justice for all. We've built political power for progressive change through mobilizing the left to Democrats so that we can advance our vision of an America for all.&lt;/p&gt; &lt;p&gt;MoveOn is the largest multi-issue digital first political campaigning organization in the country. We drive rapid-response campaigns at scale on a multitude of key issues at high-impact moments while building sustainable campaigns that resonate and grow over time. Whether its democracy, health care, foreign policy, economic justice, immigration or otherwise, MoveOn provides our members with timely ways to take action for change.&lt;/p&gt; &lt;p&gt;MoveOn is seeking a detail-oriented and proactive intern to support our Finance and Operations Team. This role provides hands-on experience in multiple realms of work within the team, including budgeting, contracts administration, r</description>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7926479</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location> Anywhere in the continental U.S.</office_location>
+    <address_locality>Anywhere in the continental U.S.</address_locality>
+    <address_region/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-14</date_posted>
     <valid_through>2026-12-31</valid_through>
     <source>greenhouse</source>
   </job>
