@@ -46,6 +46,10 @@ GREENHOUSE_BOARDS = [
     "moveonorg",
     "gmmb",
     "berlinrosen",
+    "humanrightswatch",
+    "communitychange",
+    "democracyforward",
+    "southernpovertylawcenter",
 ]
 
 LEVER_COMPANIES = [
