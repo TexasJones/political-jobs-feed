@@ -7,6 +7,7 @@ import hashlib
 import os
 import urllib.request
 import urllib.parse
+import urllib.error
 import xml.etree.ElementTree as ET
 
 from datetime import date, datetime, timezone, timedelta
@@ -42,19 +43,32 @@ BROWSER_HEADERS = {
 # ─────────────────────────────────────────────
 
 GREENHOUSE_BOARDS = [
+    # Civil rights & legal advocacy
     "aclu",
+    "southernpovertylawcenter",
+    "democracyforward",
+    "humanrightswatch",
+    # Political communications & campaigns
     "moveonorg",
     "gmmb",
     "berlinrosen",
-    "humanrightswatch",
+    # Community & labor organizing
     "communitychange",
-    "democracyforward",
-    "southernpovertylawcenter",
+    "industriouslabs",          # Climate policy campaigns
+    # Think tanks & policy
+    "americanprogress",         # Center for American Progress
+    "brookings",                # Brookings Institution
+    # Additional advocacy
+    "ppfa",                     # Planned Parenthood Federation of America
+    "nrdc",                     # Natural Resources Defense Council
+    "publicadvocates",          # Public Advocates
 ]
 
 LEVER_COMPANIES = [
     "sierraclub",
     "emilyslist",
+    "colorofchange",            # Color of Change
+    "unitedwedream",            # United We Dream
 ]
 
 USAJOBS_SEARCHES = [
@@ -148,6 +162,14 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
             req = urllib.request.Request(url, headers=BROWSER_HEADERS)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                raise  # Don't retry 404s — board doesn't exist
+            if attempt == retries - 1:
+                raise
+            wait = 2 ** attempt
+            log.warning("Fetch attempt %d failed (HTTP %s), retrying in %ds...", attempt + 1, e.code, wait)
+            time.sleep(wait)
         except Exception as e:
             if attempt == retries - 1:
                 raise
@@ -326,6 +348,11 @@ def fetch_greenhouse():
 
             time.sleep(0.5)
 
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Greenhouse %s: board not found (404) — check token", board)
+            else:
+                log.warning("Greenhouse error %s: HTTP %s", board, e.code)
         except Exception as e:
             log.warning("Greenhouse error %s: %s", board, e)
 
@@ -403,6 +430,11 @@ def fetch_lever():
 
             time.sleep(0.5)
 
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Lever %s: board not found (404) — check company slug", company)
+            else:
+                log.warning("Lever error %s: HTTP %s", company, e.code)
         except Exception as e:
             log.warning("Lever error %s: %s", company, e)
 
