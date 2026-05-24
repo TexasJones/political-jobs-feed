@@ -9,7 +9,7 @@ import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
 from xml.dom import minidom
 
 # ─────────────────────────────────────────────
@@ -19,7 +19,7 @@ from xml.dom import minidom
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-BASE_URL = "https://thepolly.co"
+BASE_URL = "https://jobs.thepolly.co"
 
 API_KEY = os.getenv("USAJOBS_API_KEY")
 EMAIL = os.getenv("USAJOBS_EMAIL", "info@thepolly.co")
@@ -28,7 +28,7 @@ BROWSER_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
+        "Chrome/125.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
@@ -100,10 +100,17 @@ def clean(text: str) -> str:
     return text.strip()
 
 
+def truncate(text: str, max_chars: int = 1500) -> str:
+    """Truncate at a word boundary instead of mid-word."""
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(' ', 1)[0]
+
+
 def slugify(text: str) -> str:
-    text = text.lower()
+    text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
+    text = re.sub(r"[\s-]+", "-", text)  # collapse spaces AND hyphens together
     return text.strip("-")
 
 
@@ -119,15 +126,34 @@ def guess_category(title: str, desc: str = "") -> str:
     return best if scores[best] > 0 else "Government & Policy"
 
 
+def guess_employment_type(title: str) -> str:
+    t = title.lower()
+    if any(k in t for k in ["intern", "fellowship", "fellow"]):
+        return "INTERN"
+    if any(k in t for k in ["temporary", "temp ", "term-limited", "contract"]):
+        return "CONTRACTOR"
+    if "part-time" in t or "part time" in t:
+        return "PART_TIME"
+    return "FULL_TIME"
+
+
 def build_job_id(source: str, raw_id: str) -> str:
     return f"{source}-{raw_id}"
 
 
-def fetch_url(url: str, timeout: int = 15) -> str:
-    """Fetch a URL with browser-like headers. Returns decoded text."""
-    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
+    """Fetch a URL with browser-like headers and retry on failure."""
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            if attempt == retries - 1:
+                raise
+            wait = 2 ** attempt
+            log.warning("Fetch attempt %d failed (%s), retrying in %ds...", attempt + 1, e, wait)
+            time.sleep(wait)
 
 
 jobs = []
@@ -146,12 +172,14 @@ def add_job(source, raw_id, title, company, apply_url,
         return
     seen.add(job_id)
 
-    description = clean(description)[:1500]
+    description = truncate(clean(description))
     category = guess_category(title, description)
     remote = detect_remote(location, description)
+    employment_type = guess_employment_type(title)
 
-    slug = slugify(f"{title}-{company}")
-    canonical_url = f"{BASE_URL}/jobs/{slug}"
+    # Fix: strip whitespace before joining to prevent double-dash slugs
+    slug = slugify(f"{title.strip()}-{company.strip()}")
+    canonical_url = f"{BASE_URL}/jobs/{slug}/"
 
     # Normalize posted date — handles ISO strings and Unix ms timestamps
     if posted:
@@ -164,10 +192,17 @@ def add_job(source, raw_id, title, company, apply_url,
     else:
         posted = str(date.today())
 
+    # valid_through: 90 days from date_posted
+    try:
+        posted_date = datetime.strptime(posted, "%Y-%m-%d").date()
+    except ValueError:
+        posted_date = date.today()
+    valid_through = str(posted_date + timedelta(days=90))
+
     jobs.append({
         "job_id": job_id,
-        "title": title,
-        "company": company,
+        "title": title.strip(),
+        "company": company.strip(),
         "slug": slug,
         "canonical_url": canonical_url,
         "description": description,
@@ -175,9 +210,9 @@ def add_job(source, raw_id, title, company, apply_url,
         "category": category,
         "location_type": "remote" if remote else "onsite",
         "office_location": location,
-        "employment_type": "FULL_TIME",
+        "employment_type": employment_type,
         "date_posted": posted,
-        "valid_through": "2027-12-31",
+        "valid_through": valid_through,
         "source": source
     })
 
