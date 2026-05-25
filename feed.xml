@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-05-25T14:50:38Z" count="98">
+<jobs generated="2026-05-25T15:00:40Z" count="95">
   <job>
     <job_id>greenhouse-aclu-8481927002</job_id>
     <title>Director, Cyber Security Operations</title>
@@ -280,7 +280,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/associate-digital-marketing-production-term-limited-aclu/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8531474002</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
@@ -664,7 +664,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/manager-digital-fundraising-southernpovertylawcenter/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8526853002</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1144,7 +1144,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/senior-digital-account-manager-political-cycle-2026-gmmb/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5114661007</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1160,7 +1160,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/associate-media-buyer-political-cycle-2026-gmmb/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5136564007</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1176,7 +1176,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/media-buyer-political-cycle-2026-gmmb/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5006864007</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1192,7 +1192,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/digital-media-planner-political-cycle-2026-gmmb/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5010373007</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1208,7 +1208,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/senior-digital-media-planner-political-cycle-2026-gmmb/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5038189007</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1336,7 +1336,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/vice-president-architecture-and-design-public-relations-berlinrosen/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8516451002</apply_url>
-    <category>Government &amp; Policy</category>
+    <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1368,7 +1368,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/associate-account-executive-real-estate-public-relations-berlinrosen/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8479825002</apply_url>
-    <category>Government &amp; Policy</category>
+    <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1384,7 +1384,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/vice-president-paid-media-real-estate-berlinrosen/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8446999002</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1400,7 +1400,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/vice-president-higher-education-public-relations-berlinrosen/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8363194002</apply_url>
-    <category>Government &amp; Policy</category>
+    <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -1439,54 +1439,6 @@
     <date_posted>2026-05-25</date_posted>
     <valid_through>2026-08-23</valid_through>
     <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>lever-sierraclub-f86a2a5e-c3a0-4d55-9738-497aa46daad6</job_id>
-    <title>Organizing Intern</title>
-    <company>sierraclub</company>
-    <slug>organizing-intern-sierraclub</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/organizing-intern-sierraclub/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/sierraclub/f86a2a5e-c3a0-4d55-9738-497aa46daad6</apply_url>
-    <category>Nonprofit Advocacy</category>
-    <location_type>onsite</location_type>
-    <office_location>Denver, CO</office_location>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-05-25</date_posted>
-    <valid_through>2026-08-23</valid_through>
-    <source>lever</source>
-  </job>
-  <job>
-    <job_id>lever-sierraclub-2d14a974-35b0-4fe1-82d5-96018da5d4cd</job_id>
-    <title>Chapter Director</title>
-    <company>sierraclub</company>
-    <slug>chapter-director-sierraclub</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/chapter-director-sierraclub/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/sierraclub/2d14a974-35b0-4fe1-82d5-96018da5d4cd</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Santa Barbara, CA</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-05-25</date_posted>
-    <valid_through>2026-08-23</valid_through>
-    <source>lever</source>
-  </job>
-  <job>
-    <job_id>lever-sierraclub-16aab574-a927-4041-80c3-b2877a37896c</job_id>
-    <title>Sierra Club Foundation Staff Accountant</title>
-    <company>sierraclub</company>
-    <slug>sierra-club-foundation-staff-accountant-sierraclub</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/sierra-club-foundation-staff-accountant-sierraclub/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/sierraclub/16aab574-a927-4041-80c3-b2877a37896c</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Oakland, CA</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-05-25</date_posted>
-    <valid_through>2026-08-23</valid_through>
-    <source>lever</source>
   </job>
   <job>
     <job_id>lever-emilyslist-a2ce7c65-260f-4a57-88f6-0654df1b4664</job_id>
@@ -1528,7 +1480,7 @@
     <canonical_url>https://jobs.thepolly.co/jobs/traveling-media-content-coordinator-emilyslist/</canonical_url>
     <description/>
     <apply_url>https://jobs.lever.co/emilyslist/66505ddd-bf51-42ef-a6ff-f65e0f5e029a</apply_url>
-    <category>Communications &amp; PR</category>
+    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
