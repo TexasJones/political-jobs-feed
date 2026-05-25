@@ -72,13 +72,32 @@ LEVER_COMPANIES = [
 ]
 
 USAJOBS_SEARCHES = [
-    "public affairs",
+    "public affairs specialist",
+    "legislative affairs",
     "communications director",
+    "press secretary",
+    "congressional affairs",
 ]
 
-# USAJobs job series codes to filter by (communications & policy roles only):
-# 1035 = Public Affairs, 0301 = Misc Admin & Program, 1082 = Writing/Editing, 1001 = General Arts & Info
-USAJOBS_SERIES = ["1035", "0301", "1082", "1001"]
+# USAJobs job series codes — tightly scoped to comms & public affairs only:
+# 1035 = Public Affairs, 1082 = Writing/Editing & Information
+# Removed 0301 (Misc Admin) and 1001 (General Arts) — too broad, pulls unrelated roles
+USAJOBS_SERIES = ["1035", "1082"]
+
+# Job title terms that indicate irrelevant federal roles — skip these
+USAJOBS_TITLE_BLOCKLIST = [
+    "border protection", "customs", "immigration", "cbp officer",
+    "agriculture specialist", "victim advocate", "family advocacy",
+    "clinical counselor", "psychologist", "social worker",
+    "field service technician", "property specialist",
+    "security clearance", "intelligence", "inspector general",
+    "contracting officer", "acquisition", "procurement",
+    "nurse", "physician", "medical", "health service",
+    "engineer", "scientist", "research", "laboratory",
+    "law enforcement", "correctional", "detention",
+    "military", "army", "navy", "marine", "air force",
+    "logistics", "supply chain", "warehouse",
+]
 
 # ─────────────────────────────────────────────
 # Category logic
@@ -273,6 +292,13 @@ def fetch_usajobs():
 
                 raw_id = pos.get("PositionID", hashlib.md5(str(item).encode()).hexdigest())
                 title = pos.get("PositionTitle", "")
+
+                # Skip titles that match the blocklist
+                title_lower = title.lower()
+                if any(blocked in title_lower for blocked in USAJOBS_TITLE_BLOCKLIST):
+                    log.info("Skipping USAJobs title (blocklist): %s", title)
+                    continue
+
                 company = pos.get("OrganizationName", "U.S. Federal Government")
                 apply_url = pos.get("ApplyURI", [""])[0]
                 desc = pos.get("UserArea", {}).get("Details", {}).get("JobSummary", "")
