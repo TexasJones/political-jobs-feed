@@ -53,7 +53,6 @@ GREENHOUSE_BOARDS = [
     "gmmb",
     "berlinrosen",
     # Community & labor organizing
-    "communitychange",
     "industriouslabs",          # Climate policy campaigns
     # Think tanks & policy
     "americanprogress",         # Center for American Progress
@@ -65,7 +64,6 @@ GREENHOUSE_BOARDS = [
 ]
 
 LEVER_COMPANIES = [
-    "sierraclub",
     "emilyslist",
     "colorofchange",            # Color of Change
     "unitedwedream",            # United We Dream
@@ -115,7 +113,8 @@ CATEGORY_RULES = {
         "policy", "legislative", "congress", "senate", "house", "federal"
     ],
     "Communications & PR": [
-        "communications", "media", "press", "spokesperson", "digital", "social"
+        "communications", "media relations", "press secretary", "spokesperson",
+        "public relations", "earned media", "digital strategy", "social media manager"
     ],
     "Nonprofit Advocacy": [
         "nonprofit", "grassroots", "organizing", "civic"
