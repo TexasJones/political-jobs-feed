@@ -77,6 +77,18 @@ USAJOBS_SEARCHES = [
     "congressional affairs",
 ]
 
+WORKABLE_COMPANIES = [
+    "fp1-strategies",           # FP1 Strategies — Republican political consulting
+]
+
+WORKDAY_COMPANIES = [
+    {
+        "slug": "politico",
+        "host": "politico.wd108.myworkdayjobs.com",
+        "name": "Politico",
+    },
+]
+
 # USAJobs job series codes — tightly scoped to comms & public affairs only:
 # 1035 = Public Affairs, 1082 = Writing/Editing & Information
 # Removed 0301 (Misc Admin) and 1001 (General Arts) — too broad, pulls unrelated roles
@@ -464,12 +476,122 @@ def fetch_lever():
             log.warning("Lever error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
+# Workable — scrape apply.workable.com public boards
+# ─────────────────────────────────────────────
+
+def fetch_workable():
+    log.info("=== Workable ===")
+
+    for company in WORKABLE_COMPANIES:
+        try:
+            url = f"https://apply.workable.com/api/v3/accounts/{company}/jobs"
+            log.info("Fetching %s", url)
+
+            req = urllib.request.Request(url, headers={
+                **BROWSER_HEADERS,
+                "Accept": "application/json",
+            })
+
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+
+            jobs_list = data.get("results", [])
+            found = 0
+
+            for j in jobs_list:
+                job_id = j.get("shortcode", j.get("id", ""))
+                title = j.get("title", "")
+                location = j.get("location", {})
+                city = location.get("city", "")
+                state = location.get("region", "")
+                loc_str = ", ".join(filter(None, [city, state]))
+                apply_url = f"https://apply.workable.com/{company}/j/{job_id}/"
+                desc = j.get("description", "") or j.get("full_description", "")
+                posted = (j.get("published_on") or str(date.today()))[:10]
+
+                if title and job_id:
+                    add_job("workable", job_id, title, company.replace("-", " ").title(), apply_url, desc, loc_str, posted)
+                    found += 1
+
+            log.info("Workable %s: %d jobs", company, found)
+            time.sleep(0.3)
+
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Workable %s: board not found (404) — check company slug", company)
+            else:
+                log.warning("Workable error %s: HTTP %s", company, e.code)
+        except Exception as e:
+            log.warning("Workable error %s: %s", company, e)
+
+# ─────────────────────────────────────────────
+# Workday — scrape public Workday job boards
+# ─────────────────────────────────────────────
+
+def fetch_workday():
+    log.info("=== Workday ===")
+
+    for company in WORKDAY_COMPANIES:
+        slug = company["slug"]
+        host = company["host"]
+        name = company["name"]
+
+        try:
+            url = f"https://{host}/{slug}/jobs"
+            log.info("Fetching %s", url)
+            page = fetch_url(url)
+
+            # Workday embeds job data in a __appConfig or next data script
+            json_match = re.search(
+                r'"jobPostings"\s*:\s*(\[.*?\])\s*[,}]',
+                page, re.DOTALL
+            )
+
+            if not json_match:
+                # Try alternate pattern for Workday's JS bundles
+                json_match = re.search(
+                    r'var\s+appConfig\s*=\s*(\{.*?\});\s*(?:var|window)',
+                    page, re.DOTALL
+                )
+
+            if json_match:
+                try:
+                    job_list = json.loads(json_match.group(1))
+                    found = 0
+                    for j in job_list:
+                        job_id = j.get("externalPath", j.get("bulletFields", [""])[0])
+                        title = j.get("title", "")
+                        location = j.get("locationsText", "")
+                        posted = (j.get("postedOn") or str(date.today()))[:10]
+                        apply_url = f"https://{host}/{slug}/job/{job_id}" if job_id else f"https://{host}/{slug}/jobs"
+                        if title:
+                            add_job("workday", str(job_id), title, name, apply_url, "", location, posted)
+                            found += 1
+                    log.info("Workday %s: %d jobs from JSON", name, found)
+                    time.sleep(0.3)
+                    continue
+                except (json.JSONDecodeError, KeyError):
+                    pass
+
+            log.warning("Workday %s: could not parse job data — page structure may have changed", name)
+
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Workday %s: board not found (404)", name)
+            else:
+                log.warning("Workday error %s: HTTP %s", name, e.code)
+        except Exception as e:
+            log.warning("Workday error %s: %s", name, e)
+
+# ─────────────────────────────────────────────
 # Run pipeline
 # ─────────────────────────────────────────────
 
 fetch_usajobs()
 fetch_greenhouse()
 fetch_lever()
+fetch_workable()
+fetch_workday()
 
 # ─────────────────────────────────────────────
 # Build XML feed
