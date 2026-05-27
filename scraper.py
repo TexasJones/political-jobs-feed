@@ -63,6 +63,30 @@ GREENHOUSE_BOARDS = [
     "publicadvocates",          # Public Advocates
 ]
 
+# Human-readable display names for Greenhouse board tokens
+GREENHOUSE_NAMES = {
+    "aclu": "ACLU",
+    "moveonorg": "MoveOn.org",
+    "gmmb": "GMMB",
+    "berlinrosen": "BerlinRosen",
+    "humanrightswatch": "Human Rights Watch",
+    "democracyforward": "Democracy Forward",
+    "southernpovertylawcenter": "Southern Poverty Law Center",
+    "industriouslabs": "Industrious Labs",
+    "americanprogress": "Center for American Progress",
+    "brookings": "Brookings Institution",
+    "ppfa": "Planned Parenthood",
+    "nrdc": "NRDC",
+    "publicadvocates": "Public Advocates",
+}
+
+# Human-readable display names for Lever company slugs
+LEVER_NAMES = {
+    "emilyslist": "EMILY's List",
+    "colorofchange": "Color of Change",
+    "unitedwedream": "United We Dream",
+}
+
 LEVER_COMPANIES = [
     "emilyslist",
     "colorofchange",            # Color of Change
@@ -358,7 +382,8 @@ def fetch_greenhouse():
                         desc = j.get("content", "") or j.get("description", "")
 
                         if title and job_id:
-                            add_job("greenhouse", job_id, title, board, apply_url, desc, location)
+                            display_name = GREENHOUSE_NAMES.get(board, board.title())
+                            add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
                     log.info("Greenhouse %s: %d jobs from JSON", board, len(job_list))
                     time.sleep(0.3)
                     continue
@@ -381,7 +406,8 @@ def fetch_greenhouse():
                     continue
                 title = clean(title)
                 apply_url = f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}"
-                add_job("greenhouse", job_id, title, board, apply_url, "", "")
+                display_name = GREENHOUSE_NAMES.get(board, board.title())
+                add_job("greenhouse", job_id, title, display_name, apply_url, "", "")
 
             time.sleep(0.5)
 
@@ -424,7 +450,8 @@ def fetch_lever():
                             apply_url = item.get("url", "")
                             desc = item.get("description", "")
                             if title:
-                                add_job("lever", job_id, title, company, apply_url, desc, location)
+                                display_name = LEVER_NAMES.get(company, company.title())
+                                add_job("lever", job_id, title, display_name, apply_url, desc, location)
                                 found += 1
                     if found:
                         log.info("Lever %s: %d jobs from JSON-LD", company, found)
@@ -463,7 +490,8 @@ def fetch_lever():
                 location = clean(loc_match.group(1)) if loc_match else ""
 
                 if title:
-                    add_job("lever", job_id, title, company, apply_url, "", location)
+                    display_name = LEVER_NAMES.get(company, company.title())
+                    add_job("lever", job_id, title, display_name, apply_url, "", location)
 
             time.sleep(0.5)
 
