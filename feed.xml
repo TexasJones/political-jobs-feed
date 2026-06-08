@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-01T13:37:29Z" count="90">
+<jobs generated="2026-06-08T12:31:37Z" count="91">
   <job>
     <job_id>greenhouse-ACLU-8481927002</job_id>
     <title>Director, Cyber Security Operations</title>
@@ -12,8 +12,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -28,8 +28,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -44,8 +44,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -60,8 +60,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -76,8 +76,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -92,8 +92,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -108,8 +108,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -124,8 +124,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -140,8 +140,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -156,8 +156,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -172,8 +172,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -188,8 +188,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8568784002</job_id>
+    <title>Confidential Assistant to Chief Human Resources Officer</title>
+    <company>ACLU</company>
+    <slug>confidential-assistant-to-chief-human-resources-officer-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/confidential-assistant-to-chief-human-resources-officer-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8568784002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -204,8 +220,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -220,8 +236,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -236,8 +252,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -252,8 +268,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -268,8 +284,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -284,8 +300,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -300,8 +316,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -316,8 +332,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -332,8 +348,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -348,8 +364,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -364,8 +380,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -380,8 +396,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562499002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, State Supreme Court Initiative</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-state-supreme-court-initiative-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-state-supreme-court-initiative-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562499002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -396,8 +428,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -412,8 +444,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8551448002</job_id>
+    <title>Paralegal, State Supreme Court Initiative (SSCI)</title>
+    <company>ACLU</company>
+    <slug>paralegal-state-supreme-court-initiative-ssci-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/paralegal-state-supreme-court-initiative-ssci-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8551448002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -428,8 +476,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -444,8 +492,88 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562462002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Immigrants' Rights Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-immigrants-rights-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-immigrants-rights-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562462002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8558671002</job_id>
+    <title>Paralegal, Immigrants' Rights Project</title>
+    <company>ACLU</company>
+    <slug>paralegal-immigrants-rights-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/paralegal-immigrants-rights-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8558671002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562698002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, National Prison Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-national-prison-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-national-prison-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562698002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8555596002</job_id>
+    <title>Paralegal, Speech, Privacy, and Technology</title>
+    <company>ACLU</company>
+    <slug>paralegal-speech-privacy-and-technology-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/paralegal-speech-privacy-and-technology-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8555596002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562802002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Voting Rights Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-voting-rights-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-voting-rights-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562802002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -460,8 +588,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -476,72 +604,104 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-ACLU-8558212002</job_id>
-    <title>Deputy Legal Director/ Director of the Trone Center for Justice and Equality</title>
+    <job_id>greenhouse-ACLU-8562441002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Center for Liberty</title>
     <company>ACLU</company>
-    <slug>deputy-legal-director-director-of-the-trone-center-for-justice-and-equality-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/deputy-legal-director-director-of-the-trone-center-for-justice-and-equality-aclu/</canonical_url>
+    <slug>fall-2027-fellowship-sponsorship-center-for-liberty-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-center-for-liberty-aclu/</canonical_url>
     <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8558212002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8468745002</job_id>
-    <title>Deputy Project Director, Capital Punishment Project</title>
-    <company>ACLU</company>
-    <slug>deputy-project-director-capital-punishment-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/deputy-project-director-capital-punishment-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8468745002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8478907002</job_id>
-    <title>Staff Attorney, Senior Staff Attorney, or Senior Counsel, Criminal Law Reform Project (Term-Limited)</title>
-    <company>ACLU</company>
-    <slug>staff-attorney-senior-staff-attorney-or-senior-counsel-criminal-law-reform-project-term-limited-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/staff-attorney-senior-staff-attorney-or-senior-counsel-criminal-law-reform-project-term-limited-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8478907002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8495536002</job_id>
-    <title>Intern, State Community Organizer, Alabama State Office (Fall 2026)</title>
-    <company>Southern Poverty Law Center</company>
-    <slug>intern-state-community-organizer-alabama-state-office-fall-2026-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/intern-state-community-organizer-alabama-state-office-fall-2026-southern-poverty-law-center/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8495536002</apply_url>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562441002</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562416002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Disability Rights Program</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-disability-rights-program-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-disability-rights-program-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562416002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562392002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Program on Freedom of Religion and Belief</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-program-on-freedom-of-religion-and-belief-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-program-on-freedom-of-religion-and-belief-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562392002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562731002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Abortion Criminal Defense Initiative (ACDI)</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-abortion-criminal-defense-initiative-acdi-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-abortion-criminal-defense-initiative-acdi-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562731002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562690002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Reproductive Freedom Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-reproductive-freedom-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-reproductive-freedom-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562690002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8562604002</job_id>
+    <title>Fall 2027 Fellowship Sponsorship, Women's Rights Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-fellowship-sponsorship-womens-rights-project-aclu</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-womens-rights-project-aclu/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562604002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -556,8 +716,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -572,8 +732,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -588,8 +748,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -604,8 +764,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -620,8 +780,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -636,8 +796,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -652,8 +812,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -668,56 +828,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8422196002</job_id>
-    <title>Deputy Director, Mississippi State Office</title>
+    <job_id>greenhouse-Southern Poverty Law Center-8548665002</job_id>
+    <title>Senior Analyst, Organizational Effectiveness</title>
     <company>Southern Poverty Law Center</company>
-    <slug>deputy-director-mississippi-state-office-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/deputy-director-mississippi-state-office-southern-poverty-law-center/</canonical_url>
+    <slug>senior-analyst-organizational-effectiveness-southern-poverty-law-center</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-analyst-organizational-effectiveness-southern-poverty-law-center/</canonical_url>
     <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8422196002</apply_url>
+    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8548665002</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8495629002</job_id>
-    <title>Intern, State Community Organizer, Mississippi State Office (Fall 2026)</title>
-    <company>Southern Poverty Law Center</company>
-    <slug>intern-state-community-organizer-mississippi-state-office-fall-2026-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/intern-state-community-organizer-mississippi-state-office-fall-2026-southern-poverty-law-center/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8495629002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8453688002</job_id>
-    <title>Senior Policy or Policy Counsel, Civil Rights and Racial Justice</title>
-    <company>Southern Poverty Law Center</company>
-    <slug>senior-policy-or-policy-counsel-civil-rights-and-racial-justice-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-policy-or-policy-counsel-civil-rights-and-racial-justice-southern-poverty-law-center/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8453688002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -732,8 +860,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -748,8 +876,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -764,8 +892,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>PART_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -780,8 +908,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -796,8 +924,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -812,8 +940,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -828,8 +956,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -844,8 +972,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -860,8 +988,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Democracy Forward-5232337008</job_id>
+    <title>Staff Attorney / Senior Attorney, Regulatory Affairs &amp; Legal Research</title>
+    <company>Democracy Forward</company>
+    <slug>staff-attorney-senior-attorney-regulatory-affairs-legal-research-democracy-forward</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/staff-attorney-senior-attorney-regulatory-affairs-legal-research-democracy-forward/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5232337008</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -876,8 +1020,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -892,24 +1036,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8558932002</job_id>
-    <title>Director, Audience Engagement (Leave Coverage)</title>
-    <company>Human Rights Watch</company>
-    <slug>director-audience-engagement-leave-coverage-human-rights-watch</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/director-audience-engagement-leave-coverage-human-rights-watch/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8558932002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -924,24 +1052,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8530157002</job_id>
-    <title>Assistant, Youth Advocacy - Student Taskforce</title>
-    <company>Human Rights Watch</company>
-    <slug>assistant-youth-advocacy-student-taskforce-human-rights-watch</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/assistant-youth-advocacy-student-taskforce-human-rights-watch/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8530157002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -956,8 +1068,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -972,24 +1084,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8544286002</job_id>
-    <title>Associate, Arms</title>
-    <company>Human Rights Watch</company>
-    <slug>associate-arms-human-rights-watch</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/associate-arms-human-rights-watch/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8544286002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1004,24 +1100,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-MoveOn.org-7926479</job_id>
-    <title>Temporary Finance and Operations Coordinator</title>
-    <company>MoveOn.org</company>
-    <slug>temporary-finance-and-operations-coordinator-moveonorg</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/temporary-finance-and-operations-coordinator-moveonorg/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/7926479</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1036,8 +1116,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1052,8 +1132,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1068,8 +1148,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1084,8 +1164,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1100,88 +1180,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-GMMB-5136564007</job_id>
-    <title>Associate Media Buyer - Political Cycle 2026</title>
+    <job_id>greenhouse-GMMB-5010331007</job_id>
+    <title>Digital Media Coordinator - Political Cycle 2026</title>
     <company>GMMB</company>
-    <slug>associate-media-buyer-political-cycle-2026-gmmb</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/associate-media-buyer-political-cycle-2026-gmmb/</canonical_url>
+    <slug>digital-media-coordinator-political-cycle-2026-gmmb</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/digital-media-coordinator-political-cycle-2026-gmmb/</canonical_url>
     <description/>
-    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5136564007</apply_url>
+    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5010331007</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-GMMB-5006864007</job_id>
-    <title>Media Buyer - Political Cycle 2026</title>
-    <company>GMMB</company>
-    <slug>media-buyer-political-cycle-2026-gmmb</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/media-buyer-political-cycle-2026-gmmb/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5006864007</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-GMMB-5010373007</job_id>
-    <title>Digital Media Planner - Political Cycle 2026</title>
-    <company>GMMB</company>
-    <slug>digital-media-planner-political-cycle-2026-gmmb</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/digital-media-planner-political-cycle-2026-gmmb/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5010373007</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-GMMB-5038189007</job_id>
-    <title>Senior Digital Media Planner - Political Cycle 2026</title>
-    <company>GMMB</company>
-    <slug>senior-digital-media-planner-political-cycle-2026-gmmb</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-digital-media-planner-political-cycle-2026-gmmb/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/gmmb/jobs/5038189007</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-BerlinRosen-8557964002</job_id>
-    <title>Copywriter, Politics</title>
-    <company>BerlinRosen</company>
-    <slug>copywriter-politics-berlinrosen</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/copywriter-politics-berlinrosen/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8557964002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1196,8 +1212,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1212,8 +1228,24 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-BerlinRosen-8557964002</job_id>
+    <title>Copywriter, Politics</title>
+    <company>BerlinRosen</company>
+    <slug>copywriter-politics-berlinrosen</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/copywriter-politics-berlinrosen/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8557964002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1228,8 +1260,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1244,8 +1276,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1260,8 +1292,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1276,24 +1308,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-BerlinRosen-8450837002</job_id>
-    <title>Senior Account Executive, Travel + Hospitality</title>
-    <company>BerlinRosen</company>
-    <slug>senior-account-executive-travel-hospitality-berlinrosen</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-account-executive-travel-hospitality-berlinrosen/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8450837002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1308,8 +1324,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1324,8 +1340,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1340,8 +1356,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1356,8 +1372,8 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1372,8 +1388,8 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>lever</source>
   </job>
   <job>
@@ -1388,8 +1404,8 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>lever</source>
   </job>
   <job>
@@ -1404,8 +1420,8 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>lever</source>
   </job>
   <job>
@@ -1420,8 +1436,8 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>lever</source>
   </job>
   <job>
@@ -1436,8 +1452,8 @@
     <location_type>onsite</location_type>
     <office_location>Various Campaign Locations</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-08-30</valid_through>
+    <date_posted>2026-06-08</date_posted>
+    <valid_through>2026-09-06</valid_through>
     <source>lever</source>
   </job>
 </jobs>
