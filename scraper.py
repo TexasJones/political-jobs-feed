@@ -121,18 +121,29 @@ TITLE_BLOCKLIST = [
     "cyber", "security operations", "endpoint", "network admin",
     "data scientist", "machine learning", "cloud architect",
     "information security", "information technology",
+    "technical project manager", "technical program manager",
+    "enterprise applications", "applications integration",
     # Finance / Accounting
     "accountant", "controller", "bookkeeper",
     "accounts payable", "accounts receivable", "payroll",
     # HR / People Ops
     "human resources", "talent acquisition", "recruiter", "hris",
     "benefits administrator", "learning & development",
-    "learning and development",
+    "learning and development", "people and culture", "chief people",
     # Legal (non-policy)
     "paralegal", "legal counsel", "general counsel", "staff attorney",
-    # Facilities / Operations
+    "staff counsel", "senior counsel", "oversight counsel",
+    "legal director", "legal advisor", "chief legal",
+    "deputy legal",
+    # Design / Creative (non-comms)
+    "graphic design", "graphic designer", "visual design",
+    # Facilities / Operations / Security
     "facilities", "construction", "maintenance", "custodial",
-    "office manager", "executive assistant",
+    "office manager", "executive assistant", "confidential assistant",
+    "chief operating", "protective services", "protective security",
+    # Admin catch-alls
+    "business analyst", "future opportunities", "general interest",
+    "fellowship sponsorship",
     # Healthcare
     "nurse", "physician", "medical", "clinical", "therapist",
     # USAJobs-specific noise
