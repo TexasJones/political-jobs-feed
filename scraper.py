@@ -37,9 +37,6 @@ BROWSER_HEADERS = {
 
 # ─────────────────────────────────────────────
 # Sources
-#
-# Greenhouse migrated to job-boards.greenhouse.io
-# Lever boards confirmed at jobs.lever.co
 # ─────────────────────────────────────────────
 
 GREENHOUSE_BOARDS = [
@@ -53,17 +50,16 @@ GREENHOUSE_BOARDS = [
     "gmmb",
     "berlinrosen",
     # Community & labor organizing
-    "industriouslabs",          # Climate policy campaigns
+    "industriouslabs",
     # Think tanks & policy
-    "americanprogress",         # Center for American Progress
-    "brookings",                # Brookings Institution
+    "americanprogress",
+    "brookings",
     # Additional advocacy
-    "ppfa",                     # Planned Parenthood Federation of America
-    "nrdc",                     # Natural Resources Defense Council
-    "publicadvocates",          # Public Advocates
+    "ppfa",
+    "nrdc",
+    "publicadvocates",
 ]
 
-# Human-readable display names for Greenhouse board tokens
 GREENHOUSE_NAMES = {
     "aclu": "ACLU",
     "moveonorg": "MoveOn.org",
@@ -80,29 +76,20 @@ GREENHOUSE_NAMES = {
     "publicadvocates": "Public Advocates",
 }
 
-# Human-readable display names for Lever company slugs
+LEVER_COMPANIES = [
+    "emilyslist",
+    "colorofchange",
+    "unitedwedream",
+]
+
 LEVER_NAMES = {
     "emilyslist": "EMILY's List",
     "colorofchange": "Color of Change",
     "unitedwedream": "United We Dream",
 }
 
-LEVER_COMPANIES = [
-    "emilyslist",
-    "colorofchange",            # Color of Change
-    "unitedwedream",            # United We Dream
-]
-
-USAJOBS_SEARCHES = [
-    "public affairs specialist",
-    "legislative affairs",
-    "communications director",
-    "press secretary",
-    "congressional affairs",
-]
-
 WORKABLE_COMPANIES = [
-    "fp1-strategies",           # FP1 Strategies — Republican political consulting
+    "fp1-strategies",
 ]
 
 WORKDAY_COMPANIES = [
@@ -113,47 +100,75 @@ WORKDAY_COMPANIES = [
     },
 ]
 
-# USAJobs job series codes — tightly scoped to comms & public affairs only:
-# 1035 = Public Affairs, 1082 = Writing/Editing & Information
-# Removed 0301 (Misc Admin) and 1001 (General Arts) — too broad, pulls unrelated roles
+USAJOBS_SEARCHES = [
+    "public affairs specialist",
+    "legislative affairs",
+    "communications director",
+    "press secretary",
+    "congressional affairs",
+]
+
 USAJOBS_SERIES = ["1035", "1082"]
 
-# Job title terms that indicate irrelevant federal roles — skip these
-USAJOBS_TITLE_BLOCKLIST = [
+# ─────────────────────────────────────────────
+# Title blocklist — applies to ALL sources
+# Drops roles that don't belong on a public affairs job board
+# ─────────────────────────────────────────────
+
+TITLE_BLOCKLIST = [
+    # IT / Engineering
+    "engineer", "developer", "software", "devops", "sysadmin",
+    "cyber", "security operations", "endpoint", "network admin",
+    "data scientist", "machine learning", "cloud architect",
+    "information security", "information technology",
+    # Finance / Accounting
+    "accountant", "controller", "bookkeeper",
+    "accounts payable", "accounts receivable", "payroll",
+    # HR / People Ops
+    "human resources", "talent acquisition", "recruiter", "hris",
+    "benefits administrator", "learning & development",
+    "learning and development",
+    # Legal (non-policy)
+    "paralegal", "legal counsel", "general counsel", "staff attorney",
+    # Facilities / Operations
+    "facilities", "construction", "maintenance", "custodial",
+    "office manager", "executive assistant",
+    # Healthcare
+    "nurse", "physician", "medical", "clinical", "therapist",
+    # USAJobs-specific noise
     "border protection", "customs", "immigration", "cbp officer",
     "agriculture specialist", "victim advocate", "family advocacy",
     "clinical counselor", "psychologist", "social worker",
     "field service technician", "property specialist",
     "security clearance", "intelligence", "inspector general",
     "contracting officer", "acquisition", "procurement",
-    "nurse", "physician", "medical", "health service",
-    "engineer", "scientist", "research", "laboratory",
+    "scientist", "research", "laboratory",
     "law enforcement", "correctional", "detention",
     "military", "army", "navy", "marine", "air force",
     "logistics", "supply chain", "warehouse",
 ]
 
 # ─────────────────────────────────────────────
-# Category logic
+# Category rules
 # ─────────────────────────────────────────────
 
 CATEGORY_RULES = {
     "Political Campaigns": [
         "campaign", "field organizer", "canvass",
-        "voter", "political director", "gotv", "election"
+        "voter", "political director", "gotv", "election",
     ],
     "Public Affairs & Lobbying": [
-        "public affairs", "government relations", "lobby", "advocacy"
+        "public affairs", "government relations", "lobby", "lobbying", "advocacy",
     ],
     "Government & Policy": [
-        "policy", "legislative", "congress", "senate", "house", "federal"
+        "policy", "legislative", "congress", "senate", "house", "federal",
     ],
     "Communications & PR": [
         "communications", "media relations", "press secretary", "spokesperson",
-        "public relations", "earned media", "digital strategy", "social media manager"
+        "public relations", "earned media", "digital strategy", "social media manager",
     ],
     "Nonprofit Advocacy": [
-        "nonprofit", "grassroots", "organizing", "civic"
+        "nonprofit", "grassroots", "organizing", "civic",
     ],
 }
 
@@ -169,16 +184,15 @@ def clean(text: str) -> str:
 
 
 def truncate(text: str, max_chars: int = 1500) -> str:
-    """Truncate at a word boundary instead of mid-word."""
     if len(text) <= max_chars:
         return text
-    return text[:max_chars].rsplit(' ', 1)[0]
+    return text[:max_chars].rsplit(" ", 1)[0]
 
 
 def slugify(text: str) -> str:
     text = text.lower().strip()
     text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"[\s-]+", "-", text)  # collapse spaces AND hyphens together
+    text = re.sub(r"[\s-]+", "-", text)
     return text.strip("-")
 
 
@@ -205,12 +219,12 @@ def guess_employment_type(title: str) -> str:
     return "FULL_TIME"
 
 
-def build_job_id(source: str, raw_id: str) -> str:
-    return f"{source}-{raw_id}"
+def is_blocked(title: str) -> bool:
+    t = title.lower()
+    return any(term in t for term in TITLE_BLOCKLIST)
 
 
 def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
-    """Fetch a URL with browser-like headers and retry on failure."""
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=BROWSER_HEADERS)
@@ -218,7 +232,7 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
                 return resp.read().decode("utf-8", errors="replace")
         except urllib.error.HTTPError as e:
             if e.code == 404:
-                raise  # Don't retry 404s — board doesn't exist
+                raise
             if attempt == retries - 1:
                 raise
             wait = 2 ** attempt
@@ -242,7 +256,12 @@ seen = set()
 def add_job(source, raw_id, title, company, apply_url,
             description="", location="", posted=None):
 
-    job_id = build_job_id(source, f"{company}-{raw_id}")
+    # Drop irrelevant roles before doing anything else
+    if is_blocked(title):
+        log.info("Skipping (blocklist): %s @ %s", title, company)
+        return
+
+    job_id = f"{source}-{company}-{raw_id}"
 
     if job_id in seen:
         return
@@ -253,22 +272,18 @@ def add_job(source, raw_id, title, company, apply_url,
     remote = detect_remote(location, description)
     employment_type = guess_employment_type(title)
 
-    # Fix: strip whitespace before joining to prevent double-dash slugs
     slug = slugify(f"{title.strip()}-{company.strip()}")
     canonical_url = f"{BASE_URL}/jobs/{slug}/"
 
-    # Normalize posted date — handles ISO strings and Unix ms timestamps
     if posted:
         posted = str(posted)
         if re.match(r"^\d{13}$", posted):
-            # Lever returns Unix milliseconds
             posted = datetime.fromtimestamp(int(posted) / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
         else:
             posted = posted[:10]
     else:
         posted = str(date.today())
 
-    # valid_through: 90 days from date_posted
     try:
         posted_date = datetime.strptime(posted, "%Y-%m-%d").date()
     except ValueError:
@@ -276,20 +291,20 @@ def add_job(source, raw_id, title, company, apply_url,
     valid_through = str(posted_date + timedelta(days=90))
 
     jobs.append({
-        "job_id": job_id,
-        "title": title.strip(),
-        "company": company.strip(),
-        "slug": slug,
+        "job_id":        job_id,
+        "title":         title.strip(),
+        "company":       company.strip(),
+        "slug":          slug,
         "canonical_url": canonical_url,
-        "description": description,
-        "apply_url": apply_url,
-        "category": category,
+        "description":   description,
+        "apply_url":     apply_url,
+        "category":      category,
         "location_type": "remote" if remote else "onsite",
         "office_location": location,
         "employment_type": employment_type,
-        "date_posted": posted,
+        "date_posted":   posted,
         "valid_through": valid_through,
-        "source": source
+        "source":        source,
     })
 
     log.info("+ %s @ %s", title, company)
@@ -324,23 +339,13 @@ def fetch_usajobs():
 
             for item in data.get("SearchResult", {}).get("SearchResultItems", []):
                 pos = item.get("MatchedObjectDescriptor", {})
-
                 raw_id = pos.get("PositionID", hashlib.md5(str(item).encode()).hexdigest())
                 title = pos.get("PositionTitle", "")
-
-                # Skip titles that match the blocklist
-                title_lower = title.lower()
-                if any(blocked in title_lower for blocked in USAJOBS_TITLE_BLOCKLIST):
-                    log.info("Skipping USAJobs title (blocklist): %s", title)
-                    continue
-
                 company = pos.get("OrganizationName", "U.S. Federal Government")
                 apply_url = pos.get("ApplyURI", [""])[0]
                 desc = pos.get("UserArea", {}).get("Details", {}).get("JobSummary", "")
-
                 locs = pos.get("PositionLocation", [])
                 location = locs[0].get("LocationName", "") if locs else ""
-
                 posted = (pos.get("PublicationStartDate") or str(date.today()))[:10]
 
                 add_job("usajobs", raw_id, title, company, apply_url, desc, location, posted)
@@ -351,8 +356,7 @@ def fetch_usajobs():
             log.warning("USAJobs error: %s", e)
 
 # ─────────────────────────────────────────────
-# Greenhouse — scrape job-boards.greenhouse.io
-# (Greenhouse migrated away from boards.greenhouse.io)
+# Greenhouse
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -364,8 +368,6 @@ def fetch_greenhouse():
             log.info("Fetching %s", url)
             page = fetch_url(url)
 
-            # job-boards.greenhouse.io embeds job data as JSON in a <script> tag:
-            # <script type="application/json" data-js="gh-jobs">[ ... ]</script>
             json_match = re.search(
                 r'<script[^>]+data-js=["\']gh-jobs["\'][^>]*>(.*?)</script>',
                 page, re.DOTALL
@@ -377,13 +379,18 @@ def fetch_greenhouse():
                     for j in job_list:
                         job_id = str(j.get("id", ""))
                         title = j.get("title", "")
-                        location = j.get("location", {}).get("name", "") if isinstance(j.get("location"), dict) else str(j.get("location", ""))
+                        location = (
+                            j.get("location", {}).get("name", "")
+                            if isinstance(j.get("location"), dict)
+                            else str(j.get("location", ""))
+                        )
                         apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
                         desc = j.get("content", "") or j.get("description", "")
 
                         if title and job_id:
                             display_name = GREENHOUSE_NAMES.get(board, board.title())
                             add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
+
                     log.info("Greenhouse %s: %d jobs from JSON", board, len(job_list))
                     time.sleep(0.3)
                     continue
@@ -397,8 +404,7 @@ def fetch_greenhouse():
             )
 
             if not job_links:
-                log.warning("Greenhouse %s: no jobs found — page structure unknown", board)
-                log.warning("Greenhouse %s page preview: %s", board, page[:500])
+                log.warning("Greenhouse %s: no jobs found", board)
                 continue
 
             for job_id, title in job_links:
@@ -413,14 +419,14 @@ def fetch_greenhouse():
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
-                log.warning("Greenhouse %s: board not found (404) — check token", board)
+                log.warning("Greenhouse %s: board not found (404)", board)
             else:
                 log.warning("Greenhouse error %s: HTTP %s", board, e.code)
         except Exception as e:
             log.warning("Greenhouse error %s: %s", board, e)
 
 # ─────────────────────────────────────────────
-# Lever — scrape jobs.lever.co public board
+# Lever
 # ─────────────────────────────────────────────
 
 def fetch_lever():
@@ -467,8 +473,7 @@ def fetch_lever():
             )
 
             if not postings:
-                log.warning("Lever %s: no postings found in HTML", company)
-                log.warning("Lever %s page preview: %s", company, page[:500])
+                log.warning("Lever %s: no postings found", company)
                 continue
 
             seen_ids = set()
@@ -497,14 +502,14 @@ def fetch_lever():
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
-                log.warning("Lever %s: board not found (404) — check company slug", company)
+                log.warning("Lever %s: board not found (404)", company)
             else:
                 log.warning("Lever error %s: HTTP %s", company, e.code)
         except Exception as e:
             log.warning("Lever error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
-# Workable — scrape apply.workable.com public boards
+# Workable
 # ─────────────────────────────────────────────
 
 def fetch_workable():
@@ -523,16 +528,12 @@ def fetch_workable():
             with urllib.request.urlopen(req, timeout=15) as resp:
                 data = json.loads(resp.read().decode())
 
-            jobs_list = data.get("results", [])
             found = 0
-
-            for j in jobs_list:
+            for j in data.get("results", []):
                 job_id = j.get("shortcode", j.get("id", ""))
                 title = j.get("title", "")
                 location = j.get("location", {})
-                city = location.get("city", "")
-                state = location.get("region", "")
-                loc_str = ", ".join(filter(None, [city, state]))
+                loc_str = ", ".join(filter(None, [location.get("city", ""), location.get("region", "")]))
                 apply_url = f"https://apply.workable.com/{company}/j/{job_id}/"
                 desc = j.get("description", "") or j.get("full_description", "")
                 posted = (j.get("published_on") or str(date.today()))[:10]
@@ -546,14 +547,14 @@ def fetch_workable():
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
-                log.warning("Workable %s: board not found (404) — check company slug", company)
+                log.warning("Workable %s: board not found (404)", company)
             else:
                 log.warning("Workable error %s: HTTP %s", company, e.code)
         except Exception as e:
             log.warning("Workable error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
-# Workday — scrape public Workday job boards
+# Workday
 # ─────────────────────────────────────────────
 
 def fetch_workday():
@@ -569,14 +570,9 @@ def fetch_workday():
             log.info("Fetching %s", url)
             page = fetch_url(url)
 
-            # Workday embeds job data in a __appConfig or next data script
-            json_match = re.search(
-                r'"jobPostings"\s*:\s*(\[.*?\])\s*[,}]',
-                page, re.DOTALL
-            )
+            json_match = re.search(r'"jobPostings"\s*:\s*(\[.*?\])\s*[,}]', page, re.DOTALL)
 
             if not json_match:
-                # Try alternate pattern for Workday's JS bundles
                 json_match = re.search(
                     r'var\s+appConfig\s*=\s*(\{.*?\});\s*(?:var|window)',
                     page, re.DOTALL
@@ -595,13 +591,13 @@ def fetch_workday():
                         if title:
                             add_job("workday", str(job_id), title, name, apply_url, "", location, posted)
                             found += 1
-                    log.info("Workday %s: %d jobs from JSON", name, found)
+                    log.info("Workday %s: %d jobs", name, found)
                     time.sleep(0.3)
                     continue
                 except (json.JSONDecodeError, KeyError):
                     pass
 
-            log.warning("Workday %s: could not parse job data — page structure may have changed", name)
+            log.warning("Workday %s: could not parse job data", name)
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -625,7 +621,7 @@ fetch_workday()
 # Build XML feed
 # ─────────────────────────────────────────────
 
-log.info("Total jobs: %d", len(jobs))
+log.info("Total jobs after filtering: %d", len(jobs))
 
 root = ET.Element("jobs")
 root.set("generated", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
