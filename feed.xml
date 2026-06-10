@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-10T21:42:41Z" count="41">
+<jobs generated="2026-06-10T21:56:11Z" count="74">
   <job>
     <job_id>greenhouse-ACLU-8510380002</job_id>
     <title>Disability, Accessibility &amp; Inclusion Manager</title>
@@ -593,35 +593,51 @@
     <source>greenhouse</source>
   </job>
   <job>
+    <job_id>greenhouse-Civis Analytics-7476351</job_id>
+    <title>Chief Technology Officer</title>
+    <company>Civis Analytics</company>
+    <slug>chief-technology-officer-civis-analytics</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/chief-technology-officer-civis-analytics/</canonical_url>
+    <description/>
+    <apply_url>https://job-boards.greenhouse.io/civisanalytics/jobs/7476351</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-10</date_posted>
+    <valid_through>2026-09-08</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>lever-EMILY's List-20f401e2-c387-4840-b521-0e10319e4f85</job_id>
+    <title>EMILYs List Job Bank</title>
+    <company>EMILY's List</company>
+    <slug>emilys-list-job-bank-emilys-list</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/emilys-list-job-bank-emilys-list/</canonical_url>
+    <description>Welcome to the EMILYs List Job Bank If you are interested in a position on a campaign in 2025-2026 this is the place for you. Upload your resume and tell us how soon you are available and your campaign work preferences. Please note that this site is for campaign jobs only. This is not for policy jobs, jobs on Capitol Hill, Federal Government Agencies or Political Committees.</description>
+    <apply_url>https://jobs.lever.co/emilyslist/20f401e2-c387-4840-b521-0e10319e4f85</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Various Campaign Locations</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2021-01-22</date_posted>
+    <valid_through>2021-04-22</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
     <job_id>lever-EMILY's List-47de1e32-4519-4d62-8a04-5451d029340b</job_id>
     <title>Federal and Gubernatorial Regional Director (cycle)</title>
     <company>EMILY's List</company>
     <slug>federal-and-gubernatorial-regional-director-cycle-emilys-list</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/federal-and-gubernatorial-regional-director-cycle-emilys-list/</canonical_url>
-    <description/>
+    <description>SUMMARY Reports to: Deputy Chief of Campaigns, Federal &amp; Gubernatorial Races FLSA Status: Exempt Union Position: Yes Cycle Position through 12/31/2026 EMILYs List, the nation’s largest resource for women in politics, is searching for a Regional Director to join our Campaigns team. The Regional Director will work with the DCCO on a set of races to provide professional advice and assess the operations of campaigns on a day-to-day basis. They will also be responsible for coordinating with other partners in the Campaigns team, including finance directors, research and comms staff. At EMILYs List, you’ll be part of a dynamic team committed to electing Democratic pro-choice women up and down the ballot. Read on for more details about the job and about EMILYs List.</description>
     <apply_url>https://jobs.lever.co/emilyslist/47de1e32-4519-4d62-8a04-5451d029340b</apply_url>
-    <category>Government &amp; Policy</category>
+    <category>Political Campaigns</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>lever</source>
-  </job>
-  <job>
-    <job_id>lever-EMILY's List-66505ddd-bf51-42ef-a6ff-f65e0f5e029a</job_id>
-    <title>Traveling Media &amp; Content Coordinator</title>
-    <company>EMILY's List</company>
-    <slug>traveling-media-content-coordinator-emilys-list</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/traveling-media-content-coordinator-emilys-list/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/emilyslist/66505ddd-bf51-42ef-a6ff-f65e0f5e029a</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Washington, DC</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
+    <date_posted>2026-01-09</date_posted>
+    <valid_through>2026-04-09</valid_through>
     <source>lever</source>
   </job>
   <job>
@@ -630,30 +646,542 @@
     <company>EMILY's List</company>
     <slug>regional-finance-manager-emilys-list</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/regional-finance-manager-emilys-list/</canonical_url>
-    <description/>
+    <description>SUMMARY Reports to: Senior Director of Major Gifts Supervisory Responsibilities: None FLSA Status: Exempt Union Position: Yes EMILY’s List, the nation’s largest resource for women in politics, is searching for a Regional Finance Manager to join our Major Gifts team. The Regional Finance Manager cultivates support from mid-level donors and manages fundraising events across the country. At EMILY’s List, you’ll be part of a dynamic team committed to electing Democratic pro-choice women up and down the ballot. Read on for more details about the job and about EMILY’s List.</description>
     <apply_url>https://jobs.lever.co/emilyslist/dbee3e41-59e5-40ff-97fe-c213a5ed158a</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
+    <date_posted>2026-01-09</date_posted>
+    <valid_through>2026-04-09</valid_through>
     <source>lever</source>
   </job>
   <job>
-    <job_id>lever-EMILY's List-20f401e2-c387-4840-b521-0e10319e4f85</job_id>
-    <title>EMILYs List Job Bank</title>
+    <job_id>lever-EMILY's List-66505ddd-bf51-42ef-a6ff-f65e0f5e029a</job_id>
+    <title>Traveling Media &amp; Content Coordinator</title>
     <company>EMILY's List</company>
-    <slug>emilys-list-job-bank-emilys-list</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/emilys-list-job-bank-emilys-list/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/emilyslist/20f401e2-c387-4840-b521-0e10319e4f85</apply_url>
+    <slug>traveling-media-content-coordinator-emilys-list</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/traveling-media-content-coordinator-emilys-list/</canonical_url>
+    <description>SUMMARY Department: Communications Supervisor: Chief Communications Officer FLSA Status: Exempt Union Position: Yes Cycle Position through 12/31/2026 EMILYs List, the nation’s largest resource for women in politics, is searching for a Traveling Media and Content Coordinator to join our Communications team. The Traveling Media and Content Coordinator will drive real-time storytelling and media engagement on the ground, supporting the execution of strategic communications and digital content while traveling with the EMILYs List President. This role is central to capturing, producing, and amplifying compelling content across platforms while ensuring seamless coordination with press and communications efforts. At EMILYs List, you’ll be part of a dynamic team committed to electing Democratic pro-choice women up and down the ballot. Read on for more details about the job and about EMILYs List.</description>
+    <apply_url>https://jobs.lever.co/emilyslist/66505ddd-bf51-42ef-a6ff-f65e0f5e029a</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-01</date_posted>
+    <valid_through>2026-07-30</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-Global Strategy Group-c72e6a49-dac0-4218-8dd7-aae35733e9fa</job_id>
+    <title>Vice President, Communications &amp; Public Affairs</title>
+    <company>Global Strategy Group</company>
+    <slug>vice-president-communications-public-affairs-global-strategy-group</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-communications-public-affairs-global-strategy-group/</canonical_url>
+    <description>Global Strategy Group (GSG) is an award-winning public affairs firm working at the intersection of business, politics, and causes. We help our clients build their reputations, tackle big challenges, and win. Our team is comprised of professionals with backgrounds in communications, government, campaigns, journalism, and research. Our culture and values play an integral role in how we operate. We work hard to bring passion, energy, and drive to everything we do. We are looking to hire a motivated, organized, and goal-oriented individual to join our growing Communications &amp; Public Affairs practice. Vice President is a senior-level position that serves as the primary day-to-day client contact and account lead. The ideal candidate brings deep media relations expertise, including a proven track record of pitching and placing stories with national and Beltway outlets, and the ability to lead client engagements from strategy through execution. Vice Presidents are strategic communications experts with demonstrated depth of knowledge and expertise across a variety of industries, often with subject matter expertise in specific sectors. They are active contributors to new business, highly skilled in agency processes, and strong project and people managers.</description>
+    <apply_url>https://jobs.lever.co/globalstrategygroup/c72e6a49-dac0-4218-8dd7-aae35733e9fa</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-0e7a76d5-6e3d-4596-90e0-43d6503d0863</job_id>
+    <title>Account Executive Support - Rider's Advantage</title>
+    <company>APCO Worldwide</company>
+    <slug>account-executive-support-riders-advantage-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-support-riders-advantage-apco-worldwide/</canonical_url>
+    <description>Rider’s Advantage is a leading provider of powersports F&amp;I products and dealership support solutions. We partner with dealerships across the country to deliver innovative protection products, operational support, and exceptional customer experiences. Our team is committed to helping dealership partners succeed through responsive service, strong communication, and trusted expertise. We take pride in building lasting relationships and delivering solutions that help our dealers grow their businesses while serving their customers effectively. We are looking for an Account Executive Support to serve as a key connection between Rider’s Advantage, our dealership partners, and our internal teams. In this role, you will support dealer onboarding, operational questions, customer communications, and ongoing relationship management while helping ensure a seamless experience for our partners.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/0e7a76d5-6e3d-4596-90e0-43d6503d0863</apply_url>
+    <category>Communications &amp; PR</category>
+    <location_type>onsite</location_type>
+    <office_location>United States</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-29</date_posted>
+    <valid_through>2026-08-27</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-4f0e3e7b-d0f2-4f27-9596-72f9df8677b3</job_id>
+    <title>Actuarial Analyst</title>
+    <company>APCO Worldwide</company>
+    <slug>actuarial-analyst-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/actuarial-analyst-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for an Actuarial Analyst to support pricing, forecasting, and risk analysis across our product portfolio. In this role, you will work with large data sets to analyze performance, develop rate recommendations, and contribute to key financial and strategic decisions.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/4f0e3e7b-d0f2-4f27-9596-72f9df8677b3</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
-    <office_location>Various Campaign Locations</office_location>
+    <office_location>United States</office_location>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-f0cb6eef-a344-4126-8347-20a99e3971e2</job_id>
+    <title>Business Development Call Center Agent</title>
+    <company>APCO Worldwide</company>
+    <slug>business-development-call-center-agent-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/business-development-call-center-agent-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Business Development Call Center Agent to join our team. In this role, you'll engage with customers through inbound and outbound phone campaigns, help resolve questions and concerns, and create positive customer experiences that strengthen loyalty and support our clients' success. Whether you're beginning your career or building on previous customer service experience, this role offers an opportunity to develop valuable communication, sales, and customer engagement skills in a fast-paced environment.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/f0cb6eef-a344-4126-8347-20a99e3971e2</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location>Dallas, TX</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-29</date_posted>
+    <valid_through>2026-08-27</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-93b20399-7b77-403f-b95e-e0190e8df5c3</job_id>
+    <title>Business Development Manager</title>
+    <company>APCO Worldwide</company>
+    <slug>business-development-manager-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/business-development-manager-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Business Development Manager to drive new business growth within a defined territory. In this role, you will focus on building and executing a strategic pipeline, developing new credit union and financial institution relationships, and expanding APCO’s presence through new and re-engaged partnerships. This is a highly autonomous, performance-driven role for a sales professional who thrives on creating opportunities and closing new business.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/93b20399-7b77-403f-b95e-e0190e8df5c3</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Arizona</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-c6860dd1-07af-4877-a9d4-d1b2cbc372a4</job_id>
+    <title>Cash Application Specialist</title>
+    <company>APCO Worldwide</company>
+    <slug>cash-application-specialist-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/cash-application-specialist-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Cash Application Specialist to join our Receivables &amp; Billing team. In this role, you will help ensure incoming funds are accurately applied, contracts are activated correctly, and account discrepancies are resolved efficiently to support operational and financial accuracy across the organization.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/c6860dd1-07af-4877-a9d4-d1b2cbc372a4</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Westerville, OH</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-9b6193a4-282d-45f5-816a-06a2afb31b12</job_id>
+    <title>Claims Adjuster - Crystal Fusion</title>
+    <company>APCO Worldwide</company>
+    <slug>claims-adjuster-crystal-fusion-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/claims-adjuster-crystal-fusion-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. The Windshield Claims Specialist is responsible for managing and processing claims related to windshield repair and replacement. This role serves as a key point of contact for customers and repair facilities, ensuring a smooth, accurate, and timely claims experience. The ideal candidate is customer-focused, detail-oriented, and excels at coordinating multiple tasks while maintaining a high level of service and efficiency.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/9b6193a4-282d-45f5-816a-06a2afb31b12</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Bayshore, NY</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-ed1277bc-3708-4fcf-8227-a1fae96558fa</job_id>
+    <title>Cloud Optimization Architect</title>
+    <company>APCO Worldwide</company>
+    <slug>cloud-optimization-architect-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/cloud-optimization-architect-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are seeking a Cloud Optimization Architect to lead the financial and technical evolution of our Azure ecosystem. This is a senior-level technical role focused on the intersection of high-performance engineering and cloud financial accountability. You will be the primary architect responsible for ensuring our $1M+ annual Azure spend is optimized for maximum value through Infrastructure-as-Code (IaC), automated governance, and data-driven FinOps practices.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/ed1277bc-3708-4fcf-8227-a1fae96558fa</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-23</date_posted>
+    <valid_through>2026-07-22</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-5d7161b7-e04f-4137-a8c1-c762631b906b</job_id>
+    <title>Commission Processing Senior Specialist</title>
+    <company>APCO Worldwide</company>
+    <slug>commission-processing-senior-specialist-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/commission-processing-senior-specialist-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Senior Commission Operations Specialist to support commission processing, operational workflows, and process improvement initiatives within our Receivables &amp; Billing team. In this role, you will serve as a subject matter expert for commission operations while helping drive efficiency, accuracy, and exceptional service for internal and external partners.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/5d7161b7-e04f-4137-a8c1-c762631b906b</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Norcross, GA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-29</date_posted>
+    <valid_through>2026-08-27</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-db94fe4a-9b04-42d9-98f5-68d3bce645df</job_id>
+    <title>Contract Processing Specialist</title>
+    <company>APCO Worldwide</company>
+    <slug>contract-processing-specialist-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/contract-processing-specialist-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Contract Processing Specialist to support the processing, validation, and administration of customer and dealer contracts. In this role, you will help ensure contracts meet eligibility requirements, maintain accurate records, resolve issues, and support operational efficiency across the business.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/db94fe4a-9b04-42d9-98f5-68d3bce645df</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Westerville, OH</office_location>
+    <employment_type>CONTRACTOR</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-5e956e3a-1699-451a-8caa-1ce8411d1df1</job_id>
+    <title>Customer Service Representative</title>
+    <company>APCO Worldwide</company>
+    <slug>customer-service-representative-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/customer-service-representative-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Customer Service Representative to join our Customer Service team. In this role, you will be the voice of APCO, helping customers, dealers, agents, and repair facilities get the information and support they need quickly and professionally. Your work will play an important role in ensuring every customer interaction reflects the high standard of service our partners expect.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/5e956e3a-1699-451a-8caa-1ce8411d1df1</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-aa8d34e5-3888-4688-9776-1291469a059b</job_id>
+    <title>Customer Service Representative</title>
+    <company>APCO Worldwide</company>
+    <slug>customer-service-representative-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/customer-service-representative-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Customer Service Representative to join our Customer Service team. In this role, you will be the voice of APCO, helping customers, dealers, agents, and repair facilities get the information and support they need quickly and professionally. Your work will play an important role in ensuring every customer interaction reflects the high standard of service our partners expect.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/aa8d34e5-3888-4688-9776-1291469a059b</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>United States</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-aebf63ba-ff8a-4eae-8703-b09739bd047d</job_id>
+    <title>Customer Service Representative</title>
+    <company>APCO Worldwide</company>
+    <slug>customer-service-representative-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/customer-service-representative-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Customer Service Representative to join our Customer Service team. In this role, you will be the voice of APCO, helping customers, dealers, agents, and repair facilities get the information and support they need quickly and professionally. Your work will play an important role in ensuring every customer interaction reflects the high standard of service our partners expect.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/aebf63ba-ff8a-4eae-8703-b09739bd047d</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Norcross, GA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-8923b948-c642-41a5-8a57-16d49e81cd08</job_id>
+    <title>Dealer Performance Manager</title>
+    <company>APCO Worldwide</company>
+    <slug>dealer-performance-manager-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/dealer-performance-manager-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Dealer Performance Manager to support and grow a portfolio of dealership partners. In this role, you will act as a trusted advisor to your accounts using a consultative approach to strengthen relationships, optimize performance, and drive long-term retention and revenue growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/8923b948-c642-41a5-8a57-16d49e81cd08</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Pennsylvania</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-f85d4905-8f71-48a5-89da-1501b6e627b6</job_id>
+    <title>Dealer Performance Manager</title>
+    <company>APCO Worldwide</company>
+    <slug>dealer-performance-manager-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/dealer-performance-manager-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Dealer Performance Manager to support and grow a portfolio of dealership partners. In this role, you will act as a trusted advisor to your accounts using a consultative approach to strengthen relationships, optimize performance, and drive long-term retention and revenue growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/f85d4905-8f71-48a5-89da-1501b6e627b6</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Miami, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-29</date_posted>
+    <valid_through>2026-08-27</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-d2d867d1-0857-4446-8ca3-c686d3ee3642</job_id>
+    <title>District Manager, Southern Key Systems</title>
+    <company>APCO Worldwide</company>
+    <slug>district-manager-southern-key-systems-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/district-manager-southern-key-systems-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a District Manager to join our Southern Key division, supporting the growth of KEYper Systems solutions across your assigned territory. In this role, you will work directly with dealerships, fleet operators, and other organizations to deliver asset control and security solutions that improve operational efficiency and reduce risk. This is a field-based, customer-facing role for a sales professional who thrives on building relationships, demonstrating technical solutions, and driving new business growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/d2d867d1-0857-4446-8ca3-c686d3ee3642</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Tennessee</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-04c4fc65-11a6-4527-8079-c4bec81a5029</job_id>
+    <title>District Sales Manager, Automotive F&amp;I</title>
+    <company>APCO Worldwide</company>
+    <slug>district-sales-manager-automotive-fi-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/district-sales-manager-automotive-fi-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a District Manager to support and grow relationships with automotive dealership partners within an assigned territory. In this role, you will act as a consultative partner—helping dealerships improve F&amp;I performance, increase product penetration, strengthen processes, and drive long-term business growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/04c4fc65-11a6-4527-8079-c4bec81a5029</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>California</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-08</date_posted>
+    <valid_through>2026-08-06</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-c651db1f-cda9-407d-aed7-a0d4864c4028</job_id>
+    <title>District Sales Manager, Automotive F&amp;I</title>
+    <company>APCO Worldwide</company>
+    <slug>district-sales-manager-automotive-fi-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/district-sales-manager-automotive-fi-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a District Manager to support and grow relationships with automotive dealership partners within an assigned territory. In this role, you will act as a consultative partner—helping dealerships improve F&amp;I performance, increase product penetration, strengthen processes, and drive long-term business growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/c651db1f-cda9-407d-aed7-a0d4864c4028</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>remote</location_type>
+    <office_location>** Remote **</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-29</date_posted>
+    <valid_through>2026-08-27</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-de2cea41-1011-4951-9884-64bf601af05a</job_id>
+    <title>District Sales Manager, Automotive F&amp;I</title>
+    <company>APCO Worldwide</company>
+    <slug>district-sales-manager-automotive-fi-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/district-sales-manager-automotive-fi-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a District Manager to support and grow relationships with automotive dealership partners within an assigned territory. In this role, you will act as a consultative partner—helping dealerships improve F&amp;I performance, increase product penetration, strengthen processes, and drive long-term business growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/de2cea41-1011-4951-9884-64bf601af05a</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Texas</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-06</date_posted>
+    <valid_through>2026-08-04</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-f4ebb776-e5e6-4745-997a-ab1860ab3351</job_id>
+    <title>Marketing Coordinator</title>
+    <company>APCO Worldwide</company>
+    <slug>marketing-coordinator-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/marketing-coordinator-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Marketing Coordinator to support marketing operations, event coordination, project management, and internal communications initiatives across the organization. In this role, you will work closely with multiple members of the Marketing team to help keep projects organized, campaigns moving, and events running smoothly.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/f4ebb776-e5e6-4745-997a-ab1860ab3351</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location>Norcross, GA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-34d9b9be-1898-4dcf-a10e-30cd840a2ee3</job_id>
+    <title>Mechanical Claims Adjuster</title>
+    <company>APCO Worldwide</company>
+    <slug>mechanical-claims-adjuster-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/mechanical-claims-adjuster-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Mechanical Claims Adjuster to join our Claims team. In this role, you will use your automotive knowledge and problem-solving skills to evaluate vehicle repair claims, determine coverage, and help drivers get back on the road quickly. Your decisions play a key role in ensuring fair, accurate, and timely claims resolutions for our customers and dealer partners.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/34d9b9be-1898-4dcf-a10e-30cd840a2ee3</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Norcross, GA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-bb53154e-1c6c-4253-8756-04d6018b94ea</job_id>
+    <title>Mechanical Claims Adjuster</title>
+    <company>APCO Worldwide</company>
+    <slug>mechanical-claims-adjuster-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/mechanical-claims-adjuster-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Mechanical Claims Adjuster to join our Claims team. In this role, you will use your automotive knowledge and problem-solving skills to evaluate vehicle repair claims, determine coverage, and help drivers get back on the road quickly. Your decisions play a key role in ensuring fair, accurate, and timely claims resolutions for our customers and dealer partners.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/bb53154e-1c6c-4253-8756-04d6018b94ea</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>United States</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-c5c45ef9-25ed-42d6-919e-171a8ba13724</job_id>
+    <title>Mechanical Claims Adjuster</title>
+    <company>APCO Worldwide</company>
+    <slug>mechanical-claims-adjuster-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/mechanical-claims-adjuster-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Mechanical Claims Adjuster to join our Claims team. In this role, you will use your automotive knowledge and problem-solving skills to evaluate vehicle repair claims, determine coverage, and help drivers get back on the road quickly. Your decisions play a key role in ensuring fair, accurate, and timely claims resolutions for our customers and dealer partners.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/c5c45ef9-25ed-42d6-919e-171a8ba13724</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-04</date_posted>
+    <valid_through>2026-09-02</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-d95fb395-e5ac-496c-b036-d99a3f6488bb</job_id>
+    <title>Regional Sales Manager, RV &amp; Powersports</title>
+    <company>APCO Worldwide</company>
+    <slug>regional-sales-manager-rv-powersports-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/regional-sales-manager-rv-powersports-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Regional Sales Manager to support and grow our Rider’s Advantage dealer network. In this role, you will take ownership of a region, developing new dealer partnerships, strengthening existing relationships, and driving performance through training, strategy, and hands-on support. This is a high-impact, field-based role for a self-starter who thrives on building relationships, solving problems, and driving measurable growth.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/d95fb395-e5ac-496c-b036-d99a3f6488bb</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Oklahoma</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-c85f0fd1-67f8-4232-a1e7-1b0166341d99</job_id>
+    <title>Reinsurance Analyst</title>
+    <company>APCO Worldwide</company>
+    <slug>reinsurance-analyst-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/reinsurance-analyst-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Reinsurance Analyst to support financial reporting, risk analysis, and reinsurance operations. In this role, you will play a key part in ensuring the accuracy of financial data, supporting reinsurance reporting, and providing insights that help manage risk and inform business decisions.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/c85f0fd1-67f8-4232-a1e7-1b0166341d99</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-2ead94b0-84a9-4474-956e-8a511811afde</job_id>
+    <title>Remittance Deposit Specialist</title>
+    <company>APCO Worldwide</company>
+    <slug>remittance-deposit-specialist-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/remittance-deposit-specialist-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Remittance Deposit Specialist to join our Receivables &amp; Billing team. In this role, you will be responsible for processing and reconciling incoming payments, ensuring accuracy in cash application, and supporting the flow of funds across the organization.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/2ead94b0-84a9-4474-956e-8a511811afde</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Westerville, OH</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-4d35b85f-4019-4bc9-9472-7d42ddad6f23</job_id>
+    <title>Senior Product &amp; Compliance Analyst</title>
+    <company>APCO Worldwide</company>
+    <slug>senior-product-compliance-analyst-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-product-compliance-analyst-apco-worldwide/</canonical_url>
+    <description>This subject-matter leadership role requires a detail-oriented, highly motivated and experienced F&amp;I Administration professional to lead product development, ensure regulatory and lender requirement compliance, and provide mentoring and oversight to the Compliance and Product analysts. The Senior Product &amp; Compliance Analyst who will join our growing team at APCO works best as a member of a team and enjoys being innovative while working in a structured environment. They are laser focused on attention to detail. This role is ideal for someone who enjoys working alongside senior leaders, all other business units and importantly legal and marketing. In this role, you will lead various initiatives to maintain our existing product lines and help to ensure our products meet regulatory standards and client needs. You will have the opportunity to use your already developed skills in product management, compliance and innovation, and be part of a dynamic team that influences key business decisions.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/4d35b85f-4019-4bc9-9472-7d42ddad6f23</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-18</date_posted>
+    <valid_through>2026-08-16</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-000a9f73-0236-44e7-bdd5-d6c9837c3209</job_id>
+    <title>Senior Reinsurance Analyst</title>
+    <company>APCO Worldwide</company>
+    <slug>senior-reinsurance-analyst-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-reinsurance-analyst-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Senior Reinsurance Analyst to serve as a strategic partner within APCO’s risk and finance organization. In this role, you will lead complex reinsurance reporting and analysis initiatives, support critical business decision-making, and help strengthen the organization’s overall risk management strategy.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/000a9f73-0236-44e7-bdd5-d6c9837c3209</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Ponte Vedra, FL</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-ad0c2cc4-3e3e-4d64-b717-f7cfb3b5b146</job_id>
+    <title>Specialty Claims Adjuster</title>
+    <company>APCO Worldwide</company>
+    <slug>specialty-claims-adjuster-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/specialty-claims-adjuster-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. The Claims Adjuster is responsible for delivering exceptional customer service while managing and resolving claims efficiently and accurately. This role involves evaluating contract coverage, authorizing repairs, and ensuring compliance with company guidelines. The ideal candidate brings strong automotive or related industry experience, attention to detail, and a commitment to quality, productivity, and service excellence. This is a hybrid role requiring both in-office and remote work.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/ad0c2cc4-3e3e-4d64-b717-f7cfb3b5b146</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>remote</location_type>
+    <office_location>Westerville, OH</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-05-28</date_posted>
+    <valid_through>2026-08-26</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-4ab38377-83cf-4819-be79-e8066a9a6c64</job_id>
+    <title>Tax Analyst</title>
+    <company>APCO Worldwide</company>
+    <slug>tax-analyst-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/tax-analyst-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Tax Analyst to join our Accounting &amp; Finance team. In this role, you will support corporate tax compliance, reporting, and audit activities while working closely with internal teams and external partners to ensure accuracy and timeliness across all tax-related processes.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/4ab38377-83cf-4819-be79-e8066a9a6c64</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Norcross, GA</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-5be90424-c9a5-4d12-a5d6-416dd59be02a</job_id>
+    <title>Vehicle Protection Sales Specialist</title>
+    <company>APCO Worldwide</company>
+    <slug>vehicle-protection-sales-specialist-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/vehicle-protection-sales-specialist-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve. We are looking for a Vehicle Protection Sales Specialist to join our Post Purchase Sales team. In this role, you will connect with customers who already own a vehicle and help them understand the benefits of extended protection coverage. By building rapport and identifying customer needs, you will guide customers toward the protection plan that best fits their vehicle and driving habits while contributing to the continued growth of APCO’s protection programs.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/5be90424-c9a5-4d12-a5d6-416dd59be02a</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>United States</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
+    <job_id>lever-APCO Worldwide-eca05171-9081-4b5f-a062-b2c898d53bd2</job_id>
+    <title>Vice President, Sales Training &amp; Development</title>
+    <company>APCO Worldwide</company>
+    <slug>vice-president-sales-training-development-apco-worldwide</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-sales-training-development-apco-worldwide/</canonical_url>
+    <description>APCO Holdings partners with dealerships across North America to deliver innovative vehicle protection products and services that enhance the ownership experience for customers and drive growth for our partners. Through our family of brands, we bring together industry expertise, technology, and data-driven insights to help dealers strengthen their finance and insurance performance and build lasting relationships with their customers. Our teams work collaboratively across operations, technology, risk, finance, marketing, and sales to deliver solutions that create measurable value and support the continued growth of APCO and the partners we serve.</description>
+    <apply_url>https://jobs.lever.co/apcoholdings/eca05171-9081-4b5f-a062-b2c898d53bd2</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>United States</office_location>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-04-06</date_posted>
+    <valid_through>2026-07-05</valid_through>
     <source>lever</source>
   </job>
 </jobs>
