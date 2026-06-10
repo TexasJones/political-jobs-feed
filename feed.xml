@@ -1,21 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-10T21:39:20Z" count="72">
-  <job>
-    <job_id>greenhouse-ACLU-8497100002</job_id>
-    <title>Technical Project Manager (Term-Limited)</title>
-    <company>ACLU</company>
-    <slug>technical-project-manager-term-limited-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/technical-project-manager-term-limited-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8497100002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
+<jobs generated="2026-06-10T21:42:41Z" count="41">
   <job>
     <job_id>greenhouse-ACLU-8510380002</job_id>
     <title>Disability, Accessibility &amp; Inclusion Manager</title>
@@ -60,22 +44,6 @@
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8505820002</job_id>
-    <title>Technical Program Manager, Engagement Platform(s)</title>
-    <company>ACLU</company>
-    <slug>technical-program-manager-engagement-platforms-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/technical-program-manager-engagement-platforms-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8505820002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-10</date_posted>
     <valid_through>2026-09-08</valid_through>
     <source>greenhouse</source>
@@ -177,22 +145,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-ACLU-8536502002</job_id>
-    <title>Business Analyst [Term-Limited]</title>
-    <company>ACLU</company>
-    <slug>business-analyst-term-limited-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/business-analyst-term-limited-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8536502002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-ACLU-8520829002</job_id>
     <title>Deputy Director, Support Transition (Term-Limited)</title>
     <company>ACLU</company>
@@ -225,70 +177,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-ACLU-8545258002</job_id>
-    <title>Visual Design Associate [Term-Limited]</title>
-    <company>ACLU</company>
-    <slug>visual-design-associate-term-limited-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/visual-design-associate-term-limited-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8545258002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8573304002</job_id>
-    <title>Confidential Assistant, Program, Strategy and Culture</title>
-    <company>ACLU</company>
-    <slug>confidential-assistant-program-strategy-and-culture-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/confidential-assistant-program-strategy-and-culture-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8573304002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8508155002</job_id>
-    <title>Confidential Assistant to the ACLU President and Board Chair (Term-Limited)</title>
-    <company>ACLU</company>
-    <slug>confidential-assistant-to-the-aclu-president-and-board-chair-term-limited-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/confidential-assistant-to-the-aclu-president-and-board-chair-term-limited-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8508155002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>CONTRACTOR</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562499002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, State Supreme Court Initiative</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-state-supreme-court-initiative-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-state-supreme-court-initiative-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562499002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-ACLU-8531703002</job_id>
     <title>Fall 2027 Marvin M. Karpatkin Fellowship, Racial Justice Program</title>
     <company>ACLU</company>
@@ -296,182 +184,6 @@
     <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-marvin-m-karpatkin-fellowship-racial-justice-program-aclu/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8531703002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562462002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Immigrants' Rights Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-immigrants-rights-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-immigrants-rights-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562462002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562698002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, National Prison Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-national-prison-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-national-prison-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562698002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562802002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Voting Rights Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-voting-rights-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-voting-rights-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562802002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562441002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Center for Liberty</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-center-for-liberty-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-center-for-liberty-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562441002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562416002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Disability Rights Program</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-disability-rights-program-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-disability-rights-program-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562416002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562392002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Program on Freedom of Religion and Belief</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-program-on-freedom-of-religion-and-belief-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-program-on-freedom-of-religion-and-belief-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562392002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562731002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Abortion Criminal Defense Initiative (ACDI)</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-abortion-criminal-defense-initiative-acdi-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-abortion-criminal-defense-initiative-acdi-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562731002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562690002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Reproductive Freedom Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-reproductive-freedom-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-reproductive-freedom-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562690002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562604002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Women's Rights Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-womens-rights-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-womens-rights-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562604002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>INTERN</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8558212002</job_id>
-    <title>Deputy Legal Director/ Director of the Trone Center for Justice and Equality</title>
-    <company>ACLU</company>
-    <slug>deputy-legal-director-director-of-the-trone-center-for-justice-and-equality-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/deputy-legal-director-director-of-the-trone-center-for-justice-and-equality-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8558212002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-ACLU-8562522002</job_id>
-    <title>Fall 2027 Fellowship Sponsorship, Criminal Law Reform Project</title>
-    <company>ACLU</company>
-    <slug>fall-2027-fellowship-sponsorship-criminal-law-reform-project-aclu</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-fellowship-sponsorship-criminal-law-reform-project-aclu/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8562522002</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
@@ -489,22 +201,6 @@
     <description/>
     <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8511065002</apply_url>
     <category>Political Campaigns</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8515060002</job_id>
-    <title>Chief Legal Officer</title>
-    <company>Southern Poverty Law Center</company>
-    <slug>chief-legal-officer-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/chief-legal-officer-southern-poverty-law-center/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8515060002</apply_url>
-    <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
     <employment_type>FULL_TIME</employment_type>
@@ -609,22 +305,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Southern Poverty Law Center-8546611002</job_id>
-    <title>Protective Services Officer, Part-Time</title>
-    <company>Southern Poverty Law Center</company>
-    <slug>protective-services-officer-part-time-southern-poverty-law-center</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/protective-services-officer-part-time-southern-poverty-law-center/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8546611002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>PART_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Democracy Forward-5190713008</job_id>
     <title>Director of the Future of Government Talent Program</title>
     <company>Democracy Forward</company>
@@ -632,102 +312,6 @@
     <canonical_url>https://jobs.thepolly.co/jobs/director-of-the-future-of-government-talent-program-democracy-forward/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5190713008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-5158310008</job_id>
-    <title>Legal Director, Civil Rights and Special Projects</title>
-    <company>Democracy Forward</company>
-    <slug>legal-director-civil-rights-and-special-projects-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/legal-director-civil-rights-and-special-projects-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5158310008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-4406991008</job_id>
-    <title>Senior Counsel</title>
-    <company>Democracy Forward</company>
-    <slug>senior-counsel-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-counsel-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/4406991008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-4928883008</job_id>
-    <title>Senior Legal Advisor</title>
-    <company>Democracy Forward</company>
-    <slug>senior-legal-advisor-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-legal-advisor-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/4928883008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-5189524008</job_id>
-    <title>Oversight Counsel</title>
-    <company>Democracy Forward</company>
-    <slug>oversight-counsel-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/oversight-counsel-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5189524008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-5225284008</job_id>
-    <title>Director of Protective Security &amp; Risk Operations</title>
-    <company>Democracy Forward</company>
-    <slug>director-of-protective-security-risk-operations-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/director-of-protective-security-risk-operations-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5225284008</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Democracy Forward-5221429008</job_id>
-    <title>Senior Director of People and Culture</title>
-    <company>Democracy Forward</company>
-    <slug>senior-director-of-people-and-culture-democracy-forward</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-director-of-people-and-culture-democracy-forward/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/democracyforward/jobs/5221429008</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
@@ -760,38 +344,6 @@
     <canonical_url>https://jobs.thepolly.co/jobs/director-media-human-rights-watch/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8435498002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8408691002</job_id>
-    <title>Chief Operating Officer</title>
-    <company>Human Rights Watch</company>
-    <slug>chief-operating-officer-human-rights-watch</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/chief-operating-officer-human-rights-watch/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8408691002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8352097002</job_id>
-    <title>Manager, Enterprise Applications Integration</title>
-    <company>Human Rights Watch</company>
-    <slug>manager-enterprise-applications-integration-human-rights-watch</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/manager-enterprise-applications-integration-human-rights-watch/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8352097002</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
@@ -945,22 +497,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-BerlinRosen-8530668002</job_id>
-    <title>Junior Graphic Designer</title>
-    <company>BerlinRosen</company>
-    <slug>junior-graphic-designer-berlinrosen</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/junior-graphic-designer-berlinrosen/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8530668002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-BerlinRosen-8535149002</job_id>
     <title>Account Coordinator, Public Affairs</title>
     <company>BerlinRosen</company>
@@ -1041,22 +577,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-BerlinRosen-6806145002</job_id>
-    <title>Future Opportunities</title>
-    <company>BerlinRosen</company>
-    <slug>future-opportunities-berlinrosen</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/future-opportunities-berlinrosen/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/6806145002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Industrious Labs-4962595007</job_id>
     <title>Deputy Director, California (Campaigns Department)</title>
     <company>Industrious Labs</company>
@@ -1071,22 +591,6 @@
     <date_posted>2026-06-10</date_posted>
     <valid_through>2026-09-08</valid_through>
     <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>lever-EMILY's List-a2ce7c65-260f-4a57-88f6-0654df1b4664</job_id>
-    <title>General Interest Application</title>
-    <company>EMILY's List</company>
-    <slug>general-interest-application-emilys-list</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/general-interest-application-emilys-list/</canonical_url>
-    <description/>
-    <apply_url>https://jobs.lever.co/emilyslist/a2ce7c65-260f-4a57-88f6-0654df1b4664</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Washington, DC</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-09-08</valid_through>
-    <source>lever</source>
   </job>
   <job>
     <job_id>lever-EMILY's List-47de1e32-4519-4d62-8a04-5451d029340b</job_id>
