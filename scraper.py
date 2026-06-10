@@ -40,56 +40,67 @@ BROWSER_HEADERS = {
 # ─────────────────────────────────────────────
 
 GREENHOUSE_BOARDS = [
-    # Civil rights & legal advocacy
+    # Civil rights & advocacy
     "aclu",
     "southernpovertylawcenter",
     "democracyforward",
     "humanrightswatch",
+    "ppfa",                     # Planned Parenthood
+    "nrdc",                     # Natural Resources Defense Council
+    "publicadvocates",          # Public Advocates
     # Political communications & campaigns
     "moveonorg",
     "gmmb",
     "berlinrosen",
-    # Community & labor organizing
-    "industriouslabs",
+    "industriouslabs",          # Climate policy campaigns
     # Think tanks & policy
-    "americanprogress",
-    "brookings",
-    # Additional advocacy
-    "ppfa",
-    "nrdc",
-    "publicadvocates",
+    "americanprogress",         # Center for American Progress
+    "brookings",                # Brookings Institution
+    # Political data & analytics
+    "civisanalytics",           # Civis Analytics
 ]
 
 GREENHOUSE_NAMES = {
     "aclu": "ACLU",
-    "moveonorg": "MoveOn.org",
-    "gmmb": "GMMB",
-    "berlinrosen": "BerlinRosen",
-    "humanrightswatch": "Human Rights Watch",
-    "democracyforward": "Democracy Forward",
     "southernpovertylawcenter": "Southern Poverty Law Center",
-    "industriouslabs": "Industrious Labs",
-    "americanprogress": "Center for American Progress",
-    "brookings": "Brookings Institution",
+    "democracyforward": "Democracy Forward",
+    "humanrightswatch": "Human Rights Watch",
     "ppfa": "Planned Parenthood",
     "nrdc": "NRDC",
     "publicadvocates": "Public Advocates",
+    "moveonorg": "MoveOn.org",
+    "gmmb": "GMMB",
+    "berlinrosen": "BerlinRosen",
+    "industriouslabs": "Industrious Labs",
+    "americanprogress": "Center for American Progress",
+    "brookings": "Brookings Institution",
+    "civisanalytics": "Civis Analytics",
 }
 
 LEVER_COMPANIES = [
-    "emilyslist",
-    "colorofchange",
-    "unitedwedream",
+    # Progressive political orgs
+    "emilyslist",               # EMILY's List
+    "colorofchange",            # Color of Change
+    "unitedwedream",            # United We Dream
+    "dnc",                      # Democratic National Committee
+    # Public affairs & comms firms
+    "skdk",                     # SKDK (top Dem public affairs firm)
+    "globalstrategygroup",      # Global Strategy Group (polling + public affairs)
+    "apcoholdings",             # APCO Worldwide
 ]
 
 LEVER_NAMES = {
     "emilyslist": "EMILY's List",
     "colorofchange": "Color of Change",
     "unitedwedream": "United We Dream",
+    "dnc": "Democratic National Committee",
+    "skdk": "SKDK",
+    "globalstrategygroup": "Global Strategy Group",
+    "apcoholdings": "APCO Worldwide",
 }
 
 WORKABLE_COMPANIES = [
-    "fp1-strategies",
+    "fp1-strategies",           # FP1 Strategies — Republican political consulting
 ]
 
 WORKDAY_COMPANIES = [
@@ -133,8 +144,7 @@ TITLE_BLOCKLIST = [
     # Legal (non-policy)
     "paralegal", "legal counsel", "general counsel", "staff attorney",
     "staff counsel", "senior counsel", "oversight counsel",
-    "legal director", "legal advisor", "chief legal",
-    "deputy legal",
+    "legal director", "legal advisor", "chief legal", "deputy legal",
     # Design / Creative (non-comms)
     "graphic design", "graphic designer", "visual design",
     # Facilities / Operations / Security
@@ -289,6 +299,7 @@ def add_job(source, raw_id, title, company, apply_url,
     if posted:
         posted = str(posted)
         if re.match(r"^\d{13}$", posted):
+            # Lever returns Unix milliseconds
             posted = datetime.fromtimestamp(int(posted) / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
         else:
             posted = posted[:10]
@@ -302,20 +313,20 @@ def add_job(source, raw_id, title, company, apply_url,
     valid_through = str(posted_date + timedelta(days=90))
 
     jobs.append({
-        "job_id":        job_id,
-        "title":         title.strip(),
-        "company":       company.strip(),
-        "slug":          slug,
-        "canonical_url": canonical_url,
-        "description":   description,
-        "apply_url":     apply_url,
-        "category":      category,
-        "location_type": "remote" if remote else "onsite",
+        "job_id":          job_id,
+        "title":           title.strip(),
+        "company":         company.strip(),
+        "slug":            slug,
+        "canonical_url":   canonical_url,
+        "description":     description,
+        "apply_url":       apply_url,
+        "category":        category,
+        "location_type":   "remote" if remote else "onsite",
         "office_location": location,
         "employment_type": employment_type,
-        "date_posted":   posted,
-        "valid_through": valid_through,
-        "source":        source,
+        "date_posted":     posted,
+        "valid_through":   valid_through,
+        "source":          source,
     })
 
     log.info("+ %s @ %s", title, company)
@@ -367,7 +378,8 @@ def fetch_usajobs():
             log.warning("USAJobs error: %s", e)
 
 # ─────────────────────────────────────────────
-# Greenhouse
+# Greenhouse — uses official Job Board API
+# endpoint: job-boards.greenhouse.io/{token}
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -379,6 +391,7 @@ def fetch_greenhouse():
             log.info("Fetching %s", url)
             page = fetch_url(url)
 
+            # Greenhouse embeds job data as JSON in a <script data-js="gh-jobs"> tag
             json_match = re.search(
                 r'<script[^>]+data-js=["\']gh-jobs["\'][^>]*>(.*?)</script>',
                 page, re.DOTALL
@@ -387,6 +400,7 @@ def fetch_greenhouse():
             if json_match:
                 try:
                     job_list = json.loads(json_match.group(1))
+                    display_name = GREENHOUSE_NAMES.get(board, board.title())
                     for j in job_list:
                         job_id = str(j.get("id", ""))
                         title = j.get("title", "")
@@ -397,11 +411,8 @@ def fetch_greenhouse():
                         )
                         apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
                         desc = j.get("content", "") or j.get("description", "")
-
                         if title and job_id:
-                            display_name = GREENHOUSE_NAMES.get(board, board.title())
                             add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
-
                     log.info("Greenhouse %s: %d jobs from JSON", board, len(job_list))
                     time.sleep(0.3)
                     continue
@@ -413,18 +424,16 @@ def fetch_greenhouse():
                 r'href="[^"]*?/jobs/(\d+)"[^>]*>\s*<[^>]+>\s*([^<]{3,100}?)\s*</',
                 page
             )
-
             if not job_links:
                 log.warning("Greenhouse %s: no jobs found", board)
                 continue
 
+            display_name = GREENHOUSE_NAMES.get(board, board.title())
             for job_id, title in job_links:
-                if not title:
-                    continue
-                title = clean(title)
-                apply_url = f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}"
-                display_name = GREENHOUSE_NAMES.get(board, board.title())
-                add_job("greenhouse", job_id, title, display_name, apply_url, "", "")
+                if title:
+                    title = clean(title)
+                    apply_url = f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}"
+                    add_job("greenhouse", job_id, title, display_name, apply_url, "", "")
 
             time.sleep(0.5)
 
@@ -437,7 +446,9 @@ def fetch_greenhouse():
             log.warning("Greenhouse error %s: %s", board, e)
 
 # ─────────────────────────────────────────────
-# Lever
+# Lever — uses official Postings API
+# endpoint: api.lever.co/v0/postings/{slug}?mode=json
+# Documented at github.com/lever/postings-api
 # ─────────────────────────────────────────────
 
 def fetch_lever():
@@ -445,71 +456,42 @@ def fetch_lever():
 
     for company in LEVER_COMPANIES:
         try:
-            url = f"https://jobs.lever.co/{company}"
+            url = f"https://api.lever.co/v0/postings/{company}?mode=json"
             log.info("Fetching %s", url)
-            page = fetch_url(url)
 
-            # Try JSON-LD first
-            jsonld_match = re.search(
-                r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
-                page, re.DOTALL
-            )
-            if jsonld_match:
-                try:
-                    data = json.loads(jsonld_match.group(1))
-                    items = data if isinstance(data, list) else [data]
-                    found = 0
-                    for item in items:
-                        if item.get("@type") == "JobPosting":
-                            job_id = hashlib.md5(item.get("url", "").encode()).hexdigest()[:12]
-                            title = item.get("title", "")
-                            location = item.get("jobLocation", {}).get("address", {}).get("addressLocality", "")
-                            apply_url = item.get("url", "")
-                            desc = item.get("description", "")
-                            if title:
-                                display_name = LEVER_NAMES.get(company, company.title())
-                                add_job("lever", job_id, title, display_name, apply_url, desc, location)
-                                found += 1
-                    if found:
-                        log.info("Lever %s: %d jobs from JSON-LD", company, found)
-                        time.sleep(0.3)
-                        continue
-                except json.JSONDecodeError:
-                    pass
+            req = urllib.request.Request(url, headers={
+                **BROWSER_HEADERS,
+                "Accept": "application/json",
+            })
 
-            # Fallback: scrape HTML for posting UUIDs
-            postings = re.findall(
-                r'href="(https://jobs\.lever\.co/' + re.escape(company) + r'/([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}))"',
-                page
-            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                postings = json.loads(resp.read().decode())
 
-            if not postings:
-                log.warning("Lever %s: no postings found", company)
-                continue
+            display_name = LEVER_NAMES.get(company, company.title())
+            found = 0
 
-            seen_ids = set()
-            for apply_url, job_id in postings:
-                if job_id in seen_ids:
-                    continue
-                seen_ids.add(job_id)
+            for j in postings:
+                job_id = j.get("id", "")
+                title = j.get("text", "")
+                apply_url = j.get("hostedUrl", j.get("applyUrl", ""))
+                desc = j.get("descriptionPlain", "") or j.get("description", "")
 
-                title_match = re.search(
-                    re.escape(apply_url) + r'[^>]*>.*?<h5[^>]*>\s*([^<]{3,120}?)\s*</h5>',
-                    page, re.DOTALL
-                )
-                title = clean(title_match.group(1)) if title_match else ""
+                # Location: categories.location or lists[0].text
+                categories = j.get("categories", {})
+                location = categories.get("location", "")
+                if not location:
+                    lists = j.get("lists", [])
+                    location = lists[0].get("text", "") if lists else ""
 
-                loc_match = re.search(
-                    re.escape(apply_url) + r'.{0,400}?<span[^>]*sort-by-location[^>]*>\s*([^<]+?)\s*</span>',
-                    page, re.DOTALL
-                )
-                location = clean(loc_match.group(1)) if loc_match else ""
+                # Posted: createdAt is Unix milliseconds
+                posted = str(j.get("createdAt", ""))
 
-                if title:
-                    display_name = LEVER_NAMES.get(company, company.title())
-                    add_job("lever", job_id, title, display_name, apply_url, "", location)
+                if title and job_id:
+                    add_job("lever", job_id, title, display_name, apply_url, desc, location, posted)
+                    found += 1
 
-            time.sleep(0.5)
+            log.info("Lever %s: %d jobs", company, found)
+            time.sleep(0.3)
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -520,7 +502,8 @@ def fetch_lever():
             log.warning("Lever error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
-# Workable
+# Workable — uses public API
+# endpoint: apply.workable.com/api/v3/accounts/{slug}/jobs
 # ─────────────────────────────────────────────
 
 def fetch_workable():
@@ -565,7 +548,7 @@ def fetch_workable():
             log.warning("Workable error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
-# Workday
+# Workday — scrapes public job board pages
 # ─────────────────────────────────────────────
 
 def fetch_workday():
