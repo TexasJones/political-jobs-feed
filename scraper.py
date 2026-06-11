@@ -58,6 +58,13 @@ GREENHOUSE_BOARDS = [
     "brookings",                # Brookings Institution
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
+    "quorum",                   # Quorum — gov affairs software
+    # Public affairs firms
+    "hillandknowlton",          # Hill & Knowlton
+    # Political media
+    "axios",
+    "semafor",
+    "voxmedia",                 # Vox Media
 ]
 
 GREENHOUSE_NAMES = {
@@ -75,6 +82,11 @@ GREENHOUSE_NAMES = {
     "americanprogress": "Center for American Progress",
     "brookings": "Brookings Institution",
     "civisanalytics": "Civis Analytics",
+    "quorum": "Quorum",
+    "hillandknowlton": "Hill & Knowlton",
+    "axios": "Axios",
+    "semafor": "Semafor",
+    "voxmedia": "Vox Media",
 }
 
 LEVER_COMPANIES = [
@@ -86,6 +98,11 @@ LEVER_COMPANIES = [
     # Public affairs & comms firms
     "skdk",                     # SKDK
     "globalstrategygroup",      # Global Strategy Group
+    # Environmental advocacy
+    "sierraclub",               # Sierra Club
+    # Political media & policy journalism
+    "fiscalnote",               # FiscalNote / CQ Roll Call
+    "thefp",                    # The Free Press
 ]
 
 LEVER_NAMES = {
@@ -95,6 +112,9 @@ LEVER_NAMES = {
     "dnc": "Democratic National Committee",
     "skdk": "SKDK",
     "globalstrategygroup": "Global Strategy Group",
+    "sierraclub": "Sierra Club",
+    "fiscalnote": "FiscalNote",
+    "thefp": "The Free Press",
 }
 
 WORKABLE_COMPANIES = [
@@ -132,7 +152,9 @@ TITLE_BLOCKLIST = [
     "information security", "information technology",
     "technical project manager", "technical program manager",
     "enterprise applications", "applications integration",
-    "chief technology",
+    "chief technology", "full stack", "fullstack",
+    # Product / Program management (non-political)
+    "product manager", "program manager",
     # Finance / Accounting
     "accountant", "controller", "bookkeeper",
     "accounts payable", "accounts receivable", "payroll",
@@ -142,25 +164,32 @@ TITLE_BLOCKLIST = [
     "human resources", "talent acquisition", "recruiter", "hris",
     "benefits administrator", "learning & development",
     "learning and development", "people and culture", "chief people",
-    "compensation",
+    "compensation", "organizational effectiveness",
+    # Fundraising / Development (nonprofit back-office)
+    "stewardship", "major gifts", "annual fund", "development associate",
     # Legal (non-policy)
     "paralegal", "legal counsel", "general counsel", "staff attorney",
     "staff counsel", "senior counsel", "oversight counsel",
     "legal director", "legal advisor", "chief legal", "deputy legal",
+    "supervising attorney",
     # Design / Creative (non-comms)
     "graphic design", "graphic designer", "visual design",
     # Facilities / Operations / Security
     "facilities", "construction", "maintenance", "custodial",
     "office manager", "executive assistant", "confidential assistant",
     "chief operating", "protective services", "protective security",
+    "director of security",
     # Sales / Customer service (non-political)
     "customer service", "claims adjuster", "dealer performance",
     "district sales", "district manager", "vehicle protection",
     "sales specialist", "sales training", "call center",
-    "contract processing", "sales manager",
-    # Admin catch-alls
+    "contract processing", "sales manager", "client partnerships",
+    "client success", "client engagement",
+    # Admin / catch-alls
     "business analyst", "future opportunities", "general interest",
-    "fellowship sponsorship",
+    "fellowship sponsorship", "karpatkin",
+    "investigator", "affiliate strategic",
+    "hr intern", "audio/video intern", "newsroom engineering",
     # Healthcare
     "nurse", "physician", "medical", "clinical", "therapist",
     # USAJobs-specific noise
@@ -197,6 +226,10 @@ CATEGORY_RULES = {
     ],
     "Nonprofit Advocacy": [
         "nonprofit", "grassroots", "organizing", "civic",
+    ],
+    "Political Media": [
+        "reporter", "editor", "correspondent", "journalist", "newsroom",
+        "newsletter", "columnist", "bureau chief",
     ],
 }
 
@@ -284,7 +317,6 @@ seen = set()
 def add_job(source, raw_id, title, company, apply_url,
             description="", location="", posted=None):
 
-    # Drop irrelevant roles before doing anything else
     if is_blocked(title):
         log.info("Skipping (blocklist): %s @ %s", title, company)
         return
@@ -306,7 +338,6 @@ def add_job(source, raw_id, title, company, apply_url,
     if posted:
         posted = str(posted)
         if re.match(r"^\d{13}$", posted):
-            # Lever returns Unix milliseconds
             posted = datetime.fromtimestamp(int(posted) / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
         else:
             posted = posted[:10]
@@ -385,8 +416,7 @@ def fetch_usajobs():
             log.warning("USAJobs error: %s", e)
 
 # ─────────────────────────────────────────────
-# Greenhouse — uses official Job Board API
-# endpoint: job-boards.greenhouse.io/{token}
+# Greenhouse — official Job Board API
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -398,7 +428,6 @@ def fetch_greenhouse():
             log.info("Fetching %s", url)
             page = fetch_url(url)
 
-            # Greenhouse embeds job data as JSON in a <script data-js="gh-jobs"> tag
             json_match = re.search(
                 r'<script[^>]+data-js=["\']gh-jobs["\'][^>]*>(.*?)</script>',
                 page, re.DOTALL
@@ -453,9 +482,8 @@ def fetch_greenhouse():
             log.warning("Greenhouse error %s: %s", board, e)
 
 # ─────────────────────────────────────────────
-# Lever — uses official Postings API
+# Lever — official Postings API
 # endpoint: api.lever.co/v0/postings/{slug}?mode=json
-# Documented at github.com/lever/postings-api
 # ─────────────────────────────────────────────
 
 def fetch_lever():
@@ -483,14 +511,12 @@ def fetch_lever():
                 apply_url = j.get("hostedUrl", j.get("applyUrl", ""))
                 desc = j.get("descriptionPlain", "") or j.get("description", "")
 
-                # Location from categories or lists
                 categories = j.get("categories", {})
                 location = categories.get("location", "")
                 if not location:
                     lists = j.get("lists", [])
                     location = lists[0].get("text", "") if lists else ""
 
-                # createdAt is Unix milliseconds
                 posted = str(j.get("createdAt", ""))
 
                 if title and job_id:
@@ -509,8 +535,7 @@ def fetch_lever():
             log.warning("Lever error %s: %s", company, e)
 
 # ─────────────────────────────────────────────
-# Workable — uses public API
-# endpoint: apply.workable.com/api/v3/accounts/{slug}/jobs
+# Workable — public API
 # ─────────────────────────────────────────────
 
 def fetch_workable():
