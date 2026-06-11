@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-11T04:34:56Z" count="75">
+<jobs generated="2026-06-11T04:41:10Z" count="72">
   <job>
     <job_id>greenhouse-ACLU-8510380002</job_id>
     <title>Disability, Accessibility &amp; Inclusion Manager</title>
@@ -609,22 +609,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Axios-7964836</job_id>
-    <title>Director, Accounting</title>
-    <company>Axios</company>
-    <slug>director-accounting-axios</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/director-accounting-axios/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7964836</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-09-09</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Axios-7967160</job_id>
     <title>Manager, National &amp; SME Growth</title>
     <company>Axios</company>
@@ -632,22 +616,6 @@
     <canonical_url>https://jobs.thepolly.co/jobs/manager-national-sme-growth-axios/</canonical_url>
     <description/>
     <apply_url>https://job-boards.greenhouse.io/axios/jobs/7967160</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-09-09</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Axios-7674069</job_id>
-    <title>Director, Total Rewards</title>
-    <company>Axios</company>
-    <slug>director-total-rewards-axios</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/director-total-rewards-axios/</canonical_url>
-    <description/>
-    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7674069</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location/>
@@ -1070,22 +1038,6 @@
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-27</date_posted>
     <valid_through>2026-08-25</valid_through>
-    <source>lever</source>
-  </job>
-  <job>
-    <job_id>lever-FiscalNote-ca3765f9-970a-44f9-b09f-63f929e65797</job_id>
-    <title>IT Support Lead</title>
-    <company>FiscalNote</company>
-    <slug>it-support-lead-fiscalnote</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/it-support-lead-fiscalnote/</canonical_url>
-    <description>About the Position The IT Support Lead reports to the VP, Information Security and will oversee the day-to-day delivery of L1/L2 IT support operations at FiscalNote. This role provides direct leadership and coaching to two IT Support Engineers, ensuring effective ticket resolution, excellent customer service, and strong process adherence. While remaining a senior escalation point for complex issues, the Support Lead's primary responsibility is to manage the support function at the operational level, enabling IT leadership to focus on strategic initiatives. About the Team The FiscalNote IT team supports all employee technology needs worldwide, including collaboration platforms, email, identity, and productivity systems. As a modern technology organization, we leverage tools that meet strict security standards while delivering a great user experience. The IT Support Lead plays a key role in ensuring consistent, reliable, and efficient front-line support. About You You are a proven IT support professional who thrives in people leadership and operational management. You can balance workload prioritization, staff development, and customer service metrics, while remaining technically capable of stepping in on challenging issues. You value structure, accountability, and continuous improvement at the team level. The salary range for the role is $80,000 - 95,000 per year. #LI-HR1</description>
-    <apply_url>https://jobs.lever.co/fiscalnote/ca3765f9-970a-44f9-b09f-63f929e65797</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>remote</location_type>
-    <office_location>Remote United States</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-05-18</date_posted>
-    <valid_through>2026-08-16</valid_through>
     <source>lever</source>
   </job>
   <job>
