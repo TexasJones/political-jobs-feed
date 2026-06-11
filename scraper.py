@@ -84,9 +84,8 @@ LEVER_COMPANIES = [
     "unitedwedream",            # United We Dream
     "dnc",                      # Democratic National Committee
     # Public affairs & comms firms
-    "skdk",                     # SKDK (top Dem public affairs firm)
-    "globalstrategygroup",      # Global Strategy Group (polling + public affairs)
-    "apcoholdings",             # APCO Worldwide
+    "skdk",                     # SKDK
+    "globalstrategygroup",      # Global Strategy Group
 ]
 
 LEVER_NAMES = {
@@ -96,7 +95,6 @@ LEVER_NAMES = {
     "dnc": "Democratic National Committee",
     "skdk": "SKDK",
     "globalstrategygroup": "Global Strategy Group",
-    "apcoholdings": "APCO Worldwide",
 }
 
 WORKABLE_COMPANIES = [
@@ -134,13 +132,17 @@ TITLE_BLOCKLIST = [
     "information security", "information technology",
     "technical project manager", "technical program manager",
     "enterprise applications", "applications integration",
+    "chief technology",
     # Finance / Accounting
     "accountant", "controller", "bookkeeper",
     "accounts payable", "accounts receivable", "payroll",
+    "tax analyst", "reinsurance", "actuar", "cash application",
+    "remittance", "commission processing",
     # HR / People Ops
     "human resources", "talent acquisition", "recruiter", "hris",
     "benefits administrator", "learning & development",
     "learning and development", "people and culture", "chief people",
+    "compensation",
     # Legal (non-policy)
     "paralegal", "legal counsel", "general counsel", "staff attorney",
     "staff counsel", "senior counsel", "oversight counsel",
@@ -151,6 +153,11 @@ TITLE_BLOCKLIST = [
     "facilities", "construction", "maintenance", "custodial",
     "office manager", "executive assistant", "confidential assistant",
     "chief operating", "protective services", "protective security",
+    # Sales / Customer service (non-political)
+    "customer service", "claims adjuster", "dealer performance",
+    "district sales", "district manager", "vehicle protection",
+    "sales specialist", "sales training", "call center",
+    "contract processing", "sales manager",
     # Admin catch-alls
     "business analyst", "future opportunities", "general interest",
     "fellowship sponsorship",
@@ -476,14 +483,14 @@ def fetch_lever():
                 apply_url = j.get("hostedUrl", j.get("applyUrl", ""))
                 desc = j.get("descriptionPlain", "") or j.get("description", "")
 
-                # Location: categories.location or lists[0].text
+                # Location from categories or lists
                 categories = j.get("categories", {})
                 location = categories.get("location", "")
                 if not location:
                     lists = j.get("lists", [])
                     location = lists[0].get("text", "") if lists else ""
 
-                # Posted: createdAt is Unix milliseconds
+                # createdAt is Unix milliseconds
                 posted = str(j.get("createdAt", ""))
 
                 if title and job_id:
