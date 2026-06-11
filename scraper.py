@@ -153,6 +153,7 @@ TITLE_BLOCKLIST = [
     "technical project manager", "technical program manager",
     "enterprise applications", "applications integration",
     "chief technology", "full stack", "fullstack",
+    "it support",
     # Product / Program management (non-political)
     "product manager", "program manager",
     # Finance / Accounting
@@ -160,6 +161,7 @@ TITLE_BLOCKLIST = [
     "accounts payable", "accounts receivable", "payroll",
     "tax analyst", "reinsurance", "actuar", "cash application",
     "remittance", "commission processing",
+    "total rewards", "director, accounting", "director of accounting",
     # HR / People Ops
     "human resources", "talent acquisition", "recruiter", "hris",
     "benefits administrator", "learning & development",
