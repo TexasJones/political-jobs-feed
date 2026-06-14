@@ -48,23 +48,34 @@ GREENHOUSE_BOARDS = [
     "ppfa",                     # Planned Parenthood
     "nrdc",                     # Natural Resources Defense Council
     "publicadvocates",          # Public Advocates
+    "hrc",                      # Human Rights Campaign
     # Political communications & campaigns
     "moveonorg",
     "gmmb",
     "berlinrosen",
     "industriouslabs",          # Climate policy campaigns
+    "targetedvictory",          # Targeted Victory — Republican digital
     # Think tanks & policy
     "americanprogress",         # Center for American Progress
     "brookings",                # Brookings Institution
+    "urbaninstitute",           # Urban Institute
+    "pewresearch",              # Pew Research Center
+    "thirdway",                 # Third Way
+    "bipartisanpolicycenter",   # Bipartisan Policy Center
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
     "quorum",                   # Quorum — gov affairs software
     # Public affairs firms
     "hillandknowlton",          # Hill & Knowlton
+    "mnrstategic",              # M+R Strategic Services
+    # Labor
+    "seiu",                     # SEIU
+    "afscme",                   # AFSCME
     # Political media
     "axios",
     "semafor",
     "voxmedia",                 # Vox Media
+    "opensecrets",              # OpenSecrets
 ]
 
 GREENHOUSE_NAMES = {
@@ -75,18 +86,28 @@ GREENHOUSE_NAMES = {
     "ppfa": "Planned Parenthood",
     "nrdc": "NRDC",
     "publicadvocates": "Public Advocates",
+    "hrc": "Human Rights Campaign",
     "moveonorg": "MoveOn.org",
     "gmmb": "GMMB",
     "berlinrosen": "BerlinRosen",
     "industriouslabs": "Industrious Labs",
+    "targetedvictory": "Targeted Victory",
     "americanprogress": "Center for American Progress",
     "brookings": "Brookings Institution",
+    "urbaninstitute": "Urban Institute",
+    "pewresearch": "Pew Research Center",
+    "thirdway": "Third Way",
+    "bipartisanpolicycenter": "Bipartisan Policy Center",
     "civisanalytics": "Civis Analytics",
     "quorum": "Quorum",
     "hillandknowlton": "Hill & Knowlton",
+    "mnrstategic": "M+R Strategic Services",
+    "seiu": "SEIU",
+    "afscme": "AFSCME",
     "axios": "Axios",
     "semafor": "Semafor",
     "voxmedia": "Vox Media",
+    "opensecrets": "OpenSecrets",
 }
 
 LEVER_COMPANIES = [
@@ -95,11 +116,21 @@ LEVER_COMPANIES = [
     "colorofchange",            # Color of Change
     "unitedwedream",            # United We Dream
     "dnc",                      # Democratic National Committee
+    "dccc",                     # Democratic Congressional Campaign Committee
+    "dscc",                     # Democratic Senatorial Campaign Committee
+    "actblue",                  # ActBlue
+    "indivisible",              # Indivisible
+    "swing-left",               # Swing Left
     # Public affairs & comms firms
     "skdk",                     # SKDK
     "globalstrategygroup",      # Global Strategy Group
-    # Environmental advocacy
+    "bully-pulpit-interactive", # Bully Pulpit Interactive
+    "fenton",                   # Fenton Communications
+    # Environmental & issue advocacy
     "sierraclub",               # Sierra Club
+    "everytown",                # Everytown for Gun Safety
+    "lcv",                      # League of Conservation Voters
+    "edf",                      # Environmental Defense Fund
     # Political media & policy journalism
     "fiscalnote",               # FiscalNote / CQ Roll Call
     "thefp",                    # The Free Press
@@ -110,15 +141,26 @@ LEVER_NAMES = {
     "colorofchange": "Color of Change",
     "unitedwedream": "United We Dream",
     "dnc": "Democratic National Committee",
+    "dccc": "DCCC",
+    "dscc": "DSCC",
+    "actblue": "ActBlue",
+    "indivisible": "Indivisible",
+    "swing-left": "Swing Left",
     "skdk": "SKDK",
     "globalstrategygroup": "Global Strategy Group",
+    "bully-pulpit-interactive": "Bully Pulpit Interactive",
+    "fenton": "Fenton Communications",
     "sierraclub": "Sierra Club",
+    "everytown": "Everytown for Gun Safety",
+    "lcv": "League of Conservation Voters",
+    "edf": "Environmental Defense Fund",
     "fiscalnote": "FiscalNote",
     "thefp": "The Free Press",
 }
 
 WORKABLE_COMPANIES = [
     "fp1-strategies",           # FP1 Strategies — Republican political consulting
+    "rokk-solutions",           # ROKK Solutions — bipartisan public affairs
 ]
 
 WORKDAY_COMPANIES = [
@@ -126,6 +168,11 @@ WORKDAY_COMPANIES = [
         "slug": "politico",
         "host": "politico.wd108.myworkdayjobs.com",
         "name": "Politico",
+    },
+    {
+        "slug": "aarp",
+        "host": "aarp.wd1.myworkdayjobs.com",
+        "name": "AARP",
     },
 ]
 
@@ -141,10 +188,11 @@ USAJOBS_SERIES = ["1035", "1082"]
 
 # ─────────────────────────────────────────────
 # Title blocklist — applies to ALL sources
-# Drops roles that don't belong on a public affairs job board
+# Uses word-boundary matching to avoid false positives
 # ─────────────────────────────────────────────
 
-TITLE_BLOCKLIST = [
+# These terms use simple substring matching (safe — no false positive risk)
+TITLE_BLOCKLIST_SUBSTRING = [
     # IT / Engineering
     "engineer", "developer", "software", "devops", "sysadmin",
     "cyber", "security operations", "endpoint", "network admin",
@@ -152,9 +200,8 @@ TITLE_BLOCKLIST = [
     "information security", "information technology",
     "technical project manager", "technical program manager",
     "enterprise applications", "applications integration",
-    "chief technology", "full stack", "fullstack",
-    "it support",
-    # Product / Program management (non-political)
+    "chief technology", "full stack", "fullstack", "it support",
+    # Product / Program management
     "product manager", "program manager",
     # Finance / Accounting
     "accountant", "controller", "bookkeeper",
@@ -164,6 +211,7 @@ TITLE_BLOCKLIST = [
     "total rewards", "director, accounting", "director of accounting",
     # HR / People Ops
     "human resources", "talent acquisition", "recruiter", "hris",
+    "hr generalist", "hr manager", "hr coordinator", "hr business partner",
     "benefits administrator", "learning & development",
     "learning and development", "people and culture", "chief people",
     "compensation", "organizational effectiveness",
@@ -171,7 +219,7 @@ TITLE_BLOCKLIST = [
     "stewardship", "major gifts", "annual fund", "development associate",
     # Legal (non-policy)
     "paralegal", "legal counsel", "general counsel", "staff attorney",
-    "staff counsel", "senior counsel", "oversight counsel",
+    "staff counsel", "oversight counsel",
     "legal director", "legal advisor", "chief legal", "deputy legal",
     "supervising attorney",
     # Design / Creative (non-comms)
@@ -181,7 +229,7 @@ TITLE_BLOCKLIST = [
     "office manager", "executive assistant", "confidential assistant",
     "chief operating", "protective services", "protective security",
     "director of security",
-    # Sales / Customer service (non-political)
+    # Sales / Customer service
     "customer service", "claims adjuster", "dealer performance",
     "district sales", "district manager", "vehicle protection",
     "sales specialist", "sales training", "call center",
@@ -190,22 +238,80 @@ TITLE_BLOCKLIST = [
     # Admin / catch-alls
     "business analyst", "future opportunities", "general interest",
     "fellowship sponsorship", "karpatkin",
-    "investigator", "affiliate strategic",
+    "affiliate strategic",
     "hr intern", "audio/video intern", "newsroom engineering",
     # Healthcare
     "nurse", "physician", "medical", "clinical", "therapist",
     # USAJobs-specific noise
-    "border protection", "customs", "immigration", "cbp officer",
+    "border protection", "customs", "cbp officer",
     "agriculture specialist", "victim advocate", "family advocacy",
     "clinical counselor", "psychologist", "social worker",
     "field service technician", "property specialist",
-    "security clearance", "intelligence", "inspector general",
-    "contracting officer", "acquisition", "procurement",
-    "scientist", "research", "laboratory",
+    "inspector general",
+    "contracting officer", "procurement",
+    "laboratory",
     "law enforcement", "correctional", "detention",
-    "military", "army", "navy", "marine", "air force",
     "logistics", "supply chain", "warehouse",
 ]
+
+# These terms require WHOLE-WORD matching to avoid false positives:
+#   "research" should not block "Research Director" -- wait, actually it should only block
+#   standalone research roles (Scientist, Researcher) not "Policy Research"
+#   "marine" should not block "Marine Policy Advisor"
+#   "navy" should not block "Navy Legislative Liaison"
+#   "intelligence" should not block "Intelligence Community Liaison"
+#   "immigration" should not block "Immigration Policy Director"
+#   "acquisition" should not block "Acquisition Communications"
+#   "senior counsel" is safe substring, but "investigator" catches "investigative reporter"
+
+# Whole-word blocklist: only matches if the term stands alone as a word/phrase
+TITLE_BLOCKLIST_WHOLE_WORD = [
+    r"\bscientist\b",
+    r"\bresearcher\b",
+    r"\bresearch\s+analyst\b",
+    r"\bresearch\s+coordinator\b",
+    # Block "Research Associate" but not "Policy Research Associate"
+    # (handled via context check in is_blocked below)
+    r"\bnavy\s+(?!legislative|affairs|policy)\w+",   # block "Navy IT" but not "Navy Legislative"
+    r"\barmy\s+(?!policy|affairs|corps)\w+",
+    r"\bmarine\s+(?!policy|affairs)\w+",
+    r"\bintelligence\s+analyst\b",
+    r"\bintelligence\s+officer\b",
+    r"\bimmigration\s+(?!policy|reform|advocacy)\w+",
+    r"\bacquisition\s+(?!communications|outreach)\w+",
+    r"\binvestigator\b",
+    r"\bsenior\s+counsel\b",
+    r"\blaw\s+enforcement\b",
+    r"\bmilitary\s+(?!affairs|policy|relations)\w+",
+    r"\bsecurity\s+clearance\b",
+    r"\bit\s+director\b",
+    r"\bit\s+manager\b",
+    r"\bdba\b",
+    r"\bdatabase\s+admin",
+    r"\bchief\s+financial\b",
+    r"\bdirector\s+of\s+finance\b",
+    r"\bvp\s+of\s+finance\b",
+    r"\bfinance\s+director\b",
+    r"\bevent\s+coordinator\b",
+    r"\bevent\s+manager\b",
+]
+
+
+def is_blocked(title: str) -> bool:
+    t = title.lower()
+    # Substring checks
+    if any(term in t for term in TITLE_BLOCKLIST_SUBSTRING):
+        return True
+    # Whole-word regex checks
+    if any(re.search(pattern, t) for pattern in TITLE_BLOCKLIST_WHOLE_WORD):
+        return True
+    # Context-aware check: block "Research Associate" unless it's a policy role
+    if re.search(r"\bresearch\s+associate\b", t):
+        policy_qualifiers = ["policy", "advocacy", "legislative", "political", "government"]
+        if not any(w in t for w in policy_qualifiers):
+            return True
+    return False
+
 
 # ─────────────────────────────────────────────
 # Category rules
@@ -215,25 +321,43 @@ CATEGORY_RULES = {
     "Political Campaigns": [
         "campaign", "field organizer", "canvass",
         "voter", "political director", "gotv", "election",
+        "opposition research", "rapid response", "get out the vote",
     ],
     "Public Affairs & Lobbying": [
         "public affairs", "government relations", "lobby", "lobbying", "advocacy",
+        "external affairs", "intergovernmental", "stakeholder",
+        "state affairs", "federal affairs", "regulatory affairs",
     ],
     "Government & Policy": [
         "policy", "legislative", "congress", "senate", "house", "federal",
+        "appropriations", "regulatory", "government affairs",
+        "chief of staff", "deputy chief",
     ],
     "Communications & PR": [
         "communications", "media relations", "press secretary", "spokesperson",
         "public relations", "earned media", "digital strategy", "social media manager",
+        "speechwriter", "speech writer", "digital director", "digital manager",
+        "content strategist", "content manager", "messaging",
+        "rapid response", "media strategist",
     ],
     "Nonprofit Advocacy": [
         "nonprofit", "grassroots", "organizing", "civic",
+        "coalition", "outreach coordinator", "community organizer",
     ],
     "Political Media": [
         "reporter", "editor", "correspondent", "journalist", "newsroom",
-        "newsletter", "columnist", "bureau chief",
+        "newsletter", "columnist", "bureau chief", "anchor", "producer",
+        "photojournalist", "videographer", "podcast",
     ],
 }
+
+
+def guess_category(title: str, desc: str = "") -> str:
+    text = f"{title} {desc}".lower()
+    scores = {cat: sum(k in text for k in kws) for cat, kws in CATEGORY_RULES.items()}
+    best = max(scores, key=scores.get)
+    return best if scores[best] > 0 else "Government & Policy"
+
 
 # ─────────────────────────────────────────────
 # Helpers
@@ -264,13 +388,6 @@ def detect_remote(location: str, desc: str = "") -> bool:
     return any(k in text for k in ["remote", "work from home", "hybrid", "distributed", "telework"])
 
 
-def guess_category(title: str, desc: str = "") -> str:
-    text = f"{title} {desc}".lower()
-    scores = {cat: sum(k in text for k in kws) for cat, kws in CATEGORY_RULES.items()}
-    best = max(scores, key=scores.get)
-    return best if scores[best] > 0 else "Government & Policy"
-
-
 def guess_employment_type(title: str) -> str:
     t = title.lower()
     if any(k in t for k in ["intern", "fellowship", "fellow"]):
@@ -280,11 +397,6 @@ def guess_employment_type(title: str) -> str:
     if "part-time" in t or "part time" in t:
         return "PART_TIME"
     return "FULL_TIME"
-
-
-def is_blocked(title: str) -> bool:
-    t = title.lower()
-    return any(term in t for term in TITLE_BLOCKLIST)
 
 
 def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
@@ -312,6 +424,7 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
 jobs = []
 seen = set()
 
+
 # ─────────────────────────────────────────────
 # Core ingestion
 # ─────────────────────────────────────────────
@@ -334,7 +447,9 @@ def add_job(source, raw_id, title, company, apply_url,
     remote = detect_remote(location, description)
     employment_type = guess_employment_type(title)
 
-    slug = slugify(f"{title.strip()}-{company.strip()}")
+    # FIX: include raw_id in slug to prevent collisions when same company
+    # posts multiple roles with identical titles
+    slug = slugify(f"{title.strip()}-{company.strip()}-{raw_id}")
     canonical_url = f"{BASE_URL}/jobs/{slug}/"
 
     if posted:
@@ -370,6 +485,7 @@ def add_job(source, raw_id, title, company, apply_url,
     })
 
     log.info("+ %s @ %s", title, company)
+
 
 # ─────────────────────────────────────────────
 # USAJobs
@@ -417,8 +533,11 @@ def fetch_usajobs():
         except Exception as e:
             log.warning("USAJobs error: %s", e)
 
+
 # ─────────────────────────────────────────────
-# Greenhouse — official Job Board API
+# Greenhouse — official boards-api JSON endpoint
+# FIX: switched from HTML scraping to the stable REST API
+# GET https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -426,54 +545,33 @@ def fetch_greenhouse():
 
     for board in GREENHOUSE_BOARDS:
         try:
-            url = f"https://job-boards.greenhouse.io/{board}"
+            url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
             log.info("Fetching %s", url)
-            page = fetch_url(url)
 
-            json_match = re.search(
-                r'<script[^>]+data-js=["\']gh-jobs["\'][^>]*>(.*?)</script>',
-                page, re.DOTALL
-            )
+            req = urllib.request.Request(url, headers={
+                **BROWSER_HEADERS,
+                "Accept": "application/json",
+            })
 
-            if json_match:
-                try:
-                    job_list = json.loads(json_match.group(1))
-                    display_name = GREENHOUSE_NAMES.get(board, board.title())
-                    for j in job_list:
-                        job_id = str(j.get("id", ""))
-                        title = j.get("title", "")
-                        location = (
-                            j.get("location", {}).get("name", "")
-                            if isinstance(j.get("location"), dict)
-                            else str(j.get("location", ""))
-                        )
-                        apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
-                        desc = j.get("content", "") or j.get("description", "")
-                        if title and job_id:
-                            add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
-                    log.info("Greenhouse %s: %d jobs from JSON", board, len(job_list))
-                    time.sleep(0.3)
-                    continue
-                except json.JSONDecodeError:
-                    pass
-
-            # Fallback: parse HTML links
-            job_links = re.findall(
-                r'href="[^"]*?/jobs/(\d+)"[^>]*>\s*<[^>]+>\s*([^<]{3,100}?)\s*</',
-                page
-            )
-            if not job_links:
-                log.warning("Greenhouse %s: no jobs found", board)
-                continue
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
 
             display_name = GREENHOUSE_NAMES.get(board, board.title())
-            for job_id, title in job_links:
-                if title:
-                    title = clean(title)
-                    apply_url = f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}"
-                    add_job("greenhouse", job_id, title, display_name, apply_url, "", "")
+            job_list = data.get("jobs", [])
+            found = 0
 
-            time.sleep(0.5)
+            for j in job_list:
+                job_id = str(j.get("id", ""))
+                title = j.get("title", "")
+                location = j.get("location", {}).get("name", "") if isinstance(j.get("location"), dict) else ""
+                apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
+                desc = j.get("content", "") or ""
+                if title and job_id:
+                    add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
+                    found += 1
+
+            log.info("Greenhouse %s: %d jobs", board, found)
+            time.sleep(0.3)
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -482,6 +580,7 @@ def fetch_greenhouse():
                 log.warning("Greenhouse error %s: HTTP %s", board, e.code)
         except Exception as e:
             log.warning("Greenhouse error %s: %s", board, e)
+
 
 # ─────────────────────────────────────────────
 # Lever — official Postings API
@@ -536,6 +635,7 @@ def fetch_lever():
         except Exception as e:
             log.warning("Lever error %s: %s", company, e)
 
+
 # ─────────────────────────────────────────────
 # Workable — public API
 # ─────────────────────────────────────────────
@@ -581,8 +681,12 @@ def fetch_workable():
         except Exception as e:
             log.warning("Workable error %s: %s", company, e)
 
+
 # ─────────────────────────────────────────────
-# Workday — scrapes public job board pages
+# Workday — stable internal REST API
+# FIX: switched from HTML scraping (broken — JS-rendered pages) to
+# the undocumented but stable POST endpoint used by all Workday job boards
+# POST https://{host}/wday/cxs/{slug}/jobs
 # ─────────────────────────────────────────────
 
 def fetch_workday():
@@ -594,38 +698,85 @@ def fetch_workday():
         name = company["name"]
 
         try:
-            url = f"https://{host}/{slug}/jobs"
+            url = f"https://{host}/wday/cxs/{slug}/jobs"
             log.info("Fetching %s", url)
-            page = fetch_url(url)
 
-            json_match = re.search(r'"jobPostings"\s*:\s*(\[.*?\])\s*[,}]', page, re.DOTALL)
+            payload = json.dumps({
+                "limit": 20,
+                "offset": 0,
+                "searchText": "",
+                "appliedFacets": {},
+            }).encode("utf-8")
 
-            if not json_match:
-                json_match = re.search(
-                    r'var\s+appConfig\s*=\s*(\{.*?\});\s*(?:var|window)',
-                    page, re.DOTALL
+            req = urllib.request.Request(
+                url,
+                data=payload,
+                headers={
+                    **BROWSER_HEADERS,
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                },
+                method="POST",
+            )
+
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+
+            job_postings = data.get("jobPostings", [])
+            total = data.get("total", len(job_postings))
+            found = 0
+
+            for j in job_postings:
+                # externalPath looks like "/job/Washington-DC/Policy-Analyst_JR-12345"
+                external_path = j.get("externalPath", "")
+                job_id = external_path.split("_")[-1] if "_" in external_path else external_path.strip("/").replace("/", "-")
+                title = j.get("title", "")
+                location = j.get("locationsText", "")
+                posted_raw = j.get("postedOn", "")
+                # Workday returns "Posted 30+ Days Ago", "Posted Today", or ISO date
+                if re.match(r"\d{4}-\d{2}-\d{2}", posted_raw):
+                    posted = posted_raw[:10]
+                else:
+                    posted = str(date.today())
+                apply_url = f"https://{host}/{slug}{external_path}" if external_path else f"https://{host}/{slug}/jobs"
+
+                if title and job_id:
+                    add_job("workday", job_id, title, name, apply_url, "", location, posted)
+                    found += 1
+
+            log.info("Workday %s: %d/%d jobs fetched", name, found, total)
+
+            # Paginate if more results exist
+            offset = 20
+            while offset < total:
+                payload = json.dumps({
+                    "limit": 20,
+                    "offset": offset,
+                    "searchText": "",
+                    "appliedFacets": {},
+                }).encode("utf-8")
+                req = urllib.request.Request(
+                    url, data=payload,
+                    headers={**BROWSER_HEADERS, "Accept": "application/json", "Content-Type": "application/json"},
+                    method="POST",
                 )
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode())
+                for j in data.get("jobPostings", []):
+                    external_path = j.get("externalPath", "")
+                    job_id = external_path.split("_")[-1] if "_" in external_path else external_path.strip("/").replace("/", "-")
+                    title = j.get("title", "")
+                    location = j.get("locationsText", "")
+                    posted_raw = j.get("postedOn", "")
+                    posted = posted_raw[:10] if re.match(r"\d{4}-\d{2}-\d{2}", posted_raw) else str(date.today())
+                    apply_url = f"https://{host}/{slug}{external_path}" if external_path else f"https://{host}/{slug}/jobs"
+                    if title and job_id:
+                        add_job("workday", job_id, title, name, apply_url, "", location, posted)
+                        found += 1
+                offset += 20
+                time.sleep(0.3)
 
-            if json_match:
-                try:
-                    job_list = json.loads(json_match.group(1))
-                    found = 0
-                    for j in job_list:
-                        job_id = j.get("externalPath", j.get("bulletFields", [""])[0])
-                        title = j.get("title", "")
-                        location = j.get("locationsText", "")
-                        posted = (j.get("postedOn") or str(date.today()))[:10]
-                        apply_url = f"https://{host}/{slug}/job/{job_id}" if job_id else f"https://{host}/{slug}/jobs"
-                        if title:
-                            add_job("workday", str(job_id), title, name, apply_url, "", location, posted)
-                            found += 1
-                    log.info("Workday %s: %d jobs", name, found)
-                    time.sleep(0.3)
-                    continue
-                except (json.JSONDecodeError, KeyError):
-                    pass
-
-            log.warning("Workday %s: could not parse job data", name)
+            time.sleep(0.5)
 
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -634,6 +785,7 @@ def fetch_workday():
                 log.warning("Workday error %s: HTTP %s", name, e.code)
         except Exception as e:
             log.warning("Workday error %s: %s", name, e)
+
 
 # ─────────────────────────────────────────────
 # Run pipeline
