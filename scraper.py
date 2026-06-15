@@ -54,6 +54,7 @@ GREENHOUSE_BOARDS = [
     "hillandknowlton",          # Hill & Knowlton
     "orchestra",                # Orchestra (BerlinRosen, Civitas Public Affairs, Glen Echo Group)
     "voxglobal",                # VOX Global — bipartisan public affairs, Omnicom
+    "ketchumuscareers",         # Ketchum US — corporate reputation, earned media, public affairs
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
     # Political media
@@ -74,6 +75,7 @@ GREENHOUSE_NAMES = {
     "hillandknowlton": "Hill & Knowlton",
     "orchestra": "Orchestra",
     "voxglobal": "VOX Global",
+    "ketchumuscareers": "Ketchum",
     "civisanalytics": "Civis Analytics",
     "axios": "Axios",
     "semafor": "Semafor",
