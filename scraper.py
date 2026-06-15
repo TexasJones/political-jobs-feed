@@ -6,7 +6,6 @@ import time
 import hashlib
 import os
 import urllib.request
-import urllib.parse
 import urllib.error
 import xml.etree.ElementTree as ET
 
@@ -22,8 +21,7 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://jobs.thepolly.co"
 
-API_KEY = os.getenv("USAJOBS_API_KEY")
-EMAIL = os.getenv("USAJOBS_EMAIL", "info@thepolly.co")
+
 
 BROWSER_HEADERS = {
     "User-Agent": (
@@ -116,16 +114,6 @@ WORKDAY_COMPANIES = [
         "name": "Politico",
     },
 ]
-
-USAJOBS_SEARCHES = [
-    "public affairs specialist",
-    "legislative affairs",
-    "communications director",
-    "press secretary",
-    "congressional affairs",
-]
-
-USAJOBS_SERIES = ["1035", "1082"]
 
 # ─────────────────────────────────────────────
 # Title blocklist — applies to ALL sources
@@ -417,53 +405,6 @@ def add_job(source, raw_id, title, company, apply_url,
 
 
 # ─────────────────────────────────────────────
-# USAJobs
-# ─────────────────────────────────────────────
-
-def fetch_usajobs():
-    log.info("=== USAJobs ===")
-
-    if not API_KEY:
-        log.warning("Skipping USAJobs (no API key set in secrets)")
-        return
-
-    for term in USAJOBS_SEARCHES:
-        try:
-            url = "https://data.usajobs.gov/api/search?" + urllib.parse.urlencode({
-                "Keyword": term,
-                "ResultsPerPage": 10,
-                "JobCategoryCode": ";".join(USAJOBS_SERIES),
-            })
-
-            req = urllib.request.Request(url, headers={
-                "Host": "data.usajobs.gov",
-                "User-Agent": EMAIL,
-                "Authorization-Key": API_KEY,
-            })
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
-
-            for item in data.get("SearchResult", {}).get("SearchResultItems", []):
-                pos = item.get("MatchedObjectDescriptor", {})
-                raw_id = pos.get("PositionID", hashlib.md5(str(item).encode()).hexdigest())
-                title = pos.get("PositionTitle", "")
-                company = pos.get("OrganizationName", "U.S. Federal Government")
-                apply_url = pos.get("ApplyURI", [""])[0]
-                desc = pos.get("UserArea", {}).get("Details", {}).get("JobSummary", "")
-                locs = pos.get("PositionLocation", [])
-                location = locs[0].get("LocationName", "") if locs else ""
-                posted = (pos.get("PublicationStartDate") or str(date.today()))[:10]
-
-                add_job("usajobs", raw_id, title, company, apply_url, desc, location, posted)
-
-            time.sleep(0.5)
-
-        except Exception as e:
-            log.warning("USAJobs error (%s): %s", term, e)
-
-
-# ─────────────────────────────────────────────
 # Greenhouse — official boards-api JSON endpoint
 # GET https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true
 # More reliable than HTML scraping — returns clean paginated JSON
@@ -722,7 +663,6 @@ def fetch_workday():
 # Run pipeline
 # ─────────────────────────────────────────────
 
-fetch_usajobs()
 fetch_greenhouse()
 fetch_lever()
 fetch_workable()
