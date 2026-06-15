@@ -398,7 +398,7 @@ def add_job(source, raw_id, title, company, apply_url,
 
     jobs.append({
         "job_id":          job_id,
-        "title":           title.strip(),
+        "title":           html.unescape(title.strip()),
         "company":         company.strip(),
         "slug":            slug,
         "canonical_url":   canonical_url,
