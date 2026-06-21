@@ -427,6 +427,12 @@ def add_job(source, raw_id, title, company, apply_url,
         "location_type":   "remote" if remote else "onsite",
         "office_location": location,
         "location_limit":  DEFAULT_LOCATION_LIMIT,
+        # Compatibility alias — Job Boardly's importer has a stale, cached
+        # field list left over from an older feed schema (it still knows
+        # "post_state" but has never rescanned to discover "location_limit").
+        # Duplicating the value here lets it be mapped without recreating
+        # the importer. Safe to remove once Job Boardly rescans the feed.
+        "post_state":      DEFAULT_LOCATION_LIMIT,
         "employment_type": employment_type,
         "date_posted":     posted,
         "valid_through":   valid_through,
