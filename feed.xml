@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-21T13:15:21Z" count="153">
+<jobs generated="2026-06-21T13:25:15Z" count="153">
   <job>
     <job_id>greenhouse-ACLU-8599778002</job_id>
     <title>Deputy Director, National Organizing</title>
@@ -12,6 +12,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -29,6 +30,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -46,6 +48,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -63,6 +66,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -80,6 +84,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -97,6 +102,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -114,6 +120,7 @@
     <location_type>remote</location_type>
     <office_location>Remote - National </office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -131,6 +138,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -148,6 +156,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -165,6 +174,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -182,6 +192,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -199,6 +210,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -216,6 +228,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -233,6 +246,7 @@
     <location_type>onsite</location_type>
     <office_location>Sydney, New South Wales, Australia</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -250,6 +264,7 @@
     <location_type>onsite</location_type>
     <office_location>Tokyo, Japan</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -267,6 +282,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -284,6 +300,7 @@
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -301,6 +318,7 @@
     <location_type>onsite</location_type>
     <office_location>Brussels, Belgium</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -318,6 +336,7 @@
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -335,6 +354,7 @@
     <location_type>onsite</location_type>
     <office_location>Sydney, New South Wales, Australia</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -352,6 +372,7 @@
     <location_type>onsite</location_type>
     <office_location>Paris, Paris, France</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -369,6 +390,7 @@
     <location_type>onsite</location_type>
     <office_location>Tokyo, Japan</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -386,6 +408,7 @@
     <location_type>onsite</location_type>
     <office_location>Genève, Canton of Geneva, Switzerland</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -403,6 +426,7 @@
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -420,6 +444,7 @@
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -437,6 +462,7 @@
     <location_type>onsite</location_type>
     <office_location>London, England, United Kingdom</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -454,6 +480,7 @@
     <location_type>remote</location_type>
     <office_location>remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -471,6 +498,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -488,6 +516,7 @@
     <location_type>remote</location_type>
     <office_location>Seattle, Washington, United States; Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -505,6 +534,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -522,6 +552,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -539,6 +570,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -556,6 +588,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -573,6 +606,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -590,6 +624,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -607,6 +642,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -624,6 +660,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -641,6 +678,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -658,6 +696,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -675,6 +714,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -692,6 +732,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y., Washington D.C.; Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -709,6 +750,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -726,6 +768,7 @@
     <location_type>remote</location_type>
     <office_location>Remote - based in California</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -743,6 +786,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -760,6 +804,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -777,6 +822,7 @@
     <location_type>onsite</location_type>
     <office_location>Boston, MA; San Francisco, CA; New York, NY; Seattle, WA; Washington, DC; San Diego, CA; Denver, CO; or Austin, TX</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -794,6 +840,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -811,6 +858,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y., Washington, D.C., Boston, M.A., Seattle, W.A., Miami, F.L., Los Angeles, C.A.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -828,6 +876,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -845,6 +894,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -862,6 +912,7 @@
     <location_type>onsite</location_type>
     <office_location>Waltham, M.A.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -879,6 +930,7 @@
     <location_type>remote</location_type>
     <office_location>Various Locations</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -896,6 +948,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -913,6 +966,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York or Los Angeles, California</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -930,6 +984,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -947,6 +1002,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -964,6 +1020,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -981,6 +1038,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -998,6 +1056,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1015,6 +1074,7 @@
     <location_type>onsite</location_type>
     <office_location>Waltham, MA; San Francisco, CA; New York, NY; or Seattle, WA</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1032,6 +1092,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1049,6 +1110,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1066,6 +1128,7 @@
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1083,6 +1146,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y, Waltham, M.A., Seattle, W.A., San Francisco, C.A., or San Diego, C.A.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1100,6 +1164,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1117,6 +1182,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y., Washington, D.C., Boston, M.A.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1134,6 +1200,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1151,6 +1218,7 @@
     <location_type>remote</location_type>
     <office_location>Los Angeles, CA</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1168,6 +1236,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1185,6 +1254,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1202,6 +1272,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1219,6 +1290,7 @@
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington D.C.; Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1236,6 +1308,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1253,6 +1326,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1270,6 +1344,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1287,6 +1362,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY OR Los Angeles, CA</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1304,6 +1380,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1321,6 +1398,7 @@
     <location_type>remote</location_type>
     <office_location>Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1338,6 +1416,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1355,6 +1434,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1372,6 +1452,7 @@
     <location_type>onsite</location_type>
     <office_location>Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1389,6 +1470,7 @@
     <location_type>remote</location_type>
     <office_location>DC, NY, PA , MD, VA </office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1406,6 +1488,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1423,6 +1506,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1440,6 +1524,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1457,6 +1542,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1474,6 +1560,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC Metro Area or NYC Metro Area</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1491,6 +1578,7 @@
     <location_type>onsite</location_type>
     <office_location>Atlanta, GA</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1508,6 +1596,7 @@
     <location_type>onsite</location_type>
     <office_location>Chicago, IL</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1525,6 +1614,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1542,6 +1632,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1559,6 +1650,7 @@
     <location_type>remote</location_type>
     <office_location>Remote </office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1576,6 +1668,7 @@
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1593,6 +1686,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1610,6 +1704,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, District of Columbia, United States, Semafor HQ - NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1627,6 +1722,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1644,6 +1740,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1661,6 +1758,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY or Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1678,6 +1776,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1695,6 +1794,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY </office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1712,6 +1812,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1729,6 +1830,7 @@
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1746,6 +1848,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1763,6 +1866,7 @@
     <location_type>onsite</location_type>
     <office_location>London, England </office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1780,6 +1884,7 @@
     <location_type>onsite</location_type>
     <office_location>London</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1797,6 +1902,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1814,6 +1920,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1831,6 +1938,7 @@
     <location_type>onsite</location_type>
     <office_location>United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1848,6 +1956,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1865,6 +1974,7 @@
     <location_type>onsite</location_type>
     <office_location>New York City</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1882,6 +1992,7 @@
     <location_type>onsite</location_type>
     <office_location>Austin, TX; Chicago, IL</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1899,6 +2010,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1916,6 +2028,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1933,6 +2046,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (US Only)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1950,6 +2064,7 @@
     <location_type>onsite</location_type>
     <office_location>NYC or DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1967,6 +2082,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1984,6 +2100,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2001,6 +2118,7 @@
     <location_type>onsite</location_type>
     <office_location>New York City</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2018,6 +2136,7 @@
     <location_type>onsite</location_type>
     <office_location>London, UK</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2035,6 +2154,7 @@
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2052,6 +2172,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2069,6 +2190,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2086,6 +2208,7 @@
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2103,6 +2226,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2120,6 +2244,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-11</date_posted>
     <valid_through>2026-09-09</valid_through>
@@ -2137,6 +2262,7 @@
     <location_type>onsite</location_type>
     <office_location>Various Campaign Locations</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2021-01-22</date_posted>
     <valid_through>2021-04-22</valid_through>
@@ -2154,6 +2280,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-01-09</date_posted>
     <valid_through>2026-04-09</valid_through>
@@ -2171,6 +2298,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-01-09</date_posted>
     <valid_through>2026-04-09</valid_through>
@@ -2188,6 +2316,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-01</date_posted>
     <valid_through>2026-07-30</valid_through>
@@ -2205,6 +2334,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-19</date_posted>
     <valid_through>2026-08-17</valid_through>
@@ -2222,6 +2352,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-28</date_posted>
     <valid_through>2026-08-26</valid_through>
@@ -2239,6 +2370,7 @@
     <location_type>onsite</location_type>
     <office_location>London</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-15</date_posted>
     <valid_through>2026-09-13</valid_through>
@@ -2256,6 +2388,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-09</date_posted>
     <valid_through>2026-07-08</valid_through>
@@ -2273,6 +2406,7 @@
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-15</date_posted>
     <valid_through>2026-07-14</valid_through>
@@ -2290,6 +2424,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-21</date_posted>
     <valid_through>2026-07-20</valid_through>
@@ -2307,6 +2442,7 @@
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-21</date_posted>
     <valid_through>2026-07-20</valid_through>
@@ -2324,6 +2460,7 @@
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-13</date_posted>
     <valid_through>2026-08-11</valid_through>
@@ -2341,6 +2478,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-08</date_posted>
     <valid_through>2026-09-06</valid_through>
@@ -2358,6 +2496,7 @@
     <location_type>remote</location_type>
     <office_location>Remote United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-27</date_posted>
     <valid_through>2026-08-25</valid_through>
@@ -2375,6 +2514,7 @@
     <location_type>remote</location_type>
     <office_location>Remote United States</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-28</date_posted>
     <valid_through>2026-08-26</valid_through>
@@ -2392,6 +2532,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-14</date_posted>
     <valid_through>2026-07-13</valid_through>
@@ -2409,6 +2550,7 @@
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-14</date_posted>
     <valid_through>2026-07-13</valid_through>
@@ -2426,6 +2568,7 @@
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-06</date_posted>
     <valid_through>2026-08-04</valid_through>
@@ -2443,6 +2586,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2025-09-24</date_posted>
     <valid_through>2025-12-23</valid_through>
@@ -2460,6 +2604,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2025-09-24</date_posted>
     <valid_through>2025-12-23</valid_through>
@@ -2477,6 +2622,7 @@
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-01</date_posted>
     <valid_through>2026-08-30</valid_through>
@@ -2494,6 +2640,7 @@
     <location_type>onsite</location_type>
     <office_location>Chicago, IL</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-05</date_posted>
     <valid_through>2026-09-03</valid_through>
@@ -2511,6 +2658,7 @@
     <location_type>remote</location_type>
     <office_location>Raleigh, NC</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-16</date_posted>
     <valid_through>2026-09-14</valid_through>
@@ -2528,6 +2676,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (AK, US)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2545,6 +2694,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (Iowa, US)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2562,6 +2712,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (United States)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2579,6 +2730,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (Minnesota, United States)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2596,6 +2748,7 @@
     <location_type>remote</location_type>
     <office_location>Remote (United States)</office_location>
     <location_limit>United States</location_limit>
+    <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
