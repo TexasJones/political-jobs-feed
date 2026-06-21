@@ -102,6 +102,16 @@ LEVER_NAMES = {
     "sierraclub": "Sierra Club",
 }
 
+# Ashby — public Job Board Posting API, no auth required.
+# Find a company's board slug from its public careers URL:
+#   https://jobs.ashbyhq.com/{slug}
+# None confirmed working yet; keeping structure for future additions.
+ASHBY_BOARDS = []
+
+ASHBY_NAMES = {
+    # "slug": "Display Name",
+}
+
 # Workable — none confirmed working yet; keeping structure for future additions
 WORKABLE_COMPANIES = []
 
@@ -511,6 +521,67 @@ def fetch_lever():
 
 
 # ─────────────────────────────────────────────
+# Ashby — public Job Board Posting API
+# GET https://api.ashbyhq.com/posting-api/job-board/{boardName}
+# No auth required for public boards. Returns { "jobs": [...] }.
+# ─────────────────────────────────────────────
+
+def fetch_ashby():
+    if not ASHBY_BOARDS:
+        return
+
+    log.info("=== Ashby ===")
+
+    for board in ASHBY_BOARDS:
+        try:
+            url = f"https://api.ashbyhq.com/posting-api/job-board/{board}"
+            log.info("Fetching %s", url)
+
+            req = urllib.request.Request(url, headers={
+                **BROWSER_HEADERS,
+                "Accept": "application/json",
+            })
+
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+
+            display_name = ASHBY_NAMES.get(board, board.replace("-", " ").title())
+            job_list = data.get("jobs", [])
+            found = 0
+
+            for j in job_list:
+                job_id = str(j.get("id", ""))
+                title = j.get("title", "")
+
+                # Ashby's field naming has varied across board versions —
+                # check both observed variants defensively.
+                location = j.get("location") or j.get("locationName") or ""
+
+                desc = j.get("descriptionHtml", "") or j.get("descriptionPlain", "")
+                apply_url = (
+                    j.get("applyUrl")
+                    or j.get("jobUrl")
+                    or f"https://jobs.ashbyhq.com/{board}/{job_id}"
+                )
+                posted = j.get("publishedAt", "")
+
+                if title and job_id:
+                    add_job("ashby", job_id, title, display_name, apply_url, desc, location, posted)
+                    found += 1
+
+            log.info("Ashby %s: %d jobs", board, found)
+            time.sleep(0.3)
+
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Ashby %s: board not found (404) — remove from list", board)
+            else:
+                log.warning("Ashby error %s: HTTP %s", board, e.code)
+        except Exception as e:
+            log.warning("Ashby error %s: %s", board, e)
+
+
+# ─────────────────────────────────────────────
 # Workable — public API
 # ─────────────────────────────────────────────
 
@@ -665,6 +736,7 @@ def fetch_workday():
 
 fetch_greenhouse()
 fetch_lever()
+fetch_ashby()
 fetch_workable()
 fetch_workday()
 
