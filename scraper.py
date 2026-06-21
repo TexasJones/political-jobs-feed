@@ -53,6 +53,8 @@ GREENHOUSE_BOARDS = [
     "orchestra",                # Orchestra (BerlinRosen, Civitas Public Affairs, Glen Echo Group)
     "voxglobal",                # VOX Global — bipartisan public affairs, Omnicom
     "ketchumuscareers",         # Ketchum US — corporate reputation, earned media, public affairs
+    "webershandwick",           # Weber Shandwick — includes Powell Tate public affairs unit
+    "fleishmanhillard",         # FleishmanHillard — global PR/public affairs, Omnicom
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
     # Political media
@@ -74,6 +76,8 @@ GREENHOUSE_NAMES = {
     "orchestra": "Orchestra",
     "voxglobal": "VOX Global",
     "ketchumuscareers": "Ketchum",
+    "webershandwick": "Weber Shandwick",
+    "fleishmanhillard": "FleishmanHillard",
     "civisanalytics": "Civis Analytics",
     "axios": "Axios",
     "semafor": "Semafor",
