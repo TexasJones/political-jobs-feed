@@ -337,6 +337,17 @@ def guess_employment_type(title: str) -> str:
     return "FULL_TIME"
 
 
+# Job Boardly's "Job type" field expects exact wording from its own fixed
+# list (Full-time, Part-time, Contract, Temporary, Volunteer, Internship,
+# Apprentice, Casual). Maps our internal codes to the ones we actually use.
+JOB_BOARDLY_TYPE_LABELS = {
+    "FULL_TIME":  "Full-time",
+    "PART_TIME":  "Part-time",
+    "CONTRACTOR": "Contract",
+    "INTERN":     "Internship",
+}
+
+
 def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
     for attempt in range(retries):
         try:
@@ -440,6 +451,9 @@ def add_job(source, raw_id, title, company, apply_url,
         # the importer. Safe to remove once Job Boardly rescans the feed.
         "post_state":      DEFAULT_LOCATION_LIMIT,
         "employment_type": employment_type,
+        # Compatibility alias — Job Boardly's stale field cache recognizes
+        # "type" but not "employment_type". Same pattern as location/post_state.
+        "type":            JOB_BOARDLY_TYPE_LABELS.get(employment_type, "Full-time"),
         "date_posted":     posted,
         "valid_through":   valid_through,
         "source":          source,
