@@ -427,6 +427,12 @@ def add_job(source, raw_id, title, company, apply_url,
         "location_type":   "remote" if remote else "onsite",
         "office_location": location,
         "location_limit":  DEFAULT_LOCATION_LIMIT,
+        # Compatibility alias — Job Boardly's "Location type" field needs an
+        # exact-match value ("Remote" / "Onsite"). office_location is messy
+        # free text and won't match cleanly, so we reuse the old, unused
+        # "location" field name (already recognized by Job Boardly) to carry
+        # a clean categorical value instead.
+        "location":        "Remote" if remote else "Onsite",
         # Compatibility alias — Job Boardly's importer has a stale, cached
         # field list left over from an older feed schema (it still knows
         # "post_state" but has never rescanned to discover "location_limit").
