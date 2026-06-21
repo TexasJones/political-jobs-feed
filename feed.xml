@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-06-21T00:15:16Z" count="153">
+<jobs generated="2026-06-21T13:15:21Z" count="153">
   <job>
     <job_id>greenhouse-ACLU-8599778002</job_id>
     <title>Deputy Director, National Organizing</title>
@@ -11,6 +11,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -27,6 +28,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -43,6 +45,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -59,6 +62,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -75,6 +79,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -91,6 +96,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -107,6 +113,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>Remote - National </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -123,6 +130,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -139,6 +147,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -155,6 +164,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -171,6 +181,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, New York, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -187,6 +198,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -203,6 +215,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -219,6 +232,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Sydney, New South Wales, Australia</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -235,6 +249,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Tokyo, Japan</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -251,6 +266,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -267,6 +283,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -283,6 +300,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Brussels, Belgium</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -299,23 +317,8 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-21</date_posted>
-    <valid_through>2026-09-19</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8601982002</job_id>
-    <title>Development &amp; Outreach Department Intern</title>
-    <company>Human Rights Watch</company>
-    <slug>development-outreach-department-intern-human-rights-watch-8601982002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/development-outreach-department-intern-human-rights-watch-8601982002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Le département Développement stagiaire&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Date limite de dépôt des candidatures : 1er août 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Le département Développement de Human Rights Watch (HRW) recherche actuellement un étudiant stagiaire pour son bureau parisien. Idéalement, le stagiaire sera disponible en temps complet (35 heures par semaine) pendant 6 mois, &lt;strong&gt;de septembre 2026 à février 2027&lt;/strong&gt;, les dates étant flexibles.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsabilités:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;L'étudiant(e) effectuera son stage en étroite collaboration avec les membres de l'équipe Développement, notamment la Chargée de Développement à Paris. Le stage sera principalement axé sur les activités suivantes:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Aider à la préparation et organisation de différents événements (dîner annuel de récolte de fond, réunions donateurs, etc.);&lt;/li&gt; &lt;li&gt;Réaliser des recherches sur des donateurs prospects;&lt;/li&gt; &lt;li&gt;Tenir à jour les documents et les enregistrements de la base de données;&lt;/li&gt; &lt;li&gt;Assister l’équipe de développement à la rédaction de documents et autres correspondances liés à la sensibilisation des donateurs;&lt;/li&gt; &lt;li&gt;Soutenir l’équipe de développement à la création de matériel promotionnel et d'envois postaux;&lt;/li&gt; &lt;li&gt;Collaborer avec l’équipe de développement pour l’exploitation de la base de données de collecte de fonds et de gestion des donateurs; et&lt;/li&gt; &lt;li&gt;Traduire des documents en anglais et/ou en français.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Ce stage convient aux personnes désireuses</description>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8601982002</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Paris, Paris, France</office_location>
-    <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
     <source>greenhouse</source>
@@ -331,6 +334,24 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Sydney, New South Wales, Australia</office_location>
+    <location_limit>United States</location_limit>
+    <employment_type>INTERN</employment_type>
+    <date_posted>2026-06-21</date_posted>
+    <valid_through>2026-09-19</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Human Rights Watch-8601982002</job_id>
+    <title>Development &amp; Outreach Department Intern</title>
+    <company>Human Rights Watch</company>
+    <slug>development-outreach-department-intern-human-rights-watch-8601982002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/development-outreach-department-intern-human-rights-watch-8601982002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;Le département Développement stagiaire&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Date limite de dépôt des candidatures : 1er août 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Le département Développement de Human Rights Watch (HRW) recherche actuellement un étudiant stagiaire pour son bureau parisien. Idéalement, le stagiaire sera disponible en temps complet (35 heures par semaine) pendant 6 mois, &lt;strong&gt;de septembre 2026 à février 2027&lt;/strong&gt;, les dates étant flexibles.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsabilités:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;L'étudiant(e) effectuera son stage en étroite collaboration avec les membres de l'équipe Développement, notamment la Chargée de Développement à Paris. Le stage sera principalement axé sur les activités suivantes:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Aider à la préparation et organisation de différents événements (dîner annuel de récolte de fond, réunions donateurs, etc.);&lt;/li&gt; &lt;li&gt;Réaliser des recherches sur des donateurs prospects;&lt;/li&gt; &lt;li&gt;Tenir à jour les documents et les enregistrements de la base de données;&lt;/li&gt; &lt;li&gt;Assister l’équipe de développement à la rédaction de documents et autres correspondances liés à la sensibilisation des donateurs;&lt;/li&gt; &lt;li&gt;Soutenir l’équipe de développement à la création de matériel promotionnel et d'envois postaux;&lt;/li&gt; &lt;li&gt;Collaborer avec l’équipe de développement pour l’exploitation de la base de données de collecte de fonds et de gestion des donateurs; et&lt;/li&gt; &lt;li&gt;Traduire des documents en anglais et/ou en français.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Ce stage convient aux personnes désireuses</description>
+    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8601982002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Paris, Paris, France</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -347,6 +368,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Tokyo, Japan</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -363,6 +385,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Genève, Canton of Geneva, Switzerland</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -379,6 +402,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -395,6 +419,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -411,6 +436,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>London, England, United Kingdom</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -427,6 +453,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -443,6 +470,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -459,6 +487,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Seattle, Washington, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -475,6 +504,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -491,6 +521,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -507,6 +538,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -523,6 +555,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -539,6 +572,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -555,6 +589,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -571,6 +606,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -587,6 +623,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -603,6 +640,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -619,6 +657,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -635,6 +674,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -651,6 +691,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, N.Y., Washington D.C.; Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -667,6 +708,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -683,6 +725,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Remote - based in California</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -699,6 +742,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -715,6 +759,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -731,6 +776,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Boston, MA; San Francisco, CA; New York, NY; Seattle, WA; Washington, DC; San Diego, CA; Denver, CO; or Austin, TX</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -747,6 +793,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -763,6 +810,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y., Washington, D.C., Boston, M.A., Seattle, W.A., Miami, F.L., Los Angeles, C.A.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -779,6 +827,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -795,6 +844,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -811,6 +861,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Waltham, M.A.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -827,6 +878,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>Various Locations</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -843,6 +895,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -859,6 +912,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York or Los Angeles, California</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -875,6 +929,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -891,6 +946,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -907,6 +963,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -923,6 +980,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -939,6 +997,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -955,6 +1014,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Waltham, MA; San Francisco, CA; New York, NY; or Seattle, WA</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -971,6 +1031,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -987,6 +1048,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.; Washington D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1003,6 +1065,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1019,6 +1082,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y, Waltham, M.A., Seattle, W.A., San Francisco, C.A., or San Diego, C.A.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1035,22 +1099,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-21</date_posted>
-    <valid_through>2026-09-19</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8550099002</job_id>
-    <title>Senior Associate</title>
-    <company>Orchestra</company>
-    <slug>senior-associate-orchestra-8550099002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-associate-orchestra-8550099002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT CIVITAS&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Civitas Public Affairs Group, an Orchestra company, is a values-based public affairs firm that delivers winning advocacy campaigns for our clients and the communities they serve. We enlist experts, leverage relationships, and build coalitions to address some of the most pressing political and societal challenges of our day, including climate change, protecting our democracy, reproductive health, and advancing the rights of LGBTQ people.&lt;/p&gt; &lt;p&gt;Our bipartisan firm brings proven experience developing innovative advocacy campaigns to win substantive policy change at the local, state, and national levels. With offices in Boston, New York City, and Washington DC, we work closely with the nation’s leading philanthropists, non-profit organizations, and movements to substantively impact progressive issues and causes.&lt;/p&gt; &lt;p&gt;Some of our current and former clients include the Black Futures Policy Institute, CityHealth, the Collaborative for Gender and Reproductive Equity, Citizens for Responsible Energy Solutions, Center for Secure and Modern Elections, Inseparable, National Council for Mental Wellbeing, the Pipeline Fund, the Trevor Project, Voices for Healthy Kids, and more.&lt;/p&gt; &lt;p&gt;We are seeking a &lt;strong&gt;Senior Associate &lt;/strong&gt;to join our New York team. This is a hybrid position that requires three days in the office per week and two days of remote work.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT THIS ROLE&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Senior Associate will play a key</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8550099002</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>remote</location_type>
-    <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1067,6 +1116,24 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>New York, N.Y., Washington, D.C., Boston, M.A.</office_location>
+    <location_limit>United States</location_limit>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-21</date_posted>
+    <valid_through>2026-09-19</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Orchestra-8550099002</job_id>
+    <title>Senior Associate</title>
+    <company>Orchestra</company>
+    <slug>senior-associate-orchestra-8550099002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-associate-orchestra-8550099002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;ABOUT CIVITAS&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Civitas Public Affairs Group, an Orchestra company, is a values-based public affairs firm that delivers winning advocacy campaigns for our clients and the communities they serve. We enlist experts, leverage relationships, and build coalitions to address some of the most pressing political and societal challenges of our day, including climate change, protecting our democracy, reproductive health, and advancing the rights of LGBTQ people.&lt;/p&gt; &lt;p&gt;Our bipartisan firm brings proven experience developing innovative advocacy campaigns to win substantive policy change at the local, state, and national levels. With offices in Boston, New York City, and Washington DC, we work closely with the nation’s leading philanthropists, non-profit organizations, and movements to substantively impact progressive issues and causes.&lt;/p&gt; &lt;p&gt;Some of our current and former clients include the Black Futures Policy Institute, CityHealth, the Collaborative for Gender and Reproductive Equity, Citizens for Responsible Energy Solutions, Center for Secure and Modern Elections, Inseparable, National Council for Mental Wellbeing, the Pipeline Fund, the Trevor Project, Voices for Healthy Kids, and more.&lt;/p&gt; &lt;p&gt;We are seeking a &lt;strong&gt;Senior Associate &lt;/strong&gt;to join our New York team. This is a hybrid position that requires three days in the office per week and two days of remote work.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT THIS ROLE&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Senior Associate will play a key</description>
+    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8550099002</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>remote</location_type>
+    <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1083,6 +1150,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Los Angeles, CA</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1099,6 +1167,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1115,6 +1184,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1131,6 +1201,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1147,6 +1218,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>New York, N.Y.; Washington D.C.; Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1163,6 +1235,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1179,6 +1252,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1195,6 +1269,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1211,6 +1286,7 @@
     <category>Political Campaigns</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY OR Los Angeles, CA</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1227,6 +1303,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1243,6 +1320,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1259,6 +1337,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1275,6 +1354,7 @@
     <category>Political Campaigns</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1291,6 +1371,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Chicago, Illinois, United States; New York, New York, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1307,6 +1388,7 @@
     <category>Nonprofit Advocacy</category>
     <location_type>remote</location_type>
     <office_location>DC, NY, PA , MD, VA </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1323,6 +1405,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1339,6 +1422,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1355,6 +1439,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1371,6 +1456,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1387,6 +1473,7 @@
     <category>Political Campaigns</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC Metro Area or NYC Metro Area</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1403,6 +1490,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Atlanta, GA</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1419,6 +1507,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Chicago, IL</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1435,6 +1524,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1451,6 +1541,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1467,6 +1558,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1483,6 +1575,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1499,6 +1592,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1515,6 +1609,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Washington, District of Columbia, United States, Semafor HQ - NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1531,6 +1626,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Washington, D.C.</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1547,6 +1643,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1563,22 +1660,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY or Washington, DC</office_location>
-    <employment_type>FULL_TIME</employment_type>
-    <date_posted>2026-06-21</date_posted>
-    <valid_through>2026-09-19</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Semafor-4647083005</job_id>
-    <title>Director,  Sales &amp; Strategic Partnerships</title>
-    <company>Semafor</company>
-    <slug>director-sales-strategic-partnerships-semafor-4647083005</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/director-sales-strategic-partnerships-semafor-4647083005/</canonical_url>
-    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;About this Role&lt;/p&gt; &lt;p&gt;The&lt;strong&gt; Director, Sales and Strategic Partnerships&lt;/strong&gt; will be responsible for identifying, developing, and managing key partnerships with advertisers. This role requires a combination of business development expertise, strategic vision, and relationship management skills to drive the success of our partnerships strategy. The individual in this position will work closely with internal teams and external stakeholders to ensure partnership success and growth.&lt;/p&gt; &lt;h3&gt;Your Responsibilities&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Partnership Development: &lt;/strong&gt;Identify, assess, and negotiate strategic</description>
-    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4647083005</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, NY </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1595,6 +1677,24 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <employment_type>FULL_TIME</employment_type>
+    <date_posted>2026-06-21</date_posted>
+    <valid_through>2026-09-19</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Semafor-4647083005</job_id>
+    <title>Director,  Sales &amp; Strategic Partnerships</title>
+    <company>Semafor</company>
+    <slug>director-sales-strategic-partnerships-semafor-4647083005</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/director-sales-strategic-partnerships-semafor-4647083005/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;About this Role&lt;/p&gt; &lt;p&gt;The&lt;strong&gt; Director, Sales and Strategic Partnerships&lt;/strong&gt; will be responsible for identifying, developing, and managing key partnerships with advertisers. This role requires a combination of business development expertise, strategic vision, and relationship management skills to drive the success of our partnerships strategy. The individual in this position will work closely with internal teams and external stakeholders to ensure partnership success and growth.&lt;/p&gt; &lt;h3&gt;Your Responsibilities&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Partnership Development: &lt;/strong&gt;Identify, assess, and negotiate strategic</description>
+    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4647083005</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>New York, NY </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1611,6 +1711,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1627,6 +1728,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1643,6 +1745,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1659,6 +1762,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>London, England </office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1675,6 +1779,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>London</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1691,6 +1796,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1707,6 +1813,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1723,6 +1830,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1739,6 +1847,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1755,6 +1864,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York City</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1771,6 +1881,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Austin, TX; Chicago, IL</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>CONTRACTOR</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1787,6 +1898,7 @@
     <category>Political Campaigns</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1803,6 +1915,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1819,6 +1932,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>Remote (US Only)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1835,6 +1949,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>NYC or DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1851,6 +1966,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1867,6 +1983,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1883,6 +2000,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York City</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1899,6 +2017,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>London, UK</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>INTERN</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1915,6 +2034,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1931,6 +2051,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1947,6 +2068,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1963,6 +2085,7 @@
     <category>Political Media</category>
     <location_type>remote</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1979,6 +2102,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -1995,6 +2119,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-11</date_posted>
     <valid_through>2026-09-09</valid_through>
@@ -2011,6 +2136,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Various Campaign Locations</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2021-01-22</date_posted>
     <valid_through>2021-04-22</valid_through>
@@ -2027,6 +2153,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-01-09</date_posted>
     <valid_through>2026-04-09</valid_through>
@@ -2043,6 +2170,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-01-09</date_posted>
     <valid_through>2026-04-09</valid_through>
@@ -2059,6 +2187,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-01</date_posted>
     <valid_through>2026-07-30</valid_through>
@@ -2075,6 +2204,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-19</date_posted>
     <valid_through>2026-08-17</valid_through>
@@ -2091,6 +2221,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-28</date_posted>
     <valid_through>2026-08-26</valid_through>
@@ -2107,6 +2238,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>London</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-15</date_posted>
     <valid_through>2026-09-13</valid_through>
@@ -2123,6 +2255,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-09</date_posted>
     <valid_through>2026-07-08</valid_through>
@@ -2139,6 +2272,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-15</date_posted>
     <valid_through>2026-07-14</valid_through>
@@ -2155,6 +2289,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-21</date_posted>
     <valid_through>2026-07-20</valid_through>
@@ -2171,6 +2306,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-21</date_posted>
     <valid_through>2026-07-20</valid_through>
@@ -2187,6 +2323,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-13</date_posted>
     <valid_through>2026-08-11</valid_through>
@@ -2203,6 +2340,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-08</date_posted>
     <valid_through>2026-09-06</valid_through>
@@ -2219,6 +2357,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Remote United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-27</date_posted>
     <valid_through>2026-08-25</valid_through>
@@ -2235,6 +2374,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Remote United States</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-28</date_posted>
     <valid_through>2026-08-26</valid_through>
@@ -2251,6 +2391,7 @@
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-14</date_posted>
     <valid_through>2026-07-13</valid_through>
@@ -2267,6 +2408,7 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-04-14</date_posted>
     <valid_through>2026-07-13</valid_through>
@@ -2283,6 +2425,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>United States - Remote</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-05-06</date_posted>
     <valid_through>2026-08-04</valid_through>
@@ -2299,6 +2442,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2025-09-24</date_posted>
     <valid_through>2025-12-23</valid_through>
@@ -2315,6 +2459,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2025-09-24</date_posted>
     <valid_through>2025-12-23</valid_through>
@@ -2331,6 +2476,7 @@
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-01</date_posted>
     <valid_through>2026-08-30</valid_through>
@@ -2347,6 +2493,7 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Chicago, IL</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-05</date_posted>
     <valid_through>2026-09-03</valid_through>
@@ -2363,6 +2510,7 @@
     <category>Communications &amp; PR</category>
     <location_type>remote</location_type>
     <office_location>Raleigh, NC</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-16</date_posted>
     <valid_through>2026-09-14</valid_through>
@@ -2379,6 +2527,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Remote (AK, US)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2395,6 +2544,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Remote (Iowa, US)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2411,6 +2561,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Remote (United States)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2427,6 +2578,7 @@
     <category>Political Campaigns</category>
     <location_type>remote</location_type>
     <office_location>Remote (Minnesota, United States)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
@@ -2443,6 +2595,7 @@
     <category>Government &amp; Policy</category>
     <location_type>remote</location_type>
     <office_location>Remote (United States)</office_location>
+    <location_limit>United States</location_limit>
     <employment_type>FULL_TIME</employment_type>
     <date_posted>2026-06-21</date_posted>
     <valid_through>2026-09-19</valid_through>
