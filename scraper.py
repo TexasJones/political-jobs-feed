@@ -359,6 +359,16 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
             time.sleep(wait)
 
 
+# ─────────────────────────────────────────────
+# Location limits
+# Job Boardly's "Location limits" field restricts remote roles to a
+# region/country. If left unmapped, it defaults remote jobs to "Worldwide."
+# Every current source is US-based, so we hardcode this for now —
+# revisit if/when an international source gets added.
+# ─────────────────────────────────────────────
+
+DEFAULT_LOCATION_LIMIT = "United States"
+
 jobs = []
 seen = set()
 
@@ -416,6 +426,7 @@ def add_job(source, raw_id, title, company, apply_url,
         "category":        category,
         "location_type":   "remote" if remote else "onsite",
         "office_location": location,
+        "location_limit":  DEFAULT_LOCATION_LIMIT,
         "employment_type": employment_type,
         "date_posted":     posted,
         "valid_through":   valid_through,
