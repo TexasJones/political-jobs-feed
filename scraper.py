@@ -112,6 +112,17 @@ ASHBY_NAMES = {
     # "slug": "Display Name",
 }
 
+# Rippling — public Job Board API, no auth required.
+# Find a company's board slug from its public careers URL:
+#   https://ats.rippling.com/{slug}/jobs
+RIPPLING_BOARDS = [
+    "indivisible-project-careers",   # Indivisible — confirmed working
+]
+
+RIPPLING_NAMES = {
+    "indivisible-project-careers": "Indivisible",
+}
+
 # Workable — none confirmed working yet; keeping structure for future additions
 WORKABLE_COMPANIES = []
 
@@ -582,6 +593,68 @@ def fetch_ashby():
 
 
 # ─────────────────────────────────────────────
+# Rippling — public Job Board API
+# GET https://ats.rippling.com/api/v2/board/{board_slug}/jobs?page=0&pageSize=50
+# No auth required. Listing endpoint returns titles/departments/locations
+# but not descriptions or posted dates — same tradeoff as Greenhouse,
+# where date_posted falls back to the scrape date.
+# ─────────────────────────────────────────────
+
+def fetch_rippling():
+    if not RIPPLING_BOARDS:
+        return
+
+    log.info("=== Rippling ===")
+
+    for board in RIPPLING_BOARDS:
+        try:
+            display_name = RIPPLING_NAMES.get(board, board.replace("-", " ").title())
+            found = 0
+            page = 0
+
+            while True:
+                url = f"https://ats.rippling.com/api/v2/board/{board}/jobs?page={page}&pageSize=50"
+                log.info("Fetching %s", url)
+
+                req = urllib.request.Request(url, headers={
+                    **BROWSER_HEADERS,
+                    "Accept": "application/json",
+                })
+
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode())
+
+                for j in data.get("items", []):
+                    job_id = j.get("id", "")
+                    title = j.get("name", "")
+                    apply_url = j.get("url", "")
+
+                    locations = j.get("locations", [])
+                    location = locations[0].get("name", "") if locations else ""
+
+                    if title and job_id:
+                        add_job("rippling", job_id, title, display_name, apply_url, "", location)
+                        found += 1
+
+                total_pages = data.get("totalPages", 1)
+                page += 1
+                if page >= total_pages:
+                    break
+                time.sleep(0.3)
+
+            log.info("Rippling %s: %d jobs", board, found)
+            time.sleep(0.3)
+
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log.warning("Rippling %s: board not found (404) — remove from list", board)
+            else:
+                log.warning("Rippling error %s: HTTP %s", board, e.code)
+        except Exception as e:
+            log.warning("Rippling error %s: %s", board, e)
+
+
+# ─────────────────────────────────────────────
 # Workable — public API
 # ─────────────────────────────────────────────
 
@@ -737,6 +810,7 @@ def fetch_workday():
 fetch_greenhouse()
 fetch_lever()
 fetch_ashby()
+fetch_rippling()
 fetch_workable()
 fetch_workday()
 
