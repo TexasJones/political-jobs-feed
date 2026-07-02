@@ -378,11 +378,68 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
 # Location limits
 # Job Boardly's "Location limits" field restricts remote roles to a
 # region/country. If left unmapped, it defaults remote jobs to "Worldwide."
-# Every current source is US-based, so we hardcode this for now —
-# revisit if/when an international source gets added.
+#
+# Every current source was originally US-based, so this used to be a flat
+# hardcoded "United States" for every job. That broke once international
+# postings started showing up (e.g. FleishmanHillard's Greenhouse board
+# posting a Brussels internship) — those were getting mislabeled as US.
+#
+# guess_location_limit() checks the job's actual location string against a
+# set of common non-US city/country signals and maps to the right country.
+# Anything unmatched still falls back to "United States", since the large
+# majority of our sources are genuinely US-based — extend this map as new
+# international postings turn up.
 # ─────────────────────────────────────────────
 
 DEFAULT_LOCATION_LIMIT = "United States"
+
+NON_US_LOCATION_MAP = {
+    "brussels": "Belgium",
+    "belgium": "Belgium",
+    "london": "United Kingdom",
+    "united kingdom": "United Kingdom",
+    "uk": "United Kingdom",
+    "toronto": "Canada",
+    "vancouver": "Canada",
+    "canada": "Canada",
+    "paris": "France",
+    "france": "France",
+    "berlin": "Germany",
+    "germany": "Germany",
+    "dublin": "Ireland",
+    "ireland": "Ireland",
+    "singapore": "Singapore",
+    "sydney": "Australia",
+    "melbourne": "Australia",
+    "australia": "Australia",
+    "mexico city": "Mexico",
+    "mexico": "Mexico",
+    "geneva": "Switzerland",
+    "switzerland": "Switzerland",
+    "amsterdam": "Netherlands",
+    "netherlands": "Netherlands",
+    "madrid": "Spain",
+    "spain": "Spain",
+    "rome": "Italy",
+    "milan": "Italy",
+    "italy": "Italy",
+    "tokyo": "Japan",
+    "japan": "Japan",
+    "hong kong": "Hong Kong",
+    "nairobi": "Kenya",
+    "kenya": "Kenya",
+    "johannesburg": "South Africa",
+    "south africa": "South Africa",
+}
+
+
+def guess_location_limit(location: str) -> str:
+    loc = (location or "").lower()
+    for keyword, country in NON_US_LOCATION_MAP.items():
+        if keyword in loc:
+            return country
+    return DEFAULT_LOCATION_LIMIT
+
 
 jobs = []
 seen = set()
@@ -409,6 +466,7 @@ def add_job(source, raw_id, title, company, apply_url,
     category = guess_category(title, description)
     remote = detect_remote(location, description)
     employment_type = guess_employment_type(title)
+    location_limit = guess_location_limit(location)
 
     # Include raw_id in slug to prevent collisions when same company
     # posts multiple roles with identical titles
@@ -441,7 +499,7 @@ def add_job(source, raw_id, title, company, apply_url,
         "category":        category,
         "location_type":   "remote" if remote else "onsite",
         "office_location": location,
-        "location_limit":  DEFAULT_LOCATION_LIMIT,
+        "location_limit":  location_limit,
         # Compatibility alias — Job Boardly's "Location type" field needs an
         # exact-match value ("Remote" / "Onsite"). office_location is messy
         # free text and won't match cleanly, so we reuse the old, unused
@@ -453,7 +511,7 @@ def add_job(source, raw_id, title, company, apply_url,
         # "post_state" but has never rescanned to discover "location_limit").
         # Duplicating the value here lets it be mapped without recreating
         # the importer. Safe to remove once Job Boardly rescans the feed.
-        "post_state":      DEFAULT_LOCATION_LIMIT,
+        "post_state":      location_limit,
         "employment_type": employment_type,
         # Compatibility alias — Job Boardly's stale field cache recognizes
         # "type" but not "employment_type". Same pattern as location/post_state.
