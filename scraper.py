@@ -181,8 +181,14 @@ RIPPLING_NAMES = {
     "indivisible-project-careers": "Indivisible",
 }
 
-# Workable — none confirmed working yet; keeping structure for future additions
-WORKABLE_COMPANIES = []
+# Workable — public API
+WORKABLE_COMPANIES = [
+    "fp1-strategies",   # FP1 Strategies — political campaigns, PLUS Communications
+]
+
+WORKABLE_NAMES = {
+    "fp1-strategies": "FP1 Strategies",
+}
 
 WORKDAY_COMPANIES = [
     {
@@ -867,6 +873,7 @@ def fetch_workable():
             raw = fetch_url(url, extra_headers={"Accept": "application/json"})
             data = json.loads(raw)
 
+            display_name = WORKABLE_NAMES.get(company, company.replace("-", " ").title())
             found = 0
             for j in data.get("results", []):
                 # shortcode/id may come back as an int — always stringify
@@ -880,7 +887,7 @@ def fetch_workable():
                 posted = (j.get("published_on") or str(date.today()))[:10]
 
                 if title and job_id:
-                    add_job("workable", job_id, title, company.replace("-", " ").title(), apply_url, desc, loc_str, posted)
+                    add_job("workable", job_id, title, display_name, apply_url, desc, loc_str, posted)
                     found += 1
 
             log.info("Workable %s: %d jobs", company, found)
