@@ -379,9 +379,30 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
-def detect_remote(location: str, desc: str = "") -> bool:
+def classify_location_type(location: str, desc: str = "") -> str:
+    """
+    Three-way location classification: remote / hybrid / onsite.
+    Job Boardly's importer supports all three as distinct values (see its
+    Location type fallback dropdown), but the previous binary remote/onsite
+    check folded "hybrid" postings into "remote" — mislabeling roles that
+    explicitly require in-office days. Checked in this order because a
+    posting can mention both "remote" (e.g. in a benefits blurb) and
+    "hybrid" (in the actual work arrangement); hybrid should win when both
+    appear.
+    """
     text = f"{location} {desc}".lower()
-    return any(k in text for k in ["remote", "work from home", "hybrid", "distributed", "telework"])
+    if "hybrid" in text:
+        return "hybrid"
+    if any(k in text for k in ["remote", "work from home", "distributed", "telework"]):
+        return "remote"
+    return "onsite"
+
+
+LOCATION_TYPE_LABELS = {
+    "remote": "Remote",
+    "hybrid": "Hybrid",
+    "onsite": "Onsite",
+}
 
 
 def guess_employment_type(title: str) -> str:
@@ -550,7 +571,7 @@ def add_job(source, raw_id, title, company, apply_url,
 
     description = truncate(clean(description))
     category = guess_category(title, description)
-    remote = detect_remote(location, description)
+    location_type = classify_location_type(location, description)
     employment_type = guess_employment_type(title)
     location_limit = guess_location_limit(location)
 
@@ -583,15 +604,15 @@ def add_job(source, raw_id, title, company, apply_url,
         "description":     description,
         "apply_url":       apply_url,
         "category":        category,
-        "location_type":   "remote" if remote else "onsite",
+        "location_type":   location_type,
         "office_location": location,
         "location_limit":  location_limit,
         # Compatibility alias — Job Boardly's "Location type" field needs an
-        # exact-match value ("Remote" / "Onsite"). office_location is messy
-        # free text and won't match cleanly, so we reuse the old, unused
-        # "location" field name (already recognized by Job Boardly) to carry
-        # a clean categorical value instead.
-        "location":        "Remote" if remote else "Onsite",
+        # exact-match value ("Remote" / "Onsite" / "Hybrid"). office_location
+        # is messy free text and won't match cleanly, so we reuse the old,
+        # unused "location" field name (already recognized by Job Boardly)
+        # to carry a clean categorical value instead.
+        "location":        LOCATION_TYPE_LABELS[location_type],
         # Compatibility alias — Job Boardly's importer has a stale, cached
         # field list left over from an older feed schema (it still knows
         # "post_state" but has never rescanned to discover "location_limit").
