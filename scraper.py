@@ -557,6 +557,51 @@ def guess_location_limit(location: str) -> str:
 jobs = []
 seen = set()
 
+# Some Greenhouse boards belong to holding companies that re-list their
+# subsidiaries' own postings on a shared board — e.g. Orchestra's board
+# covers BerlinRosen, Civitas Public Affairs, and Glen Echo Group, but
+# BerlinRosen also has its own separate confirmed-working board. Scraping
+# both surfaces the exact same job twice under two different company
+# names, which the normal seen{} dedup (keyed on source-company-raw_id)
+# doesn't catch since both the company label and raw ID differ.
+#
+# GREENHOUSE_NETWORK_GROUPS scopes a secondary dedup to just these known
+# groups — keyed on (network, normalized title, normalized location) —
+# rather than deduping globally by title+location, which would risk
+# false-collapsing two unrelated firms that happen to post similarly
+# titled roles in the same city.
+GREENHOUSE_NETWORK_GROUPS = {
+    "orchestra_network": {"orchestra", "berlinrosen"},
+}
+
+# Reverse lookup: board slug -> network name, built once at import time.
+GREENHOUSE_BOARD_TO_NETWORK = {
+    board: network
+    for network, boards in GREENHOUSE_NETWORK_GROUPS.items()
+    for board in boards
+}
+
+seen_network_content = set()
+
+
+def is_network_duplicate(board: str, title: str, location: str) -> bool:
+    """
+    Returns True (and records the key) if this title+location was already
+    seen from another board in the same holding-company network. Boards
+    are processed in GREENHOUSE_BOARDS order, so whichever board is listed
+    first "wins" — GREENHOUSE_BOARDS lists berlinrosen before orchestra,
+    so the more specific brand name is kept over the parent company's
+    duplicate listing.
+    """
+    network = GREENHOUSE_BOARD_TO_NETWORK.get(board)
+    if not network:
+        return False
+    key = (network, title.strip().lower(), location.strip().lower())
+    if key in seen_network_content:
+        return True
+    seen_network_content.add(key)
+    return False
+
 
 # ─────────────────────────────────────────────
 # Core ingestion
@@ -671,6 +716,10 @@ def fetch_greenhouse():
 
                 if board in GREENHOUSE_US_ONLY_BOARDS and not is_us_posting(location, title):
                     log.info("Skipping (non-US office): %s @ %s [%s]", title, display_name, location)
+                    continue
+
+                if is_network_duplicate(board, title, location):
+                    log.info("Skipping (network duplicate): %s @ %s [%s]", title, display_name, location)
                     continue
 
                 if title and job_id:
