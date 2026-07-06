@@ -352,10 +352,19 @@ JOB_BOARDLY_TYPE_LABELS = {
 }
 
 
-def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
+def fetch_url(url: str, timeout: int = 15, retries: int = 3,
+              method: str = "GET", data: bytes = None,
+              extra_headers: dict = None) -> str:
+    """
+    Shared retry-with-backoff fetch helper. All fetchers should route
+    through this rather than calling urlopen() directly, so a single
+    transient network blip doesn't silently zero out a whole source
+    for the day.
+    """
+    headers = {**BROWSER_HEADERS, **(extra_headers or {})}
     for attempt in range(retries):
         try:
-            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            req = urllib.request.Request(url, data=data, headers=headers, method=method)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.read().decode("utf-8", errors="replace")
         except urllib.error.HTTPError as e:
@@ -364,13 +373,15 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
             if attempt == retries - 1:
                 raise
             wait = 2 ** attempt
-            log.warning("Fetch attempt %d failed (HTTP %s), retrying in %ds...", attempt + 1, e.code, wait)
+            log.warning("Fetch attempt %d failed (HTTP %s) for %s, retrying in %ds...",
+                        attempt + 1, e.code, url, wait)
             time.sleep(wait)
         except Exception as e:
             if attempt == retries - 1:
                 raise
             wait = 2 ** attempt
-            log.warning("Fetch attempt %d failed (%s), retrying in %ds...", attempt + 1, e, wait)
+            log.warning("Fetch attempt %d failed (%s) for %s, retrying in %ds...",
+                        attempt + 1, e, url, wait)
             time.sleep(wait)
 
 
@@ -389,9 +400,22 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 3) -> str:
 # Anything unmatched still falls back to "United States", since the large
 # majority of our sources are genuinely US-based — extend this map as new
 # international postings turn up.
+#
+# NOTE: matching is done with word-boundary regex, not plain substring —
+# plain "in" checks let short keywords like "uk" match inside unrelated
+# words (e.g. "Milwaukee", "Duke"), and "mexico" match inside "New Mexico".
+# The US_STATE_EXCEPTIONS list handles the remaining collisions where a
+# country name is also a legitimate US place name.
 # ─────────────────────────────────────────────
 
 DEFAULT_LOCATION_LIMIT = "United States"
+
+# US place names that would otherwise collide with a country keyword below
+# (e.g. "New Mexico" contains the word "mexico"). Checked before the
+# country map so these always resolve to United States.
+US_STATE_EXCEPTIONS = [
+    "new mexico",
+]
 
 NON_US_LOCATION_MAP = {
     "brussels": "Belgium",
@@ -435,9 +459,17 @@ NON_US_LOCATION_MAP = {
 
 def guess_location_limit(location: str) -> str:
     loc = (location or "").lower()
+
+    # Check US place-name exceptions first so they never fall through to
+    # the country map (e.g. "New Mexico" contains "mexico").
+    for exc in US_STATE_EXCEPTIONS:
+        if re.search(rf"\b{re.escape(exc)}\b", loc):
+            return DEFAULT_LOCATION_LIMIT
+
     for keyword, country in NON_US_LOCATION_MAP.items():
-        if keyword in loc:
+        if re.search(rf"\b{re.escape(keyword)}\b", loc):
             return country
+
     return DEFAULT_LOCATION_LIMIT
 
 
@@ -538,13 +570,8 @@ def fetch_greenhouse():
             url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
             log.info("Fetching %s", url)
 
-            req = urllib.request.Request(url, headers={
-                **BROWSER_HEADERS,
-                "Accept": "application/json",
-            })
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+            data = json.loads(raw)
 
             display_name = GREENHOUSE_NAMES.get(board, board.title())
             job_list = data.get("jobs", [])
@@ -589,13 +616,8 @@ def fetch_lever():
             url = f"https://api.lever.co/v0/postings/{company}?mode=json"
             log.info("Fetching %s", url)
 
-            req = urllib.request.Request(url, headers={
-                **BROWSER_HEADERS,
-                "Accept": "application/json",
-            })
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                postings = json.loads(resp.read().decode())
+            raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+            postings = json.loads(raw)
 
             display_name = LEVER_NAMES.get(company, company.title())
             found = 0
@@ -647,13 +669,8 @@ def fetch_ashby():
             url = f"https://api.ashbyhq.com/posting-api/job-board/{board}"
             log.info("Fetching %s", url)
 
-            req = urllib.request.Request(url, headers={
-                **BROWSER_HEADERS,
-                "Accept": "application/json",
-            })
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+            data = json.loads(raw)
 
             display_name = ASHBY_NAMES.get(board, board.replace("-", " ").title())
             job_list = data.get("jobs", [])
@@ -715,13 +732,8 @@ def fetch_rippling():
                 url = f"https://ats.rippling.com/api/v2/board/{board}/jobs?page={page}&pageSize=50"
                 log.info("Fetching %s", url)
 
-                req = urllib.request.Request(url, headers={
-                    **BROWSER_HEADERS,
-                    "Accept": "application/json",
-                })
-
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    data = json.loads(resp.read().decode())
+                raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+                data = json.loads(raw)
 
                 for j in data.get("items", []):
                     job_id = j.get("id", "")
@@ -768,17 +780,14 @@ def fetch_workable():
             url = f"https://apply.workable.com/api/v3/accounts/{company}/jobs"
             log.info("Fetching %s", url)
 
-            req = urllib.request.Request(url, headers={
-                **BROWSER_HEADERS,
-                "Accept": "application/json",
-            })
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+            data = json.loads(raw)
 
             found = 0
             for j in data.get("results", []):
-                job_id = j.get("shortcode", j.get("id", ""))
+                # shortcode/id may come back as an int — always stringify
+                # since job_id flows into slug/string formatting downstream.
+                job_id = str(j.get("shortcode", j.get("id", "")))
                 title = j.get("title", "")
                 location = j.get("location", {})
                 loc_str = ", ".join(filter(None, [location.get("city", ""), location.get("region", "")]))
@@ -828,19 +837,11 @@ def fetch_workday():
                 "appliedFacets": {},
             }).encode("utf-8")
 
-            req = urllib.request.Request(
-                url,
-                data=payload,
-                headers={
-                    **BROWSER_HEADERS,
-                    "Accept": "application/json",
-                    "Content-Type": "application/json",
-                },
-                method="POST",
+            raw = fetch_url(
+                url, method="POST", data=payload,
+                extra_headers={"Accept": "application/json", "Content-Type": "application/json"},
             )
-
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
+            data = json.loads(raw)
 
             job_postings = data.get("jobPostings", [])
             total = data.get("total", len(job_postings))
@@ -877,17 +878,11 @@ def fetch_workday():
                     "searchText": "",
                     "appliedFacets": {},
                 }).encode("utf-8")
-                req = urllib.request.Request(
-                    url, data=payload,
-                    headers={
-                        **BROWSER_HEADERS,
-                        "Accept": "application/json",
-                        "Content-Type": "application/json",
-                    },
-                    method="POST",
+                raw = fetch_url(
+                    url, method="POST", data=payload,
+                    extra_headers={"Accept": "application/json", "Content-Type": "application/json"},
                 )
-                with urllib.request.urlopen(req, timeout=15) as resp:
-                    data = json.loads(resp.read().decode())
+                data = json.loads(raw)
                 for j in data.get("jobPostings", []):
                     process_posting(j)
                 offset += 20
