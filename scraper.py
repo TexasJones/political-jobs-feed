@@ -57,6 +57,7 @@ GREENHOUSE_BOARDS = [
     "fleishmanhillard",         # FleishmanHillard — global PR/public affairs, Omnicom
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
+    "bluelabsanalyticsinc",     # BlueLabs — political/advocacy data science & analytics
     # Political media
     "axios",
     "semafor",
@@ -79,6 +80,7 @@ GREENHOUSE_NAMES = {
     "webershandwick": "Weber Shandwick",
     "fleishmanhillard": "FleishmanHillard",
     "civisanalytics": "Civis Analytics",
+    "bluelabsanalyticsinc": "BlueLabs",
     "axios": "Axios",
     "semafor": "Semafor",
     "voxmedia": "Vox Media",
@@ -134,12 +136,39 @@ def is_us_posting(location: str, title: str) -> bool:
 # Ashby — public Job Board Posting API, no auth required.
 # Find a company's board slug from its public careers URL:
 #   https://jobs.ashbyhq.com/{slug}
-# None confirmed working yet; keeping structure for future additions.
-ASHBY_BOARDS = []
+ASHBY_BOARDS = [
+    "bantamcommunications",   # Bantam Communications — energy/advocacy public affairs campaigns
+    "morningconsult",         # Morning Consult — DC polling/decision intelligence for advocacy & policy clients
+]
 
 ASHBY_NAMES = {
-    # "slug": "Display Name",
+    "bantamcommunications": "Bantam Communications",
+    "morningconsult": "Morning Consult",
 }
+
+# Some Ashby boards belong to companies large enough that most of their
+# postings are generic commercial roles (sales, account management,
+# customer success) unrelated to public affairs — Morning Consult's board
+# covers their whole commercial org, not just the DC advocacy/policy team.
+# Unlike the Weber Shandwick case, there's no reliable exclusion keyword
+# here (the qualifying posting itself is titled "Lead Account Director,
+# Advocacy and Public Affairs" — blocking "account director" would remove
+# the very job that justified adding the board). So instead of excluding
+# on a keyword, boards listed here are included only if the title or
+# description actually names a policy/advocacy/public-affairs focus.
+ASHBY_REQUIRE_POLICY_KEYWORD_BOARDS = {
+    "morningconsult",
+}
+
+POLICY_KEYWORD_SIGNALS = [
+    "public affairs", "policy", "advocacy", "political",
+    "government affairs", "government relations", "legislative", "lobbying",
+]
+
+
+def has_policy_signal(title: str, desc: str = "") -> bool:
+    text = f"{title} {desc}".lower()
+    return any(signal in text for signal in POLICY_KEYWORD_SIGNALS)
 
 # Rippling — public Job Board API, no auth required.
 # Find a company's board slug from its public careers URL:
@@ -721,6 +750,10 @@ def fetch_ashby():
                     or f"https://jobs.ashbyhq.com/{board}/{job_id}"
                 )
                 posted = j.get("publishedAt", "")
+
+                if board in ASHBY_REQUIRE_POLICY_KEYWORD_BOARDS and not has_policy_signal(title, desc):
+                    log.info("Skipping (no policy/advocacy signal): %s @ %s", title, display_name)
+                    continue
 
                 if title and job_id:
                     add_job("ashby", job_id, title, display_name, apply_url, desc, location, posted)
