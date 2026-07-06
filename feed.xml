@@ -1,5 +1,25 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-07-02T15:11:50Z" count="186">
+<jobs generated="2026-07-06T12:05:34Z" count="188">
+  <job>
+    <job_id>greenhouse-ACLU-8618052002</job_id>
+    <title>Data Architect</title>
+    <company>ACLU</company>
+    <slug>data-architect-aclu-8618052002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/data-architect-aclu-8618052002/</canonical_url>
+    <description>&lt;h2&gt;&lt;strong&gt;ABOUT THE JOB&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The ACLU seeks applicants for the full-time position of &lt;strong&gt;Data Architect&lt;/strong&gt; in the Product &amp;amp; Engineering division of the &lt;strong&gt;Technology Department&lt;/strong&gt; at the ACLU’s National office in &lt;strong&gt;New York, NY, Washington, DC, or San Francisco, CA&lt;/strong&gt;. This is a hybrid role that has in-office requirements of two (2) days per week or eight (8) days per month.&lt;/p&gt; &lt;p&gt;The ACLU Technology Department is a broad umbrella covering both the ACLU’s Analytics and its Product &amp;amp; Engineering teams, two robust and innovative divisions that power the work of the ACLU. The department provides trusted, dependable, and impactful analytics, engineering, as well as product design and management expertise for the ACLU. In partnership with experts across the ACLU, the technology team delivers best-in-class solutions, services, and innovation that advance the ACLU mission and organizational priorities.&lt;/p&gt; &lt;p&gt;The Tech team strives to ensure the ACLU leads by example in the ethical use of technology by ensuring privacy and security standards are maintained, directional insights are used to inform programming and business strategy, best-in-class products are designed to get the ACLU message out into the world and grow the ACLU supporter base, as well as to help steward high standards for algorithmic fairness, accountability, and transparency. The ideal candidate is an experienced data architect or principal engineer with</description>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8618052002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>remote</location_type>
+    <office_location>New York, New York, United States; San Francisco, California, United States; Washington, District of Columbia, United States</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
   <job>
     <job_id>greenhouse-ACLU-8599778002</job_id>
     <title>Deputy Director, National Organizing</title>
@@ -16,8 +36,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -36,8 +56,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -56,8 +76,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -76,8 +96,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -96,8 +116,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -116,8 +136,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -136,8 +156,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -156,8 +176,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -176,8 +196,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -196,8 +216,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -216,8 +236,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -236,8 +256,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -256,8 +276,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -276,8 +296,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -296,8 +316,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -316,8 +336,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -336,8 +356,8 @@
     <post_state>Australia</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -356,8 +376,8 @@
     <post_state>Japan</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -376,8 +396,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -396,28 +416,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Human Rights Watch-8584045002</job_id>
-    <title>Communications Intern</title>
-    <company>Human Rights Watch</company>
-    <slug>communications-intern-human-rights-watch-8584045002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/communications-intern-human-rights-watch-8584045002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Communications Division Intern&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Brussels Office&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Application Deadline: 3 July 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Communications Division of Human Rights Watch (HRW) is seeking a university student or recent graduate to intern full-time, maximum 35 hours per week, in the Brussels office. Proficiency in English and strong competency in French is required. Ideally, the candidate will be available for six months beginning in September 2026 through March 2027.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt; The intern will contribute to media and communication related projects on a range of topics and will learn about media monitoring for European countries, creating effective social media content, liaising with the press, and organizing meetings and events.&lt;/p&gt; &lt;p&gt;Human Rights Watch internships offer direct exposure to the workings of an international human rights organization, close supervision by HRW staff, and interaction with other international organizations.&lt;/p&gt; &lt;p&gt;Interns may also have opportunities to attend virtual lectures, trainings, professional development workshops, and/or special events relating to human rights, as well as network with other HRW interns, volunteers, and employees.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt; &amp;nbsp;Eligible applicants include students enrolled in a university or other academic institutions for the duration of the internship term or recent graduates of an academic program who are undergoing an</description>
-    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8584045002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>onsite</location_type>
-    <office_location>Brussels, Belgium</office_location>
-    <location_limit>Belgium</location_limit>
-    <location>Onsite</location>
-    <post_state>Belgium</post_state>
-    <employment_type>INTERN</employment_type>
-    <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -436,8 +436,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -456,8 +456,8 @@
     <post_state>Australia</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -476,8 +476,8 @@
     <post_state>France</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -496,8 +496,8 @@
     <post_state>Japan</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -516,8 +516,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -536,8 +536,8 @@
     <post_state>Germany</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -556,8 +556,28 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-MoveOn.org-8044680</job_id>
+    <title>Temporary Special Projects Coordinator</title>
+    <company>MoveOn.org</company>
+    <slug>temporary-special-projects-coordinator-moveonorg-8044680</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/temporary-special-projects-coordinator-moveonorg-8044680/</canonical_url>
+    <description>&lt;p&gt;Full-time •&amp;nbsp; Competitive Pay • Work from Anywhere in the Contiguous U.S.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Application deadline: July 13th, 2026 by 12:00 pm ET&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;MoveOn is a people-powered force for progress. We wield independent political power by bringing millions together to take action to create a country with a place of honor and dignity for everyone—where all are welcome, we take care of one another, and where everyone is set up to thrive.&lt;/p&gt; &lt;p&gt;For more than a generation, MoveOn has been a bulwark against the radical right and has channeled millions of voices to end wars, protect democracy, and advance justice for all. We've built political power for progressive change through mobilizing the left to Democrats so that we can advance our vision of an America for all.&lt;/p&gt; &lt;p&gt;MoveOn is the largest multi-issue digital first political campaigning organization in the country. We drive rapid-response campaigns at scale on a multitude of key issues at high-impact moments while building sustainable campaigns that resonate and grow over time. Whether its democracy, health care, foreign policy, economic justice, immigration or otherwise, MoveOn provides our members with timely ways to take action for change.&lt;/p&gt; &lt;p&gt;This role is responsible for turning team priorities into completed work by managing logistics, coordinating stakeholders, tracking deliverables, and ensuring projects are executed efficiently and effectively.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt;</description>
+    <apply_url>https://job-boards.greenhouse.io/moveonorg/jobs/8044680</apply_url>
+    <category>Political Campaigns</category>
+    <location_type>onsite</location_type>
+    <office_location> Anywhere in the continental U.S.</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>CONTRACTOR</employment_type>
+    <type>Contract</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -576,8 +596,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -596,8 +616,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -616,18 +636,18 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-BerlinRosen-8616866002</job_id>
+    <job_id>greenhouse-BerlinRosen-8618626002</job_id>
     <title>Account Executive, Technology &amp; Corporate</title>
     <company>BerlinRosen</company>
-    <slug>account-executive-technology-corporate-berlinrosen-8616866002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-corporate-berlinrosen-8616866002/</canonical_url>
+    <slug>account-executive-technology-corporate-berlinrosen-8618626002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-corporate-berlinrosen-8618626002/</canonical_url>
     <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8616866002</apply_url>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8618626002</apply_url>
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y.</office_location>
@@ -636,8 +656,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -656,8 +676,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -676,8 +696,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -696,8 +716,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -716,8 +736,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -736,8 +756,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -756,8 +776,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -776,8 +796,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -796,8 +816,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -816,8 +836,28 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-BerlinRosen-8618623002</job_id>
+    <title>Vice President, Sports Business</title>
+    <company>BerlinRosen</company>
+    <slug>vice-president-sports-business-berlinrosen-8618623002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-sports-business-berlinrosen-8618623002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
+    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8618623002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -836,8 +876,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -856,8 +896,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -876,8 +916,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -896,8 +936,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -916,8 +956,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -936,8 +976,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -956,8 +996,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -976,8 +1016,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -996,28 +1036,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8501347002</job_id>
-    <title>Account Supervisor, Public Affairs</title>
-    <company>Orchestra</company>
-    <slug>account-supervisor-public-affairs-orchestra-8501347002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-supervisor-public-affairs-orchestra-8501347002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8501347002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1036,8 +1056,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1056,8 +1076,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1076,8 +1096,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1096,8 +1116,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1116,8 +1136,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1136,8 +1156,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1156,8 +1176,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1176,8 +1196,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1196,8 +1216,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1216,8 +1236,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1236,8 +1256,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1256,8 +1276,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1276,8 +1296,8 @@
     <post_state>United States</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1296,8 +1316,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1316,8 +1336,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1336,8 +1356,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1356,8 +1376,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1376,8 +1396,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1396,8 +1416,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1416,8 +1436,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1436,8 +1456,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1456,8 +1476,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1476,8 +1496,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1496,8 +1516,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1516,8 +1536,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1536,8 +1556,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1556,8 +1576,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1576,8 +1596,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1596,8 +1616,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1616,8 +1636,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1636,8 +1656,28 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Orchestra-8618193002</job_id>
+    <title>Vice President, Sports Business</title>
+    <company>Orchestra</company>
+    <slug>vice-president-sports-business-orchestra-8618193002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-sports-business-orchestra-8618193002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
+    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8618193002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location>New York, N.Y.</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1656,8 +1696,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1676,8 +1716,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1696,8 +1736,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1716,8 +1756,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1736,8 +1776,8 @@
     <post_state>France</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1756,8 +1796,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1776,8 +1816,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1786,7 +1826,7 @@
     <company>Weber Shandwick</company>
     <slug>junior-public-relations-berater-healthcarepharma-mwdiv-senior-associate-weber-shandwick-8515032002</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/junior-public-relations-berater-healthcarepharma-mwdiv-senior-associate-weber-shandwick-8515032002/</canonical_url>
-    <description>&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Location: Köln oder Frankfurt am Main&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Du hast bereits oder wirst bald dein Traineeship erfolgreich abschließen? PR und Kommunikationsberatung in der Gesundheitsbranche sind deine Leidenschaft? Du findest es spannend, komplexe Themen für Ärzt:innen und Patient:innen interessant aufzubereiten? Du hast Spaß am Umgang mit Journalist:innen? Und Rx ist für dich kein Fremdwort?&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Bei uns bekommst Du die Möglichkeit, Teil eines renommierten Teams aus Healthcare-Expert:innen zu werden und praktisch in die Arbeit für nationale und internationale Top-Kund:innen aus den Bereichen Pharma, Biotechnologie und Medizintechnik einzutauchen.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;DEINE AUFGABEN – DU...&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;planst zusammen mit der Teamleitung vielfältige PR- und Kommunikationskampagnen.&lt;/span&gt;&lt;/li&gt; &lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;übernimmst im Tagesgeschäft bereits</description>
+    <description>&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Location: Köln oder Frankfurt am Main&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;PR und Kommunikationsberatung in der Gesundheitsbranche sind deine Leidenschaft? Du findest es spannend, komplexe Themen für Ärzt:innen und Patient:innen interessant aufzubereiten? Du hast Spaß am Umgang mit Journalist:innen? Und Rx ist für dich kein Fremdwort?&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Bei uns bekommst Du die Möglichkeit, Teil eines renommierten Teams aus Healthcare-Expert:innen zu werden und praktisch in die Arbeit für nationale und internationale Top-Kund:innen aus den Bereichen Pharma, Biotechnologie und Medizintechnik einzutauchen.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;DEINE AUFGABEN – DU...&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;planst zusammen mit der Teamleitung vielfältige PR- und Kommunikationskampagnen.&lt;/span&gt;&lt;/li&gt; &lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;übernimmst im Tagesgeschäft bereits Verantwortung für eigene Projekte.&lt;/span&gt;&lt;span</description>
     <apply_url>https://www.webershandwick.com/work-at-weber/careers/?gh_jid=8515032002</apply_url>
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
@@ -1796,8 +1836,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1816,8 +1856,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1836,8 +1876,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1856,8 +1896,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1876,8 +1916,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1896,8 +1936,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1916,8 +1956,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1936,8 +1976,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1956,8 +1996,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1976,8 +2016,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -1996,8 +2036,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2016,8 +2056,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2036,8 +2076,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2056,8 +2096,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2076,28 +2116,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Weber Shandwick-8084436002</job_id>
-    <title>VP, Employee Engagement &amp; Transformation, APAC</title>
-    <company>Weber Shandwick</company>
-    <slug>vp-employee-engagement-transformation-apac-weber-shandwick-8084436002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vp-employee-engagement-transformation-apac-weber-shandwick-8084436002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;OVERVIEW&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Part of The Weber Shandwick Collective,&amp;nbsp; we’re the earned-first global communications agency, led by world-class strategic thinkers and creative activators. We create shared and sustainable value for businesses, people, and society. We energise the right mix of talent, using the right platforms and latest technology to choreograph stories that make a real and meaningful impact for some of the world’s leading brands and businesses.&lt;/p&gt; &lt;p&gt;Our game-changing work is recognised by some of the most prestigious industry awards bodies, and we have won more than 135 Lions at the Cannes Lions International Festival of Creativity. We’re also PRWeek’s 2024 Global Agency of the Year as well as being listed on the Ad Age A-List 2024 and Fast Company's Most Innovative Companies 2024.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;About the opportunity:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are seeking an Employee Engagement &amp;amp; Transformation expert – Account Director or Vice President level – who can advise and counsel clients, generate new business, lead client consulting projects, and contribute to thought leadership in Japan and in the APAC region. Candidates must be fluent in both Japanese and English but can be located in any of our APAC offices; Japan, Hong Kong, Singapore, Korea, China and India.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;RESPONSIBILITIES&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Working closely with the wider Weber Advisory Japan team and the regional United Minds lead,</description>
-    <apply_url>https://www.webershandwick.com/work-at-weber/careers/?gh_jid=8084436002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>onsite</location_type>
-    <office_location>Tokyo, Japan</office_location>
-    <location_limit>Japan</location_limit>
-    <location>Onsite</location>
-    <post_state>Japan</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2116,8 +2136,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2136,8 +2156,8 @@
     <post_state>Japan</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2146,7 +2166,7 @@
     <company>Weber Shandwick</company>
     <slug>werkstudent-content-management-fr-politischen-termindienst-mwd-weber-shandwick-6221526002</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/werkstudent-content-management-fr-politischen-termindienst-mwd-weber-shandwick-6221526002/</canonical_url>
-    <description>&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Location: Berlin&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Zur Verstärkung unserer Redaktion suchen wir eine:n Werkstudent:in, die/der mit Interesse das politische Geschehen in Deutschland verfolgt, zwischen Bundes-, Landes- und kommunaler Ebene unterscheiden kann und gern den Durchblick über politische Termine, Stakeholder und Veranstaltungen bekommen möchte.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Weber Shandwick Berlin gibt seit 1989 den Berliner Termindienst heraus, einen wöchentlich erscheinenden politischen Informationsdienst, der aktuell, kompakt und zuverlässig über die wichtigsten politischen Termine in der Republik informiert.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Weitere Informationen über den Berliner Termindienst finden sich unter&lt;/span&gt; &lt;a href=&quot;http://www.berliner-termindienst.de./&quot;&gt;&lt;span data-contrast=&quot;none&quot;&gt;&lt;span data-ccp-charstyle=&quot;Hyperlink&quot;&gt;www.berliner-termindienst.de.&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559737&amp;quot;:945,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span</description>
+    <description>&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Location: Berlin&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Zur Verstärkung unserer Redaktion suchen wir eine:n Werkstudent:in, die/der mit Interesse das politische Geschehen in Deutschland verfolgt, zwischen Bundes-, Landes- und kommunaler Ebene unterscheiden kann und gern den Durchblick über politische Termine, Stakeholder und Veranstaltungen bekommen möchte.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Weber Shandwick Berlin gibt seit 1989 den Berliner Termindienst heraus, einen wöchentlich erscheinenden politischen Informationsdienst, der aktuell, kompakt und zuverlässig über die wichtigsten politischen Termine in der Republik informiert.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Weitere Informationen über den Berliner Termindienst finden sich unter&lt;/span&gt; &lt;a href=&quot;http://www.berliner-termindienst.de&quot;&gt;&lt;span data-contrast=&quot;none&quot;&gt;&lt;span data-ccp-charstyle=&quot;Hyperlink&quot;&gt;www.berliner-termindienst.de&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;DEIN TEAM:&lt;/span&gt;&lt;span</description>
     <apply_url>https://www.webershandwick.com/work-at-weber/careers/?gh_jid=6221526002</apply_url>
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
@@ -2156,8 +2176,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2176,8 +2196,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2196,8 +2216,8 @@
     <post_state>Germany</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2216,8 +2236,8 @@
     <post_state>Belgium</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2236,8 +2256,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2256,8 +2276,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2276,8 +2296,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2296,8 +2316,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2316,8 +2336,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2336,28 +2356,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Axios-7822493</job_id>
-    <title>Local Advertising Account Executive</title>
-    <company>Axios</company>
-    <slug>local-advertising-account-executive-axios-7822493</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/local-advertising-account-executive-axios-7822493/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;The big picture: &lt;/strong&gt;Axios is a media company dedicated to delivering trustworthy, award-winning news in an audience-first format. We are building a new category of local revenue generation and are hiring&amp;nbsp;&lt;strong&gt;Local Market Builders&lt;/strong&gt; to help scale Axios Local across key markets.&lt;/p&gt; &lt;p&gt;This is not a traditional Account Executive role. This is a &lt;strong&gt;foundational, in-market revenue leader&lt;/strong&gt; responsible for building Axios’ local advertising business from the ground up.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters&lt;/strong&gt;: The Local Market Builder is the &lt;strong&gt;face of Axios in their city or region&lt;/strong&gt;—responsible for developing deep relationships with local business leaders and converting those relationships into long-term advertising partnerships.&lt;/p&gt; &lt;p&gt;This role is critical to unlocking hyperlocal revenue and proving a scalable model for Axios Local expansion.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper&lt;/strong&gt;: Local Market Builders are &lt;strong&gt;highly entrepreneurial sellers&lt;/strong&gt; focused on building a book of business through their existing network and local market presence. In this role, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build and own a &lt;strong&gt;book of business from day one&lt;/strong&gt;, leveraging existing relationships with local decision-makers&lt;/li&gt; &lt;li&gt;Prospect, pitch, and close &lt;strong&gt;new local advertisers&lt;/strong&gt; (restaurants, healthcare systems, law firms, real estate, financial services, dealerships, and more)&lt;/li&gt; &lt;li&gt;Develop &lt;strong&gt;repeatable revenue</description>
-    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7822493</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Chicago, IL</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2376,8 +2376,48 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Axios-7822493</job_id>
+    <title>Local Advertising Account Executive</title>
+    <company>Axios</company>
+    <slug>local-advertising-account-executive-axios-7822493</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/local-advertising-account-executive-axios-7822493/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;The big picture: &lt;/strong&gt;Axios is a media company dedicated to delivering trustworthy, award-winning news in an audience-first format. We are building a new category of local revenue generation and are hiring&amp;nbsp;&lt;strong&gt;Local Market Builders&lt;/strong&gt; to help scale Axios Local across key markets.&lt;/p&gt; &lt;p&gt;This is not a traditional Account Executive role. This is a &lt;strong&gt;foundational, in-market revenue leader&lt;/strong&gt; responsible for building Axios’ local advertising business from the ground up.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters&lt;/strong&gt;: The Local Market Builder is the &lt;strong&gt;face of Axios in their city or region&lt;/strong&gt;—responsible for developing deep relationships with local business leaders and converting those relationships into long-term advertising partnerships.&lt;/p&gt; &lt;p&gt;This role is critical to unlocking hyperlocal revenue and proving a scalable model for Axios Local expansion.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper&lt;/strong&gt;: Local Market Builders are &lt;strong&gt;highly entrepreneurial sellers&lt;/strong&gt; focused on building a book of business through their existing network and local market presence. In this role, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build and own a &lt;strong&gt;book of business from day one&lt;/strong&gt;, leveraging existing relationships with local decision-makers&lt;/li&gt; &lt;li&gt;Prospect, pitch, and close &lt;strong&gt;new local advertisers&lt;/strong&gt; (restaurants, healthcare systems, law firms, real estate, financial services, dealerships, and more)&lt;/li&gt; &lt;li&gt;Develop &lt;strong&gt;repeatable revenue</description>
+    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7822493</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Chicago, IL</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Axios-8042367</job_id>
+    <title>Part Time-Temp Reporter, Axios Local</title>
+    <company>Axios</company>
+    <slug>part-time-temp-reporter-axios-local-axios-8042367</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/part-time-temp-reporter-axios-local-axios-8042367/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;1 big thing:&lt;/strong&gt; Axios Local is hiring reporters and writers near &lt;a href=&quot;https://www.axios.com/newsletters&quot;&gt;our existing markets&lt;/a&gt; in regions across the U.S. to support our growing network of local newsletters.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters: &lt;/strong&gt;We’re looking for sharp, fast and curious journalists who can help us deliver smart, essential news and lifestyle coverage that young professionals in our cities care about.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper: &lt;/strong&gt;Assignments vary based on market needs, with some opportunities for consistent, ongoing contributions.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Write high-impact local news items in Axios’ Smart Brevity style (typically short-form, daily pieces)&lt;/li&gt; &lt;li&gt;Jump on timely stories, events and trends&lt;/li&gt; &lt;li&gt;Contribute to Axios Local newsletters (&lt;a href=&quot;https://www.axios.com/newsletters&quot;&gt;we're in 39 cities and counting&lt;/a&gt;), plus their websites and social media accounts as needed, often with a daily turnaround&lt;/li&gt; &lt;li&gt;Collaborate with an editor and/or full-time newsletter author(s)&lt;/li&gt; &lt;li&gt;Help fill longer coverage gaps occasionally, (e.g. 1-3 months) as needed&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;What success looks like:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;You deliver clean, accurate, engaging copy on deadline&lt;/li&gt; &lt;li&gt;You surface story ideas that resonate with local readers&lt;/li&gt; &lt;li&gt;You adapt quickly to feedback and sharpen your work over time&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;What we’re looking for:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Strong</description>
+    <apply_url>https://job-boards.greenhouse.io/axios/jobs/8042367</apply_url>
+    <category>Political Media</category>
+    <location_type>remote</location_type>
+    <office_location>Remote</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>CONTRACTOR</employment_type>
+    <type>Contract</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2396,8 +2436,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2416,8 +2456,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2436,8 +2476,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2456,8 +2496,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2476,8 +2516,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2496,8 +2536,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2516,8 +2556,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2536,8 +2576,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2556,8 +2596,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2576,8 +2616,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2596,8 +2636,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2616,8 +2656,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2636,8 +2676,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2656,8 +2696,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2676,8 +2716,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2696,8 +2736,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2716,8 +2756,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2736,8 +2776,8 @@
     <post_state>United Kingdom</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2756,8 +2796,8 @@
     <post_state>United Kingdom</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2776,8 +2816,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2796,8 +2836,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2816,28 +2856,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Vox Media-7819064</job_id>
-    <title>Associate Marketing Director, Podcasts</title>
-    <company>Vox Media</company>
-    <slug>associate-marketing-director-podcasts-vox-media-7819064</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/associate-marketing-director-podcasts-vox-media-7819064/</canonical_url>
-    <description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;WHO WE ARE&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;The Vox Media Podcast Network is the home to the most influential voices in podcasting, including &lt;em&gt;A Touch More&lt;/em&gt; with Sue Bird and Megan Rapinoe, &lt;em&gt;Pivot &lt;/em&gt;with Kara Swisher and Scott Galloway, &lt;em&gt;Where Should We Begin?&lt;/em&gt; with Esther Perel, &lt;em&gt;Waveform&lt;/em&gt; with Marques Brownlee, &lt;em&gt;Pretty Tough &lt;/em&gt;with Maria Sharapova&lt;em&gt; &lt;/em&gt;and many more award-winning shows across categories. Our Podcast Marketing team is dedicated to the strategic planning and execution of all consumer marketing efforts intended to develop and retain our show’s audiences across audio, video and social, ultimately helping us grow Vox Media’s overall podcast business.&amp;nbsp;&lt;/p&gt; &lt;p&gt;As a community of journalists and storytellers, business professionals, creators and technologists, we believe it is a moral and business imperative to amplify voices: to cultivate diversity, equity, and inclusion throughout our organization and media. This applies to our candidates, our teams, our storytelling, our creative work, and our platforms, products, and partnerships.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;As the Associate Marketing Director for the Vox Media Podcast Network, you’ll lead the launch strategy for new shows, explore new tactics and channels for audience growth, and help improve our marketing processes to make our marketing team more effective.&lt;/p&gt; &lt;p&gt;This role blends</description>
-    <apply_url>http://boards.greenhouse.io/voxmedia/jobs/7819064?gh_jid=7819064</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>New York City</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2856,8 +2876,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2876,8 +2896,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2896,8 +2916,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2916,8 +2936,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2936,28 +2956,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Vox Media-7405676</job_id>
-    <title>Podcast Social Video Editor</title>
-    <company>Vox Media</company>
-    <slug>podcast-social-video-editor-vox-media-7405676</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/podcast-social-video-editor-vox-media-7405676/</canonical_url>
-    <description>&lt;p&gt;As a Podcast Social Video Editor you will drive the creative vision for short-form social content across the Vox Media slate and oversee the producers who make it. You'll align workflows and standards, build the content calendar, and steward performance and quality. You will ensure each show’s social media output meets its unique audience while fitting within network-level strategy.&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Lead the video/motion production team responsible for social-first clips, motion graphic promos and still/motion image assets across all shows.&lt;/li&gt; &lt;li&gt;Build a content calendar aligned with episode launches, campaign pushes, guest announcements, trending topics, and evergreen show moments.&lt;/li&gt; &lt;li&gt;Define creative standards and aesthetic direction for each show’s social assets, drawing upon a sophisticated understanding of branding and motion design.&lt;/li&gt; &lt;li&gt;Establish and refine production workflows (editing pipeline, asset versioning, templates, motion-graphic library) to support fast turnaround with high quality.&lt;/li&gt; &lt;li&gt;Oversee performance metrics (views, reach, engagement, subscription/episode lift) across shows, provide strategic insights, and drive continuous improvement.&lt;/li&gt; &lt;li&gt;Collaborate with marketing and brand/creative teams, show producers, and hosts to build content strategy and ensure aesthetic and audience alignment.&lt;/li&gt; &lt;li&gt;Provide engagement feedback to the show team and drive the iteration process to ensure platform</description>
-    <apply_url>http://boards.greenhouse.io/voxmedia/jobs/7405676?gh_jid=7405676</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, New York</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2976,8 +2976,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -2996,8 +2996,8 @@
     <post_state>United Kingdom</post_state>
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3016,8 +3016,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3036,8 +3036,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3056,8 +3056,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3076,8 +3076,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3096,8 +3096,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
   </job>
   <job>
@@ -3641,6 +3641,26 @@
     <source>lever</source>
   </job>
   <job>
+    <job_id>lever-Sierra Club-e1bfddd2-8254-4469-9545-0df7d52b6bd9</job_id>
+    <title>Florida Green Schools Intern</title>
+    <company>Sierra Club</company>
+    <slug>florida-green-schools-intern-sierra-club-e1bfddd2-8254-4469-9545-0df7d52b6bd9</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/florida-green-schools-intern-sierra-club-e1bfddd2-8254-4469-9545-0df7d52b6bd9/</canonical_url>
+    <description>Job Title: Florida Green Schools Intern Department: Florida Chapter Location: Tampa/St. Pete/Clearwater Area Reports to: Organizing Manager Duration: 11-20 hours per week for 6 months; August - February Context: At the Sierra Club, we believe in the power of interdependence. Together, we remain committed to the fight for a healthy climate built on a foundation of environmental, demographic, and gender justice – a future where all people benefit from a healthy, thriving planet and a direct connection to nature. By recognizing that our destinies are tied, we know that all things are fundamentally connected, and the overlap between ecology, race, gender, and representative government can advance our collective humanity. Sierra Club has close to 700 staff across the country and a network of 64 local chapters that are led and fueled by thousands of volunteers. In this internship, you will be working mostly with our volunteers. Scope: The Sierra Club Florida Chapter is made up of volunteer leaders and civic activists representing over 32,000 members. We also have over 10 staff members who help us pursue specific goals. Our mission is to enjoy, explore, and protect the natural and threatened places in Florida, to teach others to understand and respect the fragile environment in which we live, and to support equal environmental justice for all. The intern will work with the Florida Chapter green-team-lead as well as staff and learn about stakeholder outreach and bringing younger</description>
+    <apply_url>https://jobs.lever.co/sierraclub/e1bfddd2-8254-4469-9545-0df7d52b6bd9</apply_url>
+    <category>Nonprofit Advocacy</category>
+    <location_type>onsite</location_type>
+    <office_location>Tampa, FL</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>INTERN</employment_type>
+    <type>Internship</type>
+    <date_posted>2026-07-02</date_posted>
+    <valid_through>2026-09-30</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
     <job_id>lever-Sierra Club-2f29d9bc-c4a0-437b-9cab-cfb2cf1af422</job_id>
     <title>Political Intern</title>
     <company>Sierra Club</company>
@@ -3676,8 +3696,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>rippling</source>
   </job>
   <job>
@@ -3696,8 +3716,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>rippling</source>
   </job>
   <job>
@@ -3716,8 +3736,28 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-09-30</valid_through>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>rippling</source>
+  </job>
+  <job>
+    <job_id>rippling-Indivisible-40feb00e-251c-401d-b591-2472d18e9ab6</job_id>
+    <title>Organizing Leadership Team Sr Admin Associate</title>
+    <company>Indivisible</company>
+    <slug>organizing-leadership-team-sr-admin-associate-indivisible-40feb00e-251c-401d-b591-2472d18e9ab6</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/organizing-leadership-team-sr-admin-associate-indivisible-40feb00e-251c-401d-b591-2472d18e9ab6/</canonical_url>
+    <description/>
+    <apply_url>https://ats.rippling.com/indivisible-project-careers/jobs/40feb00e-251c-401d-b591-2472d18e9ab6</apply_url>
+    <category>Nonprofit Advocacy</category>
+    <location_type>remote</location_type>
+    <office_location>Remote (United States)</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
     <source>rippling</source>
   </job>
 </jobs>
