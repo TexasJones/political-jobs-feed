@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-07-06T12:05:34Z" count="188">
+<jobs generated="2026-07-06T20:37:14Z" count="184">
   <job>
     <job_id>greenhouse-ACLU-8618052002</job_id>
     <title>Data Architect</title>
@@ -642,10 +642,10 @@
   </job>
   <job>
     <job_id>greenhouse-BerlinRosen-8618626002</job_id>
-    <title>Account Executive, Technology &amp; Corporate</title>
+    <title>Account Executive, Technology &amp; Consumer</title>
     <company>BerlinRosen</company>
-    <slug>account-executive-technology-corporate-berlinrosen-8618626002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-corporate-berlinrosen-8618626002/</canonical_url>
+    <slug>account-executive-technology-consumer-berlinrosen-8618626002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-consumer-berlinrosen-8618626002/</canonical_url>
     <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
     <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8618626002</apply_url>
     <category>Public Affairs &amp; Lobbying</category>
@@ -801,46 +801,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-BerlinRosen-8363194002</job_id>
-    <title>Vice President, Higher Education Public Relations</title>
-    <company>BerlinRosen</company>
-    <slug>vice-president-higher-education-public-relations-berlinrosen-8363194002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-higher-education-public-relations-berlinrosen-8363194002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of&amp;nbsp;Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot; target=&quot;_blank&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at&amp;nbsp;&lt;a href=&quot;https://www.orchestraco.com&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt;</description>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8363194002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>remote</location_type>
-    <office_location>New York, N.Y., Washington D.C.; Remote</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-BerlinRosen-8446999002</job_id>
-    <title>Vice President, Paid Media, Real Estate</title>
-    <company>BerlinRosen</company>
-    <slug>vice-president-paid-media-real-estate-berlinrosen-8446999002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-paid-media-real-estate-berlinrosen-8446999002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Vice President, Paid Media, Real Estate&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a</description>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8446999002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-BerlinRosen-8618623002</job_id>
     <title>Vice President, Sports Business</title>
     <company>BerlinRosen</company>
@@ -962,10 +922,10 @@
   </job>
   <job>
     <job_id>greenhouse-Orchestra-8616295002</job_id>
-    <title>Account Executive, Technology &amp; Corporate</title>
+    <title>Account Executive, Technology &amp; Consumer</title>
     <company>Orchestra</company>
-    <slug>account-executive-technology-corporate-orchestra-8616295002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-corporate-orchestra-8616295002/</canonical_url>
+    <slug>account-executive-technology-consumer-orchestra-8616295002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-consumer-orchestra-8616295002/</canonical_url>
     <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
     <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8616295002</apply_url>
     <category>Public Affairs &amp; Lobbying</category>
@@ -1581,26 +1541,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Orchestra-8363319002</job_id>
-    <title>Vice President, Higher Education Public Relations</title>
-    <company>Orchestra</company>
-    <slug>vice-president-higher-education-public-relations-orchestra-8363319002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-higher-education-public-relations-orchestra-8363319002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of&amp;nbsp;Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot; target=&quot;_blank&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at&amp;nbsp;&lt;a href=&quot;https://www.orchestraco.com&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt;</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8363319002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>remote</location_type>
-    <office_location>New York, N.Y.; Washington D.C.; Remote</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Orchestra-8486064002</job_id>
     <title>Vice President, Influencer Marketing</title>
     <company>Orchestra</company>
@@ -1613,26 +1553,6 @@
     <office_location>New York, New York OR Los Angeles, CA</office_location>
     <location_limit>United States</location_limit>
     <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8434347002</job_id>
-    <title>Vice President, Paid Media, Real Estate</title>
-    <company>Orchestra</company>
-    <slug>vice-president-paid-media-real-estate-orchestra-8434347002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-paid-media-real-estate-orchestra-8434347002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Vice President, Paid Media, Real Estate&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8434347002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
@@ -2361,18 +2281,18 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Axios-7822505</job_id>
-    <title>Local Advertising Account Executive</title>
+    <job_id>greenhouse-Axios-8046168</job_id>
+    <title>Health Tech Reporter, Axios Pro</title>
     <company>Axios</company>
-    <slug>local-advertising-account-executive-axios-7822505</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/local-advertising-account-executive-axios-7822505/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;The big picture: &lt;/strong&gt;Axios is a media company dedicated to delivering trustworthy, award-winning news in an audience-first format. We are building a new category of local revenue generation and are hiring &lt;strong&gt;Local Market Builders&lt;/strong&gt; to help scale Axios Local across key markets.&lt;/p&gt; &lt;p&gt;This is not a traditional Account Executive role. This is a &lt;strong&gt;foundational, in-market revenue leader&lt;/strong&gt; responsible for building Axios’ local advertising business from the ground up.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters&lt;/strong&gt;: The Local Market Builder is the &lt;strong&gt;face of Axios in their city or region&lt;/strong&gt;—responsible for developing deep relationships with local business leaders and converting those relationships into long-term advertising partnerships.&lt;/p&gt; &lt;p&gt;This role is critical to unlocking hyperlocal revenue and proving a scalable model for Axios Local expansion.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper&lt;/strong&gt;: Local Market Builders are &lt;strong&gt;highly entrepreneurial sellers&lt;/strong&gt; focused on building a book of business through their existing network and local market presence. In this role, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build and own a &lt;strong&gt;book of business from day one&lt;/strong&gt;, leveraging existing relationships with local decision-makers&lt;/li&gt; &lt;li&gt;Prospect, pitch, and close &lt;strong&gt;new local advertisers&lt;/strong&gt; (restaurants, healthcare systems, law firms, real estate, financial services, dealerships, and more)&lt;/li&gt; &lt;li&gt;Develop &lt;strong&gt;repeatable revenue</description>
-    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7822505</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Atlanta, GA</office_location>
+    <slug>health-tech-reporter-axios-pro-axios-8046168</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/health-tech-reporter-axios-pro-axios-8046168/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;The big picture: &lt;/strong&gt;Axios Pro Deals is the subscription service within Axios, a media organization dedicated to providing trustworthy, award-winning news in an audience-first format. We're hiring a health tech deals reporter to cover this essential sector of the deals market with a focus on breaking news that serves our readers.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt; Axios Pro Deals is focused on delivering the dealmaking community news that’s essential to their jobs. We’re looking for a talented, collaborative, experienced reporter to join this team and break news for our highly engaged, loyal audience.&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;You should be obsessed with beating the competition and scooping deals across the health tech sector. You should be well sourced inside venture capital and private equity firms as well as investment banks. You are also a sector expert that can explain why your reporting matters to Axios readers.&lt;/li&gt; &lt;li&gt;We will boost your profile on the beat through our unique audience, as well as through appearances in our national newsletters and live events, and as an expert on tv, radio, podcasts and social media.&amp;nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Go deeper: &lt;/strong&gt;Candidates should embody an entrepreneurial spirit and a passion for Axios’ reader-first mission. Ideal candidates will also have the following skills and traits:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Subject matter expertise on the health tech landscape&lt;/li&gt; &lt;li&gt;A passion for news, scoops and scoring exclusives that</description>
+    <apply_url>https://job-boards.greenhouse.io/axios/jobs/8046168</apply_url>
+    <category>Political Media</category>
+    <location_type>remote</location_type>
+    <office_location>Remote</office_location>
     <location_limit>United States</location_limit>
-    <location>Onsite</location>
+    <location>Remote</location>
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
@@ -2391,6 +2311,26 @@
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
     <office_location>Chicago, IL</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>greenhouse</source>
+  </job>
+  <job>
+    <job_id>greenhouse-Axios-7822505</job_id>
+    <title>Local Advertising Account Executive</title>
+    <company>Axios</company>
+    <slug>local-advertising-account-executive-axios-7822505</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/local-advertising-account-executive-axios-7822505/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;The big picture: &lt;/strong&gt;Axios is a media company dedicated to delivering trustworthy, award-winning news in an audience-first format. We are building a new category of local revenue generation and are hiring &lt;strong&gt;Local Market Builders&lt;/strong&gt; to help scale Axios Local across key markets.&lt;/p&gt; &lt;p&gt;This is not a traditional Account Executive role. This is a &lt;strong&gt;foundational, in-market revenue leader&lt;/strong&gt; responsible for building Axios’ local advertising business from the ground up.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters&lt;/strong&gt;: The Local Market Builder is the &lt;strong&gt;face of Axios in their city or region&lt;/strong&gt;—responsible for developing deep relationships with local business leaders and converting those relationships into long-term advertising partnerships.&lt;/p&gt; &lt;p&gt;This role is critical to unlocking hyperlocal revenue and proving a scalable model for Axios Local expansion.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper&lt;/strong&gt;: Local Market Builders are &lt;strong&gt;highly entrepreneurial sellers&lt;/strong&gt; focused on building a book of business through their existing network and local market presence. In this role, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Build and own a &lt;strong&gt;book of business from day one&lt;/strong&gt;, leveraging existing relationships with local decision-makers&lt;/li&gt; &lt;li&gt;Prospect, pitch, and close &lt;strong&gt;new local advertisers&lt;/strong&gt; (restaurants, healthcare systems, law firms, real estate, financial services, dealerships, and more)&lt;/li&gt; &lt;li&gt;Develop &lt;strong&gt;repeatable revenue</description>
+    <apply_url>https://job-boards.greenhouse.io/axios/jobs/7822505</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Atlanta, GA</office_location>
     <location_limit>United States</location_limit>
     <location>Onsite</location>
     <post_state>United States</post_state>
@@ -3441,6 +3381,26 @@
     <source>lever</source>
   </job>
   <job>
+    <job_id>lever-FiscalNote-db817177-e051-41ed-b43e-aa1ba2c5be01</job_id>
+    <title>Policy Analyst (Junior)</title>
+    <company>FiscalNote</company>
+    <slug>policy-analyst-junior-fiscalnote-db817177-e051-41ed-b43e-aa1ba2c5be01</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/policy-analyst-junior-fiscalnote-db817177-e051-41ed-b43e-aa1ba2c5be01/</canonical_url>
+    <description>About the Position FiscalNote is hiring a Policy Analyst to serve as a core member of our Professional Services team and a trusted resource for our clients. Policy Analysts are curious, detail-oriented, and self-motivated — they thrive on staying current with legislative and regulatory developments and translating complex policy into clear, actionable insights. In this role, you will support a portfolio of clients across issue areas, executing high-quality analytical work with accuracy and consistency. You will be a critical participant in day-to-day client delivery, taking ownership of your work and building the foundational expertise and habits that define a strong career at FiscalNote. About the Professional Services Team Our Professional Services team is the consulting arm of FiscalNote— the human-in-the-loop that helps clients get the most out of their engagement, primarily through U.S. federal and state legislative and regulatory analysis. We build and support offerings across our core product portfolio and custom client engagements, partnering closely with Business Development and Account Management to deliver projects that help clients work smarter. We're a dynamic, hard-working team that thrives on constant learning, ownership, and growth. About You You have a passion for policy — at the federal, state, or local level — and a genuine curiosity about how legislation and regulation shape the world. You are a strong writer and communicator who can synthesize complex</description>
+    <apply_url>https://jobs.lever.co/fiscalnote/db817177-e051-41ed-b43e-aa1ba2c5be01</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>remote</location_type>
+    <office_location>Remote United States</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-06</date_posted>
+    <valid_through>2026-10-04</valid_through>
+    <source>lever</source>
+  </job>
+  <job>
     <job_id>lever-FiscalNote-b893d27d-ddef-48a1-9059-57e13fc4d7a0</job_id>
     <title>Sales Development Representative</title>
     <company>FiscalNote</company>
@@ -3679,46 +3639,6 @@
     <date_posted>2026-06-16</date_posted>
     <valid_through>2026-09-14</valid_through>
     <source>lever</source>
-  </job>
-  <job>
-    <job_id>rippling-Indivisible-0e1f767a-d071-4455-81e1-f0caa20e809c</job_id>
-    <title>Battlegrounds Campaign and Organizing Associate - Alaska</title>
-    <company>Indivisible</company>
-    <slug>battlegrounds-campaign-and-organizing-associate-alaska-indivisible-0e1f767a-d071-4455-81e1-f0caa20e809c</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/battlegrounds-campaign-and-organizing-associate-alaska-indivisible-0e1f767a-d071-4455-81e1-f0caa20e809c/</canonical_url>
-    <description/>
-    <apply_url>https://ats.rippling.com/indivisible-project-careers/jobs/0e1f767a-d071-4455-81e1-f0caa20e809c</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>remote</location_type>
-    <office_location>Remote (Alaska, US)</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>rippling</source>
-  </job>
-  <job>
-    <job_id>rippling-Indivisible-1a36f23b-5def-427a-a8a7-f7635e686c0e</job_id>
-    <title>Battlegrounds Campaign and Organizing Associate - Iowa</title>
-    <company>Indivisible</company>
-    <slug>battlegrounds-campaign-and-organizing-associate-iowa-indivisible-1a36f23b-5def-427a-a8a7-f7635e686c0e</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/battlegrounds-campaign-and-organizing-associate-iowa-indivisible-1a36f23b-5def-427a-a8a7-f7635e686c0e/</canonical_url>
-    <description/>
-    <apply_url>https://ats.rippling.com/indivisible-project-careers/jobs/1a36f23b-5def-427a-a8a7-f7635e686c0e</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>remote</location_type>
-    <office_location>Remote (Iowa, US)</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>rippling</source>
   </job>
   <job>
     <job_id>rippling-Indivisible-b54b479c-a08d-4567-9240-2c18c865762f</job_id>
