@@ -106,6 +106,31 @@ LEVER_NAMES = {
     "sierraclub": "Sierra Club",
 }
 
+# Some Greenhouse boards cover multiple offices/countries, but we only want
+# the US public affairs practice out of them (e.g. Weber Shandwick's board
+# includes their German offices' generic healthcare/pharma PR postings,
+# which aren't public affairs and aren't US-based). Boards listed here get
+# filtered down to US-only postings via is_us_posting() below.
+GREENHOUSE_US_ONLY_BOARDS = {
+    "webershandwick",
+}
+
+# Signals that a Greenhouse posting is from a non-US (specifically German)
+# office — checked against both location and title, since Weber Shandwick's
+# German-market postings are consistently titled in German (Werkstudent,
+# Berater, m/w/d) even when the location field itself is sparse.
+NON_US_OFFICE_SIGNALS = [
+    "germany", "deutschland", "berlin", "münchen", "munich", "frankfurt",
+    "hamburg", "köln", "cologne", "düsseldorf", "stuttgart",
+    "werkstudent", "berater", "m/w/d", "m/w/div", "praktikant",
+]
+
+
+def is_us_posting(location: str, title: str) -> bool:
+    text = f"{location} {title}".lower()
+    return not any(signal in text for signal in NON_US_OFFICE_SIGNALS)
+
+
 # Ashby — public Job Board Posting API, no auth required.
 # Find a company's board slug from its public careers URL:
 #   https://jobs.ashbyhq.com/{slug}
@@ -587,6 +612,11 @@ def fetch_greenhouse():
                 )
                 apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
                 desc = j.get("content", "") or ""
+
+                if board in GREENHOUSE_US_ONLY_BOARDS and not is_us_posting(location, title):
+                    log.info("Skipping (non-US office): %s @ %s [%s]", title, display_name, location)
+                    continue
+
                 if title and job_id:
                     add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
                     found += 1
