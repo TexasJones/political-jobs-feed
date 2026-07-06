@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-07-06T20:58:35Z" count="191">
+<jobs generated="2026-07-06T21:07:57Z" count="179">
   <job>
     <job_id>greenhouse-ACLU-8618052002</job_id>
     <title>Data Architect</title>
@@ -841,66 +841,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Orchestra-8535150002</job_id>
-    <title>Account Coordinator, Public Affairs</title>
-    <company>Orchestra</company>
-    <slug>account-coordinator-public-affairs-orchestra-8535150002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-coordinator-public-affairs-orchestra-8535150002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8535150002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8610465002</job_id>
-    <title>Account Director, Impact</title>
-    <company>Orchestra</company>
-    <slug>account-director-impact-orchestra-8610465002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-director-impact-orchestra-8610465002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Salary:&lt;/strong&gt; $110,000-$130,000&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location: &lt;/strong&gt;New York, N.Y. or Washington, D.C. (hybrid)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Start date:&lt;/strong&gt; Immediate&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8610465002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>hybrid</location_type>
-    <office_location>New York, N.Y.; Washington, D.C.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8409525002</job_id>
-    <title>Account Executive, Public Affairs</title>
-    <company>Orchestra</company>
-    <slug>account-executive-public-affairs-orchestra-8409525002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-public-affairs-orchestra-8409525002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8409525002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Orchestra-8407787002</job_id>
     <title>Account Executive, Public Relations</title>
     <company>Orchestra</company>
@@ -911,46 +851,6 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>Waltham, MA; San Francisco, CA; New York, NY; Seattle, WA, or San Diego, CA</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8616295002</job_id>
-    <title>Account Executive, Technology &amp; Consumer</title>
-    <company>Orchestra</company>
-    <slug>account-executive-technology-consumer-orchestra-8616295002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-technology-consumer-orchestra-8616295002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8616295002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8614590002</job_id>
-    <title>Account Supervisor, Consumer Tech &amp; Gaming</title>
-    <company>Orchestra</company>
-    <slug>account-supervisor-consumer-tech-gaming-orchestra-8614590002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-supervisor-consumer-tech-gaming-orchestra-8614590002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8614590002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
     <location>Onsite</location>
     <post_state>United States</post_state>
@@ -1056,26 +956,6 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8556974002</job_id>
-    <title>Copywriter, Politics</title>
-    <company>Orchestra</company>
-    <slug>copywriter-politics-orchestra-8556974002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/copywriter-politics-orchestra-8556974002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Role duration&lt;/strong&gt;: July 1, 2026 - October 15, 2026&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Salary:&amp;nbsp;&lt;/strong&gt;$70,000 annually (prorated)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; New York, N.Y. or Washington, D.C. (hybrid)&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms&lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt; BerlinRosen&lt;/a&gt;,&lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt; Civitas Public Affairs Group&lt;/a&gt;,&lt;a href=&quot;http://derris.com/&quot;&gt; Derris&lt;/a&gt;,&lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt; Glen Echo Group&lt;/a&gt;,&lt;a href=&quot;http://inkhouse.com/&quot;&gt; Inkhouse&lt;/a&gt;,&lt;a href=&quot;http://m18pr.com/&quot;&gt; M18&lt;/a&gt;,&lt;a href=&quot;https://messagelab.com/&quot;&gt; Message Lab&lt;/a&gt;,&lt;a href=&quot;https://thisisonward.com/&quot;&gt; Onward&lt;/a&gt; and&lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt; Small Girls PR&lt;/a&gt;. It also launched&lt;a href=&quot;http://www.brightmode.com/&quot;&gt; Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals,</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8556974002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>hybrid</location_type>
-    <office_location>New York, N.Y.; Washington, D.C.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
     <date_posted>2026-07-06</date_posted>
     <valid_through>2026-10-04</valid_through>
     <source>greenhouse</source>
@@ -1261,26 +1141,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Orchestra-8384985002</job_id>
-    <title>Executive Vice President, Impact</title>
-    <company>Orchestra</company>
-    <slug>executive-vice-president-impact-orchestra-8384985002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/executive-vice-president-impact-orchestra-8384985002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot; target=&quot;_blank&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at&amp;nbsp;&lt;a href=&quot;https://www.orchestraco.com&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;&lt;span</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8384985002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.; Washington, D.C.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Orchestra-8614524002</job_id>
     <title>Freelance Senior Reddit Specialist</title>
     <company>Orchestra</company>
@@ -1341,46 +1201,6 @@
     <source>greenhouse</source>
   </job>
   <job>
-    <job_id>greenhouse-Orchestra-8583103002</job_id>
-    <title>Senior Account Executive, Arts &amp; Culture Public Relations</title>
-    <company>Orchestra</company>
-    <slug>senior-account-executive-arts-culture-public-relations-orchestra-8583103002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-account-executive-arts-culture-public-relations-orchestra-8583103002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8583103002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8493651002</job_id>
-    <title>Senior Account Executive, Impact</title>
-    <company>Orchestra</company>
-    <slug>senior-account-executive-impact-orchestra-8493651002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-account-executive-impact-orchestra-8493651002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;Salary:&lt;/strong&gt; $80,000-$83,000&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location: &lt;/strong&gt;New York, N.Y. or Washington, D.C. (hybrid)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Start Date: &lt;/strong&gt;Immediate&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8493651002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>hybrid</location_type>
-    <office_location>New York, N.Y.; Washington D.C.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
     <job_id>greenhouse-Orchestra-8465001002</job_id>
     <title>Senior Account Executive OR Account Supervisor, Consumer Tech / Lifestyle</title>
     <company>Orchestra</company>
@@ -1411,26 +1231,6 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, N.Y, Waltham, M.A., Seattle, W.A., San Francisco, C.A., or San Diego, C.A.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8579526002</job_id>
-    <title>Senior Account Executive, Travel + Hospitality</title>
-    <company>Orchestra</company>
-    <slug>senior-account-executive-travel-hospitality-orchestra-8579526002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-account-executive-travel-hospitality-orchestra-8579526002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, travel, hospitality, arts, technology, nonprofit and philanthropy, real estate, sports, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and abilities are</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8579526002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
     <location>Onsite</location>
     <post_state>United States</post_state>
@@ -1473,26 +1273,6 @@
     <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
     <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8418314002</job_id>
-    <title>Vice President, Architecture and Design Public Relations</title>
-    <company>Orchestra</company>
-    <slug>vice-president-architecture-and-design-public-relations-orchestra-8418314002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-architecture-and-design-public-relations-orchestra-8418314002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and abilities are strongly</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8418314002</apply_url>
-    <category>Communications &amp; PR</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
@@ -1571,26 +1351,6 @@
     <category>Communications &amp; PR</category>
     <location_type>onsite</location_type>
     <office_location>New York, New York</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-10-04</valid_through>
-    <source>greenhouse</source>
-  </job>
-  <job>
-    <job_id>greenhouse-Orchestra-8618193002</job_id>
-    <title>Vice President, Sports Business</title>
-    <company>Orchestra</company>
-    <slug>vice-president-sports-business-orchestra-8618193002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/vice-president-sports-business-orchestra-8618193002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8618193002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
     <location_limit>United States</location_limit>
     <location>Onsite</location>
     <post_state>United States</post_state>
