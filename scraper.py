@@ -201,6 +201,71 @@ WORKDAY_COMPANIES = [
 ]
 
 # ─────────────────────────────────────────────
+# Company logos — resolved via Clearbit's free logo API
+# (https://logo.clearbit.com/{domain}), keyed on the display name we
+# already assign each job (GREENHOUSE_NAMES, LEVER_NAMES, etc). This is
+# what lets Job Boardly show the actual employer logo instead of falling
+# back to its own ATS-detection icon (the Greenhouse "g" / Lever "employ"
+# badge seen when a job has no logo field to draw from).
+#
+# Verify domains before fully trusting them — a few here are best-guesses
+# and should be spot-checked against each company's real site the first
+# time they show up in Job Boardly.
+# ─────────────────────────────────────────────
+
+COMPANY_DOMAINS = {
+    "ACLU": "aclu.org",
+    "Southern Poverty Law Center": "splcenter.org",
+    "Democracy Forward": "democracyforward.org",
+    "Human Rights Watch": "hrw.org",
+    "MoveOn.org": "moveon.org",
+    "GMMB": "gmmb.com",
+    "BerlinRosen": "berlinrosen.com",
+    "Industrious Labs": "industriouslabs.org",
+    "Hill & Knowlton": "hillandknowlton.com",
+    "Orchestra": "orchestra.co",
+    "VOX Global": "voxglobal.com",
+    "Ketchum": "ketchum.com",
+    "Weber Shandwick": "webershandwick.com",
+    "FleishmanHillard": "fleishmanhillard.com",
+    "Civis Analytics": "civisanalytics.com",
+    "BlueLabs": "bluelabs.com",
+    "Axios": "axios.com",
+    "Semafor": "semafor.com",
+    "Vox Media": "voxmedia.com",
+    "EMILY's List": "emilyslist.org",
+    "Democratic National Committee": "democrats.org",
+    "Global Strategy Group": "globalstrategygroup.com",
+    "FiscalNote": "fiscalnote.com",
+    "The Free Press": "thefp.com",
+    "Sierra Club": "sierraclub.org",
+    "Bantam Communications": "bantamcommunications.com",
+    "Morning Consult": "morningconsult.com",
+    "Indivisible": "indivisible.org",
+    "FP1 Strategies": "fp1strategies.com",
+    "Politico": "politico.com",
+    "CapitolWorks": "capitolworks.com",
+}
+
+# Manual overrides for companies where Clearbit's domain guess is wrong, or
+# where a self-hosted logo is preferred (e.g. hosted on GitHub Pages
+# alongside feed.xml, same pattern as the OG image). Anything set here
+# wins over the Clearbit lookup in get_company_logo().
+COMPANY_LOGO_OVERRIDES = {
+    # "CapitolWorks": "https://texasjones.github.io/political-jobs-feed/assets/capitolworks-logo.png",
+}
+
+
+def get_company_logo(company: str) -> str:
+    if company in COMPANY_LOGO_OVERRIDES:
+        return COMPANY_LOGO_OVERRIDES[company]
+    domain = COMPANY_DOMAINS.get(company)
+    if domain:
+        return f"https://logo.clearbit.com/{domain}"
+    return ""
+
+
+# ─────────────────────────────────────────────
 # Title blocklist — applies to ALL sources
 # Split into substring and whole-word patterns
 # to avoid false positives on legit public affairs titles
@@ -625,6 +690,7 @@ def add_job(source, raw_id, title, company, apply_url,
     location_type = classify_location_type(location, description)
     employment_type = guess_employment_type(title)
     location_limit = guess_location_limit(location)
+    logo_url = get_company_logo(company.strip())
 
     # Include raw_id in slug to prevent collisions when same company
     # posts multiple roles with identical titles
@@ -677,6 +743,13 @@ def add_job(source, raw_id, title, company, apply_url,
         "date_posted":     posted,
         "valid_through":   valid_through,
         "source":          source,
+        # Company logo — resolved via get_company_logo() (Clearbit lookup
+        # or manual override). Three field-name aliases are included since
+        # it's not yet confirmed which one Job Boardly's importer maps to;
+        # once confirmed in the field-mapping screen, delete the other two.
+        "logo":            logo_url,
+        "image":           logo_url,
+        "company_logo":    logo_url,
     })
 
     log.info("+ %s @ %s", title, company)
@@ -853,7 +926,29 @@ def fetch_ashby():
 # No auth required. Listing endpoint returns titles/departments/locations
 # but not descriptions or posted dates — same tradeoff as Greenhouse,
 # where date_posted falls back to the scrape date.
+#
+# IMPORTANT: the listing endpoint also omits job descriptions entirely
+# (unlike Greenhouse/Lever/Ashby, which include them inline). Rippling
+# requires a secondary per-job detail call to get the description body —
+# handled below via fetch_rippling_job_detail().
 # ─────────────────────────────────────────────
+
+def fetch_rippling_job_detail(board: str, job_id: str) -> str:
+    """
+    Rippling's list endpoint doesn't return job descriptions, so each job
+    needs its own detail fetch. Returns the description HTML/text, or ""
+    if the detail call fails (a missing description shouldn't drop the
+    job — it should still show up, just without body copy).
+    """
+    try:
+        url = f"https://ats.rippling.com/api/v2/board/{board}/jobs/{job_id}"
+        raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+        data = json.loads(raw)
+        return data.get("description", "") or data.get("descriptionHtml", "") or ""
+    except Exception as e:
+        log.warning("Rippling detail fetch failed for job %s: %s", job_id, e)
+        return ""
+
 
 def fetch_rippling():
     if not RIPPLING_BOARDS:
@@ -882,9 +977,12 @@ def fetch_rippling():
                     locations = j.get("locations", [])
                     location = locations[0].get("name", "") if locations else ""
 
+                    desc = fetch_rippling_job_detail(board, job_id) if job_id else ""
+
                     if title and job_id:
-                        add_job("rippling", job_id, title, display_name, apply_url, "", location)
+                        add_job("rippling", job_id, title, display_name, apply_url, desc, location)
                         found += 1
+                        time.sleep(0.2)
 
                 total_pages = data.get("totalPages", 1)
                 page += 1
