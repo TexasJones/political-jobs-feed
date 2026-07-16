@@ -365,12 +365,15 @@ TITLE_BLOCKLIST_WHOLE_WORD = [
     r"\bevent\s+manager\b",
 ]
 
+# Pre-compile regex patterns at module load to avoid recompilation on every is_blocked() call
+TITLE_BLOCKLIST_WHOLE_WORD_COMPILED = [re.compile(pattern) for pattern in TITLE_BLOCKLIST_WHOLE_WORD]
+
 
 def is_blocked(title: str) -> bool:
     t = title.lower()
     if any(term in t for term in TITLE_BLOCKLIST_SUBSTRING):
         return True
-    if any(re.search(pattern, t) for pattern in TITLE_BLOCKLIST_WHOLE_WORD):
+    if any(pattern.search(t) for pattern in TITLE_BLOCKLIST_WHOLE_WORD_COMPILED):
         return True
     # Block "Research Associate" unless it's a policy-qualified role
     if re.search(r"\bresearch\s+associate\b", t):
@@ -933,20 +936,33 @@ def fetch_ashby():
 # handled below via fetch_rippling_job_detail().
 # ─────────────────────────────────────────────
 
+# Cache for Rippling job descriptions to avoid redundant API calls
+rippling_description_cache = {}
+
 def fetch_rippling_job_detail(board: str, job_id: str) -> str:
     """
     Rippling's list endpoint doesn't return job descriptions, so each job
     needs its own detail fetch. Returns the description HTML/text, or ""
     if the detail call fails (a missing description shouldn't drop the
     job — it should still show up, just without body copy).
+    
+    Results are cached by job_id to avoid redundant fetches if the same
+    job appears across multiple pages or boards.
     """
+    cache_key = f"{board}:{job_id}"
+    if cache_key in rippling_description_cache:
+        return rippling_description_cache[cache_key]
+    
     try:
         url = f"https://ats.rippling.com/api/v2/board/{board}/jobs/{job_id}"
         raw = fetch_url(url, extra_headers={"Accept": "application/json"})
         data = json.loads(raw)
-        return data.get("description", "") or data.get("descriptionHtml", "") or ""
+        description = data.get("description", "") or data.get("descriptionHtml", "") or ""
+        rippling_description_cache[cache_key] = description
+        return description
     except Exception as e:
         log.warning("Rippling detail fetch failed for job %s: %s", job_id, e)
+        rippling_description_cache[cache_key] = ""
         return ""
 
 
@@ -1166,7 +1182,10 @@ xml_str = minidom.parseString(
     ET.tostring(root, encoding="unicode")
 ).toprettyxml(indent="  ")
 
-with open("feed.xml", "w", encoding="utf-8") as f:
-    f.write(xml_str)
-
-log.info("Written -> feed.xml")
+try:
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write(xml_str)
+    log.info("Written -> feed.xml")
+except IOError as e:
+    log.error("Failed to write feed.xml: %s", e)
+    raise
