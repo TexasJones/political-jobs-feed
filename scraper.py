@@ -97,6 +97,11 @@ LEVER_COMPANIES = [
     "thefp",                    # The Free Press — confirmed working
     # Environmental advocacy
     "sierraclub",               # Sierra Club — board exists (0 jobs currently)
+    # AI policy, safety & governance
+    "aisafety",                 # Center for AI Safety — confirmed working; also covers
+                                 # policy engagement via their DC sister org, Center for
+                                 # AI Safety Action Fund. Board mixes policy roles with
+                                 # general org-ops roles — watch first run for noise.
 ]
 
 LEVER_NAMES = {
@@ -106,6 +111,7 @@ LEVER_NAMES = {
     "fiscalnote": "FiscalNote",
     "thefp": "The Free Press",
     "sierraclub": "Sierra Club",
+    "aisafety": "Center for AI Safety",
 }
 
 # Some Greenhouse boards cover multiple offices/countries, but we only want
@@ -183,11 +189,18 @@ RIPPLING_NAMES = {
 
 # Workable — public API
 WORKABLE_COMPANIES = [
-    "fp1-strategies",   # FP1 Strategies — political campaigns, PLUS Communications
+    "fp1-strategies",                  # FP1 Strategies — political campaigns, PLUS Communications
+    "bully-pulpit-international-1",    # Bully Pulpit International — public affairs, digital, research.
+                                        # Board covers DC/NY/Chicago/LA/SF plus international offices
+                                        # (Berlin, Brussels, London, Oslo, Zürich) and general agency
+                                        # roles alongside public affairs work — watch first run for
+                                        # non-US postings slipping through (no Workable-side country
+                                        # filter exists yet, unlike GREENHOUSE_US_ONLY_BOARDS).
 ]
 
 WORKABLE_NAMES = {
     "fp1-strategies": "FP1 Strategies",
+    "bully-pulpit-international-1": "Bully Pulpit International",
 }
 
 WORKDAY_COMPANIES = [
@@ -243,6 +256,8 @@ COMPANY_DOMAINS = {
     "Morning Consult": "morningconsult.com",
     "Indivisible": "indivisible.org",
     "FP1 Strategies": "fp1strategies.com",
+    "Bully Pulpit International": "bpigroup.com",
+    "Center for AI Safety": "safe.ai",
     "Politico": "politico.com",
     "CapitolWorks": "capitolworks.com",
 }
@@ -931,6 +946,14 @@ def fetch_ashby():
 # (unlike Greenhouse/Lever/Ashby, which include them inline). Rippling
 # requires a secondary per-job detail call to get the description body —
 # handled below via fetch_rippling_job_detail().
+#
+# NOTE: this is Rippling's own native ATS API (ats.rippling.com), which is
+# a different product from "rippling-ats.com" — a legacy domain Rippling
+# kept after acquiring HiringThing. Sites on rippling-ats.com (e.g. Rising
+# Tide Interactive) run on HiringThing's platform, not this one, and won't
+# resolve against this endpoint. If a board slug 404s here despite the
+# company's careers page looking like Rippling, check which product it's
+# actually on before assuming the slug is wrong.
 # ─────────────────────────────────────────────
 
 def fetch_rippling_job_detail(board: str, job_id: str) -> str:
