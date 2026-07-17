@@ -1173,6 +1173,29 @@ def fetch_workable():
 # when it's actually just a missing path segment.
 # ─────────────────────────────────────────────
 
+def fetch_workday_job_detail(host: str, tenant: str, slug: str, external_path: str) -> str:
+    """
+    Workday's list endpoint (used above) only returns title/location/date —
+    no description body, same limitation as Rippling's listing endpoint.
+    The individual job detail lives at the same cxs path with the job's
+    externalPath appended, fetched via GET rather than the listing's POST:
+        https://{host}/wday/cxs/{tenant}/{slug}{external_path}
+    Returns the description HTML/text, or "" if the detail call fails or
+    externalPath is missing — a missing description shouldn't drop the
+    job, it should just show up without body copy.
+    """
+    if not external_path:
+        return ""
+    try:
+        url = f"https://{host}/wday/cxs/{tenant}/{slug}{external_path}"
+        raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+        data = json.loads(raw)
+        return data.get("jobPostingInfo", {}).get("jobDescription", "") or ""
+    except Exception as e:
+        log.warning("Workday detail fetch failed for %s: %s", external_path, e)
+        return ""
+
+
 def fetch_workday():
     log.info("=== Workday ===")
 
@@ -1216,9 +1239,11 @@ def fetch_workday():
                 # Workday returns ISO dates or human strings like "Posted 30+ Days Ago"
                 posted = posted_raw[:10] if re.match(r"\d{4}-\d{2}-\d{2}", posted_raw) else str(date.today())
                 apply_url = f"https://{host}/{slug}{external_path}" if external_path else f"https://{host}/{slug}/jobs"
+                desc = fetch_workday_job_detail(host, tenant, slug, external_path) if external_path else ""
                 if title and job_id:
-                    add_job("workday", job_id, title, name, apply_url, "", location, posted)
+                    add_job("workday", job_id, title, name, apply_url, desc, location, posted)
                     found += 1
+                    time.sleep(0.2)
 
             for j in job_postings:
                 process_posting(j)
