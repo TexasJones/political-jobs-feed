@@ -1031,7 +1031,63 @@ def fetch_rippling():
 
 # ─────────────────────────────────────────────
 # Workable — public API
+#
+# Two account generations exist and return jobs through different public
+# endpoints:
+#   - Classic accounts:  https://apply.workable.com/api/v3/accounts/{slug}/jobs
+#     (results under "results")
+#   - Newer accounts on Workable's "Jobs by Workable" candidate experience
+#     (recognizable by careers pages like jobs.workable.com/company/{opaque
+#     id}/...) don't return data through the v3 endpoint even though their
+#     classic apply.workable.com/{slug}/ page still resolves for browsers.
+#     These need the documented public widget endpoint instead:
+#     https://www.workable.com/api/accounts/{slug}?details=true
+#     (results under "jobs")
+#
+# fetch_workable_jobs_raw() tries v3 first (it's what's confirmed working
+# for our original accounts) and only falls back to the widget endpoint if
+# v3 comes back empty, so existing working sources take the fast path and
+# only newer-platform accounts (e.g. Movement Labs) pay the extra request.
 # ─────────────────────────────────────────────
+
+def fetch_workable_jobs_raw(company: str):
+    """
+    Returns (list_of_raw_job_dicts, endpoint_used) for a Workable account.
+    endpoint_used is "v3" or "widget", or None if both attempts failed —
+    useful for logging which shape of job dict downstream code is holding.
+    """
+    try:
+        url = f"https://apply.workable.com/api/v3/accounts/{company}/jobs"
+        log.info("Fetching %s", url)
+        raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+        data = json.loads(raw)
+        results = data.get("results", [])
+        if results:
+            return results, "v3"
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            log.warning("Workable v3 error %s: HTTP %s", company, e.code)
+    except Exception as e:
+        log.warning("Workable v3 fetch failed for %s: %s", company, e)
+
+    # Fall back to the widget endpoint — covers accounts on Workable's
+    # newer platform where v3 returns an empty (but valid) results list.
+    try:
+        url = f"https://www.workable.com/api/accounts/{company}?details=true"
+        log.info("Fetching %s (fallback)", url)
+        raw = fetch_url(url, extra_headers={"Accept": "application/json"})
+        data = json.loads(raw)
+        return data.get("jobs", []), "widget"
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            log.warning("Workable %s: board not found (404) on both endpoints — remove from list", company)
+        else:
+            log.warning("Workable widget error %s: HTTP %s", company, e.code)
+    except Exception as e:
+        log.warning("Workable widget fetch failed for %s: %s", company, e)
+
+    return [], None
+
 
 def fetch_workable():
     if not WORKABLE_COMPANIES:
@@ -1041,37 +1097,45 @@ def fetch_workable():
 
     for company in WORKABLE_COMPANIES:
         try:
-            url = f"https://apply.workable.com/api/v3/accounts/{company}/jobs"
-            log.info("Fetching %s", url)
-
-            raw = fetch_url(url, extra_headers={"Accept": "application/json"})
-            data = json.loads(raw)
-
+            job_list, endpoint = fetch_workable_jobs_raw(company)
             display_name = WORKABLE_NAMES.get(company, company.replace("-", " ").title())
             found = 0
-            for j in data.get("results", []):
+
+            for j in job_list:
                 # shortcode/id may come back as an int — always stringify
                 # since job_id flows into slug/string formatting downstream.
                 job_id = str(j.get("shortcode", j.get("id", "")))
                 title = j.get("title", "")
-                location = j.get("location", {})
-                loc_str = ", ".join(filter(None, [location.get("city", ""), location.get("region", "")]))
-                apply_url = f"https://apply.workable.com/{company}/j/{job_id}/"
-                desc = j.get("description", "") or j.get("full_description", "")
+
+                # Location shape differs between endpoints: v3 gives
+                # {city, region}; widget sometimes gives a flat
+                # "location_str" instead. Check both.
+                location = j.get("location", {}) or {}
+                loc_str = (
+                    location.get("location_str")
+                    or ", ".join(filter(None, [location.get("city", ""), location.get("region", "")]))
+                )
+
+                # Widget-endpoint jobs carry their own apply link (url /
+                # application_url / shortlink); v3 jobs don't, so we
+                # construct the standard apply.workable.com pattern instead.
+                apply_url = (
+                    j.get("application_url")
+                    or j.get("url")
+                    or j.get("shortlink")
+                    or f"https://apply.workable.com/{company}/j/{job_id}/"
+                )
+
+                desc = j.get("full_description", "") or j.get("description", "")
                 posted = (j.get("published_on") or str(date.today()))[:10]
 
                 if title and job_id:
                     add_job("workable", job_id, title, display_name, apply_url, desc, loc_str, posted)
                     found += 1
 
-            log.info("Workable %s: %d jobs", company, found)
+            log.info("Workable %s: %d jobs (via %s)", company, found, endpoint or "no working endpoint")
             time.sleep(0.3)
 
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                log.warning("Workable %s: board not found (404) — remove from list", company)
-            else:
-                log.warning("Workable error %s: HTTP %s", company, e.code)
         except Exception as e:
             log.warning("Workable error %s: %s", company, e)
 
