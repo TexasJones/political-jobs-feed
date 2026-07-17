@@ -1239,11 +1239,28 @@ def fetch_workday():
                 # Workday returns ISO dates or human strings like "Posted 30+ Days Ago"
                 posted = posted_raw[:10] if re.match(r"\d{4}-\d{2}-\d{2}", posted_raw) else str(date.today())
                 apply_url = f"https://{host}/{slug}{external_path}" if external_path else f"https://{host}/{slug}/jobs"
+
+                if not title or not job_id:
+                    return
+
+                # Check the blocklist BEFORE the per-job detail fetch, not
+                # after. Large global boards like ICF's are overwhelmingly
+                # non-policy roles (engineering, health, finance, etc.) that
+                # is_blocked() throws out anyway — fetching a full
+                # description first just to discard it a moment later wastes
+                # a network round-trip per filtered job and is the main
+                # reason this source is slow to run. add_job() still runs
+                # its own is_blocked() check too (titles from other sources
+                # go through it directly), so this is a fast-path skip, not
+                # a duplicate rule to maintain.
+                if is_blocked(title):
+                    log.info("Skipping (blocklist, pre-fetch): %s @ %s", title, name)
+                    return
+
                 desc = fetch_workday_job_detail(host, tenant, slug, external_path) if external_path else ""
-                if title and job_id:
-                    add_job("workday", job_id, title, name, apply_url, desc, location, posted)
-                    found += 1
-                    time.sleep(0.2)
+                add_job("workday", job_id, title, name, apply_url, desc, location, posted)
+                found += 1
+                time.sleep(0.2)
 
             for j in job_postings:
                 process_posting(j)
