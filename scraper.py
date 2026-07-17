@@ -196,11 +196,14 @@ WORKABLE_COMPANIES = [
                                         # roles alongside public affairs work — watch first run for
                                         # non-US postings slipping through (no Workable-side country
                                         # filter exists yet, unlike GREENHOUSE_US_ONLY_BOARDS).
+    "movement-labs",                   # Movement Labs — progressive digital/data/field incubator and
+                                        # consulting firm; spans digital, field/campaign, and grassroots.
 ]
 
 WORKABLE_NAMES = {
     "fp1-strategies": "FP1 Strategies",
     "bully-pulpit-international-1": "Bully Pulpit International",
+    "movement-labs": "Movement Labs",
 }
 
 WORKDAY_COMPANIES = [
@@ -258,6 +261,7 @@ COMPANY_DOMAINS = {
     "FP1 Strategies": "fp1strategies.com",
     "Bully Pulpit International": "bpigroup.com",
     "Center for AI Safety": "safe.ai",
+    "Movement Labs": "movementlabs.com",
     "Politico": "politico.com",
     "CapitolWorks": "capitolworks.com",
 }
