@@ -1156,9 +1156,21 @@ def fetch_workable():
 
 # ─────────────────────────────────────────────
 # Workday — stable internal REST API
-# POST https://{host}/wday/cxs/{slug}/jobs
-# IMPORTANT: slug must exactly match the path segment in the Workday URL
-# e.g. politico.wd108.myworkdayjobs.com/POLITICO → slug = "POLITICO"
+#
+# The real cxs API path repeats the tenant name twice — once as the
+# subdomain, and again as its own path segment right after /wday/cxs/,
+# followed by the site slug:
+#   POST https://{tenant}.wd###.myworkdayjobs.com/wday/cxs/{tenant}/{slug}/jobs
+#
+# e.g. for Politico (politico.wd108.myworkdayjobs.com/POLITICO):
+#   https://politico.wd108.myworkdayjobs.com/wday/cxs/politico/POLITICO/jobs
+#
+# Tenant is derived from the host's first subdomain segment (lowercased,
+# since Workday tenant slugs in the API path are lowercase even when the
+# public-facing site slug/host casing varies). Getting this wrong returns
+# an HTTP 400 — Workday's server-side validation rejects the malformed
+# path outright rather than 404ing, which can look like a slug/auth issue
+# when it's actually just a missing path segment.
 # ─────────────────────────────────────────────
 
 def fetch_workday():
@@ -1168,9 +1180,10 @@ def fetch_workday():
         slug = company["slug"]
         host = company["host"]
         name = company["name"]
+        tenant = host.split(".")[0].lower()
 
         try:
-            url = f"https://{host}/wday/cxs/{slug}/jobs"
+            url = f"https://{host}/wday/cxs/{tenant}/{slug}/jobs"
             log.info("Fetching %s", url)
 
             payload = json.dumps({
