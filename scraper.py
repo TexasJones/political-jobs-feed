@@ -214,19 +214,6 @@ WORKDAY_COMPANIES = [
         "host": "politico.wd108.myworkdayjobs.com",
         "name": "Politico",
     },
-    {
-        # ICF International — government/policy consulting, includes an EU
-        # public affairs & Climate Policy practice based in Brussels.
-        # Confirmed via careers.icf.com job listing linking to this Workday
-        # instance. Board covers ICF's full ~9,000-employee global roster
-        # (energy, health, IT, disaster management, etc.) — most of that
-        # gets filtered by the existing blocklist (engineer, IT, healthcare
-        # substrings), but watch the first run for consulting-generic
-        # noise that doesn't trip any current blocklist term.
-        "slug": "ICFExternal_Career_Site",
-        "host": "icf.wd5.myworkdayjobs.com",
-        "name": "ICF International",
-    },
 ]
 
 # ─────────────────────────────────────────────
@@ -275,7 +262,6 @@ COMPANY_DOMAINS = {
     "Bully Pulpit International": "bpigroup.com",
     "Center for AI Safety": "safe.ai",
     "Movement Labs": "movementlabs.com",
-    "ICF International": "icf.com",
     "Politico": "politico.com",
     "CapitolWorks": "capitolworks.com",
 }
@@ -1244,12 +1230,11 @@ def fetch_workday():
                     return
 
                 # Check the blocklist BEFORE the per-job detail fetch, not
-                # after. Large global boards like ICF's are overwhelmingly
+                # after. Large global Workday boards are often overwhelmingly
                 # non-policy roles (engineering, health, finance, etc.) that
                 # is_blocked() throws out anyway — fetching a full
                 # description first just to discard it a moment later wastes
-                # a network round-trip per filtered job and is the main
-                # reason this source is slow to run. add_job() still runs
+                # a network round-trip per filtered job. add_job() still runs
                 # its own is_blocked() check too (titles from other sources
                 # go through it directly), so this is a fast-path skip, not
                 # a duplicate rule to maintain.
