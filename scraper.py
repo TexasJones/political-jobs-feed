@@ -778,6 +778,20 @@ def add_job(source, raw_id, title, company, apply_url,
 # Greenhouse — official boards-api JSON endpoint
 # GET https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true
 # More reliable than HTML scraping — returns clean paginated JSON
+#
+# IMPORTANT — posted date: the public boards-api response does NOT include
+# the job's original posting date (no "opened_at"/"first_published" field
+# exists on this endpoint). The closest available proxy is "updated_at",
+# which is passed through as `posted` below. This isn't perfect — it moves
+# if a company edits the posting after the fact — but it's far better than
+# the previous behavior, which passed no `posted` argument at all and let
+# every Greenhouse job silently default to "today" (the scrape date) in
+# add_job(). That bug meant every Greenhouse-sourced job's date_posted got
+# overwritten to the current run's date on every successful scrape, making
+# jobs look freshly posted right up until a run failed — at which point
+# the date just froze, aging in lockstep with every other Greenhouse job
+# scraped that same day. If Greenhouse's API adds a true creation-date
+# field in the future, prefer that over updated_at here.
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -805,6 +819,8 @@ def fetch_greenhouse():
                 )
                 apply_url = j.get("absolute_url", f"https://job-boards.greenhouse.io/{board}/jobs/{job_id}")
                 desc = j.get("content", "") or ""
+                # Best available proxy for posted date — see module note above.
+                posted = j.get("updated_at", "")
 
                 if board in GREENHOUSE_US_ONLY_BOARDS and not is_us_posting(location, title):
                     log.info("Skipping (non-US office): %s @ %s [%s]", title, display_name, location)
@@ -815,7 +831,7 @@ def fetch_greenhouse():
                     continue
 
                 if title and job_id:
-                    add_job("greenhouse", job_id, title, display_name, apply_url, desc, location)
+                    add_job("greenhouse", job_id, title, display_name, apply_url, desc, location, posted)
                     found += 1
 
             log.info("Greenhouse %s: %d jobs", board, found)
@@ -943,8 +959,18 @@ def fetch_ashby():
 # Rippling — public Job Board API
 # GET https://ats.rippling.com/api/v2/board/{board_slug}/jobs?page=0&pageSize=50
 # No auth required. Listing endpoint returns titles/departments/locations
-# but not descriptions or posted dates — same tradeoff as Greenhouse,
-# where date_posted falls back to the scrape date.
+# but not descriptions — same tradeoff as Greenhouse, where a full posted
+# date isn't guaranteed to be present either.
+#
+# IMPORTANT — posted date: previously no `posted` argument was passed to
+# add_job() here at all, which meant every Rippling job silently defaulted
+# to "today" in add_job() on every run — the identical bug fixed in
+# fetch_greenhouse() above. The listing endpoint's exact field name for a
+# publish date hasn't been confirmed against a live response, so this
+# tries a fallback chain of the field names Rippling (and similar ATSes)
+# commonly use. If none of these match the real response shape, this will
+# silently fall back to "today" again — worth logging a sample response
+# once and hardcoding the correct field name here.
 #
 # IMPORTANT: the listing endpoint also omits job descriptions entirely
 # (unlike Greenhouse/Lever/Ashby, which include them inline). Rippling
@@ -1004,10 +1030,20 @@ def fetch_rippling():
                     locations = j.get("locations", [])
                     location = locations[0].get("name", "") if locations else ""
 
+                    # Fallback chain — exact field name unconfirmed against a
+                    # live response. See module note above.
+                    posted = (
+                        j.get("publishedAt")
+                        or j.get("postedAt")
+                        or j.get("createdAt")
+                        or j.get("datePosted")
+                        or ""
+                    )
+
                     desc = fetch_rippling_job_detail(board, job_id) if job_id else ""
 
                     if title and job_id:
-                        add_job("rippling", job_id, title, display_name, apply_url, desc, location)
+                        add_job("rippling", job_id, title, display_name, apply_url, desc, location, posted)
                         found += 1
                         time.sleep(0.2)
 
