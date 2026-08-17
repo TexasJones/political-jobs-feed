@@ -21,6 +21,25 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://jobs.thepolly.co"
 
+# How far past TODAY'S scrape date `valid_through` is set, for every job
+# still found in the source's feed on this run. Deliberately NOT relative
+# to date_posted — a job's true posting age tells you nothing about
+# whether it's still open (a listing from 4 months ago can still be live),
+# and Job Boardly's importer treats `valid_through` as an authoritative
+# expiry signal ("Use expiry from source when available"). Basing it on
+# posted_date meant any job whose real posting date was more than ~90 days
+# old got marked Expired the moment it was imported, regardless of whether
+# it was still sitting in the source's feed that same day.
+#
+# Instead: every job still present in today's feed gets its "still alive"
+# clock reset to today + this buffer. If the scraper stops finding a job,
+# valid_through simply stops refreshing (and separately, Job Boardly's own
+# "Automatically remove jobs when they disappear from feed" setting
+# handles removal) — so the two expiry mechanisms agree instead of
+# fighting each other. 45 days (not 1-2) leaves slack for a missed run or
+# two — a transient failure, a board temporarily 404ing — without
+# false-expiring everything that was still genuinely live.
+VALID_THROUGH_BUFFER_DAYS = 45
 
 
 BROWSER_HEADERS = {
@@ -729,7 +748,12 @@ def add_job(source, raw_id, title, company, apply_url,
         posted_date = datetime.strptime(posted, "%Y-%m-%d").date()
     except ValueError:
         posted_date = date.today()
-    valid_through = str(posted_date + timedelta(days=90))
+
+    # valid_through is intentionally based on TODAY (the scrape date), not
+    # posted_date — see VALID_THROUGH_BUFFER_DAYS above. This job is still
+    # present in the source's feed as of this run, which is the actual
+    # "still alive" signal; how long ago it was originally posted isn't.
+    valid_through = str(date.today() + timedelta(days=VALID_THROUGH_BUFFER_DAYS))
 
     jobs.append({
         "job_id":          job_id,
