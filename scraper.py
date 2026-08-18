@@ -21,25 +21,6 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://jobs.thepolly.co"
 
-# How far past TODAY'S scrape date `valid_through` is set, for every job
-# still found in the source's feed on this run. Deliberately NOT relative
-# to date_posted — a job's true posting age tells you nothing about
-# whether it's still open (a listing from 4 months ago can still be live),
-# and Job Boardly's importer treats `valid_through` as an authoritative
-# expiry signal ("Use expiry from source when available"). Basing it on
-# posted_date meant any job whose real posting date was more than ~90 days
-# old got marked Expired the moment it was imported, regardless of whether
-# it was still sitting in the source's feed that same day.
-#
-# Instead: every job still present in today's feed gets its "still alive"
-# clock reset to today + this buffer. If the scraper stops finding a job,
-# valid_through simply stops refreshing (and separately, Job Boardly's own
-# "Automatically remove jobs when they disappear from feed" setting
-# handles removal) — so the two expiry mechanisms agree instead of
-# fighting each other. 45 days (not 1-2) leaves slack for a missed run or
-# two — a transient failure, a board temporarily 404ing — without
-# false-expiring everything that was still genuinely live.
-VALID_THROUGH_BUFFER_DAYS = 45
 
 
 BROWSER_HEADERS = {
@@ -112,10 +93,10 @@ LEVER_COMPANIES = [
     # Public affairs & comms firms
     "globalstrategygroup",      # Global Strategy Group — confirmed working
     # Political media & policy journalism
-    "fiscalnote",               # FiscalNote / CQ Roll Call — confirmed working
+    "fiscalnote",                # FiscalNote / CQ Roll Call — confirmed working
     "thefp",                    # The Free Press — confirmed working
     # Environmental advocacy
-    "sierraclub",               # Sierra Club — board exists (0 jobs currently)
+    "sierraclub",                # Sierra Club — board exists (0 jobs currently)
     # AI policy, safety & governance
     "aisafety",                 # Center for AI Safety — confirmed working; also covers
                                  # policy engagement via their DC sister org, Center for
@@ -707,6 +688,34 @@ def is_network_duplicate(board: str, title: str, location: str) -> bool:
 
 
 # ─────────────────────────────────────────────
+# Feed validity window
+#
+# valid_through is INTENTIONALLY decoupled from each job's real posted
+# date. We now pull true posting dates from every source (Greenhouse
+# updated_at, Lever createdAt, Workday postedOn, etc.) for accurate
+# date_posted display/sorting — but deriving valid_through from that same
+# real date is wrong: many boards carry postings that are genuinely still
+# open well past 90 days (e.g. Politico's large Workday board, or any
+# Greenhouse board where updated_at reflects a stale "last touched"
+# timestamp rather than a fresh one). If valid_through were posted_date +
+# 90 days, those jobs would arrive from the scrape already "expired" in
+# Job Boardly's eyes, even though they're still live on the source's own
+# careers page — which is almost certainly what caused this run's
+# Active/Expired split (112 active vs 371 expired out of 483 total) to
+# look so far off from a normal day's numbers.
+#
+# valid_through should answer "how long has THIS FEED considered the job
+# live," not "how old is the original posting." So it's anchored to the
+# scrape date (today) instead: every job confirmed present in today's run
+# gets a fresh validity window, regardless of how old the underlying
+# posting actually is. A job that's genuinely gone simply stops appearing
+# in a future scrape/re-import; valid_through doesn't need to do that job
+# for us.
+# ─────────────────────────────────────────────
+FEED_VALIDITY_DAYS = 90
+
+
+# ─────────────────────────────────────────────
 # Core ingestion
 # ─────────────────────────────────────────────
 
@@ -749,11 +758,12 @@ def add_job(source, raw_id, title, company, apply_url,
     except ValueError:
         posted_date = date.today()
 
-    # valid_through is intentionally based on TODAY (the scrape date), not
-    # posted_date — see VALID_THROUGH_BUFFER_DAYS above. This job is still
-    # present in the source's feed as of this run, which is the actual
-    # "still alive" signal; how long ago it was originally posted isn't.
-    valid_through = str(date.today() + timedelta(days=VALID_THROUGH_BUFFER_DAYS))
+    # date_posted uses the real (or best-guess) posting date, for accurate
+    # display/sorting. valid_through is anchored to today's scrape date —
+    # NOT posted_date — so a genuinely old-but-still-live posting doesn't
+    # import as already expired. See FEED_VALIDITY_DAYS note above.
+    posted = str(posted_date)
+    valid_through = str(date.today() + timedelta(days=FEED_VALIDITY_DAYS))
 
     jobs.append({
         "job_id":          job_id,
@@ -803,19 +813,13 @@ def add_job(source, raw_id, title, company, apply_url,
 # GET https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true
 # More reliable than HTML scraping — returns clean paginated JSON
 #
-# IMPORTANT — posted date: the public boards-api response does NOT include
-# the job's original posting date (no "opened_at"/"first_published" field
+# NOTE — posted date: the public boards-api response does NOT include the
+# job's original posting date (no "opened_at"/"first_published" field
 # exists on this endpoint). The closest available proxy is "updated_at",
-# which is passed through as `posted` below. This isn't perfect — it moves
-# if a company edits the posting after the fact — but it's far better than
-# the previous behavior, which passed no `posted` argument at all and let
-# every Greenhouse job silently default to "today" (the scrape date) in
-# add_job(). That bug meant every Greenhouse-sourced job's date_posted got
-# overwritten to the current run's date on every successful scrape, making
-# jobs look freshly posted right up until a run failed — at which point
-# the date just froze, aging in lockstep with every other Greenhouse job
-# scraped that same day. If Greenhouse's API adds a true creation-date
-# field in the future, prefer that over updated_at here.
+# passed through as `posted` below — used only for date_posted display now.
+# It no longer affects valid_through (see FEED_VALIDITY_DAYS note in
+# add_job() above), so a stale updated_at can't cause a still-live job to
+# import as expired anymore.
 # ─────────────────────────────────────────────
 
 def fetch_greenhouse():
@@ -986,15 +990,15 @@ def fetch_ashby():
 # but not descriptions — same tradeoff as Greenhouse, where a full posted
 # date isn't guaranteed to be present either.
 #
-# IMPORTANT — posted date: previously no `posted` argument was passed to
-# add_job() here at all, which meant every Rippling job silently defaulted
-# to "today" in add_job() on every run — the identical bug fixed in
-# fetch_greenhouse() above. The listing endpoint's exact field name for a
+# NOTE — posted date: the listing endpoint's exact field name for a
 # publish date hasn't been confirmed against a live response, so this
 # tries a fallback chain of the field names Rippling (and similar ATSes)
-# commonly use. If none of these match the real response shape, this will
-# silently fall back to "today" again — worth logging a sample response
-# once and hardcoding the correct field name here.
+# commonly use. If none of these match the real response shape, this
+# falls back to "today" — worth logging a sample response once and
+# hardcoding the correct field name here. This only affects the
+# date_posted display value now — it can no longer cause a live job to
+# import as expired, since valid_through is anchored to the scrape date
+# (see FEED_VALIDITY_DAYS note in add_job() above).
 #
 # IMPORTANT: the listing endpoint also omits job descriptions entirely
 # (unlike Greenhouse/Lever/Ashby, which include them inline). Rippling
