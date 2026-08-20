@@ -62,6 +62,9 @@ GREENHOUSE_BOARDS = [
     "axios",
     "semafor",
     "voxmedia",                 # Vox Media
+    # Policy think tanks & advocacy — added, confirmed live via job-boards.greenhouse.io
+    "centerforamericanprogress",  # Center for American Progress — progressive policy think tank
+    "reproductivefreedomforall",  # Reproductive Freedom for All (formerly NARAL Pro-Choice America)
 ]
 
 GREENHOUSE_NAMES = {
@@ -84,6 +87,8 @@ GREENHOUSE_NAMES = {
     "axios": "Axios",
     "semafor": "Semafor",
     "voxmedia": "Vox Media",
+    "centerforamericanprogress": "Center for American Progress",
+    "reproductivefreedomforall": "Reproductive Freedom for All",
 }
 
 LEVER_COMPANIES = [
@@ -102,6 +107,17 @@ LEVER_COMPANIES = [
                                  # policy engagement via their DC sister org, Center for
                                  # AI Safety Action Fund. Board mixes policy roles with
                                  # general org-ops roles — watch first run for noise.
+    # Policy/advocacy umbrella orgs — added, confirmed live via jobs.lever.co
+    "standtogether",             # Stand Together (Americans for Prosperity, etc.) — large,
+                                  # active board; heavy on Government Affairs, Electoral
+                                  # Strategy, and Regional Field Manager roles. No filter
+                                  # needed — confirmed clean on inspection.
+    "proof",                     # Proof — identity-verification tech co. with an active
+                                  # Government Affairs & Public Policy team. Unlike
+                                  # standtogether, most of this board is unrelated
+                                  # tech/legal/privacy roles, so it's gated by
+                                  # LEVER_REQUIRE_POLICY_KEYWORD_COMPANIES below, same
+                                  # pattern as ASHBY_REQUIRE_POLICY_KEYWORD_BOARDS.
 ]
 
 LEVER_NAMES = {
@@ -112,6 +128,35 @@ LEVER_NAMES = {
     "thefp": "The Free Press",
     "sierraclub": "Sierra Club",
     "aisafety": "Center for AI Safety",
+    "standtogether": "Stand Together",
+    "proof": "Proof",
+}
+
+# Some Lever boards belong to companies large enough that most of their
+# postings are unrelated to public affairs (general tech/legal/ops roles).
+# Unlike GREENHOUSE_US_ONLY_BOARDS (which filters by geography), this filters
+# by subject: boards listed here are included only if the title or
+# description actually names a policy/advocacy/public-affairs focus. Same
+# pattern as ASHBY_REQUIRE_POLICY_KEYWORD_BOARDS, applied to Lever.
+LEVER_REQUIRE_POLICY_KEYWORD_COMPANIES = {
+    "proof",
+}
+
+# Some Greenhouse boards belong to holding companies that re-list their
+# subsidiaries' own postings on a shared board — e.g. Orchestra's board
+# covers BerlinRosen, Civitas Public Affairs, and Glen Echo Group, but
+# BerlinRosen also has its own separate confirmed-working board. Scraping
+# both surfaces the exact same job twice under two different company
+# names, which the normal seen{} dedup (keyed on source-company-raw_id)
+# doesn't catch since both the company label and raw ID differ.
+#
+# GREENHOUSE_NETWORK_GROUPS scopes a secondary dedup to just these known
+# groups — keyed on (network, normalized title, normalized location) —
+# rather than deduping globally by title+location, which would risk
+# false-collapsing two unrelated firms that happen to post similarly
+# titled roles in the same city.
+GREENHOUSE_NETWORK_GROUPS = {
+    "orchestra_network": {"orchestra", "berlinrosen"},
 }
 
 # Some Greenhouse boards cover multiple offices/countries, but we only want
@@ -264,6 +309,14 @@ COMPANY_DOMAINS = {
     "Movement Labs": "movementlabs.com",
     "Politico": "politico.com",
     "CapitolWorks": "capitolworks.com",
+    "Center for American Progress": "americanprogress.org",
+    "Reproductive Freedom for All": "reproductivefreedomforall.org",
+    "Stand Together": "standtogether.org",
+    # Unverified guess — Proof's site is proof.com but this hasn't been
+    # spot-checked against the real logo the way the others above have.
+    # Confirm on first appearance in Job Boardly and correct via
+    # COMPANY_LOGO_OVERRIDES below if wrong.
+    "Proof": "proof.com",
 }
 
 # Manual overrides for companies where Clearbit's domain guess is wrong, or
@@ -641,22 +694,7 @@ def guess_location_limit(location: str) -> str:
 jobs = []
 seen = set()
 
-# Some Greenhouse boards belong to holding companies that re-list their
-# subsidiaries' own postings on a shared board — e.g. Orchestra's board
-# covers BerlinRosen, Civitas Public Affairs, and Glen Echo Group, but
-# BerlinRosen also has its own separate confirmed-working board. Scraping
-# both surfaces the exact same job twice under two different company
-# names, which the normal seen{} dedup (keyed on source-company-raw_id)
-# doesn't catch since both the company label and raw ID differ.
-#
-# GREENHOUSE_NETWORK_GROUPS scopes a secondary dedup to just these known
-# groups — keyed on (network, normalized title, normalized location) —
-# rather than deduping globally by title+location, which would risk
-# false-collapsing two unrelated firms that happen to post similarly
-# titled roles in the same city.
-GREENHOUSE_NETWORK_GROUPS = {
-    "orchestra_network": {"orchestra", "berlinrosen"},
-}
+seen_network_content = set()
 
 # Reverse lookup: board slug -> network name, built once at import time.
 GREENHOUSE_BOARD_TO_NETWORK = {
@@ -664,8 +702,6 @@ GREENHOUSE_BOARD_TO_NETWORK = {
     for network, boards in GREENHOUSE_NETWORK_GROUPS.items()
     for board in boards
 }
-
-seen_network_content = set()
 
 
 def is_network_duplicate(board: str, title: str, location: str) -> bool:
@@ -906,6 +942,10 @@ def fetch_lever():
                     location = lists[0].get("text", "") if lists else ""
 
                 posted = str(j.get("createdAt", ""))
+
+                if company in LEVER_REQUIRE_POLICY_KEYWORD_COMPANIES and not has_policy_signal(title, desc):
+                    log.info("Skipping (no policy/advocacy signal): %s @ %s", title, display_name)
+                    continue
 
                 if title and job_id:
                     add_job("lever", job_id, title, display_name, apply_url, desc, location, posted)
