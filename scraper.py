@@ -21,6 +21,12 @@ log = logging.getLogger(__name__)
 
 BASE_URL = "https://jobs.thepolly.co"
 
+# Hiring Pulse — see section near the bottom of this file for the logic.
+# HISTORY_FILE accumulates one snapshot per day (rolling window); PULSE_FILE
+# is the small derived output the newsletter pipeline actually reads.
+HISTORY_FILE = "job_history.json"
+PULSE_FILE = "hiring_pulse.json"
+HISTORY_RETENTION_DAYS = 35  # comfortably more than the 7-day comparison window
 
 
 BROWSER_HEADERS = {
@@ -51,6 +57,12 @@ GREENHOUSE_BOARDS = [
     # Public affairs firms
     "hillandknowlton",          # Hill & Knowlton
     "orchestra",                # Orchestra (BerlinRosen, Civitas Public Affairs, Glen Echo Group)
+    "civitaspublicaffairs",     # Civitas Public Affairs — Orchestra company; confirmed separate
+                                 # board from the shared Orchestra listing (same situation as
+                                 # BerlinRosen). Added to GREENHOUSE_NETWORK_GROUPS below.
+    "glenechogroup",            # Glen Echo Group — Orchestra company; confirmed separate board,
+                                 # same situation as BerlinRosen/Civitas. Added to
+                                 # GREENHOUSE_NETWORK_GROUPS below.
     "voxglobal",                # VOX Global — bipartisan public affairs, Omnicom
     "ketchumuscareers",         # Ketchum US — corporate reputation, earned media, public affairs
     "webershandwick",           # Weber Shandwick — includes Powell Tate public affairs unit
@@ -78,6 +90,8 @@ GREENHOUSE_NAMES = {
     "industriouslabs": "Industrious Labs",
     "hillandknowlton": "Hill & Knowlton",
     "orchestra": "Orchestra",
+    "civitaspublicaffairs": "Civitas Public Affairs",
+    "glenechogroup": "Glen Echo Group",
     "voxglobal": "VOX Global",
     "ketchumuscareers": "Ketchum",
     "webershandwick": "Weber Shandwick",
@@ -156,7 +170,7 @@ LEVER_REQUIRE_POLICY_KEYWORD_COMPANIES = {
 # false-collapsing two unrelated firms that happen to post similarly
 # titled roles in the same city.
 GREENHOUSE_NETWORK_GROUPS = {
-    "orchestra_network": {"orchestra", "berlinrosen"},
+    "orchestra_network": {"orchestra", "berlinrosen", "civitaspublicaffairs", "glenechogroup"},
 }
 
 # Some Greenhouse boards cover multiple offices/countries, but we only want
@@ -285,6 +299,8 @@ COMPANY_DOMAINS = {
     "Industrious Labs": "industriouslabs.org",
     "Hill & Knowlton": "hillandknowlton.com",
     "Orchestra": "orchestra.co",
+    "Civitas Public Affairs": "civitaspublicaffairs.com",
+    "Glen Echo Group": "glenechogroup.com",
     "VOX Global": "voxglobal.com",
     "Ketchum": "ketchum.com",
     "Weber Shandwick": "webershandwick.com",
@@ -1385,6 +1401,136 @@ def fetch_workday():
 
 
 # ─────────────────────────────────────────────
+# Hiring Pulse
+#
+# Turns the day's `jobs` list into a small rolling history and a
+# week-over-week trend summary — no new scraping, just arithmetic on data
+# already collected above.
+#
+# HISTORY_FILE holds one snapshot per calendar date, pruned to the last
+# HISTORY_RETENTION_DAYS so the file doesn't grow forever. Each snapshot
+# is intentionally small: just counts, not full job records (the feed.xml
+# already carries the full detail for that).
+#
+# PULSE_FILE is the derived output — today's numbers plus the deltas vs.
+# 7 days ago (category mix shift, remote/hybrid/onsite mix shift, and
+# any company appearing today that wasn't present a week ago). This is
+# the file the newsletter pipeline should read for the "Hiring Pulse"
+# section; it doesn't need to know anything about how history is stored.
+#
+# Both files are plain JSON, committed to the repo the same way
+# seen_jobs.json already is — no new infrastructure.
+# ─────────────────────────────────────────────
+
+def load_history() -> dict:
+    if not os.path.exists(HISTORY_FILE):
+        return {}
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        log.warning("Could not read %s, starting fresh: %s", HISTORY_FILE, e)
+        return {}
+
+
+def build_snapshot() -> dict:
+    by_category, by_location_type = {}, {}
+    companies = set()
+
+    for j in jobs:
+        by_category[j["category"]] = by_category.get(j["category"], 0) + 1
+        by_location_type[j["location"]] = by_location_type.get(j["location"], 0) + 1
+        companies.add(j["company"])
+
+    return {
+        "total": len(jobs),
+        "by_category": by_category,
+        "by_location_type": by_location_type,
+        "companies": sorted(companies),
+    }
+
+
+def save_history(history: dict) -> dict:
+    today = str(date.today())
+    history[today] = build_snapshot()
+
+    cutoff = date.today() - timedelta(days=HISTORY_RETENTION_DAYS)
+    history = {
+        d: snap for d, snap in history.items()
+        if datetime.strptime(d, "%Y-%m-%d").date() >= cutoff
+    }
+
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2)
+
+    return history
+
+
+def pct_change(current: int, previous: int) -> float:
+    if previous == 0:
+        return 0.0
+    return round((current - previous) / previous * 100, 1)
+
+
+def build_pulse(history: dict) -> dict:
+    today = str(date.today())
+    today_snap = history.get(today, build_snapshot())
+    week_ago_key = str(date.today() - timedelta(days=7))
+    week_ago_snap = history.get(week_ago_key)
+
+    pulse = {
+        "date": today,
+        "total_jobs": today_snap["total"],
+        "has_comparison": week_ago_snap is not None,
+    }
+
+    if not week_ago_snap:
+        # First week running this — nothing to compare against yet.
+        log.info("Hiring Pulse: no snapshot from %s yet, skipping trend comparison", week_ago_key)
+        with open(PULSE_FILE, "w", encoding="utf-8") as f:
+            json.dump(pulse, f, indent=2)
+        return pulse
+
+    pulse["total_change_pct"] = pct_change(today_snap["total"], week_ago_snap["total"])
+
+    # Category trends: current count, prior count, and the delta, sorted
+    # by biggest mover first so the newsletter can just take the top N.
+    all_categories = set(today_snap["by_category"]) | set(week_ago_snap["by_category"])
+    category_trends = []
+    for cat in all_categories:
+        current = today_snap["by_category"].get(cat, 0)
+        prior = week_ago_snap["by_category"].get(cat, 0)
+        category_trends.append({
+            "category": cat,
+            "current": current,
+            "prior": prior,
+            "change": current - prior,
+        })
+    category_trends.sort(key=lambda c: c["change"], reverse=True)
+    pulse["category_trends"] = category_trends
+
+    # Remote/hybrid/onsite mix, then vs. a week ago.
+    location_mix = {}
+    for label in LOCATION_TYPE_LABELS.values():
+        current = today_snap["by_location_type"].get(label, 0)
+        prior = week_ago_snap["by_location_type"].get(label, 0)
+        location_mix[label] = {"current": current, "prior": prior, "change": current - prior}
+    pulse["location_mix"] = location_mix
+
+    # New employers: companies with postings today that had none a week ago.
+    new_companies = sorted(set(today_snap["companies"]) - set(week_ago_snap["companies"]))
+    pulse["new_companies"] = new_companies
+
+    with open(PULSE_FILE, "w", encoding="utf-8") as f:
+        json.dump(pulse, f, indent=2)
+
+    log.info("Hiring Pulse: %d jobs (%+.1f%% vs last week), %d new employer(s)",
+              pulse["total_jobs"], pulse["total_change_pct"], len(new_companies))
+
+    return pulse
+
+
+# ─────────────────────────────────────────────
 # Run pipeline
 # ─────────────────────────────────────────────
 
@@ -1419,3 +1565,13 @@ with open("feed.xml", "w", encoding="utf-8") as f:
     f.write(xml_str)
 
 log.info("Written -> feed.xml")
+
+# ─────────────────────────────────────────────
+# Hiring Pulse — write history + trend summary
+# ─────────────────────────────────────────────
+
+_history = load_history()
+_history = save_history(_history)
+build_pulse(_history)
+
+log.info("Written -> %s, %s", HISTORY_FILE, PULSE_FILE)
