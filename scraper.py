@@ -114,6 +114,12 @@ LEVER_COMPANIES = [
     # Political media & policy journalism
     "fiscalnote",                # FiscalNote / CQ Roll Call — confirmed working
     "thefp",                    # The Free Press — confirmed working
+    "nationaljournal",           # National Journal — DC political intelligence brand (Hotline,
+                                  # National Journal Daily); confirmed working. Board also carries
+                                  # roles for Gravity Research, a sister brand under the same
+                                  # company doing corporate reputational-risk research — those
+                                  # will come through in the same feed alongside editorial/policy
+                                  # roles, since there's no separate board to split them out.
     # Environmental advocacy
     "sierraclub",                # Sierra Club — board exists (0 jobs currently)
     # AI policy, safety & governance
