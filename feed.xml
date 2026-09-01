@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-09-01T13:25:31Z" count="288">
+<jobs generated="2026-09-01T22:37:19Z" count="295">
   <job>
     <job_id>greenhouse-ACLU-8618052002</job_id>
     <title>Data Architect</title>
@@ -293,6 +293,52 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/splcenter.org</logo>
+    <image>https://logo.clearbit.com/splcenter.org</image>
+    <company_logo>https://logo.clearbit.com/splcenter.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Southern Poverty Law Center-8764959002</job_id>
+    <title>Director, Civil Rights Memorial Center</title>
+    <company>Southern Poverty Law Center</company>
+    <slug>director-civil-rights-memorial-center-southern-poverty-law-center-8764959002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/director-civil-rights-memorial-center-southern-poverty-law-center-8764959002/</canonical_url>
+    <description>&lt;h1&gt;The SPLC is seeking a Deputy Director, Civil Rights Memorial Center who is passionate about social justice!&amp;nbsp;&lt;/h1&gt; &lt;hr&gt; &lt;p&gt;The Director, Civil Rights Memorial Center (CRMC) provides strategic, operational, and visionary leadership across all aspects of the CRMC. The Director is responsible for advancing the museum's mission, overseeing financial health, cultivating community relationships, leading staff, and serving as the primary ambassador to the community, partners, and the broader museum field. Provide direction and support for curatorial, educational, and public programming initiatives that reflect the museum's mission and community needs.&amp;nbsp;&lt;/p&gt; &lt;h3&gt;Who You Are&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Visionary&lt;/strong&gt;. You are a collaborative leader with a passion for history, cultural preservation, and community engagement, and a demonstrated ability to translate mission into strategy, action, and measurable impact.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Relationship Builder.&lt;/strong&gt; You are an exceptional communicator who inspires trust, cultivates meaningful partnerships, and serves as a compelling ambassador with community leaders, funders, educators, elected officials, and other key stakeholders.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Strategic&lt;/strong&gt;. You exhibit strong business and operational acumen, experienced in organizational leadership, financial stewardship, and balancing long-term planning with day-to-day execution.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Collaborative.&lt;/strong&gt; You are an inclusive and empowering people leader who</description>
+    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8764959002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location>Montgomery, AL </office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-01</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/splcenter.org</logo>
+    <image>https://logo.clearbit.com/splcenter.org</image>
+    <company_logo>https://logo.clearbit.com/splcenter.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Southern Poverty Law Center-8769782002</job_id>
+    <title>Intern, Legal (2L) (Summer 2027)</title>
+    <company>Southern Poverty Law Center</company>
+    <slug>intern-legal-2l-summer-2027-southern-poverty-law-center-8769782002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/intern-legal-2l-summer-2027-southern-poverty-law-center-8769782002/</canonical_url>
+    <description>&lt;h1&gt;The SPLC is seeking highly motivated legal interns who are passionate about civil rights!&lt;/h1&gt; &lt;hr&gt; &lt;p&gt;The Southern Poverty Law Center offers summer internships to exceptional first- and second-year law students who possess strong academic backgrounds, excellent writing skills, and a commitment to public interest work. The Center is a catalyst for racial justice in the South and beyond, working in partnership with communities to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people. As an internationally recognized nonprofit organization, the Center is dedicated to reducing bigotry and oppression through outreach, education, and litigation.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This posting is for 2L students only. 1Ls opportunities will be posted separately.&lt;/p&gt; &lt;h3&gt;Who You Are&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Passionate. &lt;/strong&gt;Demonstrated passion for advancing civil rights work, social justice issues and interest in supporting our work.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Advocate. &lt;/strong&gt;Desire to work in partnership with communities to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Driven. &lt;/strong&gt;Ability to help our attorneys bring litigation and implement community-focused strategies to influence positive change in the lives of children, workers, people impacted by hate and extremism, detained and incarcerated people, and those experiencing or facing economic hardship.&lt;/p&gt;</description>
+    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8769782002</apply_url>
+    <category>Nonprofit Advocacy</category>
+    <location_type>onsite</location_type>
+    <office_location>Atlanta, GA; Jackson, MS; Miami, FL; Montgomery, AL; New Orleans, LA; Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>INTERN</employment_type>
+    <type>Internship</type>
+    <date_posted>2026-09-01</date_posted>
     <valid_through>2026-11-30</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
@@ -2462,29 +2508,6 @@
     <company_logo>https://logo.clearbit.com/semafor.com</company_logo>
   </job>
   <job>
-    <job_id>greenhouse-Semafor-4706680005</job_id>
-    <title>Executive Business Partner</title>
-    <company>Semafor</company>
-    <slug>executive-business-partner-semafor-4706680005</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/executive-business-partner-semafor-4706680005/</canonical_url>
-    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About this Role&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are seeking a dynamic and highly organized Executive Business Partner &amp;amp; Office Manager to join our New York City office. This role is pivotal in providing key administrative and executive support to the Chief Commercial Officer and other members of the Sales team, while ensuring the smooth operation of the office. The ideal candidate will possess exceptional organizational skills, a proactive approach, and the ability to manage multiple tasks efficiently. This position is full-time and based out of Semafor’s New York office with the option to work remotely on</description>
-    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4706680005</apply_url>
-    <category>Political Media</category>
-    <location_type>remote</location_type>
-    <office_location>New York, NY</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-11-30</valid_through>
-    <source>greenhouse</source>
-    <logo>https://logo.clearbit.com/semafor.com</logo>
-    <image>https://logo.clearbit.com/semafor.com</image>
-    <company_logo>https://logo.clearbit.com/semafor.com</company_logo>
-  </job>
-  <job>
     <job_id>greenhouse-Semafor-4716625005</job_id>
     <title>Executive Business Partner</title>
     <company>Semafor</company>
@@ -2501,6 +2524,29 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-30</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/semafor.com</logo>
+    <image>https://logo.clearbit.com/semafor.com</image>
+    <company_logo>https://logo.clearbit.com/semafor.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Semafor-4706680005</job_id>
+    <title>Executive Business Partner</title>
+    <company>Semafor</company>
+    <slug>executive-business-partner-semafor-4706680005</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/executive-business-partner-semafor-4706680005/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About this Role&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are seeking a dynamic and highly organized Executive Business Partner &amp;amp; Office Manager to join our New York City office. This role is pivotal in providing key administrative and executive support to the Chief Commercial Officer and other members of the Sales team, while ensuring the smooth operation of the office. The ideal candidate will possess exceptional organizational skills, a proactive approach, and the ability to manage multiple tasks efficiently. This position is full-time and based out of Semafor’s New York office with the option to work remotely on</description>
+    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4706680005</apply_url>
+    <category>Political Media</category>
+    <location_type>remote</location_type>
+    <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-08-07</date_posted>
     <valid_through>2026-11-30</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
@@ -3152,6 +3198,121 @@
     <company_logo>https://logo.clearbit.com/reproductivefreedomforall.org</company_logo>
   </job>
   <job>
+    <job_id>greenhouse-State Affairs-4003111009</job_id>
+    <title>Business Development Representative (BDR)</title>
+    <company>State Affairs</company>
+    <slug>business-development-representative-bdr-state-affairs-4003111009</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/business-development-representative-bdr-state-affairs-4003111009/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.stateaffairs.com/&quot;&gt;State Affairs&lt;/a&gt; is the nation’s leading news and policy intelligence platform focused on state governments. We combine nonpartisan coverage of Statehouses across the country alongside state government data and AI-native tools into a singular platform.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We inform and empower decision makers, policy professionals and citizens through our award-winning journalism and data – delivering profound insights to help our customers decode and act on state politics and&amp;nbsp; policy. We’re building a category-defining business that will reshape America as we strengthen visibility into what’s happening and why at the state level.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are hiring a Business Development Representative (BDR) to join our team located in Washington, DC.&lt;/p&gt; &lt;p&gt;As the Business Development Representative (BDR) you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Drive top-of-funnel growth by reaching out to prospects through cold calls, emails, and LinkedIn to generate interest and book qualified meetings.&lt;/li&gt; &lt;li&gt;Own the outbound motion—creating smart, personalized outreach that helps potential customers understand how State Affairs can solve real-world policy challenges.&lt;/li&gt; &lt;li&gt;Ask thoughtful, strategic questions to qualify leads and surface meaningful sales conversations.&lt;/li&gt; &lt;li&gt;Keep our CRM (HubSpot) clean and organized by logging all activities, tracking outreach, and managing contact records.&lt;/li&gt; &lt;li&gt;Collaborate closely with Account</description>
+    <apply_url>https://job-boards.greenhouse.io/stateaffairs/jobs/4003111009</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-02-25</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/stateaffairs.com</logo>
+    <image>https://logo.clearbit.com/stateaffairs.com</image>
+    <company_logo>https://logo.clearbit.com/stateaffairs.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-State Affairs-4024612009</job_id>
+    <title>Enterprise Account Director</title>
+    <company>State Affairs</company>
+    <slug>enterprise-account-director-state-affairs-4024612009</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/enterprise-account-director-state-affairs-4024612009/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.stateaffairs.com/&quot;&gt;State Affairs&lt;/a&gt; is the nation’s leading news and policy intelligence platform focused on state governments. We combine nonpartisan coverage of Statehouses across the country alongside state government data and AI-native tools into a singular platform.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We inform and empower decision makers, policy professionals and citizens through our award-winning journalism and data – delivering profound insights to help our customers decode and act on state politics and&amp;nbsp; policy. We’re building a category-defining business that will reshape America as we strengthen visibility into what’s happening and why at the state level.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are hiring an&lt;strong&gt; &lt;/strong&gt;Enterprise Account Director to join our team in Washington, DC. This is a senior role that owns the success and growth of our largest accounts. You will build relationships with the executives who run government affairs and policy, find the problems that matter most to them, and turn our product, data, and people into solutions that generate value for their organizations and for State Affairs.&amp;nbsp;&lt;/p&gt; &lt;p&gt;As an Enterprise Account Director, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Own retention and expansion targets for a portfolio of our most strategic enterprise accounts.&amp;nbsp;&lt;/li&gt; &lt;li&gt;Build and own trusted relationships with C-level and senior government affairs and policy leaders.&lt;/li&gt; &lt;li&gt;Understand each customer's hardest problems and marshal our</description>
+    <apply_url>https://job-boards.greenhouse.io/stateaffairs/jobs/4024612009</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-08-06</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/stateaffairs.com</logo>
+    <image>https://logo.clearbit.com/stateaffairs.com</image>
+    <company_logo>https://logo.clearbit.com/stateaffairs.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-State Affairs-4266887009</job_id>
+    <title>Enterprise Business Development Representative (Enterprise BDR)</title>
+    <company>State Affairs</company>
+    <slug>enterprise-business-development-representative-enterprise-bdr-state-affairs-4266887009</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/enterprise-business-development-representative-enterprise-bdr-state-affairs-4266887009/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.stateaffairs.com/&quot;&gt;State Affairs&lt;/a&gt; is the nation’s leading news and policy intelligence platform focused on state governments. We combine nonpartisan coverage of Statehouses across the country alongside state government data and AI-native tools into a singular platform.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We inform and empower decision makers, policy professionals and citizens through our award-winning journalism and data – delivering profound insights to help our customers decode and act on state politics and&amp;nbsp; policy. We’re building a category-defining business that will reshape America as we strengthen visibility into what’s happening and why at the state level.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are hiring an Enterprise Business Development Representative (Enterprise BDR) to join our team located in Washington, DC.&lt;/p&gt; &lt;p&gt;This role is not a traditional high-volume outbound-only BDR.&amp;nbsp;Instead, the Enterprise BDR will operate as an embedded pre-sales and prospecting partner to Enterprise Account Executives, especially our Enterprise leader, helping drive Enterprise pipeline through outbound prospecting, opportunity qualification, deal preparation, and support throughout the sales process.&lt;/p&gt; &lt;p&gt;This role has “Sales Chief of Staff” capability: high ownership, high responsiveness, and a willingness to support whatever is needed to help Enterprise deals move forward.&lt;/p&gt; &lt;p&gt;As the Enterprise BDR, you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Prospect into complex,</description>
+    <apply_url>https://job-boards.greenhouse.io/stateaffairs/jobs/4266887009</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-06-01</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/stateaffairs.com</logo>
+    <image>https://logo.clearbit.com/stateaffairs.com</image>
+    <company_logo>https://logo.clearbit.com/stateaffairs.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-State Affairs-4118285009</job_id>
+    <title>Sales Director</title>
+    <company>State Affairs</company>
+    <slug>sales-director-state-affairs-4118285009</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/sales-director-state-affairs-4118285009/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.stateaffairs.com/&quot;&gt;State Affairs&lt;/a&gt; is the nation’s leading news and policy intelligence platform focused on state governments. We combine nonpartisan coverage of Statehouses across the country alongside state government data and AI-native tools into a singular platform.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We inform and empower decision makers, policy professionals and citizens through our award-winning journalism and data – delivering profound insights to help our customers decode and act on state politics and&amp;nbsp; policy. We’re building a category-defining business that will reshape America as we strengthen visibility into what’s happening and why at the state level.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are hiring a Sales Director to join our team located in Washington, DC. This is an individual contributor (IC), quota-carrying opportunity focused on driving new customer acquisition and expanding our presence across regulated and policy-sensitive industries.&lt;/p&gt; &lt;p&gt;As the Sales Director you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Own the full sales cycle from qualified opportunity through close, including discovery, demos, proposal development, negotiation, and contract execution&lt;/li&gt; &lt;li&gt;Manage a portfolio of mid-market and enterprise-adjacent accounts, closing deals typically ranging from five to low six figures&lt;/li&gt; &lt;li&gt;Build and maintain a healthy, well-qualified pipeline using HubSpot, with strong forecasting hygiene and clear next steps on every deal&lt;/li&gt; &lt;li&gt;Translate customer</description>
+    <apply_url>https://job-boards.greenhouse.io/stateaffairs/jobs/4118285009</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-02-25</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/stateaffairs.com</logo>
+    <image>https://logo.clearbit.com/stateaffairs.com</image>
+    <company_logo>https://logo.clearbit.com/stateaffairs.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-State Affairs-4077231009</job_id>
+    <title>Senior UX Designer, Interaction Design</title>
+    <company>State Affairs</company>
+    <slug>senior-ux-designer-interaction-design-state-affairs-4077231009</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-ux-designer-interaction-design-state-affairs-4077231009/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://www.stateaffairs.com/&quot;&gt;State Affairs&lt;/a&gt; is the nation’s leading news and policy intelligence platform focused on state governments. We combine nonpartisan coverage of Statehouses across the country alongside state government data and AI-native tools into a singular platform.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We inform and empower decision makers, policy professionals and citizens through our award-winning journalism and data – delivering profound insights to help our customers decode and act on state politics and&amp;nbsp; policy. We’re building a category-defining business that will reshape America as we strengthen visibility into what’s happening and why at the state level.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are hiring a Senior UX Designer, Interaction Design to join our team located in Washington, DC.&lt;/p&gt; &lt;p&gt;We’re hiring a Senior UX Designer, Interaction Design who wants to define a category, not decorate one. Design is central to how we win, and this role is key to making that happen. You’ll own the interaction layer across web and mobile, set the vision for where our pro-tools should go, and have the autonomy to find the right problems to solve. You’ll work directly with a principal-level designer who is invested in growing the person in this seat toward the same.&lt;/p&gt; &lt;p&gt;As the Senior UX Designer, Interaction Design you will:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Set the vision. Define what our pro-tools should become — cohesive interaction models and experiences that don’t exist in this</description>
+    <apply_url>https://job-boards.greenhouse.io/stateaffairs/jobs/4077231009</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-22</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/stateaffairs.com</logo>
+    <image>https://logo.clearbit.com/stateaffairs.com</image>
+    <company_logo>https://logo.clearbit.com/stateaffairs.com</company_logo>
+  </job>
+  <job>
     <job_id>lever-EMILY's List-62fc7e13-6f72-47c8-811e-f2e9e9259f54</job_id>
     <title>Campaigns Assistant</title>
     <company>EMILY's List</company>
@@ -3474,22 +3635,22 @@
     <company_logo>https://logo.clearbit.com/fiscalnote.com</company_logo>
   </job>
   <job>
-    <job_id>lever-FiscalNote-db817177-e051-41ed-b43e-aa1ba2c5be01</job_id>
-    <title>Policy Analyst (Junior)</title>
+    <job_id>lever-FiscalNote-cdd78784-9b41-48c4-bd4f-037656f324d8</job_id>
+    <title>Editor, White House, Judicial and Legislative Intersection</title>
     <company>FiscalNote</company>
-    <slug>policy-analyst-junior-fiscalnote-db817177-e051-41ed-b43e-aa1ba2c5be01</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/policy-analyst-junior-fiscalnote-db817177-e051-41ed-b43e-aa1ba2c5be01/</canonical_url>
-    <description>About the Position FiscalNote is hiring a Policy Analyst to serve as a core member of our Professional Services team and a trusted resource for our clients. Policy Analysts are curious, detail-oriented, and self-motivated — they thrive on staying current with legislative and regulatory developments and translating complex policy into clear, actionable insights. In this role, you will support a portfolio of clients across issue areas, executing high-quality analytical work with accuracy and consistency. You will be a critical participant in day-to-day client delivery, taking ownership of your work and building the foundational expertise and habits that define a strong career at FiscalNote. About the Professional Services Team Our Professional Services team is the consulting arm of FiscalNote— the human-in-the-loop that helps clients get the most out of their engagement, primarily through U.S. federal and state legislative and regulatory analysis. We build and support offerings across our core product portfolio and custom client engagements, partnering closely with Business Development and Account Management to deliver projects that help clients work smarter. We're a dynamic, hard-working team that thrives on constant learning, ownership, and growth. About You You have a passion for policy — at the federal, state, or local level — and a genuine curiosity about how legislation and regulation shape the world. You are a strong writer and communicator who can synthesize complex</description>
-    <apply_url>https://jobs.lever.co/fiscalnote/db817177-e051-41ed-b43e-aa1ba2c5be01</apply_url>
+    <slug>editor-white-house-judicial-and-legislative-intersection-fiscalnote-cdd78784-9b41-48c4-bd4f-037656f324d8</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/editor-white-house-judicial-and-legislative-intersection-fiscalnote-cdd78784-9b41-48c4-bd4f-037656f324d8/</canonical_url>
+    <description>About the Position CQ Roll Call is seeking an experienced journalist to direct its coverage of the interaction among the executive, judicial and legislative branches. We are investing in our people and our print, digital, data and multimedia tools to enhance our storytelling and are leveraging two quality media brands with a strong history in Washington journalism. We’re looking for someone who generates distinctive story ideas, identifies trends, uses data and produces content for multiple platforms, including CQ and Roll Call. We seek a journalist who can lead and inspire reporters to produce high-impact, enterprising stories about the relationship between the White House and Congress, as well as the judicial branch’s effect on the White House and Congress, and the influential groups and advocates that seek to influence them. About the CQ Roll Call Team CQ and Roll Call report on political power through the lens of Congress, from the campaigns that send members of Congress to Washington to the biographies of those members, the legislative process and the people and organizations shaping it both inside the federal government and outside of it. About You You are comfortable digging into the finer details of White House and congressional news and sourcing, as well as following court cases with significant political and policy implications. Application Requirements: All applicants must submit four (4) published writing samples from newspapers, news websites or news magazines</description>
+    <apply_url>https://jobs.lever.co/fiscalnote/cdd78784-9b41-48c4-bd4f-037656f324d8</apply_url>
     <category>Government &amp; Policy</category>
-    <location_type>remote</location_type>
-    <office_location>Remote United States</office_location>
+    <location_type>onsite</location_type>
+    <office_location>Washington, DC</office_location>
     <location_limit>United States</location_limit>
-    <location>Remote</location>
+    <location>Onsite</location>
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-07-06</date_posted>
+    <date_posted>2026-09-01</date_posted>
     <valid_through>2026-11-30</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
@@ -6188,29 +6349,6 @@
     <company_logo>https://logo.clearbit.com/bpigroup.com</company_logo>
   </job>
   <job>
-    <job_id>workable-Movement Labs-123EEAE083</job_id>
-    <title>Program Management Associate</title>
-    <company>Movement Labs</company>
-    <slug>program-management-associate-movement-labs-123eeae083</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/program-management-associate-movement-labs-123eeae083/</canonical_url>
-    <description>Movement Labs is an incubator and consulting firm that uses technology, data, and experimentation to stop fascism and build progressive power. We help progressives win and defeat MAGA extremists through year-round work grounded in research and real-world testing. Our team partners with leading advocacy groups, grassroots organizers, and electoral campaigns to develop innovative tactics, win elections, and shift power for the long term. As the R&amp;D powerhouse for the progressive movement, we’ve run over 100 randomized control trials (RCTs) on voter behavior and helped hundreds of organizations increase their impact. We work hard, and the environment evolves rapidly. We are adaptable, nimble, and shift quickly as needed to meet the moment. We are looking for candidates that thrive in this type of environment. As a Program Management Associate for the 2026 Election Cycle, you will be part of the Program team. You will be responsible for supporting internal voter turnout and persuasion programs to increase the impact and reputation of Movement Labs’ Core programs. Your primary focus will be on efficient and excellent delivery of design, research, and campaign services. This position is temporary and will run through November 20, 2026. This role is fully remote. Responsibilities: Program services Draft compelling and impactful messaging that align with voter turnout and persuasion program goals Take initiative in supporting experiment design , including drafting assets in</description>
-    <apply_url>https://apply.workable.com/j/123EEAE083/apply</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>remote</location_type>
-    <office_location/>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-11-30</valid_through>
-    <source>workable</source>
-    <logo>https://logo.clearbit.com/movementlabs.com</logo>
-    <image>https://logo.clearbit.com/movementlabs.com</image>
-    <company_logo>https://logo.clearbit.com/movementlabs.com</company_logo>
-  </job>
-  <job>
     <job_id>workable-Movement Labs-29E08EF93B</job_id>
     <title>Senior Fundraising Systems Manager | Fundraising Systems Director (Major Donor)</title>
     <company>Movement Labs</company>
@@ -6280,6 +6418,75 @@
     <company_logo>https://logo.clearbit.com/movementlabs.com</company_logo>
   </job>
   <job>
+    <job_id>workday-Politico-JR100525</job_id>
+    <title>Associate Producer, POLITICO Live</title>
+    <company>Politico</company>
+    <slug>associate-producer-politico-live-politico-jr100525</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/associate-producer-politico-live-politico-jr100525/</canonical_url>
+    <description>Job Description: What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. POLITICO seeks an event Associate Producer to support the North American team of POLITICO’s Global Live events team. The Associate Producer will support the production of high-profile, news-making events, programs, and experiences for the organization and its clients. This position plays an important role in establishing an elevated brand presence and contributing to best-in-class experiences across a wide portfolio of events spanning from Washington, DC to California, New York to Florida. The ideal candidate has great attention to detail, a passion for organization and logistics, is highly responsive and collaborativ e and is both creative and solution-oriented from event ideation through execution. This role is a full-time and in-person position based in Arlington, VA. What You'll Do: Support POLITICO Live</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Associate-Producer--POLITICO-Live_JR100525</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-01</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100524</job_id>
+    <title>Event Producer</title>
+    <company>Politico</company>
+    <slug>event-producer-politico-jr100524</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/event-producer-politico-jr100524/</canonical_url>
+    <description>Job Description: POLITICO is seeking an Events Producer to support the North American arm of POLITICO’s Global Live events team, based in Arlington, VA. The Events Producer will support the production of high-profile, newsworthy events, programs, and experiences advancing POLITICO’s newsroom and editorial franchises as well as creating impactful brand moments for the company and its clients What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. This position will play an important role in establishing an elevated brand presence, producing best-in-class experiences and providing operational support across a wide portfolio of events spanning from Washington, DC to California, New York to Florida, as well as Global initiatives and key moments. The ideal candidate has experience managing events from ideation to execution, is a self-starter, highly responsive and communicative, who</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Event-Producer_JR100524</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-01</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100522</job_id>
+    <title>Editorial Producer, POLITICO Live</title>
+    <company>Politico</company>
+    <slug>editorial-producer-politico-live-politico-jr100522</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/editorial-producer-politico-live-politico-jr100522/</canonical_url>
+    <description>Job Description: POLITICO Live is seeking an Editorial Producer to help shape the editorial programming for our summits, policy briefings and other events across North America. The Live Events Producer will help identify the issues, debates and developments that deserve to be on stage, determine the newsmakers and experts who can bring those conversations to life, and work with a team of journalists, producers and bookers to develop compelling programs for POLITICO audiences. The ideal candidate is an experienced reporter or producer with strong editorial judgment, a deep interest in politics and policy, and an instinct for what makes a story timely, consequential and engaging. This person should be equally comfortable digging into a complicated policy issue, identifying the right person to interview about it, developing sharp questions and writing compelling copy that makes an audience want to pay attention. Who You Are: You have strong news judgment and know what stories, issues and people deserve attention You thrive in a fast-moving news environment and make smart editorial decisions under pressure You can turn complex policy and political issues into compelling, timely and accessible live conversations You are a sharp researcher and interviewer who knows how to develop questions that get beyond talking points You are a strong writer who can make news engaging and urgent across formats You are curious, resourceful and quick to get up to speed on unfamiliar topics You are</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Editorial-Producer--POLITICO-Live_JR100522</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-01</date_posted>
+    <valid_through>2026-11-30</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
     <job_id>workday-Politico-JR100496</job_id>
     <title>Account Executive — AgencyIQ</title>
     <company>Politico</company>
@@ -6333,52 +6540,6 @@
     <canonical_url>https://jobs.thepolly.co/jobs/booking-producer-politico-jr100523/</canonical_url>
     <description>Job Description: What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO live events and the audio-video team represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. POLITICO is seeking a highly capable and dynamic booker to join our growing team, based in Arlington, VA. This producer will support the programming and production of our live events and podcasts by identifying, researching, and securing top-tier guests — from policymakers and thought leaders to subject-matter experts and newsmakers. This position will directly contribute to high-profile, newsworthy events, programs, and experiences that advance POLITICO’s newsroom and editorial franchises as well as creating impactful brand moments for POLITICO and its clients. The ideal candidate is a self-starter with strong communication skills, excellent judgment, someone who excels in a fast-paced and collaborative environment and who has a keen sense for news and topical relevance. You’ll work</description>
     <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Booking-Producer_JR100523</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>Arlington, VA</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-11-30</valid_through>
-    <source>workday</source>
-    <logo>https://logo.clearbit.com/politico.com</logo>
-    <image>https://logo.clearbit.com/politico.com</image>
-    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
-  </job>
-  <job>
-    <job_id>workday-Politico-JR100524</job_id>
-    <title>Event Producer</title>
-    <company>Politico</company>
-    <slug>event-producer-politico-jr100524</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/event-producer-politico-jr100524/</canonical_url>
-    <description>Job Description: POLITICO is seeking an Events Producer to support the North American arm of POLITICO’s Global Live events team, based in Arlington, VA. The Events Producer will support the production of high-profile, newsworthy events, programs, and experiences advancing POLITICO’s newsroom and editorial franchises as well as creating impactful brand moments for the company and its clients What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. This position will play an important role in establishing an elevated brand presence, producing best-in-class experiences and providing operational support across a wide portfolio of events spanning from Washington, DC to California, New York to Florida, as well as Global initiatives and key moments. The ideal candidate has experience managing events from ideation to execution, is a self-starter, highly responsive and communicative, who</description>
-    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Event-Producer_JR100524</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>Arlington, VA</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-11-30</valid_through>
-    <source>workday</source>
-    <logo>https://logo.clearbit.com/politico.com</logo>
-    <image>https://logo.clearbit.com/politico.com</image>
-    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
-  </job>
-  <job>
-    <job_id>workday-Politico-JR100525</job_id>
-    <title>Associate Producer, POLITICO Live</title>
-    <company>Politico</company>
-    <slug>associate-producer-politico-live-politico-jr100525</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/associate-producer-politico-live-politico-jr100525/</canonical_url>
-    <description>Job Description: What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. POLITICO seeks an event Associate Producer to support the North American team of POLITICO’s Global Live events team. The Associate Producer will support the production of high-profile, news-making events, programs, and experiences for the organization and its clients. This position plays an important role in establishing an elevated brand presence and contributing to best-in-class experiences across a wide portfolio of events spanning from Washington, DC to California, New York to Florida. The ideal candidate has great attention to detail, a passion for organization and logistics, is highly responsive and collaborativ e and is both creative and solution-oriented from event ideation through execution. This role is a full-time and in-person position based in Arlington, VA. What You'll Do: Support POLITICO Live</description>
-    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Associate-Producer--POLITICO-Live_JR100525</apply_url>
     <category>Political Media</category>
     <location_type>onsite</location_type>
     <office_location>Arlington, VA</office_location>
