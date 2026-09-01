@@ -77,6 +77,10 @@ GREENHOUSE_BOARDS = [
     # Policy think tanks & advocacy — added, confirmed live via job-boards.greenhouse.io
     "centerforamericanprogress",  # Center for American Progress — progressive policy think tank
     "reproductivefreedomforall",  # Reproductive Freedom for All (formerly NARAL Pro-Choice America)
+    "stateaffairs",              # State Affairs — state-level political/statehouse journalism
+                                  # (Statehouse Reporter, Managing Editor roles across AZ, IN, NC,
+                                  # CA and others). Confirmed live; fills a real gap national
+                                  # outlets don't cover -- state and local political reporting.
 ]
 
 GREENHOUSE_NAMES = {
@@ -103,6 +107,7 @@ GREENHOUSE_NAMES = {
     "voxmedia": "Vox Media",
     "centerforamericanprogress": "Center for American Progress",
     "reproductivefreedomforall": "Reproductive Freedom for All",
+    "stateaffairs": "State Affairs",
 }
 
 LEVER_COMPANIES = [
@@ -333,6 +338,7 @@ COMPANY_DOMAINS = {
     "CapitolWorks": "capitolworks.com",
     "Center for American Progress": "americanprogress.org",
     "Reproductive Freedom for All": "reproductivefreedomforall.org",
+    "State Affairs": "stateaffairs.com",
     "Stand Together": "standtogether.org",
     # Unverified guess — Proof's site is proof.com but this hasn't been
     # spot-checked against the real logo the way the others above have.
