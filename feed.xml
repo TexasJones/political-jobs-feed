@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-09-02T12:43:17Z" count="296">
+<jobs generated="2026-09-03T12:46:03Z" count="293">
   <job>
     <job_id>greenhouse-ACLU-8618052002</job_id>
     <title>Data Architect</title>
@@ -17,7 +17,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -40,7 +40,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -63,7 +63,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -86,7 +86,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -109,7 +109,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/aclu.org</logo>
+    <image>https://logo.clearbit.com/aclu.org</image>
+    <company_logo>https://logo.clearbit.com/aclu.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-ACLU-8766173002</job_id>
+    <title>Fall 2027 National Security Fellowship, National Security Project</title>
+    <company>ACLU</company>
+    <slug>fall-2027-national-security-fellowship-national-security-project-aclu-8766173002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/fall-2027-national-security-fellowship-national-security-project-aclu-8766173002/</canonical_url>
+    <description>&lt;h2&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18pt;&quot;&gt;&lt;strong&gt;ABOUT THE JOB&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt; &lt;div class=&quot;x_elementToProof&quot;&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;The ACLU seeks applicants for a full-time &lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;two-year fellowship&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; position in the &lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;National Security Project&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; of the ACLU’s National office in &lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;New York, NY.&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; This is a &lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;hybrid role&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; that has an in-office requirement of two (2) days per week or eight (8) days per month.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559685&amp;quot;:14,&amp;quot;335559737&amp;quot;:446,&amp;quot;335559739&amp;quot;:120,&amp;quot;335559740&amp;quot;:264,&amp;quot;335559991&amp;quot;:14}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;h2&gt;&lt;span style=&quot;font-size: 14pt; color: rgb(0, 0, 0);&quot;&gt;OVERVIEW&amp;nbsp;&lt;/span&gt;&lt;/h2&gt; &lt;div&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;The National Security Project fights for people and communities harmed by the government in the name of national security, particularly people of color and other marginalized communities who are disproportionately targeted. Through litigation, advocacy, and public education, the Project strives to ensure that people are able to participate fully in civic life and are free from discrimination,</description>
+    <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8766173002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>hybrid</location_type>
+    <office_location>New York, New York, United States</office_location>
+    <location_limit>United States</location_limit>
+    <location>Hybrid</location>
+    <post_state>United States</post_state>
+    <employment_type>INTERN</employment_type>
+    <type>Internship</type>
+    <date_posted>2026-09-02</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -132,7 +155,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -155,7 +178,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -178,7 +201,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-05-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -201,7 +224,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -224,7 +247,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-05-04</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -247,7 +270,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-16</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -270,7 +293,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-08</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -293,7 +316,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -316,7 +339,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -339,7 +362,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -362,7 +385,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -385,7 +408,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -408,7 +431,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -431,7 +454,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -454,7 +477,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -477,7 +500,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -500,7 +523,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -523,7 +546,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
@@ -546,7 +569,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
@@ -569,7 +592,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
@@ -592,7 +615,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -615,7 +638,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -638,7 +661,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -661,7 +684,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -684,7 +707,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -707,7 +730,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -730,30 +753,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>greenhouse</source>
-    <logo>https://logo.clearbit.com/berlinrosen.com</logo>
-    <image>https://logo.clearbit.com/berlinrosen.com</image>
-    <company_logo>https://logo.clearbit.com/berlinrosen.com</company_logo>
-  </job>
-  <job>
-    <job_id>greenhouse-BerlinRosen-8614638002</job_id>
-    <title>Account Supervisor, Consumer Tech &amp; Lifestyle Media</title>
-    <company>BerlinRosen</company>
-    <slug>account-supervisor-consumer-tech-lifestyle-media-berlinrosen-8614638002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-supervisor-consumer-tech-lifestyle-media-berlinrosen-8614638002/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;ABOUT BERLINROSEN&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;BerlinRosen is part of Orchestra, a strategic communications and marketing company built for today’s complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution. Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, and more. Made up of leading firms &lt;a href=&quot;https://www.berlinrosen.com/&quot;&gt;BerlinRosen&lt;/a&gt;, &lt;a href=&quot;https://www.civitaspublicaffairs.com/&quot;&gt;Civitas Public Affairs Group&lt;/a&gt;, &lt;a href=&quot;http://derris.com/&quot;&gt;Derris&lt;/a&gt;, &lt;a href=&quot;https://www.glenechogroup.com/&quot;&gt;Glen Echo Group&lt;/a&gt;, &lt;a href=&quot;http://inkhouse.com/&quot;&gt;Inkhouse&lt;/a&gt;, &lt;a href=&quot;http://m18pr.com/&quot;&gt;M18&lt;/a&gt;, &lt;a href=&quot;https://messagelab.com/&quot;&gt;Message Lab&lt;/a&gt;, &lt;a href=&quot;https://thisisonward.com/&quot;&gt;Onward&lt;/a&gt; and &lt;a href=&quot;https://www.smallgirlspr.com/&quot;&gt;Small Girls PR&lt;/a&gt;. It also launched &lt;a href=&quot;http://www.brightmode.com/&quot;&gt;Brightmode&lt;/a&gt;, a talent acquisition firm for communications professionals, and &lt;a href=&quot;https://www.versusmediagroup.com/&quot;&gt;Versus Media Group&lt;/a&gt;, a strategy-first political media team. Learn more at &lt;a href=&quot;https://www.orchestraco.com/&quot;&gt;www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and</description>
-    <apply_url>https://job-boards.greenhouse.io/berlinrosen/jobs/8614638002</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>New York, N.Y.</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -776,7 +776,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -799,7 +799,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -822,7 +822,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -845,7 +845,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -868,7 +868,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -891,7 +891,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -914,7 +914,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -937,7 +937,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -960,7 +960,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -983,7 +983,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1006,7 +1006,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1029,7 +1029,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1052,7 +1052,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1075,7 +1075,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1098,7 +1098,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1121,7 +1121,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1144,7 +1144,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1167,7 +1167,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1190,7 +1190,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1213,7 +1213,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1236,7 +1236,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1259,7 +1259,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1282,7 +1282,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1305,7 +1305,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1328,7 +1328,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1351,7 +1351,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1374,7 +1374,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1397,7 +1397,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1420,7 +1420,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1443,7 +1443,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1466,7 +1466,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1489,7 +1489,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1512,7 +1512,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1535,7 +1535,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1558,7 +1558,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1581,7 +1581,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1604,7 +1604,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1627,7 +1627,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/fleishmanhillard.com</logo>
     <image>https://logo.clearbit.com/fleishmanhillard.com</image>
@@ -1650,7 +1650,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/fleishmanhillard.com</logo>
     <image>https://logo.clearbit.com/fleishmanhillard.com</image>
@@ -1673,7 +1673,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/civisanalytics.com</logo>
     <image>https://logo.clearbit.com/civisanalytics.com</image>
@@ -1696,7 +1696,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1719,7 +1719,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1742,7 +1742,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1765,7 +1765,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1788,7 +1788,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1811,7 +1811,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1834,7 +1834,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1857,7 +1857,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1880,7 +1880,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1902,8 +1902,31 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/axios.com</logo>
+    <image>https://logo.clearbit.com/axios.com</image>
+    <company_logo>https://logo.clearbit.com/axios.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Axios-8174320</job_id>
+    <title>Administrative Assistant</title>
+    <company>Axios</company>
+    <slug>administrative-assistant-axios-8174320</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/administrative-assistant-axios-8174320/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;The big picture:&lt;/strong&gt; Axios is a media company dedicated to providing trustworthy, award-winning news content in an audience-first format. We’re hiring an administrative assistant to support the Executive Assistant to the Founders Office with the fast-moving personal, family, and logistical needs of Axios co-founders Jim VandeHei and Mike Allen.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters: &lt;/strong&gt;This role will provide essential administrative support to the Founders Office, helping keep personal logistics, travel details, expenses, family needs, and other recurring tasks organized and moving with care, discretion and strong follow-through.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Go deeper: &lt;/strong&gt;This is a full-time support role for someone who is energized by high-trust, high-context work and wants to grow in an executive support environment.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;The puzzle: &lt;/strong&gt;How do you help the Founders Office run more smoothly by taking ownership of the details that can otherwise slow the system down? Bonus: you’re excited to use AI tools to make admin workflows smarter, faster and more organized.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;The support:&lt;/strong&gt; You’ll report to the Executive Assistant and help create more capacity across the Founders Office by managing recurring logistics, personal tasks, family-related needs and administrative follow-through.&lt;/li&gt; &lt;li&gt;&lt;strong&gt;The mix:&amp;nbsp;&lt;/strong&gt;This role will include personal and family logistics, travel support, expenses, vendor coordination, errands,</description>
+    <apply_url>https://job-boards.greenhouse.io/axios/jobs/8174320</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1925,8 +1948,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1948,8 +1971,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1971,8 +1994,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1994,8 +2017,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2017,8 +2040,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2040,8 +2063,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2063,8 +2086,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2086,8 +2109,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2109,8 +2132,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2132,8 +2155,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2155,8 +2178,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2178,8 +2201,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2201,8 +2224,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2224,8 +2247,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2247,8 +2270,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2270,8 +2293,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2293,8 +2316,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2316,8 +2339,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2339,8 +2362,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2362,8 +2385,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2386,7 +2409,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2409,7 +2432,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2432,7 +2455,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-08</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2455,7 +2478,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2478,7 +2501,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-19</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2501,30 +2524,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>greenhouse</source>
-    <logo>https://logo.clearbit.com/semafor.com</logo>
-    <image>https://logo.clearbit.com/semafor.com</image>
-    <company_logo>https://logo.clearbit.com/semafor.com</company_logo>
-  </job>
-  <job>
-    <job_id>greenhouse-Semafor-4716625005</job_id>
-    <title>Executive Business Partner</title>
-    <company>Semafor</company>
-    <slug>executive-business-partner-semafor-4716625005</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/executive-business-partner-semafor-4716625005/</canonical_url>
-    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We are seeking a dynamic, highly organized Executive Business Partner &amp;amp; Office Manager to serve as the operational deputy to Semafor’s Chief Executive Officer, while leading the day-to-day function of our Washington, D.C. headquarters.&lt;/p&gt; &lt;p&gt;This is a dual-function role by design. The person who steps into it will provide high-caliber executive support — managing schedules, driving cross-functional projects, and serving as a trusted extension of leadership — while also ensuring that the DC office operates with the polish, intentionality, and reliability that Semafor’s brand</description>
-    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4716625005</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>Washington DC</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-30</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2547,7 +2547,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/semafor.com</logo>
+    <image>https://logo.clearbit.com/semafor.com</image>
+    <company_logo>https://logo.clearbit.com/semafor.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Semafor-4716625005</job_id>
+    <title>Executive Business Partner</title>
+    <company>Semafor</company>
+    <slug>executive-business-partner-semafor-4716625005</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/executive-business-partner-semafor-4716625005/</canonical_url>
+    <description>&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&lt;br&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Semafor is a global news platform for an increasingly complex world in which consumers are overwhelmed by too many news sources and unsure what to trust. We are building Semafor to enable world-class journalists to deliver reporting and insights with rigor in journalistic forms that ensure a new level of transparency. Our editors and reporters distill the most important stories from all over in formats that uncover the forces shaping the stories, explain the interests behind polarizing narratives, and replenish the stock of shared facts. As a global platform, Semafor recognizes that smart people can disagree and that informed readers need to understand alternative points of view from competing centers of power and culture in a multi-polar world. Want to join us? Read on.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;We are seeking a dynamic, highly organized Executive Business Partner &amp;amp; Office Manager to serve as the operational deputy to Semafor’s Chief Executive Officer, while leading the day-to-day function of our Washington, D.C. headquarters.&lt;/p&gt; &lt;p&gt;This is a dual-function role by design. The person who steps into it will provide high-caliber executive support — managing schedules, driving cross-functional projects, and serving as a trusted extension of leadership — while also ensuring that the DC office operates with the polish, intentionality, and reliability that Semafor’s brand</description>
+    <apply_url>https://job-boards.greenhouse.io/semafor/jobs/4716625005</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Washington DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-07-30</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2570,7 +2593,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2593,7 +2616,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-16</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2616,7 +2639,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2639,7 +2662,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2662,7 +2685,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2685,7 +2708,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2708,7 +2731,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2731,7 +2754,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2754,7 +2777,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2777,7 +2800,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2800,7 +2823,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2823,7 +2846,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2846,7 +2869,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2869,7 +2892,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-09</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2892,7 +2915,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2915,7 +2938,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2938,7 +2961,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-04</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/voxmedia.com</logo>
+    <image>https://logo.clearbit.com/voxmedia.com</image>
+    <company_logo>https://logo.clearbit.com/voxmedia.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Vox Media-8174076</job_id>
+    <title>Head of Social, Vulture</title>
+    <company>Vox Media</company>
+    <slug>head-of-social-vulture-vox-media-8174076</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/head-of-social-vulture-vox-media-8174076/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;HEAD OF SOCIAL, VULTURE&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Reports To:&lt;/strong&gt; Managing Editor&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Social media is a linchpin of Vulture’s editorial operation — it’s an essential component of everything we produce and the businesses that support those efforts. We’re looking for a &lt;strong&gt;Head of Social&lt;/strong&gt; to oversee that department. This person and their team will collaborate on all the work that Vulture produces and promotes, including articles, video, podcasts, games, and live events. The ideal candidate is a strategic thinker and lover of culture who is as comfortable in a creative brainstorming session as they are poring over editorial analytics. The job is fast-paced and often involves juggling multiple projects, so strong prioritization and communication skills are vital.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Determine the most effective ways to reflect Vulture’s sensibility, tone, and perspective across key platforms.&amp;nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Create and publish engaging content.&amp;nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Establish the necessary social strategies and tactics to help Vulture meet goals relating to audience reach and engagement, subscription conversion, sponsorship fulfillment, and brand-building.&amp;nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Monitor social performance and use data-driven insights to refine tactics and influence editorial decisions.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+    <apply_url>http://boards.greenhouse.io/voxmedia/jobs/8174076?gh_jid=8174076</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>New York, NY</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-02</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2961,7 +3007,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2984,7 +3030,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3007,7 +3053,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3030,7 +3076,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3053,7 +3099,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3076,7 +3122,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-09</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3099,7 +3145,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/voxmedia.com</logo>
+    <image>https://logo.clearbit.com/voxmedia.com</image>
+    <company_logo>https://logo.clearbit.com/voxmedia.com</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Vox Media-8168194</job_id>
+    <title>Video Producer, On With Kara Swisher</title>
+    <company>Vox Media</company>
+    <slug>video-producer-on-with-kara-swisher-vox-media-8168194</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/video-producer-on-with-kara-swisher-vox-media-8168194/</canonical_url>
+    <description>&lt;p&gt;The Vox Media Podcast Network is hiring a Video Producer for its award‑winning show &lt;em&gt;On with Kara Swisher&lt;/em&gt;. The show reaches a large, influential audience and regularly welcomes headline‑makers across politics (Kamala Harris, Bernie Sanders, Pete Buttegieg), tech (Sam Altman, Geoffrey Hinton, Bill Gates), and culture (Margaret Atwood, Laverne Cox, Ronny Chieng).&amp;nbsp;&lt;/p&gt; &lt;p&gt;The Video Producer manages the technical workflows for full episodes and social video, creates thumbnails and other assets, and oversees publishing. They will deliver polished, high-performing content tailored to YouTube and other social platforms, and consult on strategy. This is a hands-on role for an experienced visual storyteller with a background in news.&amp;nbsp;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;WHAT YOU'LL DO&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;Edit and produce longform video episodes for platforms like YouTube, ensuring strong pacing, dynamic visuals, and high production value across remote, in-studio, and hybrid formats.&lt;/li&gt; &lt;li&gt;Create platform-native shortform video content optimized for TikTok, Instagram Reels, and YouTube Shorts—translating strong podcast moments into compelling visual stories.&lt;/li&gt; &lt;li&gt;Design and implement scalable visual elements (motion graphics, captions, lower-thirds, etc.) that align with each show’s tone and target platform.&lt;/li&gt; &lt;li&gt;Manage and mentor freelance editors and designers, assigning work, giving creative feedback, and ensuring brand consistency and quality across</description>
+    <apply_url>http://boards.greenhouse.io/voxmedia/jobs/8168194?gh_jid=8168194</apply_url>
+    <category>Political Media</category>
+    <location_type>hybrid</location_type>
+    <office_location>Remote (US Only)</office_location>
+    <location_limit>United States</location_limit>
+    <location>Hybrid</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-02</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3122,7 +3191,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3145,7 +3214,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3168,7 +3237,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-30</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3191,7 +3260,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3214,7 +3283,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3237,7 +3306,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3260,7 +3329,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3283,7 +3352,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3306,7 +3375,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3329,7 +3398,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
@@ -3352,7 +3421,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
@@ -3375,57 +3444,11 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2021-01-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
     <company_logo>https://logo.clearbit.com/emilyslist.org</company_logo>
-  </job>
-  <job>
-    <job_id>lever-Global Strategy Group-d0135ef4-7c33-4fd3-ab52-6d690df7cdef</job_id>
-    <title>Senior Director, Insights Research</title>
-    <company>Global Strategy Group</company>
-    <slug>senior-director-insights-research-global-strategy-group-d0135ef4-7c33-4fd3-ab52-6d690df7cdef</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-director-insights-research-global-strategy-group-d0135ef4-7c33-4fd3-ab52-6d690df7cdef/</canonical_url>
-    <description>Global Strategy Group (GSG) works at the intersection of business, politics, and causes. Our team is made up of a great group of professionals who come from various backgrounds in strategic communications, research, and public affairs. Our culture and values play an integral role in how we operate, and we work hard to bring passion, energy, and drive to everything we do! Global Strategy Group is the go-to public affairs, communications, and research partner for brands, causes, and campaigns. We work with our clients to build their reputation, tackle big challenges, and win. We are seeking a Senior Director to join our Insights research team. This role focuses on public affairs and corporate reputation research — helping clients strengthen their reputation, guide public affairs initiatives, and craft compelling positioning that resonates with key stakeholders. The ideal candidate will be based in Washington, DC and bring experience in public affairs, political, and/or corporate reputation research. Candidates should understand how political, legislative, regulatory, and media dynamics intersect — and how research can help organizations navigate complex issues. Qualified candidates must have experience leading quantitative (surveys) and qualitative (focus groups and online discussion boards) research projects from beginning to end. The role requires a proactive and resourceful researcher with superior attention to detail and critical thinking skills, who enjoys doing the work</description>
-    <apply_url>https://jobs.lever.co/globalstrategygroup/d0135ef4-7c33-4fd3-ab52-6d690df7cdef</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>onsite</location_type>
-    <office_location>Washington, DC</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-05-19</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>lever</source>
-    <logo>https://logo.clearbit.com/globalstrategygroup.com</logo>
-    <image>https://logo.clearbit.com/globalstrategygroup.com</image>
-    <company_logo>https://logo.clearbit.com/globalstrategygroup.com</company_logo>
-  </job>
-  <job>
-    <job_id>lever-FiscalNote-72e921a9-e483-42b9-8ece-eb790c55eb28</job_id>
-    <title>Account Executive</title>
-    <company>FiscalNote</company>
-    <slug>account-executive-fiscalnote-72e921a9-e483-42b9-8ece-eb790c55eb28</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-fiscalnote-72e921a9-e483-42b9-8ece-eb790c55eb28/</canonical_url>
-    <description>About the Position FiscalNote Europe is looking for a London-based Account Executive to join our EMEA Business Development team. Account Executives are central to our market expansion and revenue growth. They build genuine strategic partnerships with new customers by developing a deep understanding of their goals and challenges, guiding senior-level conversations about how organisations can use government and policy intelligence to inform their strategy. The ideal candidate brings a bias for action, intellectual curiosity, and a true executive mindset. About the Business Development Team The Business Development team at FiscalNote Europe is growing fast, expanding our client base across the continent. Our mission is to help clients navigate risk, opportunity, and uncertainty with innovative, data-driven solutions, delivered through our platform of software and information-services products. The team is a diverse mix of experienced professionals and newer talent, all supported by strong opportunities for learning and career development, rooted in FiscalNote's values and mission. About You You are a driven, collaborative sales professional with a genuine interest in politics and policy. You know how to identify opportunity within your territory and move quickly from insight to action. You lead well-prepared, tailored demos and aren't afraid to ask the hard questions. You present yourself with warmth and professionalism, and you bring intellectual curiosity to every client</description>
-    <apply_url>https://jobs.lever.co/fiscalnote/72e921a9-e483-42b9-8ece-eb790c55eb28</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>London</office_location>
-    <location_limit>United Kingdom</location_limit>
-    <location>Onsite</location>
-    <post_state>United Kingdom</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-06-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>lever</source>
-    <logo>https://logo.clearbit.com/fiscalnote.com</logo>
-    <image>https://logo.clearbit.com/fiscalnote.com</image>
-    <company_logo>https://logo.clearbit.com/fiscalnote.com</company_logo>
   </job>
   <job>
     <job_id>lever-FiscalNote-a00d7d59-ecab-41e6-8e93-84b0a46b67b8</job_id>
@@ -3444,7 +3467,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-09</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3467,7 +3490,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3490,7 +3513,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3513,7 +3536,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3536,7 +3559,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3559,7 +3582,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3582,7 +3605,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3605,7 +3628,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-08</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3628,7 +3651,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3651,7 +3674,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3674,7 +3697,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3697,7 +3720,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3720,7 +3743,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3743,7 +3766,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3766,7 +3789,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3778,7 +3801,7 @@
     <company>FiscalNote</company>
     <slug>staff-writer-congressional-leadership-fiscalnote-a87e0772-001f-41fa-b698-48a1da27b5bb</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/staff-writer-congressional-leadership-fiscalnote-a87e0772-001f-41fa-b698-48a1da27b5bb/</canonical_url>
-    <description>About the Position CQ Roll Call seeks an experienced, versatile and motivated journalist to join a team of reporters covering the elected leadership of the House and Senate and Congress’ factions, caucuses and group dynamics. This is a role for someone who can generate distinctive coverage for a sophisticated audience. The ideal candidate has excellent news judgment, superior writing and reporting skills, and a strong record of breaking news and developing sources. You can connect the dots and can balance spot news and unique enterprise. Experience covering Congress strongly preferred. About the CQ Roll Call Team Washington’s CQ Roll Call brings up-to-date news, analysis, and insights to senior decision-makers on Capitol Hill. This trusted source of unbiased, impartial information provides authoritative, nonpartisan and accurate congressional news and legislative tracking tools to its subscribers. Through more than 40 print and online products, CQ Roll Call offers insight on the people and institutions that influence public policy and legislation, keeping readers updated on a weekly, daily and real-time basis with coverage of every legislative action in Congress via breaking news, bill tracking, and member profiles. About You You report and write for a sophisticated audience interested in politics and policy, pursuing the truth from a variety of sources and reflecting their positions with impartiality. Collaborative yet independent, you know when to work with colleagues and</description>
+    <description>About the Position CQ Roll Call seeks an experienced, versatile and motivated journalist to join a team of reporters covering the elected leadership of the House factions, caucuses and group dynamics. This is a role for someone who can generate distinctive coverage for a sophisticated audience. The ideal candidate has excellent news judgment, superior writing and reporting skills, and a strong record of breaking news and developing sources. You can connect the dots and can balance spot news and unique enterprise. Experience covering Congress strongly preferred. About the CQ Roll Call Team Washington’s CQ Roll Call brings up-to-date news, analysis and insights to senior decision-makers on Capitol Hill. This trusted source of unbiased, impartial information provides authoritative, nonpartisan and accurate congressional news and legislative tracking tools to its subscribers. Through more than 40 print and online products, CQ Roll Call offers insight on the people and institutions that influence public policy and legislation, keeping readers updated on a weekly, daily and real-time basis with coverage of every legislative action in Congress via breaking news, bill tracking and member profiles. About You You report and write for a sophisticated audience interested in politics and policy, pursuing the truth from a variety of sources and reflecting their positions with impartiality. Collaborative yet independent, you know when to work with colleagues and when to break out stories</description>
     <apply_url>https://jobs.lever.co/fiscalnote/a87e0772-001f-41fa-b698-48a1da27b5bb</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>onsite</location_type>
@@ -3789,7 +3812,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3812,7 +3835,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
@@ -3835,7 +3858,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
@@ -3858,34 +3881,11 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
     <company_logo>https://logo.clearbit.com/thefp.com</company_logo>
-  </job>
-  <job>
-    <job_id>lever-Nationaljournal-baa76137-3e06-488b-9573-b62a35669a24</job_id>
-    <title>Design &amp; Marketing Manager</title>
-    <company>Nationaljournal</company>
-    <slug>design-marketing-manager-nationaljournal-baa76137-3e06-488b-9573-b62a35669a24</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/design-marketing-manager-nationaljournal-baa76137-3e06-488b-9573-b62a35669a24/</canonical_url>
-    <description>Gravity Research is looking for a Design &amp; Marketing Manager who can turn smart ideas and rigorous research into marketing that gets noticed and gets results. This is a highly visible, hands-on role for a creative marketer who is equally comfortable sharpening a pitch deck, launching a campaign, bringing a new product to market, and experimenting with AI to make great work happen faster. Gravity Research is a premier insights firm helping leading companies protect their reputations with forward-looking research and analysis. Our mission is to empower organizations to anticipate risk, spot opportunities, and rationalize reputational concerns against a backdrop of evolving public pressures. The RoleGravity Research is seeking a Design &amp; Marketing Manager to own the company's marketing execution, sales enablement, and visual design across our research products. This role sits within our Revenue division and works closely with revenue leadership to support brand positioning through polished, on-brand marketing assets. This position will also support new go-to-market efforts as Gravity expands its product suite. You will partner closely with leaders across Revenue, Research, and Content to keep our marketing engine running. This role is expected to be AI-fluent, leveraging the latest tools to drive consistency and efficiency across design and production workflows. This is a hands-on ownership role for someone who can operate independently, manage competing deadlines, and produce</description>
-    <apply_url>https://jobs.lever.co/nationaljournal/baa76137-3e06-488b-9573-b62a35669a24</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>onsite</location_type>
-    <office_location>Washington DC</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>lever</source>
-    <logo/>
-    <image/>
-    <company_logo/>
   </job>
   <job>
     <job_id>lever-Nationaljournal-983f02c3-a359-4aa3-93e7-f5ec5ef7aaf6</job_id>
@@ -3904,7 +3904,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3927,7 +3927,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3950,7 +3950,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3973,7 +3973,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -3996,7 +3996,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4019,7 +4019,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-04</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4042,7 +4042,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4065,7 +4065,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-19</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4088,7 +4088,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4111,7 +4111,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4134,7 +4134,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4157,7 +4157,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4180,7 +4180,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2023-08-08</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4203,7 +4203,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4226,7 +4226,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-23</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4249,7 +4249,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4272,7 +4272,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4295,7 +4295,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4318,7 +4318,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-12-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4341,7 +4341,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4364,7 +4364,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4387,7 +4387,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4410,7 +4410,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-05-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4433,7 +4433,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4456,7 +4456,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4479,7 +4479,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4502,7 +4502,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4525,7 +4525,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4548,7 +4548,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2023-07-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4571,7 +4571,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4594,7 +4594,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4617,7 +4617,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4640,7 +4640,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4663,7 +4663,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4686,7 +4686,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4709,7 +4709,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4732,7 +4732,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4755,7 +4755,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4778,7 +4778,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4801,7 +4801,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4824,7 +4824,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4847,7 +4847,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4870,7 +4870,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4893,7 +4893,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4916,7 +4916,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4939,7 +4939,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4962,7 +4962,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4985,7 +4985,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-09</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5008,7 +5008,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5031,7 +5031,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5054,7 +5054,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5077,7 +5077,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5100,7 +5100,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5123,7 +5123,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5146,7 +5146,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5169,7 +5169,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5192,7 +5192,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5215,7 +5215,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5238,7 +5238,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-04-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5261,7 +5261,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5284,7 +5284,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-16</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5307,7 +5307,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-09</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5330,7 +5330,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-07</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5353,7 +5353,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5376,7 +5376,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5399,7 +5399,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-18</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5422,7 +5422,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5445,7 +5445,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5468,7 +5468,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5491,30 +5491,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>lever</source>
-    <logo>https://logo.clearbit.com/standtogether.org</logo>
-    <image>https://logo.clearbit.com/standtogether.org</image>
-    <company_logo>https://logo.clearbit.com/standtogether.org</company_logo>
-  </job>
-  <job>
-    <job_id>lever-Stand Together-944bd378-254e-4307-8479-d668a99b4c71</job_id>
-    <title>State Director, Indiana</title>
-    <company>Stand Together</company>
-    <slug>state-director-indiana-stand-together-944bd378-254e-4307-8479-d668a99b4c71</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/state-director-indiana-stand-together-944bd378-254e-4307-8479-d668a99b4c71/</canonical_url>
-    <description>Americans for Prosperity (AFP) is the premier grassroots organization focused on advocating solutions to the country’s greatest challenges. We recognize that tens of millions of Americans are frustrated with the extreme partisanship in government that keeps common-sense reforms from being passed, and instead seek to stand with policy leaders who are committed to finding a better way. Americans for Prosperity is part of the Stand Together philanthropic community. The IndianaState Director is the senior leader responsible for driving statewide public policy strategy, grassroots organizing, government affairs, and coalition engagement. This role serves as the primary spokesperson and strategic leader for AFP-Indiana, overseeing a high-performing team and advancing policy outcomes at the local, state, and federal levels. You will partner closely with legislators, donors, activists, coalition partners, and national stakeholders to execute impactful campaigns and achieve measurable policy wins.</description>
-    <apply_url>https://jobs.lever.co/standtogether/944bd378-254e-4307-8479-d668a99b4c71</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Indiana</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5537,7 +5514,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5560,7 +5537,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5583,7 +5560,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5606,7 +5583,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5629,7 +5606,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-01</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5652,7 +5629,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-11-24</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5675,30 +5652,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-16</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>ashby</source>
-    <logo>https://logo.clearbit.com/morningconsult.com</logo>
-    <image>https://logo.clearbit.com/morningconsult.com</image>
-    <company_logo>https://logo.clearbit.com/morningconsult.com</company_logo>
-  </job>
-  <job>
-    <job_id>ashby-Morning Consult-1e4a765b-6626-4af6-ac89-13b63aac0141</job_id>
-    <title>Senior Manager, Field &amp; Event Marketing</title>
-    <company>Morning Consult</company>
-    <slug>senior-manager-field-event-marketing-morning-consult-1e4a765b-6626-4af6-ac89-13b63aac0141</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-manager-field-event-marketing-morning-consult-1e4a765b-6626-4af6-ac89-13b63aac0141/</canonical_url>
-    <description>About Morning Consult Morning Consult is a global decision intelligence company changing how modern leaders make smarter, faster, better decisions. The company pairs its proprietary high-frequency data with applied artificial intelligence to better inform decisions on what people think and how they will act. This role will be based in our New York, NY or Washington, DC office on a hybrid basis, or remote in San Francisco, CA. Our award-winning, modern, open-concept offices are accessible by public transportation and in close proximity to great restaurants and shopping. Join us in the office for catered lunch on Tuesdays, Wednesdays, and Thursdays, or grab a beverage from the fridge for an impromptu after-work happy hour! About the Role Morning Consult is hiring a Senior Manager, Field &amp; Event Marketing to build and own the company’s event and field marketing program. This is a new function within a newly structured marketing team led by our Chief Growth Officer, and it is the first dedicated field marketing hire at the company. The right candidate brings two things in equal measure: the operational discipline to execute flawless events intended for an enterprise audience, and the commercial instincts to show strong ROI from experiential marketing investments. This person knows how to select the right trade shows &amp; conferences, build the right presence, brief the right speakers, and ensure that every event investment connects back to pipeline and commercial relationships for</description>
-    <apply_url>https://jobs.ashbyhq.com/morningconsult/1e4a765b-6626-4af6-ac89-13b63aac0141/application</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>hybrid</location_type>
-    <office_location>New York, NY</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-05-04</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5721,30 +5675,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>ashby</source>
-    <logo>https://logo.clearbit.com/morningconsult.com</logo>
-    <image>https://logo.clearbit.com/morningconsult.com</image>
-    <company_logo>https://logo.clearbit.com/morningconsult.com</company_logo>
-  </job>
-  <job>
-    <job_id>ashby-Morning Consult-8b19d9b5-5e29-47aa-8a5c-5aa14e0f0e4e</job_id>
-    <title>Lead Account Director, Advocacy and Public Affairs</title>
-    <company>Morning Consult</company>
-    <slug>lead-account-director-advocacy-and-public-affairs-morning-consult-8b19d9b5-5e29-47aa-8a5c-5aa14e0f0e4e</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/lead-account-director-advocacy-and-public-affairs-morning-consult-8b19d9b5-5e29-47aa-8a5c-5aa14e0f0e4e/</canonical_url>
-    <description>About Morning Consult Morning Consult is a global decision intelligence company changing how modern leaders make smarter, faster, better decisions. The company pairs its proprietary high-frequency data with rigorous analysis to better inform decisions on what people think and how they will act. This role is based in our Washington, DC office on a hybrid working arrangement. Our award-winning and modern, open concept offices are located in Washington, DC, Chicago, IL and New York, NY. All three offices are accessible by public transportation and in close proximity to great restaurants and shopping. Join us in the office for catered lunch on Tuesdays and Wednesdays or grab a beverage from the fridge for an impromptu after-work happy hour! About Morning Consult Intelligence Morning Consult Intelligence (MCI) delivers always-on, high-frequency survey data and advanced analytics that empower decision-makers with forward-looking insights on consumers, brands, politics, and global trends. Our proprietary platform provides real-time intelligence that enables institutional clients to anticipate change, identify opportunity, and manage risk with confidence. About the Role Morning Consult is seeking a Lead Account Director, Advocacy and Public Affairs on our Solutions Sales team— a player-coach who carries and closes their own book of business while simultaneously managing and developing a small team of sellers focused on the DC advocacy and policy ecosystem. This is not a pure manager</description>
-    <apply_url>https://jobs.ashbyhq.com/morningconsult/8b19d9b5-5e29-47aa-8a5c-5aa14e0f0e4e/application</apply_url>
-    <category>Public Affairs &amp; Lobbying</category>
-    <location_type>hybrid</location_type>
-    <office_location>Washington, DC</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-05-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5767,30 +5698,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-16</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>ashby</source>
-    <logo>https://logo.clearbit.com/morningconsult.com</logo>
-    <image>https://logo.clearbit.com/morningconsult.com</image>
-    <company_logo>https://logo.clearbit.com/morningconsult.com</company_logo>
-  </job>
-  <job>
-    <job_id>ashby-Morning Consult-777272ec-ea84-4c1d-8b70-5c4e85b4c946</job_id>
-    <title>Senior Manager, Field &amp; Event Marketing</title>
-    <company>Morning Consult</company>
-    <slug>senior-manager-field-event-marketing-morning-consult-777272ec-ea84-4c1d-8b70-5c4e85b4c946</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-manager-field-event-marketing-morning-consult-777272ec-ea84-4c1d-8b70-5c4e85b4c946/</canonical_url>
-    <description>About Morning Consult Morning Consult is a global decision intelligence company changing how modern leaders make smarter, faster, better decisions. The company pairs its proprietary high-frequency data with applied artificial intelligence to better inform decisions on what people think and how they will act. This role will be based in our New York, NY or Washington, DC office on a hybrid basis, or remote in San Francisco, CA. Our award-winning, modern, open-concept offices are accessible by public transportation and in close proximity to great restaurants and shopping. Join us in the office for catered lunch on Tuesdays, Wednesdays, and Thursdays, or grab a beverage from the fridge for an impromptu after-work happy hour! About the Role Morning Consult is hiring a Senior Manager, Field &amp; Event Marketing to build and own the company’s event and field marketing program. This is a new function within a newly structured marketing team led by our Chief Growth Officer, and it is the first dedicated field marketing hire at the company. The right candidate brings two things in equal measure: the operational discipline to execute flawless events intended for an enterprise audience, and the commercial instincts to show strong ROI from experiential marketing investments. This person knows how to select the right trade shows &amp; conferences, build the right presence, brief the right speakers, and ensure that every event investment connects back to pipeline and commercial relationships for</description>
-    <apply_url>https://jobs.ashbyhq.com/morningconsult/777272ec-ea84-4c1d-8b70-5c4e85b4c946/application</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>hybrid</location_type>
-    <office_location>San Francisco - Remote</office_location>
-    <location_limit>United States</location_limit>
-    <location>Hybrid</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5813,7 +5721,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5836,7 +5744,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5859,7 +5767,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5882,7 +5790,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/fp1strategies.com</logo>
     <image>https://logo.clearbit.com/fp1strategies.com</image>
@@ -5905,7 +5813,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/fp1strategies.com</logo>
     <image>https://logo.clearbit.com/fp1strategies.com</image>
@@ -5928,7 +5836,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5951,7 +5859,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-03</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5974,7 +5882,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5997,7 +5905,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-26</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6020,7 +5928,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6043,7 +5951,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6066,7 +5974,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6089,30 +5997,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>workable</source>
-    <logo>https://logo.clearbit.com/bpigroup.com</logo>
-    <image>https://logo.clearbit.com/bpigroup.com</image>
-    <company_logo>https://logo.clearbit.com/bpigroup.com</company_logo>
-  </job>
-  <job>
-    <job_id>workable-Bully Pulpit International-8CAF715F9E</job_id>
-    <title>Manager, Paid Media Planning</title>
-    <company>Bully Pulpit International</company>
-    <slug>manager-paid-media-planning-bully-pulpit-international-8caf715f9e</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/manager-paid-media-planning-bully-pulpit-international-8caf715f9e/</canonical_url>
-    <description>Bully Pulpit International is an outcomes agency made up of strategists, data scientists, and artists. We come from politics, brands, and government and we communicate without barriers and measure what matters. We have more than 400 team members in six countries and thirteen offices — Berlin, Brussels, Chicago, D.C., London, Los Angeles, New York, Oslo, San Francisco, and Zürich. We apply our unique expertise across strategic communications, public affairs, research, and digital marketing to create sophisticated and customized strategies that make change possible for both American and European clients. The Impact You Will Make In this position as an Associate Director, Media Planning, you will conduct media, industry, or company research to enable the agency to construct highly accurate, strategic advertising and marketing plans. You will also leverage internal data sources and past performance analytics to derive key insights and shape future strategy. Starting Salary Range: $68,000 - $75,000 (+ annual bonus) Expectation to work from one of our offices (Chicago, DC, NYC, SF, LA) at least 3 days a week What the Day-to-Day Looks Like Media Strategy &amp; Execution Manage the day-to-day of standard media campaigns independently and support mid- and large-scale campaigns by owning specific channels or workstreams. Develop data-driven media plans that align with client and campaign objectives, collaborating closely with Client/Account Leads to ensure plans deliver on agreed</description>
-    <apply_url>https://apply.workable.com/j/8CAF715F9E/apply</apply_url>
-    <category>Political Campaigns</category>
-    <location_type>onsite</location_type>
-    <office_location/>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6135,7 +6020,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-19</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6158,7 +6043,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6181,7 +6066,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-10-03</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6193,7 +6078,7 @@
     <company>Bully Pulpit International</company>
     <slug>operations-assistant-chicago-bully-pulpit-international-84fcc6d6b9</slug>
     <canonical_url>https://jobs.thepolly.co/jobs/operations-assistant-chicago-bully-pulpit-international-84fcc6d6b9/</canonical_url>
-    <description>Bully Pulpit International is an outcomes agency made up of strategists, data scientists, and artists. We come from politics, brands, and government and we communicate without barriers and measure what matters. We have more than 400 team members in six countries and thirteen offices — Berlin, Brussels, Chicago, D.C., London, Los Angeles, New York, Oslo, San Francisco, and Zürich. We apply our unique expertise across strategic communications, public affairs, research, and digital marketing to create sophisticated and customized strategies that make change possible for both American and European clients. The Impact You Will Make In this role, you’ll be an expertly organized and strategic professional as Operations Assistant to multiple executives at BPI in varying capacities. This position plays a crucial role in enabling BPI leadership to work efficiently and focus on strategic priorities. Responsibilities for the role go beyond task completion—you’ll serve as a key operational partner who helps proactively manage daily, weekly, and long-term calendars and logistics for executives. Imperative to the success of our thriving culture, you’ll support our internal operations team in maintaining the SF Office culture and ensuring the office is running smoothly. You’ll have the opportunity to work with individuals across all levels of the organization, particularly with our executive leadership based in CHI and existing executive support team, reporting directly to the Senior</description>
+    <description>Bully Pulpit International is an outcomes agency made up of strategists, data scientists, and artists. We come from politics, brands, and government and we communicate without barriers and measure what matters. We have more than 400 team members in six countries and thirteen offices — Berlin, Brussels, Chicago, D.C., London, Los Angeles, New York, Oslo, San Francisco, and Zürich. We apply our unique expertise across strategic communications, public affairs, research, and digital marketing to create sophisticated and customized strategies that make change possible for both American and European clients. The Impact You Will Make In this role, you’ll be an expertly organized and strategic professional as Operations Assistant to multiple executives at BPI in varying capacities. This position plays a crucial role in enabling BPI leadership to work efficiently and focus on strategic priorities. Responsibilities for the role go beyond task completion—you’ll serve as a key operational partner who helps proactively manage daily, weekly, and long-term calendars and logistics for executives. Imperative to the success of our thriving culture, you’ll support our internal operations team in maintaining the CHI Office culture and ensuring the office is running smoothly. You’ll have the opportunity to work with individuals across all levels of the organization, particularly with our executive leadership based in CHI and existing executive support team, reporting directly to the Senior</description>
     <apply_url>https://apply.workable.com/j/84FCC6D6B9/apply</apply_url>
     <category>Public Affairs &amp; Lobbying</category>
     <location_type>onsite</location_type>
@@ -6204,7 +6089,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>workable</source>
+    <logo>https://logo.clearbit.com/bpigroup.com</logo>
+    <image>https://logo.clearbit.com/bpigroup.com</image>
+    <company_logo>https://logo.clearbit.com/bpigroup.com</company_logo>
+  </job>
+  <job>
+    <job_id>workable-Bully Pulpit International-F57EAAB832</job_id>
+    <title>Operations Assistant - Washington, DC</title>
+    <company>Bully Pulpit International</company>
+    <slug>operations-assistant-washington-dc-bully-pulpit-international-f57eaab832</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/operations-assistant-washington-dc-bully-pulpit-international-f57eaab832/</canonical_url>
+    <description>Bully Pulpit International is an outcomes agency made up of strategists, data scientists, and artists. We come from politics, brands, and government and we communicate without barriers and measure what matters. We have more than 400 team members in six countries and thirteen offices — Berlin, Brussels, Chicago, D.C., London, Los Angeles, New York, Oslo, San Francisco, and Zürich. We apply our unique expertise across strategic communications, public affairs, research, and digital marketing to create sophisticated and customized strategies that make change possible for both American and European clients. The Impact You Will Make In this role, you’ll be an expertly organized and strategic professional as Operations Assistant to multiple executives at BPI in varying capacities. This position plays a crucial role in enabling BPI leadership to work efficiently and focus on strategic priorities. Responsibilities for the role go beyond task completion—you’ll serve as a key operational partner who helps proactively manage daily, weekly, and long-term calendars and logistics for executives. Imperative to the success of our thriving culture, you’ll support our internal operations team in maintaining the DC Office culture and ensuring the office is running smoothly. You’ll have the opportunity to work with individuals across all levels of the organization, particularly with our executive leadership based in DC and existing executive support team, reporting directly to the Senior</description>
+    <apply_url>https://apply.workable.com/j/F57EAAB832/apply</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location/>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-02</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6227,7 +6135,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6250,7 +6158,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6273,7 +6181,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6296,7 +6204,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6319,7 +6227,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-30</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
+    <source>workable</source>
+    <logo>https://logo.clearbit.com/bpigroup.com</logo>
+    <image>https://logo.clearbit.com/bpigroup.com</image>
+    <company_logo>https://logo.clearbit.com/bpigroup.com</company_logo>
+  </job>
+  <job>
+    <job_id>workable-Bully Pulpit International-B248E2EB5F</job_id>
+    <title>Senior Editorial Producer (Contract)</title>
+    <company>Bully Pulpit International</company>
+    <slug>senior-editorial-producer-contract-bully-pulpit-international-b248e2eb5f</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/senior-editorial-producer-contract-bully-pulpit-international-b248e2eb5f/</canonical_url>
+    <description>Remote with Required On-Site Presence in Los Angeles (April 4th - 6th, 2026) Bully Pulpit International is an outcomes agency made up of strategists, data scientists, and artists. We come from politics, brands, and government and we communicate without barriers and measure what matters. We have more than 400 team members in six countries and thirteen offices — Berlin, Brussels, Chicago, D.C., London, Los Angeles, New York, Oslo, San Francisco, and Zürich. We apply our unique expertise across strategic communications, public affairs, research, and digital marketing to create sophisticated and customized strategies that make change possible for both American and European clients. About the Convening: A Day of Unreasonable Conversation (UC) is an invitation-only annual summit which serves as a trusted, curated space designed to foster honest, nuanced, and critical discourse on the most urgent issues of our time. The gathering bridges the gap between the entertainment industry and social impact sectors. It connects &quot;culture shapers&quot;—influential television writers, showrunners, producers, executives, and digital storytellers who are literally writing the script for the world—with frontline changemakers, advocates, philanthropists, and issue experts. The core mission of UC is to &quot;unlock progress through the power of stories&quot;. In a deeply polarized moment where trust in traditional media is at a record low, the event aims to spark writers' rooms with new ideas and give creators the</description>
+    <apply_url>https://apply.workable.com/j/B248E2EB5F/apply</apply_url>
+    <category>Political Media</category>
+    <location_type>remote</location_type>
+    <office_location/>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>CONTRACTOR</employment_type>
+    <type>Contract</type>
+    <date_posted>2026-09-02</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6342,7 +6273,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-19</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6365,7 +6296,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-07-08</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6388,7 +6319,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
@@ -6411,7 +6342,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-12</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
@@ -6434,41 +6365,18 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <valid_through>2026-12-02</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
     <company_logo>https://logo.clearbit.com/movementlabs.com</company_logo>
   </job>
   <job>
-    <job_id>workday-Politico-JR100525</job_id>
-    <title>Associate Producer, POLITICO Live</title>
-    <company>Politico</company>
-    <slug>associate-producer-politico-live-politico-jr100525</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/associate-producer-politico-live-politico-jr100525/</canonical_url>
-    <description>Job Description: What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. POLITICO seeks an event Associate Producer to support the North American team of POLITICO’s Global Live events team. The Associate Producer will support the production of high-profile, news-making events, programs, and experiences for the organization and its clients. This position plays an important role in establishing an elevated brand presence and contributing to best-in-class experiences across a wide portfolio of events spanning from Washington, DC to California, New York to Florida. The ideal candidate has great attention to detail, a passion for organization and logistics, is highly responsive and collaborativ e and is both creative and solution-oriented from event ideation through execution. This role is a full-time and in-person position based in Arlington, VA. What You'll Do: Support POLITICO Live</description>
-    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Associate-Producer--POLITICO-Live_JR100525</apply_url>
-    <category>Political Media</category>
-    <location_type>onsite</location_type>
-    <office_location>Arlington, VA</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>workday</source>
-    <logo>https://logo.clearbit.com/politico.com</logo>
-    <image>https://logo.clearbit.com/politico.com</image>
-    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
-  </job>
-  <job>
     <job_id>workday-Politico-JR100524</job_id>
-    <title>Event Producer</title>
+    <title>Events Producer</title>
     <company>Politico</company>
-    <slug>event-producer-politico-jr100524</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/event-producer-politico-jr100524/</canonical_url>
+    <slug>events-producer-politico-jr100524</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/events-producer-politico-jr100524/</canonical_url>
     <description>Job Description: POLITICO is seeking an Events Producer to support the North American arm of POLITICO’s Global Live events team, based in Arlington, VA. The Events Producer will support the production of high-profile, newsworthy events, programs, and experiences advancing POLITICO’s newsroom and editorial franchises as well as creating impactful brand moments for the company and its clients What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. This position will play an important role in establishing an elevated brand presence, producing best-in-class experiences and providing operational support across a wide portfolio of events spanning from Washington, DC to California, New York to Florida, as well as Global initiatives and key moments. The ideal candidate has experience managing events from ideation to execution, is a self-starter, highly responsive and communicative, who</description>
     <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Event-Producer_JR100524</apply_url>
     <category>Political Media</category>
@@ -6479,8 +6387,54 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100525</job_id>
+    <title>Events Associate Producer, POLITICO Live</title>
+    <company>Politico</company>
+    <slug>events-associate-producer-politico-live-politico-jr100525</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/events-associate-producer-politico-live-politico-jr100525/</canonical_url>
+    <description>Job Description: What sets POLITICO apart is our unwavering commitment to nonpartisan, fact-driven journalism and our exceptional depth, with nearly 600 journalists – across seven newsrooms and with expertise in more than 40 policy beats – dedicated to decoding political dynamics and policy implications. We've established ourselves as essential in today's complex political landscape by providing unmatched reporting and analysis with a global lens. POLITICO Live events represent the physical manifestation of our mission — convening the most influential stakeholders for urgent, news-driven conversations that add depth and context to the discussions that genuinely matter. POLITICO seeks an event Associate Producer to support the North American team of POLITICO’s Global Live events team. The Associate Producer will support the production of high-profile, news-making events, programs, and experiences for the organization and its clients. This position plays an important role in establishing an elevated brand presence and contributing to best-in-class experiences across a wide portfolio of events spanning from Washington, DC to California, New York to Florida. The ideal candidate has great attention to detail, a passion for organization and logistics, is highly responsive and collaborativ e and is both creative and solution-oriented from event ideation through execution. This role is a full-time and in-person position based in Arlington, VA. What You'll Do: Support POLITICO Live</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Associate-Producer--POLITICO-Live_JR100525</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100496</job_id>
+    <title>Account Executive — AgencyIQ by POLITICO</title>
+    <company>Politico</company>
+    <slug>account-executive-agencyiq-by-politico-politico-jr100496</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-agencyiq-by-politico-politico-jr100496/</canonical_url>
+    <description>Job Description: AgencyIQ by POLITICO is searching for an Account Executive to join our Professional Subscriptions team. AgencyIQ operates as a sister business line to POLITICO Pro, delivering regulatory intelligence to professionals across the life sciences and food industries — and is one of POLITICO's fastest-growing businesses. Our Account Executives drive revenue by bringing in net-new organizations and managing the full sales cycle from prospecting to close. We're looking for a dynamic, organized, and goal-oriented Account Executive with demonstrated experience meeting outreach and visit quotas — someone comfortable and confident conducting meetings and demonstrations with senior-level executives across regulatory and policy teams. This role is ideal for someone who thrives at the intersection of sales, research, communication, and strategy. What You'll Do: · Grow our subscription business by conducting sales meetings with senior-level executives, customizing marketing presentations and proposals to meet prospective client needs · Conduct evaluations and consult clients based on unique needs, and use strategic thinking to best position AgencyIQ’s services · Manage sales cycle from cold calling and prospecting, outreach, to negotiation and close · Manage a pipeline of evaluations through full sales life cycle, to close. You will use your skills in evaluation and negotiation to close opportunities and achieve established half revenue goals · Recognize and relay feedback</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Account-Executive---AgencyIQ_JR100496</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6502,31 +6456,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
-    <source>workday</source>
-    <logo>https://logo.clearbit.com/politico.com</logo>
-    <image>https://logo.clearbit.com/politico.com</image>
-    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
-  </job>
-  <job>
-    <job_id>workday-Politico-JR100496</job_id>
-    <title>Account Executive — AgencyIQ</title>
-    <company>Politico</company>
-    <slug>account-executive-agencyiq-politico-jr100496</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/account-executive-agencyiq-politico-jr100496/</canonical_url>
-    <description>Job Description: AgencyIQ by POLITICO is searching for an Account Executive to join our Professional Subscriptions team. Our Account Executives are a part of the New Business side of AgencyIQ's Professional Subscriptions sales team, focused on driving revenue by bringing in net-new organizations and managing the full sales cycle from prospecting to close. We are seeking a dynamic, organized, and goal-oriented Account Executive with demonstrated experience meeting outreach and visit quotas. The ideal candidate is comfortable and confident in conducting meetings and demonstrations with senior-level executives. As an Account Executive, you will be an integral part of the new business team responsible for identifying and engaging future AgencyIQ subscribers across the life sciences and food industries, helping to deliver a high-value subscription product to a sophisticated audience of regulatory and policy professionals. This role is ideal for someone who thrives at the intersection of sales, research, communication, and strategy. What You'll Do: · Grow our subscription business by conducting sales meetings with senior-level executives, customizing marketing presentations and proposals to meet prospective client needs · Conduct evaluations and consult clients based on unique needs, and use strategic thinking to best position AgencyIQ’s services · Manage sales cycle from cold calling and prospecting, outreach, to negotiation and close · Manage a pipeline of evaluations through</description>
-    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Account-Executive---AgencyIQ_JR100496</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>onsite</location_type>
-    <office_location>Arlington, VA</office_location>
-    <location_limit>United States</location_limit>
-    <location>Onsite</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6548,8 +6479,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6571,8 +6502,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6594,8 +6525,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6617,8 +6548,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6640,8 +6571,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6663,8 +6594,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6686,8 +6617,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6709,8 +6640,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6732,8 +6663,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6755,8 +6686,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6778,8 +6709,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6801,8 +6732,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-01</valid_through>
+    <date_posted>2026-09-03</date_posted>
+    <valid_through>2026-12-02</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
