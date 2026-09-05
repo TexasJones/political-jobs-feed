@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<jobs generated="2026-09-04T12:40:09Z" count="299">
+<jobs generated="2026-09-05T11:47:46Z" count="305">
   <job>
     <job_id>greenhouse-ACLU-8618052002</job_id>
     <title>Data Architect</title>
@@ -17,7 +17,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -40,7 +40,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -48,11 +48,11 @@
   </job>
   <job>
     <job_id>greenhouse-ACLU-8520829002</job_id>
-    <title>Deputy Director, Support Transition (Term-Limited)</title>
+    <title>Deputy Director, Support Transition</title>
     <company>ACLU</company>
-    <slug>deputy-director-support-transition-term-limited-aclu-8520829002</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/deputy-director-support-transition-term-limited-aclu-8520829002/</canonical_url>
-    <description>&lt;h2&gt;&lt;strong&gt;ABOUT THE JOB&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The ACLU seeks applicants for the full-time position of&amp;nbsp;&lt;strong&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;Deputy Director&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;Support Transition&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;in the&amp;nbsp;&lt;strong&gt;Development Department&lt;/strong&gt; of the ACLU’s National office in &lt;strong&gt;New York, NY.&amp;nbsp;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&quot;&gt;&lt;span class=&quot;TextRun SCXW106118647 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW106118647 BCX0&quot;&gt;This is a&amp;nbsp;&lt;strong&gt;hybrid role&amp;nbsp;&lt;/strong&gt;that has in-office requirements of two (2) days per week or eight&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW106118647 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW106118647 BCX0&quot;&gt;(8) days per month.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW106118647 BCX0&quot; data-ccp-props=&quot;{&quot;&gt; &lt;strong&gt;This is an 18-month term-limited position.&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;The ACLU’s passionate community of donors and activists is stronger than ever. The mission of the ACLU’s Development Department is to unlock the full potential of donors and the ACLU as partners in the creation of a more perfect union. We pursue our mission by building long-term donor relationships and organizational partnerships, by demonstrating impact in response to threats, by engaging donors how they wish</description>
+    <slug>deputy-director-support-transition-aclu-8520829002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/deputy-director-support-transition-aclu-8520829002/</canonical_url>
+    <description>&lt;h2&gt;&lt;strong&gt;ABOUT THE JOB&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The ACLU seeks applicants for the full-time position of&amp;nbsp;&lt;strong&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;Deputy Director&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;Support Transition&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW170545260 BCX8&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;in the&amp;nbsp;&lt;strong&gt;Development Department&lt;/strong&gt; of the ACLU’s National office in &lt;strong&gt;New York, NY.&amp;nbsp;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&quot;&gt;&lt;span class=&quot;TextRun SCXW106118647 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW106118647 BCX0&quot;&gt;This is a&amp;nbsp;&lt;strong&gt;hybrid role&amp;nbsp;&lt;/strong&gt;that has in-office requirements of two (2) days per week or eight&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW106118647 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW106118647 BCX0&quot;&gt;(8) days per month.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW106118647 BCX0&quot; data-ccp-props=&quot;{&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;The ACLU’s passionate community of donors and activists is stronger than ever. The mission of the ACLU’s Development Department is to unlock the full potential of donors and the ACLU as partners in the creation of a more perfect union. We pursue our mission by building long-term donor relationships and organizational partnerships, by demonstrating impact in response to threats, by engaging donors how they wish to engage, by taking interest in our donors and facilitating</description>
     <apply_url>https://job-boards.greenhouse.io/aclu/jobs/8520829002</apply_url>
     <category>Government &amp; Policy</category>
     <location_type>hybrid</location_type>
@@ -60,10 +60,10 @@
     <location_limit>United States</location_limit>
     <location>Hybrid</location>
     <post_state>United States</post_state>
-    <employment_type>CONTRACTOR</employment_type>
-    <type>Contract</type>
-    <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -86,7 +86,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -109,7 +109,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-23</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -132,7 +132,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -155,7 +155,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -178,7 +178,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -201,7 +201,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-05-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -224,7 +224,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -247,7 +247,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-05-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -270,7 +270,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-16</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -293,7 +293,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-08</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/aclu.org</logo>
     <image>https://logo.clearbit.com/aclu.org</image>
@@ -316,7 +316,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/splcenter.org</logo>
+    <image>https://logo.clearbit.com/splcenter.org</image>
+    <company_logo>https://logo.clearbit.com/splcenter.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Southern Poverty Law Center-8784639002</job_id>
+    <title>Deputy Director, Monitoring, Evaluation, Accountability &amp; Learning</title>
+    <company>Southern Poverty Law Center</company>
+    <slug>deputy-director-monitoring-evaluation-accountability-learning-southern-poverty-law-center-8784639002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/deputy-director-monitoring-evaluation-accountability-learning-southern-poverty-law-center-8784639002/</canonical_url>
+    <description>&lt;h1&gt;The SPLC is seeking a Deputy Director, Monitoring, Evaluation, Accountability and Learning who is passionate about social justice!&amp;nbsp;&lt;/h1&gt; &lt;hr&gt; &lt;p&gt;The Deputy Director, MEAL manages MEAL support throughout the program/project life cycle with a particular focus on program design, monitoring and strengthening SPLC's community accountability efforts.&lt;/p&gt; &lt;h3&gt;Who You Are&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Strategic, analytical, and systems-oriented&lt;/strong&gt; — Connects MEAL practices to organizational strategy and impact, using data and evidence to inform decision-making and strengthen effectiveness.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Equity- and community-centered&lt;/strong&gt; — Centers community voice, lived experience, and accountability while recognizing how power and systemic inequities shape evaluation, learning, and outcomes.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Collaborative and influential leader&lt;/strong&gt; — Builds trust across teams, communicates effectively with diverse stakeholders, and influences organizational decision-making without relying solely on positional authority.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Curious, rigorous, and courageous&lt;/strong&gt; — Asks difficult questions, challenges assumptions, surfaces uncomfortable findings, and approaches complex issues with intellectual rigor and sound judgment.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Learning and improvement-oriented&lt;/strong&gt; — Builds a culture of reflection, experimentation, shared learning, and continuous improvement while helping teams translate insights into meaningful action.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Adaptable,</description>
+    <apply_url>https://job-boards.greenhouse.io/southernpovertylawcenter/jobs/8784639002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location>Atlanta, GA; Jackson, MS; Miami, FL; Montgomery, AL; New Orleans, LA; Washington DC</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -339,7 +362,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -362,7 +385,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -385,7 +408,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -408,7 +431,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -431,7 +454,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -454,7 +477,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -477,7 +500,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -500,7 +523,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/splcenter.org</logo>
     <image>https://logo.clearbit.com/splcenter.org</image>
@@ -523,7 +546,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
@@ -546,7 +569,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
@@ -569,11 +592,57 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/democracyforward.org</logo>
     <image>https://logo.clearbit.com/democracyforward.org</image>
     <company_logo>https://logo.clearbit.com/democracyforward.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Human Rights Watch-8784299002</job_id>
+    <title>Aryeh Neier Fellowship</title>
+    <company>Human Rights Watch</company>
+    <slug>aryeh-neier-fellowship-human-rights-watch-8784299002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/aryeh-neier-fellowship-human-rights-watch-8784299002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;2027-2029 Aryeh Neier Fellowship Opportunity&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Human Rights Watch / American Civil Liberties Union Foundation&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Application Deadline: October 12, 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;u&gt;&lt;a href=&quot;http://www.aclu.org/&quot;&gt;The American Civil Liberties Union Foundation&lt;/a&gt;&lt;/u&gt; (ACLU) and &lt;a href=&quot;https://www.hrw.org/&quot;&gt;Human Rights Watch&lt;/a&gt; (HRW) invite applications for the Aryeh Neier Fellowship. The fellow will work with both organizations on joint initiatives to strengthen respect for human rights in the United States.&lt;/p&gt; &lt;p&gt;For over 100 years, the ACLU has been our nation’s guardian of liberty, working in courts, legislatures, and communities to defend and preserve the individual rights and liberties guaranteed by the Constitution, laws, and treaties of the United States. Whether it’s ending mass incarceration, achieving full equality for the LGBT community, advancing racial justice, establishing new privacy protections for our digital age, or preserving the right to vote or the right to have an abortion, the ACLU takes up the toughest civil liberties and civil rights cases and issues to defend all people from government abuse and overreach. With more than one million members, activists, and supporters, the ACLU is a nationwide organization that fights tirelessly in all 50 states, Puerto Rico, and Washington, D.C., for the principle that every individual’s rights must be protected equally under the law, regardless of race, color,</description>
+    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8784299002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>INTERN</employment_type>
+    <type>Internship</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/hrw.org</logo>
+    <image>https://logo.clearbit.com/hrw.org</image>
+    <company_logo>https://logo.clearbit.com/hrw.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Human Rights Watch-8783754002</job_id>
+    <title>Associate, Development and Outreach</title>
+    <company>Human Rights Watch</company>
+    <slug>associate-development-and-outreach-human-rights-watch-8783754002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/associate-development-and-outreach-human-rights-watch-8783754002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;FULL-TIME JOB VACANCY&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;Associate, Development and Outreach &lt;br&gt;&lt;/strong&gt;&lt;strong&gt;Development and Outreach Department &lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;Sydney Office&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;Application Date: 21 September 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Development and Outreach Department of Human Rights Watch (HRW) is seeking a full-time Associate in our Sydney office. The Sydney office serves as an important base for HRW’s development, fundraising, and outreach efforts across Australia, largely characterised by a full schedule of donor cultivation and fundraising events. The ideal candidate is organised, a self-starter, and interested in fundraising.&lt;/p&gt; &lt;p&gt;This position is hybrid and full-time at 38 hours per week and requires availability to work occasional evenings, including internal global meetings and special events. The successful candidate must be based within commuting distance of the Sydney office and will be expected to work from the Sydney office at least 2 days per week. The Associate reports to the Director of Development and Outreach based in Sydney.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;u&gt;Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Provide administrative support to the Australia Development team, including:&amp;nbsp;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Support the production of major fundraising, and outreach initiatives in Australia at the direction of the Director;&lt;/li&gt; &lt;li&gt;Provide special event support for the annual fundraising dinners in Sydney and Melbourne,</description>
+    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8783754002</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>hybrid</location_type>
+    <office_location>Sydney, New South Wales, Australia</office_location>
+    <location_limit>Australia</location_limit>
+    <location>Hybrid</location>
+    <post_state>Australia</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/hrw.org</logo>
+    <image>https://logo.clearbit.com/hrw.org</image>
+    <company_logo>https://logo.clearbit.com/hrw.org</company_logo>
   </job>
   <job>
     <job_id>greenhouse-Human Rights Watch-8721078002</job_id>
@@ -592,7 +661,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -615,7 +684,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -638,7 +707,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/hrw.org</logo>
+    <image>https://logo.clearbit.com/hrw.org</image>
+    <company_logo>https://logo.clearbit.com/hrw.org</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Human Rights Watch-8784417002</job_id>
+    <title>Leonard H. Sandler Fellowship</title>
+    <company>Human Rights Watch</company>
+    <slug>leonard-h-sandler-fellowship-human-rights-watch-8784417002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/leonard-h-sandler-fellowship-human-rights-watch-8784417002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;Leonard H. Sandler Fellowship&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Application Deadline: October 12, 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Established in memory of Judge Leonard H. Sandler, a 1950 Columbia Law graduate with a lifelong commitment to civil rights and liberties, this fellowship is open to candidates who will hold a J.D. from Columbia Law School by June 2027.&lt;/p&gt; &lt;p&gt;Human Rights Watch is strengthened profoundly by the diversity of our staff and our differences in background, culture, experience, national origin, religion, sexual orientation, and more. We actively seek and welcome applications from people of diverse racial and ethnic backgrounds, women, LGBTI persons, and persons with disabilities.&lt;/p&gt; &lt;p&gt;The successful candidate will be expected to work from an HRW office but may have the option to work remotely at times. We aim to be as flexible and supportive as possible in both recruiting for and onboarding this position.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;JOB DESCRIPTION:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Fellows typically work full-time for one year in Human Rights Watch’s New York or Washington, D.C. office. In some instances, other locations where HRW has an office may be considered. The fellowship begins in September 2027.&lt;/p&gt; &lt;p&gt;Fellows monitor human rights developments in a given country(ies), conduct on-site/ in-office investigations, draft reports and/or other materials on human rights conditions, and engage in advocacy and media outreach to publicize and push governments to curtail human rights</description>
+    <apply_url>https://job-boards.greenhouse.io/humanrightswatch/jobs/8784417002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>remote</location_type>
+    <office_location>Multiple Locations Considered</office_location>
+    <location_limit>United States</location_limit>
+    <location>Remote</location>
+    <post_state>United States</post_state>
+    <employment_type>INTERN</employment_type>
+    <type>Internship</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -661,7 +753,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -684,7 +776,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/hrw.org</logo>
     <image>https://logo.clearbit.com/hrw.org</image>
@@ -707,7 +799,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -730,7 +822,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -753,7 +845,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -776,7 +868,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -799,7 +891,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -822,7 +914,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/berlinrosen.com</logo>
     <image>https://logo.clearbit.com/berlinrosen.com</image>
@@ -845,7 +937,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -868,7 +960,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -891,7 +983,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -914,7 +1006,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -937,7 +1029,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -960,7 +1052,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -983,7 +1075,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1006,7 +1098,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1029,7 +1121,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1052,7 +1144,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1075,7 +1167,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1098,7 +1190,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1121,7 +1213,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1144,7 +1236,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
+    <source>greenhouse</source>
+    <logo>https://logo.clearbit.com/orchestra.co</logo>
+    <image>https://logo.clearbit.com/orchestra.co</image>
+    <company_logo>https://logo.clearbit.com/orchestra.co</company_logo>
+  </job>
+  <job>
+    <job_id>greenhouse-Orchestra-8784346002</job_id>
+    <title>Head of Data &amp; Analytics</title>
+    <company>Orchestra</company>
+    <slug>head-of-data-analytics-orchestra-8784346002</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/head-of-data-analytics-orchestra-8784346002/</canonical_url>
+    <description>&lt;p&gt;&lt;strong&gt;ABOUT ORCHESTRA&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is a strategic communications and marketing company built for today's complex and fragmented world. From decoding audiences to designing bold strategies, Orchestra integrates people, platforms, and stories that stick to help clients build lasting influence. The company offers programs that span from the highest level strategic business counsel through to tactical execution.&lt;/p&gt; &lt;p&gt;Orchestra brings together 700+ people with experience across consumer and lifestyle, technology, nonprofit and philanthropy, real estate, sports, travel, hospitality, advocacy, and more. It is made up of leading firms including BerlinRosen, Civitas Public Affairs Group, Derris, Glen Echo Group, Inkhouse, M18, Message Lab, Onward and Small Girls PR. Orchestra also launched Brightmode, a talent acquisition firm for communications professionals, and Versus Media Group, a strategy-first political media team. Learn more at&lt;a href=&quot;http://www.orchestraco.com&quot;&gt; www.orchestraco.com&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;People of all backgrounds and abilities are strongly encouraged to apply. Orchestra is committed to building and maintaining a diverse staff and recognizes that its continued success depends on hiring and retaining high-quality professionals with a variety of backgrounds and experiences. Opportunities for advancement exist, and we are committed to helping all staff develop and grow.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;ABOUT THIS ROLE&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Orchestra is seeking a Head of Data</description>
+    <apply_url>https://job-boards.greenhouse.io/orchestra/jobs/8784346002</apply_url>
+    <category>Public Affairs &amp; Lobbying</category>
+    <location_type>onsite</location_type>
+    <office_location>New York, N.Y., Washington, D.C., or San Francisco, C.A.</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1167,7 +1282,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1190,7 +1305,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1213,7 +1328,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1236,7 +1351,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1259,7 +1374,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1282,7 +1397,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1305,7 +1420,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/orchestra.co</logo>
     <image>https://logo.clearbit.com/orchestra.co</image>
@@ -1328,7 +1443,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1351,7 +1466,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1374,7 +1489,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1397,7 +1512,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1420,7 +1535,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1443,7 +1558,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1466,7 +1581,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1489,7 +1604,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1512,7 +1627,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1535,7 +1650,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1558,7 +1673,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/webershandwick.com</logo>
     <image>https://logo.clearbit.com/webershandwick.com</image>
@@ -1581,7 +1696,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/fleishmanhillard.com</logo>
     <image>https://logo.clearbit.com/fleishmanhillard.com</image>
@@ -1604,7 +1719,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/fleishmanhillard.com</logo>
     <image>https://logo.clearbit.com/fleishmanhillard.com</image>
@@ -1627,7 +1742,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/civisanalytics.com</logo>
     <image>https://logo.clearbit.com/civisanalytics.com</image>
@@ -1650,7 +1765,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1673,7 +1788,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1696,7 +1811,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1719,7 +1834,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1742,7 +1857,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1765,7 +1880,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1788,7 +1903,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1811,7 +1926,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1834,7 +1949,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/bluelabs.com</logo>
     <image>https://logo.clearbit.com/bluelabs.com</image>
@@ -1857,7 +1972,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1880,7 +1995,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1903,7 +2018,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1926,7 +2041,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1949,7 +2064,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1972,7 +2087,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -1995,7 +2110,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2018,7 +2133,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2041,7 +2156,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2064,7 +2179,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2087,7 +2202,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2110,7 +2225,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2133,7 +2248,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2156,7 +2271,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2179,7 +2294,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2202,7 +2317,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2225,7 +2340,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2248,7 +2363,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2271,7 +2386,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2294,7 +2409,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2317,7 +2432,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2340,30 +2455,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
-    <source>greenhouse</source>
-    <logo>https://logo.clearbit.com/axios.com</logo>
-    <image>https://logo.clearbit.com/axios.com</image>
-    <company_logo>https://logo.clearbit.com/axios.com</company_logo>
-  </job>
-  <job>
-    <job_id>greenhouse-Axios-8083550</job_id>
-    <title>Senior Associate, Marketing &amp; Growth</title>
-    <company>Axios</company>
-    <slug>senior-associate-marketing-growth-axios-8083550</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/senior-associate-marketing-growth-axios-8083550/</canonical_url>
-    <description>&lt;p&gt;&lt;strong&gt;1 big thing: &lt;/strong&gt;Axios Live is looking for a strategic, data-driven marketer to lead audience growth and lifecycle marketing for our Essential events portfolio. This role will own the end-to-end attendee journey—from audience acquisition and CRM strategy through registration, engagement, retention and reporting—building scalable marketing programs that grow high-value audiences and deepen long-term engagement across Axios Live.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Why it matters:&lt;/strong&gt; Axios Live is entering its next phase of growth. As our events portfolio expands, we're evolving from simply driving registrations to intentionally building and nurturing high-quality executive audiences. This role will help shape that transformation by developing lifecycle marketing strategies, strengthening audience segmentation, leveraging paid and owned channels for acquisition, and using data and automation to deliver more personalized experiences that increase audience quality, repeat attendance and long-term loyalty.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do: &lt;/strong&gt;This role sits at the intersection of marketing strategy, audience development and lifecycle marketing. You'll build and nurture high-value audiences across Axios Live products while leveraging data, automation and paid media to drive measurable growth. You'll serve as the marketing lead for Axios Live local and national events, partnering closely with Editorial, Events, Partnerships, Audience Development and Design to create scalable</description>
-    <apply_url>https://job-boards.greenhouse.io/axios/jobs/8083550</apply_url>
-    <category>Political Media</category>
-    <location_type>remote</location_type>
-    <office_location>Remote</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2386,7 +2478,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/axios.com</logo>
     <image>https://logo.clearbit.com/axios.com</image>
@@ -2409,7 +2501,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2432,7 +2524,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2455,7 +2547,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-08</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2478,7 +2570,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2501,7 +2593,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-19</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2524,7 +2616,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2547,7 +2639,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2570,7 +2662,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-30</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2593,7 +2685,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2616,7 +2708,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-16</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2639,7 +2731,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2662,7 +2754,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2684,8 +2776,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-04-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2708,7 +2800,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2731,7 +2823,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2754,7 +2846,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2777,7 +2869,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2800,7 +2892,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/semafor.com</logo>
     <image>https://logo.clearbit.com/semafor.com</image>
@@ -2823,7 +2915,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2846,7 +2938,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2869,7 +2961,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2892,7 +2984,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-09</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2915,7 +3007,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2938,7 +3030,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2961,7 +3053,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -2984,7 +3076,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3007,7 +3099,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3030,7 +3122,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3053,7 +3145,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3076,7 +3168,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3099,7 +3191,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3122,7 +3214,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-09</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3145,7 +3237,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3167,8 +3259,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/voxmedia.com</logo>
     <image>https://logo.clearbit.com/voxmedia.com</image>
@@ -3191,7 +3283,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3213,8 +3305,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3237,7 +3329,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3260,7 +3352,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-30</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3282,8 +3374,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/reproductivefreedomforall.org</logo>
     <image>https://logo.clearbit.com/reproductivefreedomforall.org</image>
@@ -3306,7 +3398,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3329,7 +3421,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3352,7 +3444,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3375,7 +3467,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3398,7 +3490,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>greenhouse</source>
     <logo>https://logo.clearbit.com/stateaffairs.com</logo>
     <image>https://logo.clearbit.com/stateaffairs.com</image>
@@ -3421,7 +3513,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
@@ -3444,7 +3536,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
@@ -3467,7 +3559,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2021-01-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/emilyslist.org</logo>
     <image>https://logo.clearbit.com/emilyslist.org</image>
@@ -3490,7 +3582,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-09</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3513,7 +3605,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3536,7 +3628,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3559,7 +3651,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3582,7 +3674,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3605,7 +3697,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3628,7 +3720,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3651,7 +3743,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-08</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3674,7 +3766,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3697,7 +3789,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3720,7 +3812,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3743,7 +3835,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3766,7 +3858,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3789,7 +3881,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3812,7 +3904,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/fiscalnote.com</logo>
     <image>https://logo.clearbit.com/fiscalnote.com</image>
@@ -3835,7 +3927,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
@@ -3858,7 +3950,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
@@ -3881,7 +3973,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/thefp.com</logo>
     <image>https://logo.clearbit.com/thefp.com</image>
@@ -3904,7 +3996,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-08-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3927,7 +4019,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3950,7 +4042,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3973,7 +4065,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo/>
     <image/>
@@ -3996,7 +4088,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4019,7 +4111,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4042,30 +4134,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
-    <source>lever</source>
-    <logo>https://logo.clearbit.com/sierraclub.org</logo>
-    <image>https://logo.clearbit.com/sierraclub.org</image>
-    <company_logo>https://logo.clearbit.com/sierraclub.org</company_logo>
-  </job>
-  <job>
-    <job_id>lever-Sierra Club-a4030063-16c0-4119-96d2-58e636e255e6</job_id>
-    <title>Chapter Director</title>
-    <company>Sierra Club</company>
-    <slug>chapter-director-sierra-club-a4030063-16c0-4119-96d2-58e636e255e6</slug>
-    <canonical_url>https://jobs.thepolly.co/jobs/chapter-director-sierra-club-a4030063-16c0-4119-96d2-58e636e255e6/</canonical_url>
-    <description>Title: Chapter Director Department: Field Department, Kentucky Chapter Location: Remote within Kentucky Reports To: Deputy Regional Field Director Supervises: Chapter staff Context: At the Sierra Club, we believe in the power of interdependence. Together, we remain committed to the fight for a healthy climate built on a foundation of environmental, racial, economic, and gender justice – a future where all people benefit from a healthy, thriving planet and a direct connection to nature. As the climate crisis and deeply entrenched systemic racism all fuel injustice, we will continue to fight for a bold, transformational agenda that recognizes the interconnectedness between our planet, our humanity, and our future. By recognizing that our destinies are tied, we continue to name that all things are fundamentally connected, and the overlap between ecology, race, gender, and representative government will move to either advance our collective humanity or to oppress it. Sierra Club has close to 700 staff across the country and a network of 64 local chapters that are led and fueled by thousands of volunteers. We are also proud to be a unionized employer, with three labor unions representing more than half of our employees. Scope: The Kentucky Chapter Director helps develop and carry out the policies, priorities, and objectives of the Sierra Club in the state. This work is done in close partnership with the Executive Committee for the assigned areas of chapter programs and</description>
-    <apply_url>https://jobs.lever.co/sierraclub/a4030063-16c0-4119-96d2-58e636e255e6</apply_url>
-    <category>Government &amp; Policy</category>
-    <location_type>remote</location_type>
-    <office_location>Louisville, KY</office_location>
-    <location_limit>United States</location_limit>
-    <location>Remote</location>
-    <post_state>United States</post_state>
-    <employment_type>FULL_TIME</employment_type>
-    <type>Full-time</type>
-    <date_posted>2026-08-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4088,7 +4157,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4111,7 +4180,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-19</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4134,7 +4203,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4157,7 +4226,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4180,7 +4249,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4203,7 +4272,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/sierraclub.org</logo>
     <image>https://logo.clearbit.com/sierraclub.org</image>
@@ -4226,7 +4295,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2023-08-08</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4249,7 +4318,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4272,7 +4341,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-23</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4295,7 +4364,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4318,7 +4387,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4341,7 +4410,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4364,7 +4433,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-12-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4387,7 +4456,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4410,7 +4479,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4433,7 +4502,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4456,7 +4525,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-05-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4479,7 +4548,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-02-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4502,7 +4571,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4525,7 +4594,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-21</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4548,7 +4617,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-22</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4571,7 +4640,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4594,7 +4663,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2023-07-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4617,7 +4686,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4640,7 +4709,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4663,7 +4732,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4686,7 +4755,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4709,7 +4778,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4732,7 +4801,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4755,7 +4824,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-20</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4778,7 +4847,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4801,7 +4870,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4824,7 +4893,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4847,7 +4916,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4870,7 +4939,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4893,7 +4962,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4916,7 +4985,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4939,7 +5008,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4962,7 +5031,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -4985,7 +5054,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5008,7 +5077,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5031,7 +5100,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-09</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5054,7 +5123,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-15</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5077,7 +5146,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5100,7 +5169,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-03-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5123,7 +5192,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5146,7 +5215,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5169,7 +5238,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5192,7 +5261,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5215,7 +5284,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5238,7 +5307,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5261,7 +5330,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5284,7 +5353,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5307,7 +5376,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-04-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5330,7 +5399,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-06</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5353,7 +5422,30 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-16</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
+    <source>lever</source>
+    <logo>https://logo.clearbit.com/standtogether.org</logo>
+    <image>https://logo.clearbit.com/standtogether.org</image>
+    <company_logo>https://logo.clearbit.com/standtogether.org</company_logo>
+  </job>
+  <job>
+    <job_id>lever-Stand Together-46d72992-7000-457d-8380-70108eb56fb4</job_id>
+    <title>Scrum Master</title>
+    <company>Stand Together</company>
+    <slug>scrum-master-stand-together-46d72992-7000-457d-8380-70108eb56fb4</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/scrum-master-stand-together-46d72992-7000-457d-8380-70108eb56fb4/</canonical_url>
+    <description>Stand Together is a philanthropic community that helps America’s boldest changemakers tackle the root causes of our country’s biggest problems, from education to the economy, broken communities, and toxic division, among dozens of other pressing issues. We provide our partners with access to resources including funding, thought leadership, a network of peers, and a playbook for applying proven principles to transform lives and society. Stand Together is building an internal Agile practice to sustain meaningful delivery improvements made over the last year. As a Scrum Master embedded across multiple teams, you will be the person those teams rely on to run great ceremonies, maintain a healthy backlog, and create the trust and psychological safety that makes honest retrospectives and real improvement possible. You will support multiple teams at different stages of Agile maturity, so you must be comfortable adapting your approach while striving to execute to a consistent standard. You will report to the Agile Practice Lead, who establishes the standards and frameworks you operate within. You will work closely with Product and Engineering Leads on each of your teams.</description>
+    <apply_url>https://jobs.lever.co/standtogether/46d72992-7000-457d-8380-70108eb56fb4</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-04</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5376,7 +5468,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-09</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5399,7 +5491,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-07</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5422,7 +5514,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5445,7 +5537,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5468,7 +5560,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-18</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5491,7 +5583,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5514,7 +5606,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-09-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5537,7 +5629,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5560,7 +5652,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5583,7 +5675,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>lever</source>
     <logo>https://logo.clearbit.com/standtogether.org</logo>
     <image>https://logo.clearbit.com/standtogether.org</image>
@@ -5606,7 +5698,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5629,7 +5721,7 @@
     <employment_type>INTERN</employment_type>
     <type>Internship</type>
     <date_posted>2026-07-27</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5652,7 +5744,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-08-25</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/bantamcommunications.com</logo>
     <image>https://logo.clearbit.com/bantamcommunications.com</image>
@@ -5675,7 +5767,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-01</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5698,7 +5790,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-11-24</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5721,7 +5813,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-04-16</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5744,7 +5836,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5767,7 +5859,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-16</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5790,7 +5882,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5813,7 +5905,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5836,7 +5928,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>ashby</source>
     <logo>https://logo.clearbit.com/morningconsult.com</logo>
     <image>https://logo.clearbit.com/morningconsult.com</image>
@@ -5859,7 +5951,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/fp1strategies.com</logo>
     <image>https://logo.clearbit.com/fp1strategies.com</image>
@@ -5882,7 +5974,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-05</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/fp1strategies.com</logo>
     <image>https://logo.clearbit.com/fp1strategies.com</image>
@@ -5905,7 +5997,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5928,7 +6020,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5951,7 +6043,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5974,7 +6066,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-26</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -5997,7 +6089,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-11</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6020,7 +6112,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-31</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6043,7 +6135,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-13</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6066,7 +6158,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-14</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6089,7 +6181,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-19</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6112,7 +6204,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-28</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6135,7 +6227,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2025-10-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6158,7 +6250,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6181,7 +6273,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6204,7 +6296,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6227,7 +6319,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-17</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6250,7 +6342,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6273,7 +6365,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6296,7 +6388,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-30</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6319,7 +6411,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-09-02</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6342,7 +6434,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-05-19</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6365,7 +6457,7 @@
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
     <date_posted>2026-07-08</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/bpigroup.com</logo>
     <image>https://logo.clearbit.com/bpigroup.com</image>
@@ -6388,7 +6480,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-09-03</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
@@ -6411,7 +6503,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-07-10</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
@@ -6434,7 +6526,7 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-06-12</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
@@ -6457,11 +6549,57 @@
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
     <date_posted>2026-08-26</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <valid_through>2026-12-04</valid_through>
     <source>workable</source>
     <logo>https://logo.clearbit.com/movementlabs.com</logo>
     <image>https://logo.clearbit.com/movementlabs.com</image>
     <company_logo>https://logo.clearbit.com/movementlabs.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100543</job_id>
+    <title>Health Care Reporter, Food and Drug Administration</title>
+    <company>Politico</company>
+    <slug>health-care-reporter-food-and-drug-administration-politico-jr100543</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/health-care-reporter-food-and-drug-administration-politico-jr100543/</canonical_url>
+    <description>Job Description: POLITICO is seeking an experienced journalist to lead coverage of the Food and Drug Administration, pharmaceutical industry lobbying and President Donald Trump’s efforts to lower drug prices. The reporter will break news and produce authoritative coverage across POLITICO platforms exploring the political forces shaping Washington’s approach to pharmaceutical innovation and affordability. The reporter will co-author the twice weekly Prescription Pulse newsletter, helping curate and elevate the most important health policy developments for POLITICO subscribers who need to know what’s moving — and what it means — in real time. Who You Are: A n enterprising journalist with deep curiosity, excellent news judgment and a track record of revelatory storytelling — someone who is eager to scoop the competition while also delivering deep dives. A collaborative colleague who contributes ideas and expertise across a large health care team Familiar with navigating federal agencies and understanding how Washington's regulatory process works, particularly as it affects pharma companies and medical device makers. What You’ll Do: Cover the FDA, pharmaceutical industry lobbying and the Trump administration’s drug-pricing agenda Break news and produce authoritative stories across formats and platforms Co-author and help shape the twice-weekly Prescription Pulse newsletter Work collaboratively with reporters and editors across POLITICO’s health care team What You’ll Need: At</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Health-Care-Reporter--Food-and-Drug-Administration_JR100543</apply_url>
+    <category>Political Media</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
+  </job>
+  <job>
+    <job_id>workday-Politico-JR100544</job_id>
+    <title>Health Care Reporter, Congress</title>
+    <company>Politico</company>
+    <slug>health-care-reporter-congress-politico-jr100544</slug>
+    <canonical_url>https://jobs.thepolly.co/jobs/health-care-reporter-congress-politico-jr100544/</canonical_url>
+    <description>Job Description: POLITICO is seeking an ambitious and versatile reporter to cover health policy on Capitol Hill. The reporter will cover legislation within the purview of the Appropriations, Energy and Commerce; Ways and Means; Finance; and Health, Education, Labor and Pensions committees, and the lawmakers serving on those panels. This position is designed for a reporter who can zoom out and zoom in. Our health care team serves both health professionals with keen interest in health care legislation and politically interested readers drawn to stories that put health policy within a broader context. Who You Are: A reporter who thrives on breaking news, values collaboration and has strong instincts for storytelling — especially when it comes to the personalities, power struggles and events driving policy outcomes on Capitol Hil A collaborative colleague who works effectively across leadership, policy and agency coverage Skilled at tracking a wide range of policy developments across Congress, while also turning stories quickly on the hot issue of the moment What You'll Do: Cover health care legislation, oversight and political developments on Capitol Hill Track activity across key congressional committees and the lawmakers who serve on them Break news and produce sharp, engaging stories on deadline Work closely with congressional leadership reporters and reporters covering Health Department agencies and Robert F. Kennedy Jr. Contribute regularly to the Pulse and Prescription</description>
+    <apply_url>https://politico.wd108.myworkdayjobs.com/POLITICO/job/Arlington-VA/Health-Care-Reporter--Congress_JR100544</apply_url>
+    <category>Government &amp; Policy</category>
+    <location_type>onsite</location_type>
+    <office_location>Arlington, VA</office_location>
+    <location_limit>United States</location_limit>
+    <location>Onsite</location>
+    <post_state>United States</post_state>
+    <employment_type>FULL_TIME</employment_type>
+    <type>Full-time</type>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
+    <source>workday</source>
+    <logo>https://logo.clearbit.com/politico.com</logo>
+    <image>https://logo.clearbit.com/politico.com</image>
+    <company_logo>https://logo.clearbit.com/politico.com</company_logo>
   </job>
   <job>
     <job_id>workday-Politico-JR100541</job_id>
@@ -6479,8 +6617,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6502,8 +6640,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6525,8 +6663,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6548,8 +6686,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6571,8 +6709,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6594,8 +6732,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6617,8 +6755,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6640,8 +6778,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6663,8 +6801,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6686,8 +6824,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6709,8 +6847,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6732,8 +6870,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6755,8 +6893,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6778,8 +6916,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6801,8 +6939,8 @@
     <post_state>United States</post_state>
     <employment_type>CONTRACTOR</employment_type>
     <type>Contract</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6824,8 +6962,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6847,8 +6985,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
@@ -6870,8 +7008,8 @@
     <post_state>United States</post_state>
     <employment_type>FULL_TIME</employment_type>
     <type>Full-time</type>
-    <date_posted>2026-09-04</date_posted>
-    <valid_through>2026-12-03</valid_through>
+    <date_posted>2026-09-05</date_posted>
+    <valid_through>2026-12-04</valid_through>
     <source>workday</source>
     <logo>https://logo.clearbit.com/politico.com</logo>
     <image>https://logo.clearbit.com/politico.com</image>
