@@ -56,13 +56,21 @@ GREENHOUSE_BOARDS = [
     "industriouslabs",          # Climate policy campaigns
     # Public affairs firms
     "hillandknowlton",          # Hill & Knowlton
-    "orchestra",                # Orchestra (BerlinRosen, Civitas Public Affairs, Glen Echo Group)
     "civitaspublicaffairs",     # Civitas Public Affairs — Orchestra company; confirmed separate
                                  # board from the shared Orchestra listing (same situation as
                                  # BerlinRosen). Added to GREENHOUSE_NETWORK_GROUPS below.
+                                 # IMPORTANT: must stay listed BEFORE "orchestra" below, same as
+                                 # berlinrosen above -- the network dedup keeps whichever board
+                                 # is scraped FIRST for a given (title, location) match, so this
+                                 # ordering is what makes the specific brand name win over
+                                 # Orchestra's shared re-listing, not the other way around. This
+                                 # was previously listed AFTER "orchestra", which meant Orchestra's
+                                 # generic listing silently won the dedup instead -- the opposite
+                                 # of the intended behavior.
     "glenechogroup",            # Glen Echo Group — Orchestra company; confirmed separate board,
-                                 # same situation as BerlinRosen/Civitas. Added to
-                                 # GREENHOUSE_NETWORK_GROUPS below.
+                                 # same situation as BerlinRosen/Civitas. Same ordering requirement
+                                 # as civitaspublicaffairs above -- must stay before "orchestra".
+    "orchestra",                # Orchestra (BerlinRosen, Civitas Public Affairs, Glen Echo Group)
     "voxglobal",                # VOX Global — bipartisan public affairs, Omnicom
     "ketchumuscareers",         # Ketchum US — corporate reputation, earned media, public affairs
     "webershandwick",           # Weber Shandwick — includes Powell Tate public affairs unit
