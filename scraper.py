@@ -10,6 +10,7 @@ import urllib.error
 import xml.etree.ElementTree as ET
 
 from datetime import date, datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from xml.dom import minidom
 
 # ─────────────────────────────────────────────
@@ -293,6 +294,23 @@ WORKDAY_COMPANIES = [
         "name": "Politico",
     },
 ]
+
+# ClearCompany / HRMDirect — public RSS feed, no auth.
+#
+# IMPORTANT: the bare feed URL (.../employment/rss.php) can silently return
+# zero items even for an employer with real open postings — confirmed
+# against a live account during research. The feed only returns results
+# with search params attached, so fetch_hrmdirect() always requests
+# rss.php?search=true&dept=-1, never the bare path.
+HRMDIRECT_COMPANIES = [
+    "aspeninstitute",  # The Aspen Institute — confirmed working, 16 openings as of research
+    "lcv",             # League of Conservation Voters — confirmed working, 0 openings as of research
+]
+
+HRMDIRECT_NAMES = {
+    "aspeninstitute": "The Aspen Institute",
+    "lcv": "League of Conservation Voters",
+}
 
 # ─────────────────────────────────────────────
 # Company logos — resolved via Clearbit's free logo API
@@ -1421,6 +1439,87 @@ def fetch_workday():
 
 
 # ─────────────────────────────────────────────
+# ClearCompany / HRMDirect — public RSS feed, no auth
+#   GET https://{company}.hrmdirect.com/employment/rss.php?search=true&dept=-1
+#
+# IMPORTANT: the bare feed URL (no query string) can silently return zero
+# <item> elements even for an employer with real open postings — confirmed
+# against a live account (Aspen Institute) during research: the plain
+# .../rss.php came back empty while the same employer's job-openings.php
+# page showed 16 real listings, and appending ?search=true&dept=-1 to the
+# feed URL then returned all 16 correctly. So the search/dept params below
+# are load-bearing, not decorative — never drop them or call the bare path.
+#
+# Each <item> has title / link / description / pubDate but no dedicated
+# location field, so location is passed through as "" and
+# classify_location_type()/guess_location_limit() fall back on the
+# description text, same as they would for any other source with missing
+# structured location. The job ID is pulled from the "req" query
+# parameter on <link> (…/employment/view.php?req=3777140) since the feed
+# has no <guid>; a link that doesn't match that pattern falls back to a
+# short hash of the link itself so a job is never silently dropped for
+# lacking a recognizable ID.
+# ─────────────────────────────────────────────
+
+HRMDIRECT_REQ_ID_RE = re.compile(r"[?&]req=(\d+)")
+
+def fetch_hrmdirect():
+    if not HRMDIRECT_COMPANIES:
+        return
+
+    log.info("=== HRMDirect ===")
+
+    for company in HRMDIRECT_COMPANIES:
+        try:
+            url = f"https://{company}.hrmdirect.com/employment/rss.php?search=true&dept=-1"
+            log.info("Fetching %s", url)
+            raw = fetch_url(url, extra_headers={"Accept": "application/rss+xml, application/xml, text/xml"})
+
+            display_name = HRMDIRECT_NAMES.get(company, company.replace("-", " ").title())
+            found = 0
+
+            try:
+                root = ET.fromstring(raw)
+            except ET.ParseError as e:
+                log.warning("HRMDirect %s: could not parse RSS XML: %s", company, e)
+                continue
+
+            for item in root.iter("item"):
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or "").strip()
+                desc = item.findtext("description") or ""
+                pub_date_raw = (item.findtext("pubDate") or "").strip()
+
+                id_match = HRMDIRECT_REQ_ID_RE.search(link)
+                job_id = id_match.group(1) if id_match else hashlib.md5(link.encode()).hexdigest()[:10]
+
+                # pubDate is RFC 822 (e.g. "Mon, 03 Aug 2026 04:00:00 +0100"),
+                # not YYYY-MM-DD, so it needs real parsing rather than the
+                # posted[:10] slice most other fetchers use — that slice
+                # would just grab "Mon, 03 A" here and get discarded by
+                # add_job()'s own date parsing anyway, silently defaulting
+                # every job's posted date to today.
+                posted = str(date.today())
+                if pub_date_raw:
+                    try:
+                        posted = parsedate_to_datetime(pub_date_raw).strftime("%Y-%m-%d")
+                    except (TypeError, ValueError) as e:
+                        log.warning("HRMDirect %s: could not parse pubDate %r: %s", company, pub_date_raw, e)
+
+                if title and job_id and link:
+                    add_job("hrmdirect", job_id, title, display_name, link, desc, "", posted)
+                    found += 1
+
+            log.info("HRMDirect %s: %d jobs", company, found)
+            time.sleep(0.3)
+
+        except urllib.error.HTTPError as e:
+            log.warning("HRMDirect error %s: HTTP %s", company, e.code)
+        except Exception as e:
+            log.warning("HRMDirect error %s: %s", company, e)
+
+
+# ─────────────────────────────────────────────
 # Hiring Pulse
 #
 # Turns the day's `jobs` list into a small rolling history and a
@@ -1560,6 +1659,7 @@ fetch_ashby()
 fetch_rippling()
 fetch_workable()
 fetch_workday()
+fetch_hrmdirect()
 
 # ─────────────────────────────────────────────
 # Build XML feed
