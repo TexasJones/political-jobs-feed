@@ -313,16 +313,21 @@ HRMDIRECT_NAMES = {
 }
 
 # ─────────────────────────────────────────────
-# Company logos — resolved via Clearbit's free logo API
-# (https://logo.clearbit.com/{domain}), keyed on the display name we
-# already assign each job (GREENHOUSE_NAMES, LEVER_NAMES, etc). This is
-# what lets Job Boardly show the actual employer logo instead of falling
-# back to its own ATS-detection icon (the Greenhouse "g" / Lever "employ"
-# badge seen when a job has no logo field to draw from).
+# Company logos
 #
-# Verify domains before fully trusting them — a few here are best-guesses
-# and should be spot-checked against each company's real site the first
-# time they show up in Job Boardly.
+# COMPANY_DOMAINS is a curated, spot-checked company-name -> domain map,
+# keyed on the same display name already assigned to each job
+# (GREENHOUSE_NAMES, LEVER_NAMES, etc). It's currently UNUSED by
+# get_company_logo() below -- it used to feed a Clearbit logo lookup
+# (https://logo.clearbit.com/{domain}), but that free API was permanently
+# shut down 2025-12-08, so the lookup is disabled and get_company_logo()
+# returns "" for everything not in COMPANY_LOGO_OVERRIDES. Kept in place
+# (not deleted) since it's still the right input if a replacement logo
+# provider gets wired in later -- see the note in get_company_logo().
+#
+# Verify domains before trusting them for that future use — a few here
+# are best-guesses and should be spot-checked against each company's real
+# site.
 # ─────────────────────────────────────────────
 
 COMPANY_DOMAINS = {
@@ -373,10 +378,11 @@ COMPANY_DOMAINS = {
     "Proof": "proof.com",
 }
 
-# Manual overrides for companies where Clearbit's domain guess is wrong, or
-# where a self-hosted logo is preferred (e.g. hosted on GitHub Pages
+# Manual overrides for companies where a self-hosted or otherwise
+# known-working logo URL is preferred (e.g. hosted on GitHub Pages
 # alongside feed.xml, same pattern as the OG image). Anything set here
-# wins over the Clearbit lookup in get_company_logo().
+# wins over the (currently disabled) domain lookup in get_company_logo() --
+# see the note there for why the domain lookup is off.
 COMPANY_LOGO_OVERRIDES = {
     # "CapitolWorks": "https://texasjones.github.io/political-jobs-feed/assets/capitolworks-logo.png",
 }
@@ -385,9 +391,29 @@ COMPANY_LOGO_OVERRIDES = {
 def get_company_logo(company: str) -> str:
     if company in COMPANY_LOGO_OVERRIDES:
         return COMPANY_LOGO_OVERRIDES[company]
-    domain = COMPANY_DOMAINS.get(company)
-    if domain:
-        return f"https://logo.clearbit.com/{domain}"
+
+    # Domain-based lookup via Clearbit's free Logo API is disabled.
+    # Clearbit shut that service down permanently on 2025-12-08 (per
+    # HubSpot's own changelog: "requests to logo.clearbit.com will fail
+    # to connect and no logos will be returned") -- every URL this used
+    # to build (https://logo.clearbit.com/{domain}) has been dead since
+    # then. It went unnoticed for months because logo_url was fetched by
+    # Polly Brief's jobs_snapshot.py but never actually rendered; once
+    # the 2026-09 Polly Brief redesign wired it into an <img> tag, every
+    # job card started showing a blank box instead of a logo (a broken
+    # image with empty alt text renders as nothing in most email
+    # clients, not a visible broken-image icon).
+    #
+    # Returning "" here means add_job()/the feed simply omits logo_url,
+    # and Polly Brief's template.py _featured_job_block() already falls
+    # back cleanly to a colored initial letter in that case -- so job
+    # cards stay clean with no dependency on a third-party logo service.
+    # COMPANY_DOMAINS above is kept as-is (not deleted) since it's a
+    # curated, spot-checked company->domain map that's still useful if a
+    # replacement logo provider (e.g. logo.dev, Clearbit's suggested
+    # successor, which needs a free API token) gets wired in later --
+    # that would just mean building the new provider's URL from the same
+    # domain here instead of returning "".
     return ""
 
 
