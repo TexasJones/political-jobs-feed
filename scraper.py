@@ -470,6 +470,18 @@ TITLE_BLOCKLIST_SUBSTRING = [
     "business analyst", "future opportunities", "general interest",
     "fellowship sponsorship", "karpatkin",
     "affiliate strategic",
+    # Standing "talent pipeline" postings — evergreen, always-open
+    # submission forms (not a real, individual open role), the same
+    # underlying thing "future opportunities"/"general interest" above
+    # already catch under different wording. These are also the direct
+    # cause of the very oldest-looking postings on the board: because
+    # they're meant to stay open indefinitely, their real creation date
+    # (which date_posted correctly reflects) can be years old — e.g. an
+    # "EMILYs List Job Bank" posting and a Stand Together "Join our
+    # Talent Community" posting were found sitting at 2064 and 1163 days
+    # old respectively, both via Lever's createdAt, which is accurate for
+    # what it is, just not a "job" in the sense this board means.
+    "job bank", "talent community", "talent pool", "talent network",
     "hr intern", "audio/video intern", "newsroom engineering",
     # Healthcare
     "nurse", "physician", "medical", "clinical", "therapist",
@@ -1343,27 +1355,38 @@ def fetch_workable():
 # when it's actually just a missing path segment.
 # ─────────────────────────────────────────────
 
-def fetch_workday_job_detail(host: str, tenant: str, slug: str, external_path: str) -> str:
+def fetch_workday_job_detail(host: str, tenant: str, slug: str, external_path: str) -> tuple[str, str]:
     """
-    Workday's list endpoint (used above) only returns title/location/date —
-    no description body, same limitation as Rippling's listing endpoint.
-    The individual job detail lives at the same cxs path with the job's
-    externalPath appended, fetched via GET rather than the listing's POST:
+    Workday's list endpoint (used above) only returns title/location and a
+    *relative* posted string ("Posted Today", "Posted 30+ Days Ago") — never
+    an ISO date, despite looking like one occasionally. The individual job
+    detail lives at the same cxs path with the job's externalPath appended,
+    fetched via GET rather than the listing's POST:
         https://{host}/wday/cxs/{tenant}/{slug}{external_path}
-    Returns the description HTML/text, or "" if the detail call fails or
-    externalPath is missing — a missing description shouldn't drop the
-    job, it should just show up without body copy.
+    That detail response carries the real ISO posting date at
+    jobPostingInfo.startDate (e.g. "2026-07-01T00:00:00.000Z") alongside the
+    description — the correct source of truth for "how old is this posting",
+    confirmed against Workday's own API shape. We already make this request
+    per job for the description, so returning both here is free.
+    Returns (description, iso_posted_date), each "" if the detail call fails
+    or externalPath is missing — a missing description/date shouldn't drop
+    the job, it should just show up without body copy / with a best-guess date.
     """
     if not external_path:
-        return ""
+        return "", ""
     try:
         url = f"https://{host}/wday/cxs/{tenant}/{slug}{external_path}"
         raw = fetch_url(url, extra_headers={"Accept": "application/json"})
         data = json.loads(raw)
-        return data.get("jobPostingInfo", {}).get("jobDescription", "") or ""
+        info = data.get("jobPostingInfo", {})
+        desc = info.get("jobDescription", "") or ""
+        start_date = str(info.get("startDate", "") or "")[:10]
+        if not re.match(r"\d{4}-\d{2}-\d{2}", start_date):
+            start_date = ""
+        return desc, start_date
     except Exception as e:
         log.warning("Workday detail fetch failed for %s: %s", external_path, e)
-        return ""
+        return "", ""
 
 
 def fetch_workday():
@@ -1405,9 +1428,6 @@ def fetch_workday():
                 )
                 title = j.get("title", "")
                 location = j.get("locationsText", "")
-                posted_raw = j.get("postedOn", "")
-                # Workday returns ISO dates or human strings like "Posted 30+ Days Ago"
-                posted = posted_raw[:10] if re.match(r"\d{4}-\d{2}-\d{2}", posted_raw) else str(date.today())
                 apply_url = f"https://{host}/{slug}{external_path}" if external_path else f"https://{host}/{slug}/jobs"
 
                 if not title or not job_id:
@@ -1426,7 +1446,14 @@ def fetch_workday():
                     log.info("Skipping (blocklist, pre-fetch): %s @ %s", title, name)
                     return
 
-                desc = fetch_workday_job_detail(host, tenant, slug, external_path) if external_path else ""
+                desc, iso_posted = fetch_workday_job_detail(host, tenant, slug, external_path) if external_path else ("", "")
+                # The listing's own postedOn field is a relative string
+                # ("Posted Today", "Posted 30+ Days Ago"), never a usable
+                # date — see fetch_workday_job_detail(). Use the detail
+                # call's real ISO startDate instead; only fall back to
+                # today() if that call failed too, so a network hiccup
+                # doesn't drop the job.
+                posted = iso_posted or str(date.today())
                 add_job("workday", job_id, title, name, apply_url, desc, location, posted)
                 found += 1
                 time.sleep(0.2)
