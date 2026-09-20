@@ -76,6 +76,24 @@ GREENHOUSE_BOARDS = [
     "ketchumuscareers",         # Ketchum US — corporate reputation, earned media, public affairs
     "webershandwick",           # Weber Shandwick — includes Powell Tate public affairs unit
     "fleishmanhillard",         # FleishmanHillard — global PR/public affairs, Omnicom
+    "bursonglobalcareers",      # Burson (WPP) — global PR/public affairs; US-only via
+                                 # GREENHOUSE_US_ONLY_BOARDS given heavy international
+                                 # presence. NOTE: distinct from "bursonglobal", which is
+                                 # Burson's separate German-market board -- do not confuse
+                                 # the two slugs if revisiting this later.
+    "porternovelli",            # Porter Novelli — CONFIRMED (2026-09-20): the board is live
+                                 # but merger with FleishmanHillard is already complete ("one
+                                 # integrated agency under the FleishmanHillard banner") and
+                                 # it currently lists zero openings -- new hiring appears to
+                                 # route through fleishmanhillard's board instead. Left in the
+                                 # list since scraping an empty board is harmless (0 jobs, no
+                                 # errors), in case roles reappear here during the transition.
+                                 # Safe to remove later if it stays empty long-term or starts
+                                 # redirecting/erroring.
+    "golin",                    # Golin — PR/public affairs, IPG/Omnicom-adjacent. Public
+                                 # careers site is on the legacy boards.greenhouse.io domain,
+                                 # but the boards-api.greenhouse.io API endpoint pattern is
+                                 # the same regardless of which public domain a board uses.
     # Political data & analytics
     "civisanalytics",           # Civis Analytics
     "bluelabsanalyticsinc",     # BlueLabs — political/advocacy data science & analytics
@@ -109,6 +127,9 @@ GREENHOUSE_NAMES = {
     "ketchumuscareers": "Ketchum",
     "webershandwick": "Weber Shandwick",
     "fleishmanhillard": "FleishmanHillard",
+    "bursonglobalcareers": "Burson",
+    "porternovelli": "Porter Novelli",
+    "golin": "Golin",
     "civisanalytics": "Civis Analytics",
     "bluelabsanalyticsinc": "BlueLabs",
     "axios": "Axios",
@@ -200,22 +221,86 @@ GREENHOUSE_NETWORK_GROUPS = {
 # filtered down to US-only postings via is_us_posting() below.
 GREENHOUSE_US_ONLY_BOARDS = {
     "webershandwick",
+    "bursonglobalcareers",   # Burson — global agency (WPP), heavy non-US presence
+                              # (Toronto, London, Paris, Mexico City, and more); US
+                              # public affairs practice only.
 }
 
-# Signals that a Greenhouse posting is from a non-US (specifically German)
-# office — checked against both location and title, since Weber Shandwick's
-# German-market postings are consistently titled in German (Werkstudent,
-# Berater, m/w/d) even when the location field itself is sparse.
+# Signals that a Greenhouse posting is from a non-US office — checked
+# against both location and title. Originally scoped just to Weber
+# Shandwick's German-market postings (which are consistently titled in
+# German -- Werkstudent, Berater, m/w/d -- even when the location field
+# itself is sparse), broadened when Burson was added since it's a truly
+# global agency with real offices across Canada, the UK, continental
+# Europe, Latin America, and Asia-Pacific. Matched with word-boundary
+# regex in is_us_posting(), not plain substring matching.
+#
+# IMPORTANT: word-boundary matching only prevents a signal from matching
+# *inside* an unrelated word (e.g. "paris" inside "parisian") -- it does
+# NOT prevent a signal from colliding with a real US place name that
+# happens to share the same word, since "Paris" is a whole word in both
+# "Paris, France" and "Paris, TX". Verified this the hard way while
+# testing this change (Paris TX, Warsaw IN, and Sydney, NS -- Nova
+# Scotia -- all false-positived as non-US under an earlier draft of this
+# list that included bare city names). So this list deliberately favors
+# country names, which Greenhouse location strings for real international
+# offices consistently include, over single-word city names that double
+# as common US town names (Paris, Warsaw, London, Dublin, Rome, Vienna,
+# Athens, Milan, Geneva, Amsterdam, Melbourne, Sydney, Stockholm, Madrid,
+# Cairo, Lima, Berlin, Cologne/Köln, Frankfurt, Hamburg, Stuttgart are all
+# real, if usually small, US towns too). The pre-existing German city
+# names below predate this change and were left as-is -- they carry the
+# same theoretical collision risk but are unchanged from what was already
+# in production for Weber Shandwick.
 NON_US_OFFICE_SIGNALS = [
+    # Germany (Weber Shandwick) — pre-existing list, left as-is
     "germany", "deutschland", "berlin", "münchen", "munich", "frankfurt",
     "hamburg", "köln", "cologne", "düsseldorf", "stuttgart",
     "werkstudent", "berater", "m/w/d", "m/w/div", "praktikant",
+    # Canada — country name only; "toronto"/"vancouver"/"ottawa" etc.
+    # dropped since Vancouver, WA and Ottawa, IL/KS are real US places.
+    "canada",
+    # UK & Ireland — country name only; "london"/"dublin" etc. dropped
+    # (London, KY/OH and Dublin, OH/GA are real US places).
+    "united kingdom",
+    # France — country name only; "paris" dropped (Paris, TX/KY/ME/IL
+    # are real US places -- this is the exact collision caught in testing).
+    "france",
+    # Other Europe — country names only; ambiguous cities (Madrid IA,
+    # Milan MI/OH/TN, Rome GA/NY, Amsterdam NY, Geneva NY/IL, Warsaw
+    # IN/NY, Stockholm ME/WI) dropped.
+    "spain", "italy", "netherlands", "belgium", "switzerland", "sweden",
+    "poland",
+    # Latin America — country names plus unambiguous multi-word/accented
+    # city forms that don't collide with US place names.
+    "mexico", "méxico", "ciudad de méxico", "mexico city", "brazil",
+    "brasil", "são paulo", "sao paulo", "buenos aires", "argentina",
+    "colombia", "bogotá",
+    # Asia-Pacific & Middle East — country names plus cities with no
+    # real US namesake; "sydney" and "melbourne" dropped (both are real,
+    # if small, US place names too).
+    "singapore", "hong kong", "china", "beijing", "shanghai", "japan",
+    "tokyo", "india", "mumbai", "bengaluru", "bangalore",
+    "australia", "uae", "dubai", "abu dhabi",
+    "south africa", "johannesburg",
 ]
 
 
 def is_us_posting(location: str, title: str) -> bool:
     text = f"{location} {title}".lower()
-    return not any(signal in text for signal in NON_US_OFFICE_SIGNALS)
+    # Word-boundary regex, not plain substring matching (same pattern as
+    # guess_location_limit() below). Plain substring matching is a false-
+    # positive risk once boards with genuine international offices are in
+    # play -- e.g. "koln"/"cologne" as bare substrings would be fine here
+    # since they're unlikely city-name collisions, but short/generic
+    # signals risk matching inside unrelated US place names or words
+    # (this bit us in principle once Burson/Porter Novelli/Golin -- with
+    # real Paris, London, Toronto, Mexico City offices -- were added
+    # below; "berater" or "m/w/d" are safe as-is, but the discipline is
+    # to always match on whole words/phrases, not raw substrings).
+    return not any(
+        re.search(rf"\b{re.escape(signal)}\b", text) for signal in NON_US_OFFICE_SIGNALS
+    )
 
 
 # Ashby — public Job Board Posting API, no auth required.
@@ -347,6 +432,9 @@ COMPANY_DOMAINS = {
     "Ketchum": "ketchum.com",
     "Weber Shandwick": "webershandwick.com",
     "FleishmanHillard": "fleishmanhillard.com",
+    "Burson": "bursonglobal.com",
+    "Porter Novelli": "porternovelli.com",
+    "Golin": "golin.com",
     "Civis Analytics": "civisanalytics.com",
     "BlueLabs": "bluelabs.com",
     "Axios": "axios.com",
