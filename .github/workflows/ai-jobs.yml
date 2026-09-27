@@ -1,0 +1,38 @@
+name: Daily AI Jobs Feed
+on:
+  schedule:
+    # Offset from the political feed (08:00 UTC) so the two runs don't push
+    # to main at the same moment. GitHub's native scheduler can run late; if
+    # the AI newsletter starts building on stale data, trigger this workflow
+    # from cron-job.org the way the Polly Brief workflows are triggered.
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    concurrency:
+      group: ai-jobs-feed
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scrape AI jobs
+        run: python ai_scraper.py
+      - name: Push feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          # ai_job_history.json is committed on purpose: the week-over-week
+          # Hiring Pulse compares against it, and a fresh checkout would
+          # otherwise start with no history every day.
+          git add ai-feed.xml ai_job_history.json ai_hiring_pulse.json
+          git diff --staged --quiet || git commit -m "Daily update: AI jobs feed"
+          # The political feed workflow also pushes to main; rebase first so
+          # a run that lands second doesn't fail on a non-fast-forward push.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
