@@ -345,10 +345,13 @@ def has_policy_signal(title: str, desc: str = "") -> bool:
 #   https://ats.rippling.com/{slug}/jobs
 RIPPLING_BOARDS = [
     "indivisible-project-careers",   # Indivisible — confirmed working
+    "ndi_careers",                   # National Democratic Institute — confirmed working,
+                                      # 1 opening (Chief Development Officer) as of 2026-10-08
 ]
 
 RIPPLING_NAMES = {
     "indivisible-project-careers": "Indivisible",
+    "ndi_careers": "National Democratic Institute",
 }
 
 # Workable — public API
