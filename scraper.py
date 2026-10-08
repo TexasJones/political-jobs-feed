@@ -111,6 +111,17 @@ GREENHOUSE_BOARDS = [
     "inkhousehq",                # InkHouse — PR agency (Waltham MA HQ, offices in SF/NYC/Seattle/
                                   # San Diego); confirmed live, 4 openings as of 2026-10-08. Not
                                   # DC-specific but added per explicit request.
+    "purplestrategies",          # Purple Strategies — bipartisan comms firm; confirmed live,
+                                  # 4 openings as of 2026-10-08. NOTE: the boards-api.greenhouse.io
+                                  # JSON endpoint returned only 2 jobs when spot-checked, while the
+                                  # public job-boards.greenhouse.io page showed 4 -- a brief
+                                  # API/page sync lag was observed during verification, not a
+                                  # config error. If this board looks under-counted in production,
+                                  # that's the likely cause, not a broken slug.
+    "vaynerx",                   # VaynerX — Gary Vaynerchuk's media holding company; confirmed
+                                  # live, 1 opening as of 2026-10-08.
+    "mbooth",                    # M Booth — PR agency (health/consumer focus); confirmed live,
+                                  # 29 openings as of 2026-10-08.
 ]
 
 GREENHOUSE_NAMES = {
@@ -142,6 +153,9 @@ GREENHOUSE_NAMES = {
     "reproductivefreedomforall": "Reproductive Freedom for All",
     "stateaffairs": "State Affairs",
     "inkhousehq": "InkHouse",
+    "purplestrategies": "Purple Strategies",
+    "vaynerx": "VaynerX",
+    "mbooth": "M Booth",
 }
 
 LEVER_COMPANIES = [
@@ -177,6 +191,13 @@ LEVER_COMPANIES = [
                                   # tech/legal/privacy roles, so it's gated by
                                   # LEVER_REQUIRE_POLICY_KEYWORD_COMPANIES below, same
                                   # pattern as ASHBY_REQUIRE_POLICY_KEYWORD_BOARDS.
+    "MissionWired",              # MissionWired — progressive digital fundraising agency.
+                                  # NOTE: slug is case-sensitive -- "MissionWired" works,
+                                  # "missionwired" (lowercase) 404s. Confirmed live, 6
+                                  # postings as of 2026-10-08, most of them "Resume Pool"
+                                  # rolling listings (e.g. "Resume Pool: Product and
+                                  # Engineering") rather than single named roles -- expect
+                                  # that framing to show up as-is in the feed.
 ]
 
 LEVER_NAMES = {
@@ -189,6 +210,7 @@ LEVER_NAMES = {
     "aisafety": "Center for AI Safety",
     "standtogether": "Stand Together",
     "proof": "Proof",
+    "MissionWired": "MissionWired",
 }
 
 # Some Lever boards belong to companies large enough that most of their
@@ -366,12 +388,15 @@ WORKABLE_COMPANIES = [
                                         # filter exists yet, unlike GREENHOUSE_US_ONLY_BOARDS).
     "movement-labs",                   # Movement Labs — progressive digital/data/field incubator and
                                         # consulting firm; spans digital, field/campaign, and grassroots.
+    "middle-seat",                     # Middle Seat — progressive digital agency; confirmed live,
+                                        # 10 openings as of 2026-10-08.
 ]
 
 WORKABLE_NAMES = {
     "fp1-strategies": "FP1 Strategies",
     "bully-pulpit-international-1": "Bully Pulpit International",
     "movement-labs": "Movement Labs",
+    "middle-seat": "Middle Seat",
 }
 
 WORKDAY_COMPANIES = [
