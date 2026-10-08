@@ -108,6 +108,9 @@ GREENHOUSE_BOARDS = [
                                   # (Statehouse Reporter, Managing Editor roles across AZ, IN, NC,
                                   # CA and others). Confirmed live; fills a real gap national
                                   # outlets don't cover -- state and local political reporting.
+    "inkhousehq",                # InkHouse — PR agency (Waltham MA HQ, offices in SF/NYC/Seattle/
+                                  # San Diego); confirmed live, 4 openings as of 2026-10-08. Not
+                                  # DC-specific but added per explicit request.
 ]
 
 GREENHOUSE_NAMES = {
@@ -138,6 +141,7 @@ GREENHOUSE_NAMES = {
     "centerforamericanprogress": "Center for American Progress",
     "reproductivefreedomforall": "Reproductive Freedom for All",
     "stateaffairs": "State Affairs",
+    "inkhousehq": "InkHouse",
 }
 
 LEVER_COMPANIES = [
